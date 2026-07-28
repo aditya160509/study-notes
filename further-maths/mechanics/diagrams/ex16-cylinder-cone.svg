@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 480" width="320" height="480" style="background:#ffffff; border-radius:8px;" font-family="system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000022"/>
+  </filter>
+  <filter id="shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#1e293b"/>
+  </marker>
+  <marker id="ablue" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#2563eb"/>
+  </marker>
+  <marker id="ared" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#dc2626"/>
+  </marker>
+  <marker id="agreen" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#16a34a"/>
+  </marker>
+  <marker id="aorange" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#d97706"/>
+  </marker>
+  <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
+  </linearGradient>
+  <linearGradient id="grad-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fffbeb"/>
+    <stop offset="100%" stop-color="#fef3c7"/>
+  </linearGradient>
+  <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f0fdf4"/>
+    <stop offset="100%" stop-color="#dcfce7"/>
+  </linearGradient>
+  <linearGradient id="grad-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#e2e8f0"/>
+  </linearGradient>
+</defs>
+<rect x="90" y="50" width="140" height="340" fill="url(#grad-blue)" stroke="#1e293b" stroke-width="3" filter="url(#shadow-sm)"/>
+<ellipse cx="160" cy="50" rx="70" ry="18" fill="#bfdbfe" stroke="#1e293b" stroke-width="2.5" filter="url(#shadow-sm)"/>
+<ellipse cx="160" cy="390" rx="70" ry="18" fill="#bfdbfe" stroke="#1e293b" stroke-width="2.5" filter="url(#shadow-sm)"/>
+<text x="160" y="100" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="bold" >Cylinder</text>
+<text x="160" y="118" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="normal" >r = 2a, h = 6a</text>
+<polygon points="160,50 110,220 210,220" fill="none" stroke="#dc2626" stroke-width="3" stroke-dasharray="7,5"/>
+<text x="160" y="155" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="normal" >Removed cone</text>
+<text x="160" y="173" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="normal" >h = 3a, r = a</text>
+<line x1="160" y1="50" x2="160" y2="390" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="260" y="220" font-size="14" text-anchor="start" fill="#1e293b" font-weight="normal" >6a</text>
+<text x="90" y="40" font-size="13" text-anchor="end" fill="#1e293b" font-weight="normal" >2a</text>
+<circle cx="160" cy="310" r="7" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="255" y="300" font-size="13" text-anchor="start" fill="#16a34a" font-weight="normal" >CG ≈ 2.97a</text>
+<text x="255" y="318" font-size="12" text-anchor="start" fill="#16a34a" font-weight="normal" >from opposite face</text>
+<text x="160" y="470" font-size="16" text-anchor="middle" fill="#0f172a" font-weight="bold" >Cylinder with cone removed</text>
+</svg>

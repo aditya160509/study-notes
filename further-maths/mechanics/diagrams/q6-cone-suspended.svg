@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 440" width="420" height="440" style="background:#ffffff; border-radius:8px;" font-family="system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000022"/>
+  </filter>
+  <filter id="shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#1e293b"/>
+  </marker>
+  <marker id="ablue" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#2563eb"/>
+  </marker>
+  <marker id="ared" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#dc2626"/>
+  </marker>
+  <marker id="agreen" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#16a34a"/>
+  </marker>
+  <marker id="aorange" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#d97706"/>
+  </marker>
+  <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
+  </linearGradient>
+  <linearGradient id="grad-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fffbeb"/>
+    <stop offset="100%" stop-color="#fef3c7"/>
+  </linearGradient>
+  <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f0fdf4"/>
+    <stop offset="100%" stop-color="#dcfce7"/>
+  </linearGradient>
+  <linearGradient id="grad-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#e2e8f0"/>
+  </linearGradient>
+</defs>
+<polygon points="100,70 320,70 210,380" fill="url(#grad-blue)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+<line x1="100" y1="70" x2="320" y2="70" stroke="#1e293b" stroke-width="3"/>
+<circle cx="210" cy="70" r="5" fill="#475569" stroke="#1e293b" stroke-width="2"/>
+<text x="210" y="60" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="normal" >C</text>
+<circle cx="100" cy="70" r="8" fill="#1e293b" stroke="#1e293b" stroke-width="2"/>
+<text x="90" y="60" font-size="14" text-anchor="end" fill="#1e293b" font-weight="normal" >B</text>
+<circle cx="210" cy="155" r="7" fill="#dc2626" stroke="#1e293b" stroke-width="2"/>
+<text x="210" y="145" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="normal" >G</text>
+<line x1="100" y1="70" x2="100" y2="380" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="5,4"/>
+<text x="88" y="380" font-size="12" text-anchor="end" fill="#16a34a" font-weight="normal" >vertical</text>
+<line x1="100" y1="70" x2="210" y2="155" stroke="#dc2626" stroke-width="2" stroke-dasharray="5,4"/>
+<path d="M65.0,70.0 A35,35 0 0,0 77.5,43.2" fill="none" stroke="#1e293b" stroke-width="1.8"/>
+<text x="68" y="90" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="normal" >θ</text>
+<rect x="40" y="395" width="340" height="35" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5" rx="8"/>
+<text x="210" y="418" font-size="14" text-anchor="middle" fill="#166534" font-weight="normal" >tan θ = 2a / (5a/4) = 8/5  ⇒  θ ≈ 58.0° ✓</text>
+<text x="80" y="65" font-size="13" text-anchor="end" fill="#1e293b" font-weight="normal" >2a</text>
+<text x="210" y="435" font-size="16" text-anchor="middle" fill="#0f172a" font-weight="bold" >Cone suspended from rim of base</text>
+</svg>

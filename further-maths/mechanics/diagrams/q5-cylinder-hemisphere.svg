@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 460" width="360" height="460" style="background:#ffffff; border-radius:8px;" font-family="system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000022"/>
+  </filter>
+  <filter id="shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#1e293b"/>
+  </marker>
+  <marker id="ablue" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#2563eb"/>
+  </marker>
+  <marker id="ared" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#dc2626"/>
+  </marker>
+  <marker id="agreen" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#16a34a"/>
+  </marker>
+  <marker id="aorange" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#d97706"/>
+  </marker>
+  <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
+  </linearGradient>
+  <linearGradient id="grad-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fffbeb"/>
+    <stop offset="100%" stop-color="#fef3c7"/>
+  </linearGradient>
+  <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f0fdf4"/>
+    <stop offset="100%" stop-color="#dcfce7"/>
+  </linearGradient>
+  <linearGradient id="grad-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#e2e8f0"/>
+  </linearGradient>
+</defs>
+<rect x="100" y="50" width="160" height="250" fill="url(#grad-blue)" stroke="#1e293b" stroke-width="3" filter="url(#shadow-sm)"/>
+<ellipse cx="180" cy="50" rx="80" ry="20" fill="#bfdbfe" stroke="#1e293b" stroke-width="2.5" filter="url(#shadow-sm)"/>
+<text x="180" y="95" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="normal" >Cylinder: r = 3r, h = 6r</text>
+<text x="180" y="113" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="normal" >density = ρ</text>
+<path d="M100,300 A80,50 0 0,0 260,300 Z" fill="url(#grad-warm)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+<text x="180" y="360" font-size="13" text-anchor="middle" fill="#d97706" font-weight="normal" >Hemisphere: r = 2r</text>
+<text x="180" y="378" font-size="12" text-anchor="middle" fill="#d97706" font-weight="normal" >density = 2ρ</text>
+<line x1="180" y1="50" x2="180" y2="300" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5,4"/>
+<circle cx="180" cy="160" r="7" fill="#dc2626" stroke="#1e293b" stroke-width="2"/>
+<text x="168" y="152" font-size="13" text-anchor="end" fill="#dc2626" font-weight="normal" >CG</text>
+<text x="205" y="152" font-size="12" text-anchor="start" fill="#dc2626" font-weight="normal" >≈ 3.62r from</text>
+<text x="205" y="168" font-size="12" text-anchor="start" fill="#dc2626" font-weight="normal" >opposite face</text>
+<line x1="100" y1="50" x2="260" y2="50" stroke="#64748b" stroke-width="1.5"/>
+<text x="180" y="42" font-size="13" text-anchor="middle" fill="#1e293b" font-weight="normal" >6r</text>
+<text x="270" y="180" font-size="13" text-anchor="start" fill="#1e293b" font-weight="normal" >3r</text>
+<text x="180" y="450" font-size="15" text-anchor="middle" fill="#0f172a" font-weight="bold" >Cylinder + hemisphere (variable density)</text>
+</svg>

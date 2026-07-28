@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 460" width="320" height="460" style="background:#ffffff; border-radius:8px;" font-family="system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000022"/>
+  </filter>
+  <filter id="shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#1e293b"/>
+  </marker>
+  <marker id="ablue" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#2563eb"/>
+  </marker>
+  <marker id="ared" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#dc2626"/>
+  </marker>
+  <marker id="agreen" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#16a34a"/>
+  </marker>
+  <marker id="aorange" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#d97706"/>
+  </marker>
+  <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
+  </linearGradient>
+  <linearGradient id="grad-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fffbeb"/>
+    <stop offset="100%" stop-color="#fef3c7"/>
+  </linearGradient>
+  <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f0fdf4"/>
+    <stop offset="100%" stop-color="#dcfce7"/>
+  </linearGradient>
+  <linearGradient id="grad-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#e2e8f0"/>
+  </linearGradient>
+</defs>
+<rect x="90" y="40" width="140" height="170" fill="url(#grad-blue)" stroke="#1e293b" stroke-width="3" filter="url(#shadow-sm)"/>
+<ellipse cx="160" cy="40" rx="70" ry="18" fill="#bfdbfe" stroke="#1e293b" stroke-width="2.5" filter="url(#shadow-sm)"/>
+<text x="160" y="85" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="bold" >Cylinder</text>
+<text x="160" y="103" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="normal" >r, height = r</text>
+<polygon points="90,210 230,210 160,370" fill="url(#grad-warm)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+<text x="160" y="255" font-size="13" text-anchor="middle" fill="#d97706" font-weight="bold" >Cone</text>
+<text x="160" y="273" font-size="12" text-anchor="middle" fill="#d97706" font-weight="normal" >r, height = 2r</text>
+<line x1="160" y1="40" x2="160" y2="370" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5,4"/>
+<circle cx="160" cy="150" r="7" fill="#dc2626" stroke="#1e293b" stroke-width="2"/>
+<text x="148" y="142" font-size="13" text-anchor="end" fill="#dc2626" font-weight="normal" >CG</text>
+<text x="170" y="142" font-size="12" text-anchor="start" fill="#dc2626" font-weight="normal" >ȳ = 0.9r from base</text>
+<line x1="90" y1="40" x2="160" y2="40" stroke="#64748b" stroke-width="1.5"/>
+<text x="125" y="34" font-size="13" text-anchor="middle" fill="#1e293b" font-weight="normal" >r</text>
+<rect x="50" y="395" width="220" height="45" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2" rx="8" filter="url(#shadow-sm)"/>
+<text x="160" y="418" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold" >tan θ = r / 0.9r = 10/9</text>
+<text x="160" y="436" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold" >θ ≈ 48.0°</text>
+<text x="160" y="455" font-size="16" text-anchor="middle" fill="#0f172a" font-weight="bold" >Composite solid toppling</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 320" width="520" height="320" style="background:#ffffff; border-radius:8px;" font-family="system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000022"/>
+  </filter>
+  <filter id="shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#1e293b"/>
+  </marker>
+  <marker id="ablue" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#2563eb"/>
+  </marker>
+  <marker id="ared" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#dc2626"/>
+  </marker>
+  <marker id="agreen" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#16a34a"/>
+  </marker>
+  <marker id="aorange" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#d97706"/>
+  </marker>
+  <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
+  </linearGradient>
+  <linearGradient id="grad-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fffbeb"/>
+    <stop offset="100%" stop-color="#fef3c7"/>
+  </linearGradient>
+  <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f0fdf4"/>
+    <stop offset="100%" stop-color="#dcfce7"/>
+  </linearGradient>
+  <linearGradient id="grad-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#e2e8f0"/>
+  </linearGradient>
+</defs>
+<rect x="40" y="120" width="120" height="180" fill="url(#grad-gray)" stroke="#1e293b" stroke-width="3" filter="url(#shadow-sm)"/>
+<text x="100" y="210" font-size="14" text-anchor="middle" fill="#64748b" font-weight="normal" >CLIFF</text>
+<rect x="160" y="120" width="340" height="180" fill="url(#grad-blue)" stroke="#bfdbfe" stroke-width="2"/>
+<text x="330" y="230" font-size="13" text-anchor="middle" fill="#60a5fa" font-weight="normal" >overhang</text>
+<line x1="60" y1="100" x2="480" y2="100" stroke="#1e293b" stroke-width="6"/>
+<text x="60" y="115" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="normal" >A</text>
+<text x="480" y="115" font-size="14" text-anchor="end" fill="#1e293b" font-weight="normal" >B</text>
+<line x1="160" y1="80" x2="160" y2="220" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="6,4"/>
+<text x="165" y="78" font-size="13" text-anchor="start" fill="#dc2626" font-weight="normal" >▸ edge</text>
+<line x1="270" y1="100" x2="270" y2="145" stroke="#16a34a" stroke-width="3.5" marker-end="url(#agreen)"/>
+<text x="270" y="158" font-size="13" text-anchor="middle" fill="#16a34a" font-weight="normal" >10g N</text>
+<line x1="190" y1="100" x2="190" y2="145" stroke="#2563eb" stroke-width="3.5" marker-end="url(#ablue)"/>
+<text x="190" y="158" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="normal" >80g N</text>
+<text x="110" y="95" font-size="12" text-anchor="middle" fill="#475569" font-weight="normal" >1 m</text>
+<text x="190" y="85" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="bold" >x ? →</text>
+<text x="320" y="95" font-size="13" text-anchor="middle" fill="#475569" font-weight="normal" >4 m</text>
+<rect x="120" y="265" width="360" height="40" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5" rx="6"/>
+<text x="300" y="286" font-size="12" text-anchor="middle" fill="#166534" font-weight="normal" >On the point of tipping: reaction at cliff edge is the only support, R at A = 0</text>
+<text x="270" y="315" font-size="16" text-anchor="middle" fill="#0f172a" font-weight="bold" >Rod over a cliff edge</text>
+</svg>

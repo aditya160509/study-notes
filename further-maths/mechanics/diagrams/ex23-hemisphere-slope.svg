@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 400" width="460" height="400" style="background:#ffffff; border-radius:8px;" font-family="system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000022"/>
+  </filter>
+  <filter id="shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#1e293b"/>
+  </marker>
+  <marker id="ablue" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#2563eb"/>
+  </marker>
+  <marker id="ared" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#dc2626"/>
+  </marker>
+  <marker id="agreen" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#16a34a"/>
+  </marker>
+  <marker id="aorange" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#d97706"/>
+  </marker>
+  <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
+  </linearGradient>
+  <linearGradient id="grad-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fffbeb"/>
+    <stop offset="100%" stop-color="#fef3c7"/>
+  </linearGradient>
+  <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f0fdf4"/>
+    <stop offset="100%" stop-color="#dcfce7"/>
+  </linearGradient>
+  <linearGradient id="grad-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#e2e8f0"/>
+  </linearGradient>
+</defs>
+<line x1="40" y1="350" x2="420" y2="110" stroke="#64748b" stroke-width="3"/>
+<text x="380" y="105" font-size="12" text-anchor="middle" fill="#475569" font-weight="normal" >rough slope</text>
+<path d="M100,260 A100,100 0 0,1 300,260 Z" fill="url(#grad-blue)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+<line x1="100" y1="260" x2="300" y2="260" stroke="#1e293b" stroke-width="3"/>
+<circle cx="200" cy="218" r="6" fill="#dc2626" stroke="#1e293b" stroke-width="2"/>
+<text x="188" y="210" font-size="13" text-anchor="end" fill="#dc2626" font-weight="normal" >CG</text>
+<line x1="200" y1="260" x2="200" y2="218" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="206" y="240" font-size="12" text-anchor="middle" fill="#475569" font-weight="normal" >3r/8</text>
+<line x1="200" y1="260" x2="300" y2="260" stroke="#16a34a" stroke-width="1.5"/>
+<text x="250" y="275" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="normal" >d = (3r/8)·tan θ</text>
+<circle cx="100" cy="260" r="7" fill="#1e293b" stroke="#1e293b" stroke-width="2"/>
+<text x="88" y="268" font-size="13" text-anchor="middle" fill="#1e293b" font-weight="normal" >pivot</text>
+<rect x="30" y="295" width="400" height="70" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2" rx="8" filter="url(#shadow-sm)"/>
+<text x="60" y="320" font-size="13" text-anchor="start" fill="#166534" font-weight="normal" >At θ = 65°:  d = (3r/8)·tan 65° = 0.804r  <  r  ✓</text>
+<text x="60" y="340" font-size="13" text-anchor="start" fill="#166534" font-weight="normal" >Does not topple.</text>
+<text x="60" y="360" font-size="13" text-anchor="start" fill="#166534" font-weight="bold" >θ_max = tan⁻¹(8/3) ≈ 69.4°</text>
+<text x="230" y="390" font-size="16" text-anchor="middle" fill="#0f172a" font-weight="bold" >Hemisphere on a slope</text>
+</svg>

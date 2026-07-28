@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 420" width="450" height="420" style="background:#ffffff; border-radius:8px;" font-family="system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000022"/>
+  </filter>
+  <filter id="shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#1e293b"/>
+  </marker>
+  <marker id="ablue" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#2563eb"/>
+  </marker>
+  <marker id="ared" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#dc2626"/>
+  </marker>
+  <marker id="agreen" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#16a34a"/>
+  </marker>
+  <marker id="aorange" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#d97706"/>
+  </marker>
+  <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
+  </linearGradient>
+  <linearGradient id="grad-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fffbeb"/>
+    <stop offset="100%" stop-color="#fef3c7"/>
+  </linearGradient>
+  <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f0fdf4"/>
+    <stop offset="100%" stop-color="#dcfce7"/>
+  </linearGradient>
+  <linearGradient id="grad-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#e2e8f0"/>
+  </linearGradient>
+</defs>
+<line x1="40" y1="360" x2="420" y2="120" stroke="#64748b" stroke-width="3"/>
+<text x="380" y="115" font-size="12" text-anchor="middle" fill="#475569" font-weight="normal" >rough slope (μ large)</text>
+<polygon points="130,260 200,215 265,260 195,305" fill="url(#grad-blue)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+<circle cx="197" cy="260" r="7" fill="#dc2626" stroke="#1e293b" stroke-width="2"/>
+<text x="183" y="253" font-size="13" text-anchor="end" fill="#dc2626" font-weight="normal" >CG</text>
+<line x1="197" y1="260" x2="220" y2="242" stroke="#dc2626" stroke-width="2" stroke-dasharray="5,4"/>
+<circle cx="130" cy="260" r="7" fill="#1e293b" stroke="#1e293b" stroke-width="2"/>
+<text x="118" y="278" font-size="13" text-anchor="middle" fill="#1e293b" font-weight="normal" >C (pivot)</text>
+<path d="M149.3,237.0 A30,30 0 0,0 159.0,252.2" fill="none" stroke="#1e293b" stroke-width="1.8"/>
+<text x="145" y="282" font-size="13" text-anchor="middle" fill="#1e293b" font-weight="normal" >θ</text>
+<rect x="50" y="320" width="380" height="60" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5" rx="8"/>
+<text x="240" y="340" font-size="13" text-anchor="middle" fill="#166534" font-weight="normal" >When about to topple:</text>
+<text x="240" y="358" font-size="14" text-anchor="middle" fill="#166534" font-weight="bold" >tan θ = (a/2) / a = 1/2</text>
+<text x="240" y="376" font-size="14" text-anchor="middle" fill="#166534" font-weight="bold" >θ = tan⁻¹(1/2) = 26.6°</text>
+<text x="225" y="410" font-size="16" text-anchor="middle" fill="#0f172a" font-weight="bold" >Rectangular block toppling on a slope</text>
+</svg>

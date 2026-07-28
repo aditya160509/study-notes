@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420" style="background:#ffffff; border-radius:8px;" font-family="system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000022"/>
+  </filter>
+  <filter id="shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#1e293b"/>
+  </marker>
+  <marker id="ablue" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#2563eb"/>
+  </marker>
+  <marker id="ared" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#dc2626"/>
+  </marker>
+  <marker id="agreen" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#16a34a"/>
+  </marker>
+  <marker id="aorange" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#d97706"/>
+  </marker>
+  <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
+  </linearGradient>
+  <linearGradient id="grad-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fffbeb"/>
+    <stop offset="100%" stop-color="#fef3c7"/>
+  </linearGradient>
+  <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f0fdf4"/>
+    <stop offset="100%" stop-color="#dcfce7"/>
+  </linearGradient>
+  <linearGradient id="grad-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#e2e8f0"/>
+  </linearGradient>
+</defs>
+<rect x="25" y="20" width="40" height="350" fill="url(#grad-gray)" stroke="#1e293b" stroke-width="3" filter="url(#shadow-sm)"/>
+<text x="45" y="70" font-size="11" text-anchor="middle" fill="#64748b" font-weight="normal" >SMOOTH</text>
+<text x="45" y="85" font-size="11" text-anchor="middle" fill="#64748b" font-weight="normal" >WALL</text>
+<rect x="65" y="340" width="340" height="40" fill="url(#grad-gray)" stroke="#1e293b" stroke-width="3" filter="url(#shadow-sm)"/>
+<text x="235" y="365" font-size="12" text-anchor="middle" fill="#64748b" font-weight="normal" >ROUGH FLOOR</text>
+<line x1="65" y1="340" x2="220" y2="60" stroke="#1e293b" stroke-width="6"/>
+<circle cx="142" cy="200" r="6" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="132" y="192" font-size="12" text-anchor="end" fill="#16a34a" font-weight="normal" >CG</text>
+<text x="132" y="178" font-size="11" text-anchor="end" fill="#16a34a" font-weight="normal" >weight = 2m</text>
+<line x1="220" y1="60" x2="180" y2="60" stroke="#dc2626" stroke-width="3.5" marker-end="url(#ared)"/>
+<text x="170" y="58" font-size="14" text-anchor="end" fill="#dc2626" font-weight="normal" >S</text>
+<line x1="65" y1="340" x2="40" y2="340" stroke="#dc2626" stroke-width="3.5" marker-end="url(#ared)"/>
+<text x="28" y="338" font-size="14" text-anchor="end" fill="#dc2626" font-weight="normal" >F</text>
+<line x1="65" y1="340" x2="65" y2="365" stroke="#2563eb" stroke-width="3.5" marker-end="url(#ablue)"/>
+<text x="78" y="365" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="normal" >R</text>
+<path d="M65.0,310.0 A30,30 0 0,0 82.2,315.4" fill="none" stroke="#1e293b" stroke-width="1.8"/>
+<text x="42" y="310" font-size="13" text-anchor="middle" fill="#1e293b" font-weight="normal" >θ = 30°</text>
+<text x="190" y="105" font-size="12" text-anchor="middle" fill="#475569" font-weight="normal" >length = 4a</text>
+<rect x="120" y="380" width="260" height="30" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1.5" rx="8"/>
+<text x="250" y="400" font-size="14" text-anchor="middle" fill="#166534" font-weight="bold" >μ ≥ 1/(2√3) for no slip</text>
+<text x="210" y="415" font-size="16" text-anchor="middle" fill="#0f172a" font-weight="bold" >Ladder problem</text>
+</svg>

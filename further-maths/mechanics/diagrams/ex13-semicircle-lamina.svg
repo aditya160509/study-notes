@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 460" width="540" height="460" style="background:#ffffff; border-radius:8px;" font-family="system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000022"/>
+  </filter>
+  <filter id="shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#1e293b"/>
+  </marker>
+  <marker id="ablue" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#2563eb"/>
+  </marker>
+  <marker id="ared" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#dc2626"/>
+  </marker>
+  <marker id="agreen" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#16a34a"/>
+  </marker>
+  <marker id="aorange" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#d97706"/>
+  </marker>
+  <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
+  </linearGradient>
+  <linearGradient id="grad-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fffbeb"/>
+    <stop offset="100%" stop-color="#fef3c7"/>
+  </linearGradient>
+  <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f0fdf4"/>
+    <stop offset="100%" stop-color="#dcfce7"/>
+  </linearGradient>
+  <linearGradient id="grad-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#e2e8f0"/>
+  </linearGradient>
+</defs>
+<rect x="70" y="180" width="400" height="180" fill="url(#grad-blue)" stroke="#1e293b" stroke-width="3" filter="url(#shadow-sm)"/>
+<text x="270" y="170" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="bold" >Rectangle: 4a × 2a</text>
+<text x="270" y="200" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="normal" >CG at (2a, a)</text>
+<path d="M70,180 A200,200 0 0,1 470,180" fill="url(#grad-warm)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+<line x1="70" y1="180" x2="470" y2="180" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="270" y="210" font-size="12" text-anchor="middle" fill="#64748b" font-weight="normal" >diameter</text>
+<text x="270" y="70" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="bold" >Semicircle: r = 2a</text>
+<text x="270" y="90" font-size="12" text-anchor="middle" fill="#d97706" font-weight="normal" >CG at (2a, 2a + 8a/3π)</text>
+<circle cx="70" cy="360" r="7" fill="#1e293b" stroke="#1e293b" stroke-width="2"/>
+<text x="70" y="380" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="normal" >O</text>
+<line x1="40" y1="390" x2="510" y2="390" stroke="#1e293b" stroke-width="3.5" marker-end="url(#ab)"/>
+<text x="515" y="390" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="normal" >x</text>
+<line x1="70" y1="420" x2="70" y2="40" stroke="#1e293b" stroke-width="3.5" marker-end="url(#ab)"/>
+<text x="70" y="35" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="normal" >y</text>
+<text x="270" y="380" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="normal" >4a</text>
+<text x="270" y="450" font-size="16" text-anchor="middle" fill="#0f172a" font-weight="bold" >Rectangle with semicircle on top</text>
+</svg>

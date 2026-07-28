@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 480" width="420" height="480" style="background:#ffffff; border-radius:8px;" font-family="system-ui, -apple-system, Helvetica Neue, Arial, sans-serif">
+
+<defs>
+  <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#00000022"/>
+  </filter>
+  <filter id="shadow-sm" x="-10%" y="-10%" width="130%" height="130%">
+    <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#00000018"/>
+  </filter>
+  <marker id="ab" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#1e293b"/>
+  </marker>
+  <marker id="ablue" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#2563eb"/>
+  </marker>
+  <marker id="ared" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#dc2626"/>
+  </marker>
+  <marker id="agreen" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#16a34a"/>
+  </marker>
+  <marker id="aorange" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+    <path d="M0,1 L11,6 L0,11 Z" fill="#d97706"/>
+  </marker>
+  <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#eff6ff"/>
+    <stop offset="100%" stop-color="#dbeafe"/>
+  </linearGradient>
+  <linearGradient id="grad-warm" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#fffbeb"/>
+    <stop offset="100%" stop-color="#fef3c7"/>
+  </linearGradient>
+  <linearGradient id="grad-green" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f0fdf4"/>
+    <stop offset="100%" stop-color="#dcfce7"/>
+  </linearGradient>
+  <linearGradient id="grad-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f8fafc"/>
+    <stop offset="100%" stop-color="#e2e8f0"/>
+  </linearGradient>
+</defs>
+<polygon points="210,40 60,420 360,420" fill="url(#grad-blue)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+<polygon points="210,40 155,180 265,180" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="7,5"/>
+<polygon points="60,420 155,180 265,180 360,420" fill="url(#grad-warm)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+<line x1="210" y1="40" x2="210" y2="420" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="5,4"/>
+<text x="210" y="32" font-size="12" text-anchor="middle" fill="#1e293b" font-weight="normal" >vertex</text>
+<text x="210" y="105" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="normal" >h = 3a (large cone)</text>
+<text x="210" y="130" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="normal" >h = a (small cone)</text>
+<text x="370" y="430" font-size="13" text-anchor="end" fill="#1e293b" font-weight="normal" >base radius = a</text>
+<text x="145" y="178" font-size="12" text-anchor="end" fill="#dc2626" font-weight="normal" >small radius = a/3</text>
+<line x1="60" y1="430" x2="360" y2="430" stroke="#475569" stroke-width="1.5"/>
+<text x="210" y="445" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="normal" >2a</text>
+<circle cx="210" cy="310" r="7" fill="#16a34a" stroke="#1e293b" stroke-width="2"/>
+<text x="210" y="298" font-size="13" text-anchor="end" fill="#16a34a" font-weight="normal" >CG of frustum</text>
+<text x="210" y="282" font-size="12" text-anchor="end" fill="#16a34a" font-weight="normal" >17/13 a from top face</text>
+<text x="210" y="475" font-size="16" text-anchor="middle" fill="#0f172a" font-weight="bold" >Frustum of a cone (cross-section)</text>
+</svg>
