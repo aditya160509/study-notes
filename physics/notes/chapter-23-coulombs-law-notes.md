@@ -216,7 +216,7 @@ These are the ways Cambridge has actually asked about electric fields. Each meth
 ### 1. Find the force between two charges (Coulomb's law)
 
 **Method:**
-1. Identify $Q_1$, $Q_2$ and the centre-to-centre distance $r$ in metres. Convert all units first (cm to m, $\text{µC}$ to C: $1 \text{ µC} = 10^{-6} \text{ C}$, nC: $1 \text{ nC} = 10^{-9} \text{ C}$).
+1. Identify $Q_1$, $Q_2$ and the centre-to-centre distance $r$ in metres. Convert all units first (cm to m, $\mu\text{C}$ to C: $1 \mu\text{C} = 10^{-6} \text{ C}$, nC: $1 \text{ nC} = 10^{-9} \text{ C}$).
 2. Substitute into $F = \frac{Q_1 Q_2}{4\pi\epsilon_0 r^2}$, using $\frac{1}{4\pi\epsilon_0} = 8.99 \times 10^9$.
 3. Give the magnitude with units, then state the direction: like charges repel, unlike charges attract.
 
@@ -310,7 +310,7 @@ All questions below are genuinely verified - worked examples plus real past pape
 
 ### Example 1: Force between two charged spheres (practice question)
 
-**Question:** Two metal spheres each have radius 20 cm. Sphere A carries charge $+2.0 \text{ µC}$ and sphere B carries charge $-1.0 \text{ µC}$. Their surfaces are separated by a gap of 10 cm. Calculate the electric force each sphere exerts on the other.
+**Question:** Two metal spheres each have radius 20 cm. Sphere A carries charge $+2.0 \mu\text{C}$ and sphere B carries charge $-1.0 \mu\text{C}$. Their surfaces are separated by a gap of 10 cm. Calculate the electric force each sphere exerts on the other.
 
 **Method:**
 1. Find the centre-to-centre distance: $r = 20 + 10 + 20 = 50 \text{ cm} = 0.50 \text{ m}$. For spheres, always use centre-to-centre, not surface-to-surface.
@@ -336,15 +336,15 @@ $$F = 8.99 \times 10^9 \times \frac{2.0 \times 10^{-12}}{0.25} = 7.2 \times 10^{
 
 $$Q = 4\pi\epsilon_0 r^2 E = \frac{r^2 E}{8.99 \times 10^9} = \frac{(0.06)^2 \times 4.0 \times 10^5}{8.99 \times 10^9}$$
 
-$$Q = \frac{1.44 \times 10^3}{8.99 \times 10^9} = 1.6 \times 10^{-7} \text{ C} = 0.16 \text{ µC}$$
+$$Q = \frac{1.44 \times 10^3}{8.99 \times 10^9} = 1.6 \times 10^{-7} \text{ C} = 0.16 \mu\text{C}$$
 
-**Answer:** $Q = 1.6 \times 10^{-7} \text{ C} = 0.16 \text{ µC}$.
+**Answer:** $Q = 1.6 \times 10^{-7} \text{ C} = 0.16 \mu\text{C}$.
 
 **What the examiner wants:** rearranging the inverse square formula correctly and using the radius rather than the diameter.
 
 ### Example 3: Uniform field, force and acceleration (practice question)
 
-**Question:** Two parallel plates are 4 cm apart and have a potential difference of 2.5 kV. (a) Calculate the field strength between the plates. (b) A dust particle carrying charge $+2.4 \text{ nC}$ moves between the plates. Calculate the force on it and its acceleration (mass $4.2 \text{ µg}$).
+**Question:** Two parallel plates are 4 cm apart and have a potential difference of 2.5 kV. (a) Calculate the field strength between the plates. (b) A dust particle carrying charge $+2.4 \text{ nC}$ moves between the plates. Calculate the force on it and its acceleration (mass $4.2 \mu\text{g}$).
 
 **Method:**
 (a) Convert first: $d = 0.04 \text{ m}$, $V = 2.5 \times 10^3 \text{ V}$, then $E = \frac{V}{d}$:
@@ -553,7 +553,7 @@ All formulas:
 
 $$F = \frac{Q_1 Q_2}{4\pi\epsilon_0 r^2}, \qquad E = \frac{F}{Q}, \qquad F = qE, \qquad E = \frac{Q}{4\pi\epsilon_0 r^2}, \qquad E = \frac{V}{d}, \qquad V = \frac{Q}{4\pi\epsilon_0 r}, \qquad E_P = \frac{Qq}{4\pi\epsilon_0 r}, \qquad E = -\frac{\Delta V}{\Delta r}$$
 
-Key numbers: $\epsilon_0 = 8.85 \times 10^{-12} \text{ F m}^{-1}$; $\frac{1}{4\pi\epsilon_0} = 8.99 \times 10^9$ (use $9.0 \times 10^9$ for estimates); $e = 1.60 \times 10^{-19} \text{ C}$; $1 \text{ µC} = 10^{-6} \text{ C}$; $1 \text{ nC} = 10^{-9} \text{ C}$; $1 \text{ kV cm}^{-1} = 10^5 \text{ V m}^{-1}$.
+Key numbers: $\epsilon_0 = 8.85 \times 10^{-12} \text{ F m}^{-1}$; $\frac{1}{4\pi\epsilon_0} = 8.99 \times 10^9$ (use $9.0 \times 10^9$ for estimates); $e = 1.60 \times 10^{-19} \text{ C}$; $1 \mu\text{C} = 10^{-6} \text{ C}$; $1 \text{ nC} = 10^{-9} \text{ C}$; $1 \text{ kV cm}^{-1} = 10^5 \text{ V m}^{-1}$.
 
 Common traps:
 - **Forgetting to square $r$** in Coulomb's law or $E = \frac{Q}{4\pi\epsilon_0 r^2}$. This is the single most common calculation error.
@@ -562,7 +562,7 @@ Common traps:
 - **Mixing up $E$ and $V$**: $E \propto \frac{1}{r^2}$ (inverse square), $V \propto \frac{1}{r}$ (inverse). Double $r$: $E$ quarters, $V$ halves.
 - **Adding fields as scalars.** Field strength is a vector: fields from two charges can cancel (zero point between like charges) or add. Potentials are scalars and always add with signs.
 - **Definitions without "positive charge"** (field strength) or "from infinity" (potential).
-- **Power-of-ten errors** converting cm/m, $\text{µC}$/C, kV/V, g/kg.
+- **Power-of-ten errors** converting cm/m, $\mu\text{C}$/C, kV/V, g/kg.
 - **Sign of force**: like charges repel (positive $Q_1 Q_2$), unlike attract (negative). State the direction in words.
 - **Conductors are equipotentials**: potential is constant inside a charged conducting sphere, even though the field inside is zero.
 - **Equilibrium means zero resultant force**, not zero force (oil drop question).
@@ -575,7 +575,7 @@ From examiner reports (June 2019 and earlier series), these are the actual reaso
 1. **Definition of electric field strength missing "positive charge".** The idea that the force is on a positive charge was "not well known". Always include it.
 2. **Assuming opposite signs from a signed $E$ graph.** A field strength graph crossing zero between two charges means the fields cancel: the charges have the SAME sign. Candidates who read the sign change as "positive to negative" lost both marks.
 3. **Treating a resultant field as a single-charge field.** When two charges are present, the field at any point is the resultant of both fields, so $Q = 4\pi\epsilon_0 r^2 E$ cannot be used with the resultant field near one charge. The correct route is to use the zero-field point and set $E_A = E_B$.
-4. **Power-of-ten errors** in $E = \frac{V}{d}$ and Coulomb's law, and failure to convert units (cm to m, $\text{µC}$ to C, kV to V).
+4. **Power-of-ten errors** in $E = \frac{V}{d}$ and Coulomb's law, and failure to convert units (cm to m, $\mu\text{C}$ to C, kV to V).
 5. **Oil drop equilibrium**: writing "the force is zero" instead of "the resultant force is zero"; using $F = ma$ instead of equating electric force to weight $qE = mg$; wrong sign of the charge because the direction of the electric force was not considered (it must oppose the weight).
 6. **Thinking a reduced p.d. reduces the charge on a droplet** rather than the field strength and hence the electric force.
 7. **Electric potential definitions with the wrong dimensions**: "energy of a charge" has dimensions of energy, not potential. It must be work/energy PER UNIT charge. Credit was also lost by omitting "from infinity" (which fixes the sign).

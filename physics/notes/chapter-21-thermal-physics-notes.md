@@ -14,12 +14,12 @@ When two objects in contact are at the **same** temperature, there is no net tra
 
 ### 1.2 Temperature scales and the thermodynamic scale
 
-**Celsius scale.** The everyday scale, defined using two fixed points of water: the melting point of pure ice ($0\,^\circ\text{C}$) and the boiling point of pure water ($100\,^\circ\text{C}$), with the range divided into 100 equal divisions. There is nothing special about these fixed points: both change if the pressure changes or the water is impure. Also, a liquid-in-glass thermometer relies on the expansion of a particular liquid, which can be non-linear, so a mercury thermometer and an alcohol thermometer can be guaranteed to agree only at the fixed points, not in between.
+**Celsius scale.** The everyday scale, defined using two fixed points of water: the melting point of pure ice ($0^\circ\text{C}$) and the boiling point of pure water ($100^\circ\text{C}$), with the range divided into 100 equal divisions. There is nothing special about these fixed points: both change if the pressure changes or the water is impure. Also, a liquid-in-glass thermometer relies on the expansion of a particular liquid, which can be non-linear, so a mercury thermometer and an alcohol thermometer can be guaranteed to agree only at the fixed points, not in between.
 
 **Thermodynamic (Kelvin) scale.** A better scale because it does not depend on the property of any particular substance. It is based on the idea that the average kinetic energy of the particles of a substance increases with temperature, and the average kinetic energy is the same for all substances at a given thermodynamic temperature. It has two fixed points:
 
 - **absolute zero**, defined as $0\,\text{K}$ - the lowest possible temperature, at which it is impossible to remove any more energy from a substance (all substances have minimum internal energy; the kinetic energy of the molecules is zero and their electrical potential energy is minimum). It is not strictly true that matter has "no energy left" at absolute zero - the correct statement is that no more energy can be removed.
-- the **triple point of water**, the temperature at which ice, water and water vapour can coexist, defined as $273.16\,\text{K}$ (equal to $0.01\,^\circ\text{C}$).
+- the **triple point of water**, the temperature at which ice, water and water vapour can coexist, defined as $273.16\,\text{K}$ (equal to $0.01^\circ\text{C}$).
 
 The gap between absolute zero and the triple point is divided into $273.16$ equal divisions, each of $1\,\text{K}$. This odd choice makes the size of a kelvin equal to the size of a degree Celsius, so conversions are easy.
 
@@ -29,7 +29,7 @@ $$\theta\,(^\circ\text{C}) = T\,(\text{K}) - 273.15$$
 
 $$T\,(\text{K}) = \theta\,(^\circ\text{C}) + 273.15$$
 
-For most calculations the conversion factor is rounded to $273$. A **change** of $1\,\text{K}$ equals a **change** of $1\,^\circ\text{C}$, so $\Delta T = \Delta\theta$ - this is why it does not matter whether you use kelvin or degrees Celsius inside $E = mc\Delta\theta$.
+For most calculations the conversion factor is rounded to $273$. A **change** of $1\,\text{K}$ equals a **change** of $1^\circ\text{C}$, so $\Delta T = \Delta\theta$ - this is why it does not matter whether you use kelvin or degrees Celsius inside $E = mc\Delta\theta$.
 
 **Advantage of the thermodynamic scale** (a classic 1-2 mark question): it is an absolute scale, not defined in terms of the property of any particular substance, so all thermometers agree on it; it has a true zero (absolute zero), the lowest possible temperature.
 
@@ -69,15 +69,15 @@ The kinetic model describes matter in terms of moving particles (atoms or molecu
 
 ### 1.5 Changes of state and heating/cooling curves
 
-Consider heating ice at a steady rate in a well-insulated container, from well below $0\,^\circ\text{C}$ until it becomes steam above $100\,^\circ\text{C}$. The graph of temperature against time has five sections:
+Consider heating ice at a steady rate in a well-insulated container, from well below $0^\circ\text{C}$ until it becomes steam above $100^\circ\text{C}$. The graph of temperature against time has five sections:
 
 | Section | What happens | Where the energy goes |
 |---|---|---|
-| AB | ice warms from below $0\,^\circ\text{C}$ to $0\,^\circ\text{C}$ | molecules vibrate more: **kinetic energy increases**; separation barely changes so potential energy is roughly constant |
-| BC | ice melts at $0\,^\circ\text{C}$ (temperature constant) | molecules become more disordered, bonds break: **potential energy increases**; kinetic energy (temperature) unchanged |
-| CD | water warms from $0\,^\circ\text{C}$ to $100\,^\circ\text{C}$ | molecules move faster: **kinetic energy increases**; potential energy roughly constant |
-| DE | water boils at $100\,^\circ\text{C}$ (temperature constant) | molecules become completely separated from one another: **potential energy increases greatly**; kinetic energy unchanged |
-| EF | steam warms above $100\,^\circ\text{C}$ | molecules move faster: **kinetic energy increases**; potential energy already at its maximum (zero, when molecules are fully separated) |
+| AB | ice warms from below $0^\circ\text{C}$ to $0^\circ\text{C}$ | molecules vibrate more: **kinetic energy increases**; separation barely changes so potential energy is roughly constant |
+| BC | ice melts at $0^\circ\text{C}$ (temperature constant) | molecules become more disordered, bonds break: **potential energy increases**; kinetic energy (temperature) unchanged |
+| CD | water warms from $0^\circ\text{C}$ to $100^\circ\text{C}$ | molecules move faster: **kinetic energy increases**; potential energy roughly constant |
+| DE | water boils at $100^\circ\text{C}$ (temperature constant) | molecules become completely separated from one another: **potential energy increases greatly**; kinetic energy unchanged |
+| EF | steam warms above $100^\circ\text{C}$ | molecules move faster: **kinetic energy increases**; potential energy already at its maximum (zero, when molecules are fully separated) |
 
 The key insight is that you can put energy into a substance **without its temperature rising**. During a change of state the energy goes into breaking the bonds between neighbouring molecules, i.e. into potential energy, not kinetic energy. Temperature is a measure of the average kinetic energy of the molecules, so while KE stays constant the temperature stays constant.
 
@@ -142,7 +142,7 @@ If you heat a material so its temperature rises, the energy required depends on 
 
 The **specific heat capacity** $c$ of a substance is:
 
-> the energy required per unit mass of the substance to raise its temperature by $1\,\text{K}$ (or $1\,^\circ\text{C}$).
+> the energy required per unit mass of the substance to raise its temperature by $1\,\text{K}$ (or $1^\circ\text{C}$).
 
 "Specific" means per unit mass (per kg). The energy required to produce a temperature change is
 
@@ -152,7 +152,7 @@ Rearranged:
 
 $$c = \frac{E}{m\Delta\theta}$$
 
-Units: $\text{J kg}^{-1}\text{K}^{-1}$ (or $\text{J kg}^{-1}\,^\circ\text{C}^{-1}$). Since a change of $1\,\text{K}$ equals a change of $1\,^\circ\text{C}$, the numerical value is the same either way.
+Units: $\text{J kg}^{-1}\text{K}^{-1}$ (or $\text{J kg}^{-1}\ \ ^{\circ}\text{C}^{-1}$). Since a change of $1\,\text{K}$ equals a change of $1^{\circ}\text{C}$, the numerical value is the same either way.
 
 Typical values of specific heat capacity (from the coursebook, in $\text{J kg}^{-1}\text{K}^{-1}$):
 
@@ -214,7 +214,7 @@ The value of $L$ for boiling is roughly seven times the value for melting becaus
 
 **Experiment: determining specific latent heat (coursebook Box 21.2).**
 
-For vaporisation: a beaker of water is heated electrically and stands on a balance. A wattmeter (or ammeter + voltmeter) gives the rate of energy supply, and a thermometer confirms the water stays at $100\,^\circ\text{C}$. The mass is recorded at equal time intervals as the water boils; the graph of mass against time is a straight line whose gradient is the rate of mass loss $\Delta m/\Delta t$. Then
+For vaporisation: a beaker of water is heated electrically and stands on a balance. A wattmeter (or ammeter + voltmeter) gives the rate of energy supply, and a thermometer confirms the water stays at $100^\circ\text{C}$. The mass is recorded at equal time intervals as the water boils; the graph of mass against time is a straight line whose gradient is the rate of mass loss $\Delta m/\Delta t$. Then
 
 $$L = \frac{\text{rate of supply of energy}}{\text{rate of loss of mass}} = \frac{P}{\Delta m/\Delta t}$$
 
@@ -240,13 +240,13 @@ This is why all thermometers agree on the thermodynamic scale: it is not defined
 
 > **Kelvin** - the unit of thermodynamic temperature; $1\,\text{K}$ is $\frac{1}{273.16}$ of the thermodynamic temperature of the triple point of water.
 
-A change of $1\,\text{K}$ equals a change of $1\,^\circ\text{C}$, but absolute temperatures are not interchangeable: $T/\text{K} = \theta/^\circ\text{C} + 273.15$.
+A change of $1\,\text{K}$ equals a change of $1^\circ\text{C}$, but absolute temperatures are not interchangeable: $T/\text{K} = \theta/^\circ\text{C} + 273.15$.
 
-> **Absolute zero** - the lowest possible temperature, $0\,\text{K} = -273.15\,^\circ\text{C}$, at which no more energy can be removed from a substance.
+> **Absolute zero** - the lowest possible temperature, $0\,\text{K} = -273.15^\circ\text{C}$, at which no more energy can be removed from a substance.
 
 At absolute zero the molecules have minimum kinetic energy (and minimum electrical potential energy). It is not strictly true that matter has "no energy left" - the correct statement is that no more energy can be removed.
 
-> **Specific heat capacity** - the energy required per unit mass of a substance to raise its temperature by $1\,\text{K}$ (or $1\,^\circ\text{C}$).
+> **Specific heat capacity** - the energy required per unit mass of a substance to raise its temperature by $1\,\text{K}$ (or $1^\circ\text{C}$).
 
 Mark-scheme wording: "(thermal) energy per unit mass (to raise temperature by) 1 K". Units: $\text{J kg}^{-1}\text{K}^{-1}$. The three elements that carry marks: energy, unit mass, and temperature rise of 1 K.
 
@@ -307,7 +307,7 @@ The question gives you a mass, a starting state, an ending state, and values of 
 
 Method:
 
-1. Write down the journey as a chain of stages, e.g. ice at $-18\,^\circ\text{C}$ to water at $20\,^\circ\text{C}$ = heat ice + melt ice + heat water.
+1. Write down the journey as a chain of stages, e.g. ice at $-18^\circ\text{C}$ to water at $20^\circ\text{C}$ = heat ice + melt ice + heat water.
 2. Check the units of $c$ and $L$: if they are per gram ($\text{J g}^{-1}\text{K}^{-1}$ or $\text{J g}^{-1}$), keep the mass in grams; if per kg, convert the mass to kg. Mixing these up destroys the answer.
 3. For each stage decide: temperature change (use $E = mc\Delta\theta$) or change of state (use $E = mL$).
 4. Sum every stage. If the question mentions heat losses, add a loss term or state the assumption that the system is insulated.
@@ -361,7 +361,7 @@ Method:
 3. Write an $mL$ term for every body that changes state (the melting ice).
 4. Solve for the unknown. Remember the final equilibrium temperature applies to everything, and any melted ice is water that then warms up.
 
-The classic example (s18/42 Q3): warm water + aluminium can + ice at $-18\,^\circ\text{C}$. Energy lost by can and water $= mc\Delta\theta$ for each; energy gained by the ice $=$ warming the ice $+$ melting it $+$ warming the melted water.
+The classic example (s18/42 Q3): warm water + aluminium can + ice at $-18^\circ\text{C}$. Energy lost by can and water $= mc\Delta\theta$ for each; energy gained by the ice $=$ warming the ice $+$ melting it $+$ warming the melted water.
 
 ### Type 7: "Which energy goes to KE or PE on each graph section?"
 
@@ -374,7 +374,7 @@ Method: on a temperature-time graph, **sloping** sections are KE changes (molecu
 - Specific latent heat of fusion: as above for melting (solid to liquid).
 - Specific latent heat of vaporisation: as above for boiling (liquid to gas).
 - Internal energy: the sum of the random distribution of kinetic and potential energies of the atoms or molecules of a system.
-- Absolute zero: the lowest possible temperature, $0\,\text{K}$ ($-273.15\,^\circ\text{C}$), at which no more energy can be removed from a substance.
+- Absolute zero: the lowest possible temperature, $0\,\text{K}$ ($-273.15^\circ\text{C}$), at which no more energy can be removed from a substance.
 - Thermal equilibrium: two objects in contact at the same temperature, with no net transfer of thermal energy between them.
 
 ### Type 9: Thermometer questions
@@ -391,10 +391,10 @@ Real coursebook and CAIE past-paper questions, worked fully. Each one shows the 
 
 ### Example 1: Finding specific heat capacity from $E = mc\Delta\theta$ (coursebook worked example)
 
-**Question:** $26\,400\,\text{J}$ of energy is supplied to a well-insulated $2.0\,\text{kg}$ block of aluminium, and its temperature rises from $20\,^\circ\text{C}$ to $35\,^\circ\text{C}$. Determine the specific heat capacity of aluminium.
+**Question:** $26\,400\,\text{J}$ of energy is supplied to a well-insulated $2.0\,\text{kg}$ block of aluminium, and its temperature rises from $20^\circ\text{C}$ to $35^\circ\text{C}$. Determine the specific heat capacity of aluminium.
 
 **Method:**
-1. Write down the known quantities: $E = 26\,400\,\text{J}$, $m = 2.0\,\text{kg}$, $\Delta\theta = 35 - 20 = 15\,^\circ\text{C}$ ($= 15\,\text{K}$).
+1. Write down the known quantities: $E = 26\,400\,\text{J}$, $m = 2.0\,\text{kg}$, $\Delta\theta = 35 - 20 = 15^\circ\text{C}$ ($= 15\,\text{K}$).
 2. Rearrange $E = mc\Delta\theta$ to make $c$ the subject: $c = \frac{E}{m\Delta\theta}$.
 3. Substitute and calculate.
 
@@ -408,10 +408,10 @@ $c = 880\,\text{J kg}^{-1}\text{K}^{-1}$, which matches the accepted value for a
 
 ### Example 2: Multi-stage heating with a change of state (coursebook worked example)
 
-**Question:** How much energy is needed to change $0.20\,\text{kg}$ of ice at $-18\,^\circ\text{C}$ into water at $20\,^\circ\text{C}$? Data: $c_{\text{ice}} = 2100\,\text{J kg}^{-1}\text{K}^{-1}$, $L_{\text{fusion}} = 3.30 \times 10^5\,\text{J kg}^{-1}$, $c_{\text{water}} = 4180\,\text{J kg}^{-1}\text{K}^{-1}$.
+**Question:** How much energy is needed to change $0.20\,\text{kg}$ of ice at $-18^\circ\text{C}$ into water at $20^\circ\text{C}$? Data: $c_{\text{ice}} = 2100\,\text{J kg}^{-1}\text{K}^{-1}$, $L_{\text{fusion}} = 3.30 \times 10^5\,\text{J kg}^{-1}$, $c_{\text{water}} = 4180\,\text{J kg}^{-1}\text{K}^{-1}$.
 
 **Method:**
-1. Break the journey into stages: warm the ice ($-18$ to $0$), melt the ice at $0\,^\circ\text{C}$, warm the water ($0$ to $20$).
+1. Break the journey into stages: warm the ice ($-18$ to $0$), melt the ice at $0^\circ\text{C}$, warm the water ($0$ to $20$).
 2. Energy to warm the ice: $E_1 = mc_{\text{ice}}\Delta\theta = 0.20 \times 2100 \times 18 = 7560\,\text{J}$.
 3. Energy to melt the ice: $E_2 = mL_{\text{fusion}} = 0.20 \times 3.30 \times 10^5 = 66\,000\,\text{J}$.
 4. Energy to warm the melted water: $E_3 = mc_{\text{water}}\Delta\theta = 0.20 \times 4180 \times 20 = 16\,720\,\text{J}$.
@@ -445,7 +445,7 @@ About $9.0 \times 10^4\,\text{J}$. Note that melting alone (the $mL$ term) domin
 
 ### Example 4: Kettle question - estimating $c$ and $L$ from a rated power (w02/04 Q1)
 
-**Question:** A kettle is rated at $2.3\,\text{kW}$. A mass of $750\,\text{g}$ of water at $20\,^\circ\text{C}$ is poured in. When switched on, it takes $2.0$ minutes for the water to start boiling. In a further $7.0$ minutes, one half of the mass of water is boiled away. Estimate the specific heat capacity of water and the specific latent heat of vaporisation.
+**Question:** A kettle is rated at $2.3\,\text{kW}$. A mass of $750\,\text{g}$ of water at $20^\circ\text{C}$ is poured in. When switched on, it takes $2.0$ minutes for the water to start boiling. In a further $7.0$ minutes, one half of the mass of water is boiled away. Estimate the specific heat capacity of water and the specific latent heat of vaporisation.
 
 **Method:**
 1. Convert: $m = 0.75\,\text{kg}$, $P = 2300\,\text{W}$, $t_1 = 120\,\text{s}$, $t_2 = 420\,\text{s}$.
@@ -465,7 +465,7 @@ $c \approx 4600\,\text{J kg}^{-1}\text{K}^{-1}$ (higher than the true $4180$ bec
 
 ### Example 5: Latent heat of fusion with a heater-off correction (w08/04 Q2, 7 marks)
 
-**Question:** (a) Define specific latent heat of fusion. (b) Crushed ice at $0\,^\circ\text{C}$ is placed in a funnel with an electric heater, and the melted water is collected in a beaker. With the heater off, $16.6\,\text{g}$ of water is collected in $10.0$ minutes. With the heater on, $64.7\,\text{g}$ is collected in $5.0$ minutes, and the energy supplied to the heater is $18\,000\,\text{J}$. (i) State why the mass of water is determined with the heater switched off. (ii) Suggest how it can be determined that the ice is melting at a constant rate. (iii) Calculate a value for the specific latent heat of fusion of ice.
+**Question:** (a) Define specific latent heat of fusion. (b) Crushed ice at $0^\circ\text{C}$ is placed in a funnel with an electric heater, and the melted water is collected in a beaker. With the heater off, $16.6\,\text{g}$ of water is collected in $10.0$ minutes. With the heater on, $64.7\,\text{g}$ is collected in $5.0$ minutes, and the energy supplied to the heater is $18\,000\,\text{J}$. (i) State why the mass of water is determined with the heater switched off. (ii) Suggest how it can be determined that the ice is melting at a constant rate. (iii) Calculate a value for the specific latent heat of fusion of ice.
 
 **Method:**
 1. Definition: the (thermal) energy required to convert unit mass of solid to liquid at its normal melting point / without any change in temperature.
@@ -505,11 +505,11 @@ $L = 2.2 \times 10^3\,\text{J g}^{-1}$ (mark scheme value $2200\,\text{J g}^{-1}
 
 ### Example 7: Calorimetry - ice in warm water (s18/42 Q3, 7 marks)
 
-**Question:** An aluminium can of mass $160\,\text{g}$ contains $330\,\text{g}$ of warm water at $38\,^\circ\text{C}$. A mass of $48\,\text{g}$ of ice at $-18\,^\circ\text{C}$ from a freezer is added. The ice melts and the final temperature of the can and its contents is $23\,^\circ\text{C}$. Data: $c_{\text{aluminium}} = 0.910\,\text{J g}^{-1}\text{K}^{-1}$, $c_{\text{ice}} = 2.10\,\text{J g}^{-1}\text{K}^{-1}$, $c_{\text{water}} = 4.18\,\text{J g}^{-1}\text{K}^{-1}$. (i) Show that the loss in thermal energy of the can and the warm water is $2.3 \times 10^4\,\text{J}$. (ii) Calculate a value $L$ for the specific latent heat of fusion of ice.
+**Question:** An aluminium can of mass $160\,\text{g}$ contains $330\,\text{g}$ of warm water at $38^\circ\text{C}$. A mass of $48\,\text{g}$ of ice at $-18^\circ\text{C}$ from a freezer is added. The ice melts and the final temperature of the can and its contents is $23^\circ\text{C}$. Data: $c_{\text{aluminium}} = 0.910\,\text{J g}^{-1}\text{K}^{-1}$, $c_{\text{ice}} = 2.10\,\text{J g}^{-1}\text{K}^{-1}$, $c_{\text{water}} = 4.18\,\text{J g}^{-1}\text{K}^{-1}$. (i) Show that the loss in thermal energy of the can and the warm water is $2.3 \times 10^4\,\text{J}$. (ii) Calculate a value $L$ for the specific latent heat of fusion of ice.
 
 **Method:**
-1. (i) Both the can and the warm water cool from $38\,^\circ\text{C}$ to $23\,^\circ\text{C}$, a fall of $15\,\text{K}$. Energy lost $= mc\Delta\theta$ for each, and add.
-2. (ii) Energy balance: energy lost by can and water = energy gained by the ice. The ice gains energy in three parts: warming from $-18\,^\circ\text{C}$ to $0\,^\circ\text{C}$, melting at $0\,^\circ\text{C}$, and warming the melted water from $0\,^\circ\text{C}$ to $23\,^\circ\text{C}$.
+1. (i) Both the can and the warm water cool from $38^\circ\text{C}$ to $23^\circ\text{C}$, a fall of $15\,\text{K}$. Energy lost $= mc\Delta\theta$ for each, and add.
+2. (ii) Energy balance: energy lost by can and water = energy gained by the ice. The ice gains energy in three parts: warming from $-18^\circ\text{C}$ to $0^\circ\text{C}$, melting at $0^\circ\text{C}$, and warming the melted water from $0^\circ\text{C}$ to $23^\circ\text{C}$.
 3. Write the full equation and solve for $L$.
 
 **Answer:**
@@ -584,7 +584,7 @@ $$P = VI, \qquad P = mc \times \text{gradient}, \qquad L = \frac{P}{\Delta m/\De
 **Key definitions (quote them exactly)**
 
 - Thermal equilibrium: no net transfer of thermal energy between two objects in contact at the same temperature.
-- Absolute zero: $0\,\text{K} = -273.15\,^\circ\text{C}$; the lowest possible temperature; no more energy can be removed from a substance.
+- Absolute zero: $0\,\text{K} = -273.15^\circ\text{C}$; the lowest possible temperature; no more energy can be removed from a substance.
 - Thermodynamic scale: does not depend on the property of any particular substance; fixed points absolute zero and the triple point of water ($273.16\,\text{K}$).
 - Internal energy: the sum of the random distribution of kinetic and potential energies of the atoms or molecules of a system.
 - Specific heat capacity: energy required per unit mass to raise the temperature by 1 K.
@@ -595,11 +595,11 @@ $$P = VI, \qquad P = mc \times \text{gradient}, \qquad L = \frac{P}{\Delta m/\De
 
 - $c_{\text{water}} = 4180\,\text{J kg}^{-1}\text{K}^{-1}$, $c_{\text{aluminium}} = 880$, $c_{\text{ice}} = 2100$, $c_{\text{copper}} = 380$
 - $L_{\text{fusion, water}} = 330\,\text{kJ kg}^{-1}$, $L_{\text{vaporisation, water}} = 2.26\,\text{MJ kg}^{-1}$ (about 7 times the fusion value)
-- Triple point of water: $273.16\,\text{K} = 0.01\,^\circ\text{C}$
+- Triple point of water: $273.16\,\text{K} = 0.01^\circ\text{C}$
 
 **Common traps (see Section 7 for the full list)**
 
-- Forgetting $+273.15$ when converting to kelvin (a change of $1\,\text{K}$ equals a change of $1\,^\circ\text{C}$, but absolute temperatures are not interchangeable).
+- Forgetting $+273.15$ when converting to kelvin (a change of $1\,\text{K}$ equals a change of $1^\circ\text{C}$, but absolute temperatures are not interchangeable).
 - Getting the sign of $W$ wrong in $\Delta U = q + W$: compression = work on the gas = positive; expansion = work by the gas = negative.
 - Ignoring heat losses in experiments (measured $c$ and $L$ come out too high for a heater; $L$ for ice comes out too low because surroundings melt it).
 - Mixing units of $c$ and $L$ (per gram vs per kg).
@@ -634,7 +634,7 @@ These come from the examiner reports and mark-scheme notes in the research pack 
 
 **11. "Show that" questions need the full working.** The examiner reports stress that when the command word is "show" or "derive", the answer is given, so a full explanation of the method is required - you cannot just write the final number.
 
-**12. Calculator and unit slips.** Common small errors that cost marks: forgetting that a change of $1\,\text{K} = 1\,^\circ\text{C}$ (so $\Delta\theta$ needs no conversion), keeping masses in grams when $c$ is in $\text{J kg}^{-1}\text{K}^{-1}$, and giving answers to the wrong number of significant figures. Quote final values to 2-3 s.f. with units.
+**12. Calculator and unit slips.** Common small errors that cost marks: forgetting that a change of $1\,\text{K} = 1^\circ\text{C}$ (so $\Delta\theta$ needs no conversion), keeping masses in grams when $c$ is in $\text{J kg}^{-1}\text{K}^{-1}$, and giving answers to the wrong number of significant figures. Quote final values to 2-3 s.f. with units.
 
 ---
 
