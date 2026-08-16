@@ -90,7 +90,7 @@ Within those two buckets, released College Board questions (the Assessment Frame
 > - **[DC]** = Dependent Clause (cannot stand alone)  -  think *blue*.
 > - **[✗]** = Grammatically illegal / wrong answer  -  think *red*.
 > - **[Easy] [Medium] [Hard] [Very Hard]** = difficulty rating on every example.
-> - **WRONG  -  *reason*** = every wrong choice is tagged with the exact error label so you learn to *name* mistakes.
+> - **WRONG — *reason*** = every wrong choice is tagged with the exact error label so you learn to *name* mistakes.
 > - **Official-style** = mirrors released College Board item patterns (constructed to match the official framework; not verbatim quotes).
 
 ---
@@ -186,19 +186,19 @@ Does that subject ALREADY have a finite verb elsewhere in the clause?
 
 **Worked example [Medium] (AF-style):**
 *"Rabinal Achí [BLANK] the story of a conflict between two Mayan city-states and remains an important work of K'iche' culture."*
-Choices: (A) tells (B) telling (C) to tell (D) having told
+**Choices:** (A) tells (B) telling (C) to tell (D) having told
 - Subject "Rabinal Achí" has no other finite verb in the clause.
-- (B), (C), (D) are all non-finite → cannot power a clause alone.
 - **(A) tells** is the only finite verb → **CORRECT**.
+- **(B), (C), (D)** are all non-finite → cannot power a clause alone.
 
 **Worked example [Hard]:**
 *"The experiment, [BLANK] over a period of three years, confirmed the researchers' original hypothesis."*
-Choices: (A) conducted (B) was conducted (C) conducting (D) to conduct
+**Choices:** (A) conducted (B) was conducted (C) conducting (D) to conduct
 - Subject is "The experiment." The clause's finite verb is "confirmed." The blank sits inside a comma-set-off phrase between subject and its verb → needs a PARTICIPLE, not another finite verb.
-- (B) "was conducted" is finite → **WRONG  -  would create two finite verbs in one clause**.
-- (C) "conducting" is present participle → **WRONG  -  experiment doesn't conduct itself**.
-- (D) "to conduct" infinitive → **WRONG  -  doesn't fit as adjective**.
 - **(A) "conducted"** (past participle, passive) → **CORRECT**.
+- **(B)** "was conducted" is finite → **WRONG — would create two finite verbs in one clause**.
+- **(C)** "conducting" is present participle → **WRONG — experiment doesn't conduct itself**.
+- **(D)** "to conduct" infinitive → **WRONG — doesn't fit as adjective**.
 
 > **The critical insight:** Verb finiteness is the intersection of Boundaries and FSS. A sentence with only non-finite verbs (gerunds, participles, infinitives) and no finite verb anywhere is a **fragment**  -  this is a Boundaries violation. The Framework files it under FSS because the error is choosing the wrong *form*, not the wrong *punctuation*.
 
@@ -300,24 +300,30 @@ Is the question DIRECT (quoted verbatim, or the sentence itself is the question)
 
 **Worked example 1 [Easy]:**
 *"The archaeologist asked [BLANK] the site had been disturbed before the team arrived."*
-Choices: (A) whether (B) whether? (C) whether: (D) whether;
+**Choices:** (A) whether (B) whether? (C) whether: (D) whether;
 - The clause after the blank is reported speech ("asked whether..."), not a direct question.
-- (B) "whether?" → **WRONG - question mark in an indirect question**. (C) "whether:" → **WRONG - colon needs a complete [IC] on the left; "asked whether" trails off**. (D) "whether;" → **WRONG - semicolon needs [IC]s on both sides; the right side is a [DC]**.
 - **(A) "whether"** (no punctuation) → **CORRECT**: *"The archaeologist asked whether the site had been disturbed before the team arrived."*
+- **(B)** "whether?" → **WRONG — question mark in an indirect question**
+- **(C)** "whether:" → **WRONG — colon needs a complete [IC] on the left; "asked whether" trails off**
+- **(D)** "whether;" → **WRONG — semicolon needs [IC]s on both sides; the right side is a [DC]**.
 
 **Worked example 2 [Medium]:**
 *"Why did the expedition turn back early [BLANK] the team's supplies were nearly exhausted."*
-Choices: (A) ? The (B) ? the (C) ; the (D) , the
+**Choices:** (A) ? The (B) ? the (C) ; the (D) , the
 - Left: *"Why did the expedition turn back early"* → **[IC]** (a question). Right: *"the team's supplies were nearly exhausted"* → **[IC]**.
-- (B) "? the" → **WRONG - a question mark ends a sentence, so the next word must be capitalized**. (C) ";" → **WRONG - a semicolon would swallow the question; you cannot join a question and a statement while keeping the "?"**. (D) "," → **WRONG - comma splice**.
 - **(A) "? The"** → **CORRECT**: *"Why did the expedition turn back early? The team's supplies were nearly exhausted."*
+- **(B)** "? the" → **WRONG — a question mark ends a sentence, so the next word must be capitalized**
+- **(C)** ";" → **WRONG — a semicolon would swallow the question; you cannot join a question and a statement while keeping the "?"**
+- **(D)** "," → **WRONG — comma splice**.
 
 **Worked example 3 [Hard]:**
 *"The dean asked [BLANK] the students had completed the prerequisite course."*
-Choices: (A) if (B) if? (C) "if?" (D) whether or not?
+**Choices:** (A) if (B) if? (C) "if?" (D) whether or not?
 - Indirect question again ("asked if...").
-- (B) "if?" → **WRONG - question mark for an indirect question**. (C) → **WRONG - quotation marks with no quoted source**. (D) → **WRONG - same question-mark error plus needless wordiness**.
 - **(A) "if"** → **CORRECT**.
+- **(B)** "if?" → **WRONG — question mark for an indirect question**
+- **(C)** → **WRONG — quotation marks with no quoted source**
+- **(D)** → **WRONG — same question-mark error plus needless wordiness**.
 
 > **Key trap:** "asked whether" and "asked if" are *indirect* questions - they report a question rather than asking one. Students hear a question in their head and reach for "?", but the only thing that matters is the grammar on the page: direct = "?", indirect = ".".
 
@@ -349,19 +355,19 @@ Ask: are they IDENTICAL except for . vs ; ?
 ```
 
 **Worked example [Medium]:**
-Choices: (A) failed, the team (B) failed; the team (C) failed. The team (D) failed, so the team
-- (A) comma alone joining two [IC]s → **WRONG  -  comma splice**.
-- (B) semicolon joining two [IC]s → grammatically **legal**.
-- (C) period joining two [IC]s → grammatically **legal**.
-- (D) comma + "so" (FANBOYS) joining two [IC]s → grammatically **legal**.
+**Choices:** (A) failed, the team (B) failed; the team (C) failed. The team (D) failed, so the team
+- **(A)** comma alone joining two [IC]s → **WRONG — comma splice**.
+- **(B)** semicolon joining two [IC]s → grammatically **legal**.
+- **(C)** period joining two [IC]s → grammatically **legal**.
+- **(D)** comma + "so" (FANBOYS) joining two [IC]s → grammatically **legal**.
 - Among (B), (C), (D): none is "identical except period vs semicolon," so no automatic elimination applies. You now check *meaning/style*: if the two ideas are causally linked, (D) ", so" is the best fit; if merely sequential, (B) or (C). The SAT will make exactly one of these the intended answer by how the surrounding sentence reads.
 
 **Worked example [Hard] (capitalization breaks the "identical" shortcut):**
-Choices: (A) failed. The team (B) failed; the team (C) failed. the team (D) failed, the team
-- (C) "failed. the team" → **WRONG - a period forces a capital letter; lowercase after a period is illegal**.
-- (D) comma alone between two [IC]s → **WRONG - comma splice**.
+**Choices:** (A) failed. The team (B) failed; the team (C) failed. the team (D) failed, the team
 - (A) and (B) are both grammatically legal and identical in wording. **When two choices are otherwise identical except period vs semicolon, they cannot both be the intended single answer** - so the real answer is whichever boundary the context supports. Here the sentence pairs a cause with its immediate consequence and the two clauses are tightly linked, which is exactly what a semicolon signals: *"The experiment failed; the team revised the hypothesis."*
-- **Correct: (B)** - and the lesson is that you must check capitalization before declaring two choices "identical": (C) looked like a period version but was fatally different.
+- **(B)** → **CORRECT** - and the lesson is that you must check capitalization before declaring two choices "identical": (C) looked like a period version but was fatally different.
+- **(C)** "failed. the team" → **WRONG — a period forces a capital letter; lowercase after a period is illegal**.
+- **(D)** comma alone between two [IC]s → **WRONG — comma splice**.
 
 > **Biggest takeaway:** periods and semicolons are *functionally the same boundary*. Use that knowledge to **spot when they're being used as bait**, not as a mechanical delete key.
 
@@ -400,7 +406,7 @@ Is it on the 7-word FANBOYS list?
 
 **Worked example 1 [Easy]:**
 *"The UK issued polymer banknotes[BLANK] France still uses paper euros."* Testing "but" vs "however":
-- **WRONG  -  comma splice:** *"...banknotes, however France still uses..."* (comma before "however" joining two [IC]s).
+- **WRONG — comma splice:** *"...banknotes, however France still uses..."* (comma before "however" joining two [IC]s).
 - **CORRECT:** *"...banknotes, but France still uses..."* ("but" is FANBOYS; comma+FANBOYS legal).
 - Also valid: *"...banknotes; however, France still uses..."* (semicolon before, comma after).
 
@@ -409,11 +415,12 @@ Is it on the 7-word FANBOYS list?
 
 **Worked example 3 [Hard] (the "therefore" bait):**
 *"The results were statistically significant[BLANK]therefore, the hypothesis was supported."*
-Choices: (A) , (B) ; (C) . Therefore (D) , and
+**Choices:** (A) , (B) ; (C) . Therefore (D) , and
 - "therefore" is a conjunctive adverb, NOT a FANBOYS word.
-- (A) comma before "therefore" → **WRONG - comma splice**. (D) ", and" → **WRONG - inserts a word and makes "therefore" redundant; "and therefore" needs the semicolon-plus-connector structure, not this hybrid**.
-- (B) semicolon → **CORRECT**: *"...significant; therefore, the hypothesis was supported."*
-- (C) period + capital "Therefore" → also grammatically legal. If (B) and (C) are otherwise identical (same words, same capitalization apart from what the punctuation forces), they cannot both be correct - the semicolon keeps the two tightly-linked statements in one sentence, which is the better fit, so (B) is the intended answer.
+- **(A)** comma before "therefore" → **WRONG — comma splice**
+- **(B)** semicolon → **CORRECT**: *"...significant; therefore, the hypothesis was supported."*
+- **(C)** period + capital "Therefore" → also grammatically legal. If (B) and (C) are otherwise identical (same words, same capitalization apart from what the punctuation forces), they cannot both be correct - the semicolon keeps the two tightly-linked statements in one sentence, which is the better fit, so (B) is the intended answer.
+- **(D)** ", and" → **WRONG — inserts a word and makes "therefore" redundant; "and therefore" needs the semicolon-plus-connector structure, not this hybrid**.
 
 > **The hard rule, stated cleanly:** On the SAT, two independent clauses joined by a coordinating conjunction should be joined using a comma before the conjunction. Every other transition word needs the stronger semicolon/period boundary.
 
@@ -458,7 +465,7 @@ DIRECTLY explain / define / list the left. Off-topic = misuse.
 
 **Worked example 2 [Easy] (illegal  -  left incomplete):**
 *"The team's only option was to: start over."*
-- Left: *"The team's only option was to"* trails off ("was to" needs completion) → not **[IC]** ✗. **WRONG  -  colon after incomplete left side.** Fix: *"The team's only option was to start over."*
+- Left: *"The team's only option was to"* trails off ("was to" needs completion) → not **[IC]** ✗. **WRONG — colon after incomplete left side.** Fix: *"The team's only option was to start over."*
 
 **Worked example 3 [Medium] (right side is also a full [IC]):**
 *"The result was clear: the hypothesis was wrong."*  -  Left **[IC]** ✓; right also **[IC]** ✓ (colons don't require a fragment). Legal.
@@ -531,7 +538,7 @@ Same punctuation opens AND closes?  comma...comma / dash...dash / paren...paren
 ```
 
 **Worked example 6 [Easy]:**
-- **WRONG  -  mixed pair:** *"The result, much to everyone's surprise  -  confirmed the hypothesis."*
+- **WRONG — mixed pair:** *"The result, much to everyone's surprise  -  confirmed the hypothesis."*
 - **CORRECT:** *"The result, much to everyone's surprise, confirmed the hypothesis."*
 - **CORRECT:** *"The result  -  much to everyone's surprise  -  confirmed the hypothesis."*
 
@@ -602,7 +609,7 @@ Is the blank before an essential element that identifies the noun?
 **Worked example [Medium] (long subject):**
 *"An analysis of data from over two hundred archaeological sites across the region [BLANK] suggests that the civilization declined due to prolonged drought."*
 - The blank falls between the subject ("An analysis") and its verb ("suggests").
-- Any choice with a comma/colon/semicolon at the blank = **WRONG  -  subject-verb split**.
+- Any choice with a comma/colon/semicolon at the blank = **WRONG — subject-verb split**.
 - Only the choice with nothing (or that cannot be seen as punctuation) is correct.
 - **Correct:** no punctuation.
 
@@ -610,7 +617,7 @@ Is the blank before an essential element that identifies the noun?
 *"The painter studied the frescoes of the Italian Renaissance [BLANK] and adapted their compositional techniques to her own work."*
 - One subject ("the painter"), two verbs: "studied" and "adapted."
 - No new subject appears before "adapted" → this is a compound predicate, not two ICs.
-- Any comma at the blank = **WRONG  -  comma before compound predicate**.
+- Any comma at the blank = **WRONG — comma before compound predicate**.
 - **Correct:** no punctuation.
 
 > **Timing:** ~15 seconds. If you see a long subject before the blank, your first instinct should be "check for subject-verb split."
@@ -641,21 +648,25 @@ Does it describe a RESULT/accompanying circumstance of the main clause?
 *"Urban heat islands occur[BLANK]causing a spike in higher temperatures, increased air pollution, and heat-related illness."*
 - *"causing a spike..."* has no subject → participial phrase (result of "occur").
 - Only a comma legal: *"Urban heat islands occur, causing a spike..."*
-- A semicolon would be **WRONG  -  semicolon joining to a non-[IC]**.
+- A semicolon would be **WRONG — semicolon joining to a non-[IC]**.
 
 **Worked example [Medium] (past participle form in a full question):**
 *"The artifacts, [BLANK] from the riverbed, were analyzed in the laboratory."*
-Choices: (A) recovered (B) were recovered (C) recovering (D) to recover
+**Choices:** (A) recovered (B) were recovered (C) recovering (D) to recover
 - The clause's finite verb is "were analyzed." The blank sits inside the comma-set-off phrase between subject and verb.
-- (B) "were recovered" → **WRONG - two finite verbs in one clause**. (C) "recovering" → **WRONG - artifacts don't recover themselves (active vs passive)**. (D) "to recover" → **WRONG - infinitive doesn't work as an adjective here**.
 - **(A) "recovered"** (past participle, passive) → **CORRECT**: *"The artifacts, recovered from the riverbed, were analyzed in the laboratory."*
+- **(B)** "were recovered" → **WRONG — two finite verbs in one clause**
+- **(C)** "recovering" → **WRONG — artifacts don't recover themselves (active vs passive)**
+- **(D)** "to recover" → **WRONG — infinitive doesn't work as an adjective here**.
 
 **Worked example [Hard] (having + past participle):**
 *"[BLANK] the initial trials, the team redesigned the experiment."*
-Choices: (A) Having completed (B) Completed (C) To complete (D) Complete
+**Choices:** (A) Having completed (B) Completed (C) To complete (D) Complete
 - The blank opens the sentence; the main clause is "the team redesigned the experiment" (finite verb "redesigned").
-- (B) "Completed" → **WRONG - reads as if "the team" completed something or as a dangling passive; a bare past participle needs to sit directly next to the noun it modifies**. (C) "To complete" → **WRONG - infinitive signals purpose ("in order to complete"), which changes the meaning**. (D) "Complete" → **WRONG - finite imperative form creates a second clause with no connector**.
 - **(A) "Having completed"** (perfect participle = "after completing") → **CORRECT**: *"Having completed the initial trials, the team redesigned the experiment."*
+- **(B)** "Completed" → **WRONG — reads as if "the team" completed something or as a dangling passive; a bare past participle needs to sit directly next to the noun it modifies**
+- **(C)** "To complete" → **WRONG — infinitive signals purpose ("in order to complete"), which changes the meaning**
+- **(D)** "Complete" → **WRONG — finite imperative form creates a second clause with no connector**.
 
 > **Timing:** ~15 seconds.
 
@@ -690,7 +701,7 @@ Does ANY item contain an internal comma?
 *"The museum's collection includes nineteenth-century French paintings[BLANK] works by contemporary African sculptors[BLANK] and, most notably, a set of ancient Greek vases."*
 - Item 3 ("a set of ancient Greek vases") contains an internal insertion ("most notably") set off by commas.
 - The main items must be separated by semicolons so the reader can tell where each item ends: *"...French paintings; works by contemporary African sculptors; and, most notably, a set of ancient Greek vases."*
-- Keeping plain commas at both blanks → **WRONG - ambiguous item boundaries** (the reader can't tell whether "most notably" is its own list item).
+- Keeping plain commas at both blanks → **WRONG — ambiguous item boundaries** (the reader can't tell whether "most notably" is its own list item).
 
 > **Note:** the SAT accepts both the Oxford comma and no Oxford comma in a simple series (*"apples, bananas, and bread"* and *"apples, bananas and bread"* are both legal; the test never makes the Oxford comma the deciding issue). What IS tested is the semicolon upgrade when any item contains an internal comma.
 
@@ -797,20 +808,20 @@ Single comma before a name  --> likely missing essential (no-comma) treatment
 *Each item: one correct answer, three wrong, with error labels.*
 
 **1 [Easy]** *"The council approved the plan[BLANK]the mayor signed it the same day."*
-- (A) , (B) ; (C) . (D) , and
-- Cover Test: both **[IC]**. (A) comma alone → **WRONG  -  comma splice**. (B) semicolon → legal. (C) period → legal. (D) comma+FANBOYS → legal. When period/semicolon look like bait (else identical), the intended answer is usually the connector that fits the logic; here the ideas are sequential, so (B) or (C). (D) adds "and" not in original, so the cleanest is **(B) semicolon** (or (C) period). → **Correct: (B)**.
+**Choices:** (A) , (B) ; (C) . (D) , and
+- Cover Test: both **[IC]**. (A) comma alone → **WRONG — comma splice**. (B) semicolon → legal. (C) period → legal. (D) comma+FANBOYS → legal. When period/semicolon look like bait (else identical), the intended answer is usually the connector that fits the logic; here the ideas are sequential, so (B) or (C). (D) adds "and" not in original, so the cleanest is **(B) semicolon** (or (C) period). → **Correct: (B)**.
 
 **2 [Medium]** *"Published in 2023[BLANK]the study analyzed data from over two hundred archaeological sites."*
-- (A) , (B) ; (C) . (D) because
-- Left *"Published in 2023"* = participial phrase, **not** a clause. (B) semicolon → **WRONG  -  semicolon needs an [IC] on both sides**. (C) period → **WRONG  -  creates fragment before it**. (D) "because" → **WRONG  -  would make left a [DC] but it has no subject+finite verb**. (A) comma → **CORRECT** (participial phrase + comma + [IC]). → **Correct: (A)**.
+**Choices:** (A) , (B) ; (C) . (D) because
+- Left *"Published in 2023"* = participial phrase, **not** a clause. (B) semicolon → **WRONG — semicolon needs an [IC] on both sides**. (C) period → **WRONG — creates fragment before it**. (D) "because" → **WRONG — would make left a [DC] but it has no subject+finite verb**. (A) comma → **CORRECT** (participial phrase + comma + [IC]). → **Correct: (A)**.
 
 **3 [Medium]** *"The study was conclusive[BLANK]the hypothesis was rejected."*
-- (A) , however, (B) ; however, (C) ; because (D) , and
-- Both **[IC]**. (A) ", however," → **WRONG  -  comma splice (conj. adverb after bare comma)**. (C) "; because" → **WRONG  -  "because" makes right a [DC], illegal after semicolon**. (D) ", and" → legal but illogical (study conclusive yet hypothesis rejected = contrast, not addition). (B) "; however," → **CORRECT** (semicolon before conj. adverb, comma after). → **Correct: (B)**.
+**Choices:** (A) , however, (B) ; however, (C) ; because (D) , and
+- Both **[IC]**. (A) ", however," → **WRONG — comma splice (conj. adverb after bare comma)**. (C) "; because" → **WRONG — "because" makes right a [DC], illegal after semicolon**. (D) ", and" → legal but illogical (study conclusive yet hypothesis rejected = contrast, not addition). (B) "; however," → **CORRECT** (semicolon before conj. adverb, comma after). → **Correct: (B)**.
 
 **4 [Hard]** *"The festival - which attracts thousands[BLANK]will begin at noon."*
-- (A) , (B)  -  (C) ; (D) .
-- *"which attracts thousands"* is non-essential → needs matching dash (already opened with ` - `). (A) comma → **WRONG  -  mixed pair**. (C) semicolon / (D) period → **WRONG  -  break a non-essential supplement illegally**. (B) dash → **CORRECT** (matching ` -  ...  - `). → **Correct: (B)**.
+**Choices:** (A) , (B)  -  (C) ; (D) .
+- *"which attracts thousands"* is non-essential → needs matching dash (already opened with ` - `). (A) comma → **WRONG — mixed pair**. (C) semicolon / (D) period → **WRONG — break a non-essential supplement illegally**. (B) dash → **CORRECT** (matching ` -  ...  - `). → **Correct: (B)**.
 
 ---
 
@@ -928,10 +939,12 @@ Match the verb to the TRUE subject's number.
 
 **Worked example [Very Hard] (full question format):**
 *"The discovery, along with the artifacts unearthed at the site, [BLANK] scholars to revise their account of the region's early history."*
-Choices: (A) has led (B) have led (C) lead (D) were leading
+**Choices:** (A) has led (B) have led (C) lead (D) were leading
 - Cross out ", along with the artifacts unearthed at the site," (parenthetical). True subject = "The discovery" (singular).
-- (B) "have led" → **WRONG - treats "along with" as a conjunction**. (C) "lead" → **WRONG - plural form + present tense breaks the past context**. (D) "were leading" → **WRONG - plural + wrong aspect**.
 - **(A) "has led"** → **CORRECT**.
+- **(B)** "have led" → **WRONG — treats "along with" as a conjunction**
+- **(C)** "lead" → **WRONG — plural form + present tense breaks the past context**
+- **(D)** "were leading" → **WRONG — plural + wrong aspect**.
 
 ---
 
@@ -948,7 +961,7 @@ Is there a clear TIME logic requiring different tenses?
 ```
 
 **Worked example 1 [Easy] (unjustified shift):**
-- **WRONG  -  tense shift:** *"The archaeologist examined the artifacts and publishes her findings."*
+- **WRONG — tense shift:** *"The archaeologist examined the artifacts and publishes her findings."*
 - **CORRECT:** *"The archaeologist examined the artifacts and published her findings."*
 
 **Worked example 2 [Easy] (justified shift, signal present):**
@@ -990,13 +1003,15 @@ Is there a clear TIME logic requiring different tenses?
 
 **Worked example [Medium] (perfect progressive):**
 *"The researchers [BLANK] the population for a decade when the new census data were released."*
-Choices: (A) had been monitoring (B) monitored (C) were monitoring (D) have monitored
+**Choices:** (A) had been monitoring (B) monitored (C) were monitoring (D) have monitored
 - The action started before the past reference point ("when the new census data were released") and was ongoing up to it.
-- (B) "monitored" → **WRONG - simple past doesn't signal the ongoing-up-to-that-point duration**. (C) "were monitoring" → **WRONG - progressive alone doesn't capture the "for a decade" completion**. (D) "have monitored" → **WRONG - present perfect must connect to the present, not to a past event**.
 - **(A) "had been monitoring"** → **CORRECT** (past perfect progressive = ongoing up to a past point).
+- **(B)** "monitored" → **WRONG — simple past doesn't signal the ongoing-up-to-that-point duration**
+- **(C)** "were monitoring" → **WRONG — progressive alone doesn't capture the "for a decade" completion**
+- **(D)** "have monitored" → **WRONG — present perfect must connect to the present, not to a past event**.
 
 **Worked example [Easy] (present tense for general truths):**
-- **WRONG - unjustified shift:** *"The study showed that water boils at 100 degrees Celsius and that the boiling point decreases as altitude increased."*
+- **WRONG — unjustified shift:** *"The study showed that water boils at 100 degrees Celsius and that the boiling point decreases as altitude increased."*
 - **CORRECT:** *"...and that the boiling point decreases as altitude increases."* (scientific facts stay in present tense even inside a past-tense sentence)
 
 **Worked example [Hard] (conditional sequence: will vs would):**
@@ -1038,39 +1053,39 @@ set off by commas → PARTICIPLE (not a second finite verb)
 
 **Worked example 1 [Easy]:**
 *"The theory [BLANK] three key predictions about the behavior of subatomic particles."*
-Choices: (A) makes (B) making (C) to make (D) having made
+**Choices:** (A) makes (B) making (C) to make (D) having made
 - Subject "The theory" has no other finite verb in the clause.
-- (B), (C), (D) are all non-finite → cannot power a clause.
 - **(A) makes** is finite → **CORRECT**.
+- **(B), (C), (D)** are all non-finite → cannot power a clause.
 
 **Worked example 2 [Medium]:**
 *"The sculpture, [BLANK] from a single block of marble, weighs over two tons."*
-Choices: (A) carved (B) was carved (C) carving (D) to carve
+**Choices:** (A) carved (B) was carved (C) carving (D) to carve
 - Subject "The sculpture" already has finite verb "weighs."
 - The blank is in a comma-set-off phrase between subject and verb → needs participle, not finite verb.
-- (B) "was carved" is finite → **WRONG  -  two finite verbs in one clause**.
-- (C) "carving" → **WRONG  -  sculpture didn't carve itself (active vs passive)**.
-- (D) "to carve" → **WRONG  -  infinitive doesn't fit as adjective modifier**.
 - **(A) "carved"** (past participle, passive) → **CORRECT**.
+- **(B)** "was carved" is finite → **WRONG — two finite verbs in one clause**.
+- **(C)** "carving" → **WRONG — sculpture didn't carve itself (active vs passive)**.
+- **(D)** "to carve" → **WRONG — infinitive doesn't fit as adjective modifier**.
 
 **Worked example 3 [Hard] (the fragment trap):**
 *"The author [BLANK] extensively about the ethical implications of artificial intelligence."*
-Choices: (A) written (B) writing (C) wrote (D) having written
+**Choices:** (A) written (B) writing (C) wrote (D) having written
 - Subject "The author" has no finite verb. The clause needs one.
-- (A) "written" = past participle (needs auxiliary: "has written") → **WRONG  -  fragment**.
-- (B) "writing" = gerund/participle → **WRONG  -  fragment**.
-- (D) "having written" = participial phrase → **WRONG  -  fragment**.
+- **(A)** "written" = past participle (needs auxiliary: "has written") → **WRONG — fragment**.
+- **(B)** "writing" = gerund/participle → **WRONG — fragment**.
 - **(C) "wrote"** = finite, simple past → **CORRECT**.
+- **(D)** "having written" = participial phrase → **WRONG — fragment**.
 
 **Worked example 4 [Very Hard] (gerund vs infinitive after certain verbs):**
 *"The committee decided [BLANK] the funding for the remaining fiscal year."*
-Choices: (A) to allocate (B) allocating (C) allocate (D) having allocated
+**Choices:** (A) to allocate (B) allocating (C) allocate (D) having allocated
 - Subject "The committee" has finite verb "decided." The blank is an object/complement.
 - Specific verb "decide" takes an infinitive complement ("decide to do"), not a gerund.
-- (B) "allocating" → **WRONG  -  "decide allocating" is ungrammatical**.
-- (C) "allocate" → **WRONG  -  bare infinitive doesn't fit after "decide"**.
-- (D) "having allocated" → **WRONG  -  perfect participle doesn't fit**.
 - **(A) "to allocate"** → **CORRECT**.
+- **(B)** "allocating" → **WRONG — "decide allocating" is ungrammatical**.
+- **(C)** "allocate" → **WRONG — bare infinitive doesn't fit after "decide"**.
+- **(D)** "having allocated" → **WRONG — perfect participle doesn't fit**.
 
 > **Key insight:** Verb finiteness bridges Boundaries and FSS. A sentence with only a participle and no finite verb is a **fragment** (Boundaries error), but the error is caused by choosing the wrong *verb form* (FSS error). The Framework files it under FSS because the tested skill is form selection, not punctuation.
 
@@ -1107,14 +1122,14 @@ Check:
 - **Modern digital SAT accepts:** singular "they" when gender is unspecified → NOT automatically wrong. Traditional fix also valid: *"his or her."*
 
 **Worked example 2 [Medium] (ambiguous referent):**
-- **WRONG  -  ambiguous:** *"When the curator spoke to the conservator, she raised concerns about the painting's condition."* ("she" could be either curator or conservator).
+- **WRONG — ambiguous:** *"When the curator spoke to the conservator, she raised concerns about the painting's condition."* ("she" could be either curator or conservator).
 - **CORRECT:** *"When the curator spoke to the conservator, the curator raised concerns about the painting's condition."* (specific noun).
 
 **Worked example 3 [Easy] (NOT ambiguous):**
 *"When Dr. Moreau spoke to the committee, she raised concerns."*  -  "she" can only be Dr. Moreau (specific person) → not ambiguous. The committee is a group, not a "she."
 
 **Worked example 4 [Medium] (distance  -  antecedent too far):**
-- **WRONG  -  unclear antecedent:** *"The report on the environmental impact of the new development near the protected wetlands was delayed because they needed additional review."* ("they" is far from whatever it refers to; likely "the researchers" or "the developers"  -  neither mentioned recently).
+- **WRONG — unclear antecedent:** *"The report on the environmental impact of the new development near the protected wetlands was delayed because they needed additional review."* ("they" is far from whatever it refers to; likely "the researchers" or "the developers"  -  neither mentioned recently).
 - **CORRECT:** *"The report on the environmental impact of the new development was delayed because the researchers needed additional review."*
 
 **Worked example 5 [Medium] (dummy pronoun  -  no antecedent needed):**
@@ -1124,7 +1139,7 @@ Check:
 > **Distinguishing dummy from real pronouns:** If you can replace "it" or "there" with nothing and the sentence still makes structural sense, it's likely a dummy pronoun. Example: *"It is raining"* → *"Is raining"* still works structurally. But *"The experiment failed because it was flawed"* → "it" refers to the experiment (real antecedent).
 
 **Worked example 6 [Medium] (person consistency - a real digital SAT pattern):**
-- **WRONG - pronoun shift:** *"If a student wants to succeed on the exam, you must practice daily."* ("student" = third person, "you" = second person)
+- **WRONG — pronoun shift:** *"If a student wants to succeed on the exam, you must practice daily."* ("student" = third person, "you" = second person)
 - **CORRECT:** *"If a student wants to succeed on the exam, they must practice daily."* (or "he or she," or switch both to "you")
 - **WRONG:** *"One can improve one's score by practicing, but you should also review the rules."* ("one" then "you")
 - **CORRECT:** *"One can improve one's score by practicing, but one should also review the rules."*
@@ -1251,7 +1266,7 @@ AMBIGUOUS: Does the modifier logically fit more than one noun?
 ```
 
 **Worked example 1 [Easy] (classic dangling):**
-- **WRONG  -  dangling:** *"Walking to the excavation site, the rain started falling."* (rain can't walk)
+- **WRONG — dangling:** *"Walking to the excavation site, the rain started falling."* (rain can't walk)
 - **CORRECT:** *"Walking to the excavation site, the team felt the rain start falling."*
 
 **Worked example 2 [Easy] (dangling):**
@@ -1263,7 +1278,7 @@ AMBIGUOUS: Does the modifier logically fit more than one noun?
 - **CORRECT:** *"The archaeologist displayed the artifact that was thousands of years old in the museum."*
 
 **Worked example 4 [Hard] (squinting modifier):**
-- **WRONG  -  squinting:** *"The researchers who study often publish their findings quickly."* (Does "often" modify "study" or "publish"? Two possible readings.)
+- **WRONG — squinting:** *"The researchers who study often publish their findings quickly."* (Does "often" modify "study" or "publish"? Two possible readings.)
 - **CORRECT (repositioned):** *"The researchers who study often, publish their findings quickly."* (comma makes clear "often" goes with "study")
 - **STILL WRONG:** *"The researchers who study frequently publish their findings quickly."* (just replaced "often" with "frequently"  -  same squinting problem)
 - **CORRECT:** *"The researchers who study regularly publish their findings quickly."* (or: *"Researchers who frequently study publish their findings quickly."*)
@@ -1273,7 +1288,7 @@ AMBIGUOUS: Does the modifier logically fit more than one noun?
 - **CORRECT:** *"Primarily celebrated for his masterpieces like the Mona Lisa, Leonardo da Vinci is less well known for his scientific pursuits."*
 
 **Worked example 6 [Very Hard] (limiter placement - "only"):**
-- **WRONG - misplaced limiter:** *"The new policy only affects the research division's summer interns."* (ambiguous: does "only" modify "affects," "the research division's," or "summer interns"?)
+- **WRONG — misplaced limiter:** *"The new policy only affects the research division's summer interns."* (ambiguous: does "only" modify "affects," "the research division's," or "summer interns"?)
 - **CORRECT (unambiguous):** *"The new policy affects only the research division's summer interns."* ("only" directly before the element it limits)
 - The SAT tests this as an ambiguity question: the limiter (only, just, almost, nearly, even) must sit directly before the element it modifies. *"She almost drove the entire route"* (didn't drive at all?) vs *"She drove almost the entire route"* (drove nearly all of it).
 
@@ -1334,7 +1349,7 @@ All elements must share the SAME skeleton.
 - **CORRECT:** *"…that consumers preferred sustainable packaging, that they were willing to pay more, and that they prioritized eco-friendly brands."* (all clauses)
 
 **Worked example 5 [Hard] (logical comparison  -  "that of"/"those of"):**
-- **WRONG  -  category mismatch:** *"The novels of Toni Morrison are more widely studied than William Faulkner."* (novels vs person)
+- **WRONG — category mismatch:** *"The novels of Toni Morrison are more widely studied than William Faulkner."* (novels vs person)
 - **CORRECT:** *"The novels of Toni Morrison are more widely studied than those of William Faulkner."* ("those of" = the novels of)
 
 **Worked example 6 [Hard] (logical comparison  -  as…as):**
@@ -1360,13 +1375,15 @@ SAT-tested comparison word pairs:
 
 **Worked example 10 [Very Hard] (full question format):**
 *"The museum plans to expand its collection, renovate its main gallery, and [BLANK] a new education wing."*
-Choices: (A) to construct (B) constructing (C) construct (D) the construction of
+**Choices:** (A) to construct (B) constructing (C) construct (D) the construction of
 - The list is "expand..., renovate..., and ___" - all bare verbs after "to."
-- (A) "to construct" → **WRONG - breaks the bare-infinitive chain**. (B) "constructing" → **WRONG - gerund in a verb list**. (D) "the construction of" → **WRONG - noun in a verb list**.
+- **(A)** "to construct" → **WRONG — breaks the bare-infinitive chain**
+- **(B)** "constructing" → **WRONG — gerund in a verb list**
 - **(C) "construct"** → **CORRECT**.
+- **(D)** "the construction of" → **WRONG — noun in a verb list**.
 
 **Worked example 11 [Medium] (the "colder than Miami" trap):**
-- **WRONG - category mismatch:** *"The weather in New York is colder than Miami."* (weather vs city)
+- **WRONG — category mismatch:** *"The weather in New York is colder than Miami."* (weather vs city)
 - **CORRECT:** *"The weather in New York is colder than that of Miami."* (or "than in Miami")
 
 > **Pattern:** "that of" (singular) / "those of" (plural) are extremely common correct answers for logical comparisons where a thing is compared to a person or another thing of a different category.
@@ -1501,10 +1518,12 @@ Check the comparison STRUCTURE: is it using the correct word pair?
 
 **Worked example 7 [Medium] (full question format):**
 *"Of the three methods tested, the second proved the [BLANK] reliable under field conditions."*
-Choices: (A) most (B) more (C) most reliably (D) more reliable
+**Choices:** (A) most (B) more (C) most reliably (D) more reliable
 - "Of the three" → 3+ items → superlative.
-- (B) "more" → **WRONG - comparative is for two items**. (C) "most reliably" → **WRONG - adverb, but the blank describes the noun "method" ("proved" is linking here)**. (D) "more reliable" → **WRONG - comparative + wrong item count**.
 - **(A) "most"** → **CORRECT**: *"...proved the most reliable under field conditions."*
+- **(B)** "more" → **WRONG — comparative is for two items**
+- **(C)** "most reliably" → **WRONG — adverb, but the blank describes the noun "method" ("proved" is linking here)**
+- **(D)** "more reliable" → **WRONG — comparative + wrong item count**.
 
 > **The SAT tests both the form (comparative vs superlative) AND the structure (correct word pairs). A comparative that uses the wrong pair (e.g., "as…than") is as wrong as a double-marked one.**
 
@@ -1551,14 +1570,16 @@ Which form sounds right alone? Use that.
 **Worked example 5 [Hard] (comparison with "than" - the hidden case test):**
 - *"She is taller than [I/me]."* → the comparison implies a clause: "than I [am tall]" → **I** (subject case). In formal written English (and on the SAT), "than I" is correct.
 - *"The scholarship surprised [she and I / her and me]."* → object position → **her and me**.
-- **WRONG - hypercorrection:** *"The committee thanked Dr. Chen and I."* → "thanked I" is ungrammatical → **Dr. Chen and me**.
+- **WRONG — hypercorrection:** *"The committee thanked Dr. Chen and I."* → "thanked I" is ungrammatical → **Dr. Chen and me**.
 
 **Worked example 6 [Hard] (full question format):**
 *"The fellowship was awarded to [BLANK]."*
-Choices: (A) Dr. Chen and me (B) Dr. Chen and I (C) I and Dr. Chen (D) Dr. Chen and myself
+**Choices:** (A) Dr. Chen and me (B) Dr. Chen and I (C) I and Dr. Chen (D) Dr. Chen and myself
 - After the preposition "to" → object case.
-- (B) → **WRONG - subject case after a preposition (hypercorrection)**. (C) → **WRONG - same case error plus naming yourself first**. (D) → **WRONG - reflexive "myself" cannot replace an object pronoun here**.
 - **(A) "Dr. Chen and me"** → **CORRECT**.
+- **(B)** → **WRONG — subject case after a preposition (hypercorrection)**
+- **(C)** → **WRONG — same case error plus naming yourself first**
+- **(D)** → **WRONG — reflexive "myself" cannot replace an object pronoun here**.
 
 > **Trick:** answer the implied question with "him" → whom; with "he" → who.
 
@@ -1601,7 +1622,7 @@ Does the connector in each choice match that relationship?
 ```
 
 **Worked example 1 [Medium] (cause vs concession - the most common trap):**
-- **WRONG - logic mismatch:** *"Because the study had a small sample size, its findings were widely cited."* (a small sample should HURT citations; the real relationship is surprise/contrast)
+- **WRONG — logic mismatch:** *"Because the study had a small sample size, its findings were widely cited."* (a small sample should HURT citations; the real relationship is surprise/contrast)
 - **CORRECT:** *"Although the study had a small sample size, its findings were widely cited."*
 
 **Worked example 2 [Medium] (time vs cause - the double-duty word "since"):**
@@ -1616,10 +1637,12 @@ Does the connector in each choice match that relationship?
 
 **Worked example 4 [Hard] (full question format):**
 *"The painting's colors have faded over the centuries [BLANK] its composition remains remarkably intact."*
-Choices: (A) but (B) because (C) so (D) therefore
+**Choices:** (A) but (B) because (C) so (D) therefore
 - The two facts contrast: faded colors vs intact composition.
-- (B) "because" → **WRONG - implies fading caused intactness**. (C) "so" → **WRONG - implies fading caused intactness (result)**. (D) "therefore" → **WRONG - same causal misfit, and a conjunctive adverb would need a semicolon/period before it**.
 - **(A) "but"** → **CORRECT**.
+- **(B)** "because" → **WRONG — implies fading caused intactness**
+- **(C)** "so" → **WRONG — implies fading caused intactness (result)**
+- **(D)** "therefore" → **WRONG — same causal misfit, and a conjunctive adverb would need a semicolon/period before it**.
 
 > **Why CB tests this:** it checks whether you read for *meaning*, not just mechanics - the punctuation may be perfect but the logic word wrong.
 
@@ -1666,7 +1689,7 @@ These are NOT named in the official taxonomy, and they are rare on the digital S
 
 **1 [Easy]** *"The quality of the samples [was/were] inadequate for analysis."* → cross out "of the samples" → "quality" singular → **was**. Wrong "were" = **agreement mismatch**.
 
-**2 [Medium]** *"Having analyzed the data, the report was submitted to the review board."* → **WRONG  -  dangling modifier** (report didn't analyze). Fix: *"Having analyzed the data, the researchers submitted the report to the review board."*
+**2 [Medium]** *"Having analyzed the data, the report was submitted to the review board."* → **WRONG — dangling modifier** (report didn't analyze). Fix: *"Having analyzed the data, the researchers submitted the report to the review board."*
 
 **3 [Medium]** *"Of the three experimental conditions, the second produced the [more/most] significant results."* → 3+ → **most** (superlative). "more" = **wrong comparative for 3+**.
 
@@ -1722,67 +1745,77 @@ These are NOT named in the official taxonomy, and they are rare on the digital S
 
 ### Worked Question 1 [Medium] (Boundaries  -  comma splice)
 *"The bridge began to sway violently[BLANK]engineers closed it within hours."*
-Choices: (A) violently, engineers (B) violently; engineers (C) violently. Engineers (D) violently, and engineers
+**Choices:** (A) violently, engineers (B) violently; engineers (C) violently. Engineers (D) violently, and engineers
 - **Step 3 (Cover Test):** Left = *"The bridge began to sway violently"* → **[IC]**. Right = *"engineers closed it within hours"* → **[IC]**.
-- (A) comma alone joining two **[IC]**s → **WRONG  -  comma splice**.
-- (B) semicolon joining two **[IC]**s → legal.
-- (C) period joining two **[IC]**s → legal.
-- (D) comma + "and" (FANBOYS) joining two **[IC]**s → legal.
+- **(A)** comma alone joining two **[IC]**s → **WRONG — comma splice**.
+- **(B)** semicolon joining two **[IC]**s → legal.
+- **(C)** period joining two **[IC]**s → legal.
+- **(D)** → **CORRECT** - *"The bridge began to sway violently, and engineers closed it within hours."*
 - Period (C) and semicolon (B) are NOT identical-else (they differ in capitalization of "Engineers"); the choices here are otherwise distinct, so no auto-elimination. The sentence shows a sequence of events with a causal link → the best fit among the legal options is the connector that signals addition/causation. (D) ", and" is the cleanest, but note (B)/(C) are also grammatically acceptable in isolation. **On the real SAT, exactly one of these would be presented as the intended answer by the surrounding context**; the key skill is recognizing (A) is the only clearly *illegal* choice.
-- **Correct answer (the clearly-defensible unique choice when context implies causation): (D)**  -  *"The bridge began to sway violently, and engineers closed it within hours."*
+- **(D)** comma + "and" (FANBOYS) joining two **[IC]**s → legal.
 
 > **Lesson:** a bare FANBOYS with no comma joining two **[IC]**s is a run-on; the SAT presents it correctly bundled as ", and."
 
 ### Worked Question 2 [Easy] (Boundaries  -  dependent clause, no semicolon)
 *"Although the results were promising[BLANK]the team decided to run additional trials."*
-Choices: (A) promising; the team (B) promising, the team (C) promising. The team (D) promising the team
+**Choices:** (A) promising; the team (B) promising, the team (C) promising. The team (D) promising the team
 - Left = *"Although the results were promising"* → **[DC]** (subordinator "although"). Right → **[IC]**.
-- (A) semicolon → **WRONG  -  semicolon before a [DC]**. (C) period → **WRONG  -  period before a [DC] (fragment)**. (D) no punctuation → **WRONG  -  run-on ([DC]-first needs comma)**.
-- **Correct answer: (B)**  -  comma. *"Although the results were promising, the team decided to run additional trials."*
+- **(A)** semicolon → **WRONG — semicolon before a [DC]**
+- **(B)** → **CORRECT** - comma. *"Although the results were promising, the team decided to run additional trials."*
+- **(C)** period → **WRONG — period before a [DC] (fragment)**
+- **(D)** no punctuation → **WRONG — run-on ([DC]-first needs comma)**.
 
 ### Worked Question 3 [Medium] (Boundaries  -  nonrestrictive appositive, matching pair)
 *"The bridge, [BLANK], has become a popular tourist attraction."*
-Choices: (A) built in 1932 (B) built in 1932, (C)  -  built in 1932 (D) built in 1932  - 
+**Choices:** (A) built in 1932 (B) built in 1932, (C)  -  built in 1932 (D) built in 1932  -
 - Sentence already opens with a comma ("The bridge, …"). The supplement must **close with the same mark**.
-- (A) no closing → **WRONG  -  mismatched pair**. (C) opens with dash → **WRONG  -  mismatched with existing comma**. (D) closes with dash → **WRONG  -  mismatched**.
-- **Correct answer: (B)**  -  comma to match. *"The bridge, built in 1932, has become a popular tourist attraction."*
+- **(A)** no closing → **WRONG — mismatched pair**
+- **(B)** → **CORRECT** - comma to match. *"The bridge, built in 1932, has become a popular tourist attraction."*
+- **(C)** opens with dash → **WRONG — mismatched with existing comma**
+- **(D)** closes with dash → **WRONG — mismatched**.
 
 ### Worked Question 4 [Medium] (FSS  -  subject-verb with inserted phrase)
 *"The results of the experiment, though initially met with skepticism, [BLANK] now widely accepted."*
-Choices: (A) is (B) are (C) was (D) has been
+**Choices:** (A) is (B) are (C) was (D) has been
 - True subject: "The results" (plural) after crossing out "of the experiment" and the non-essential clause.
-- (A) "is" → **WRONG  -  singular mismatch**. (C) "was" → **WRONG  -  singular + wrong tense**. (D) "has been" → **WRONG  -  singular auxiliary**.
-- **Correct answer: (B)**  -  "are."
+- **(A)** "is" → **WRONG — singular mismatch**
+- **(B)** → **CORRECT** - "are."
+- **(C)** "was" → **WRONG — singular + wrong tense**
+- **(D)** "has been" → **WRONG — singular auxiliary**.
 
 ### Worked Question 5 [Hard] (FSS  -  modifier placement)
 *"[BLANK], the museum's new wing was designed with sustainability in mind."*
-Choices: (A) Committed to environmental responsibility (B) Environmental responsibility, being a top priority (C) With environmental responsibility as a commitment (D) As the architects were committed to environmental responsibility
+**Choices:** (A) Committed to environmental responsibility (B) Environmental responsibility, being a top priority (C) With environmental responsibility as a commitment (D) As the architects were committed to environmental responsibility
 - The modifier must describe the next noun: "the museum's new wing."
-- (A)/(B)/(C) all imply the *wing* is "committed"/"responsible" → **WRONG  -  dangling modifier** (a wing can't hold commitments).
-- (D) is a full **[DC]** with its own subject ("the architects") → no dangling.
+- **(A)/(B)/(C)** all imply the *wing* is "committed"/"responsible" → **WRONG — dangling modifier** (a wing can't hold commitments).
+- **(D)** is a full **[DC]** with its own subject ("the architects") → no dangling.
 - **Correct answer: (D).**
 
 ### Worked Question 6 [Easy] (FSS  -  comparative vs superlative)
 *"Of the two proposals submitted, the second was considerably [BLANK]."*
-Choices: (A) more efficient (B) most efficient (C) efficient (D) more efficiently
+**Choices:** (A) more efficient (B) most efficient (C) efficient (D) more efficiently
 - "Of the two" → exactly 2 → comparative.
-- (B) "most efficient" → **WRONG  -  superlative for 2 items**. (C) "efficient" → **WRONG  -  no comparison marker**. (D) "more efficiently" → **WRONG  -  adverb, but describes noun "proposal" (needs adjective)**.
-- **Correct answer: (A)**  -  "more efficient."
+- **(A)** → **CORRECT** - "more efficient."
+- **(B)** "most efficient" → **WRONG — superlative for 2 items**
+- **(C)** "efficient" → **WRONG — no comparison marker**
+- **(D)** "more efficiently" → **WRONG — adverb, but describes noun "proposal" (needs adjective)**.
 
 ### Worked Question 7 [Medium] (FSS  -  pronoun ambiguity)
 *"When the professor reviewed the student's thesis, [BLANK] made several revisions."*
-Choices: (A) she (B) they (C) the student (D) it
+**Choices:** (A) she (B) they (C) the student (D) it
 - Two compatible people present → "she"/"they" ambiguous; "it" impossible.
-- (A) → **WRONG  -  ambiguous referent**. (B) → **WRONG  -  still ambiguous (which person?)**. (D) → **WRONG  -  neither is "it."**
-- **Correct answer: (C)**  -  specific noun eliminates ambiguity.
+- **(A)** → **WRONG — ambiguous referent**
+- **(B)** → **WRONG — still ambiguous (which person?)**
+- **(C)** → **CORRECT** - specific noun eliminates ambiguity.
+- **(D)** → **WRONG — neither is "it."**
 
 ### Worked Question 8 [Medium] (Boundaries  -  colon after complete lead-in)
 *"The lab reported a single finding[BLANK] the treatment showed no measurable effect."*
-Choices: (A) : (B) ; (C) , (D) .
+**Choices:** (A) : (B) ; (C) , (D) .
 - Left = *"The lab reported a single finding"* → **[IC]** ✓. Right directly explains WHAT the finding was → colon relationship.
-- (C) comma alone → **WRONG  -  comma splice**. (D) period → legal but severs the explanatory link the sentence wants.
+- **(A)** → **CORRECT** - colon. *"The lab reported a single finding: the treatment showed no measurable effect."*
 - Between (A) colon and (B) semicolon: the right side **explains** the left, so colon is the better structural fit. (Colon and dash are stylistically distinct here; only one is offered, so no equivalence shortcut applies.)
-- **Correct answer: (A)**  -  colon. *"The lab reported a single finding: the treatment showed no measurable effect."*
+- **(C)** comma alone → **WRONG — comma splice**. (D) period → legal but severs the explanatory link the sentence wants.
 
 ---
 
@@ -1790,13 +1823,13 @@ Choices: (A) : (B) ; (C) , (D) .
 
 **1 [Medium]** *"The data, which were collected over a year, [suggest/suggests] a significant trend."* → "which were collected…" non-essential (cross out) → true subject "data" (plural on the SAT  -  note: collective noun treated as plural in formal/academic contexts) → **suggest**. "suggests" = **agreement mismatch**.
 
-**2 [Hard]** *"Not only did the new regulation reduce emissions, but it also lowered operational costs."* vs *"Not only the new regulation reduced emissions, but also it lowered operational costs."* → second is **WRONG  -  parallel mismatch** (auxiliary inversion vs plain). Correct first.
+**2 [Hard]** *"Not only did the new regulation reduce emissions, but it also lowered operational costs."* vs *"Not only the new regulation reduced emissions, but also it lowered operational costs."* → second is **WRONG — parallel mismatch** (auxiliary inversion vs plain). Correct first.
 
-**3 [Medium]** *"The experimental results appear [different/differently] from what was predicted."* → "appear" is linking verb here (="seem") → adjective → **different**. "differently" = **WRONG  -  adverb after linking verb**.
+**3 [Medium]** *"The experimental results appear [different/differently] from what was predicted."* → "appear" is linking verb here (="seem") → adjective → **different**. "differently" = **WRONG — adverb after linking verb**.
 
-**4 [Easy]** *"The [researchers/researcher's/researchers'] conclusions were published in a peer-reviewed journal."* → multiple researchers (no ownership indicated) → **researchers** (plural alone). "researcher's" / "researchers'" = **WRONG  -  unnecessary apostrophe**.
+**4 [Easy]** *"The [researchers/researcher's/researchers'] conclusions were published in a peer-reviewed journal."* → multiple researchers (no ownership indicated) → **researchers** (plural alone). "researcher's" / "researchers'" = **WRONG — unnecessary apostrophe**.
 
-**5 [Very Hard]** *"The initial results were promising, however, the team decided to run additional trials."* → **WRONG  -  comma splice** ("however" after bare comma joining two [IC]s). Fix: *"…promising; however, the team…"*
+**5 [Very Hard]** *"The initial results were promising, however, the team decided to run additional trials."* → **WRONG — comma splice** ("however" after bare comma joining two [IC]s). Fix: *"…promising; however, the team…"*
 
 ---
 
@@ -1884,3 +1917,4 @@ Before ANY rule: **classify the question** (Boundaries = punctuation; FSS = word
 ---
 
 *End of SAT A4 Master Manual. Drill the Pattern Recognition Tables (§1.9) and Instant Recognition (§1.10) daily until they're reflex; the rest is application.*
+
