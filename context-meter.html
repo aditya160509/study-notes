@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Context Meter</title>
+<style>
+  :root { --bg: transparent; --fg: var(--foreground, #e5e5e5); --muted: var(--muted-foreground, #888); --border: var(--border, #333); --accent: var(--accent, #7c5cfb); --card: var(--card, #1a1a1a); }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: inherit; background: transparent; color: var(--fg); padding: 12px 16px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; max-width: 560px; }
+  .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .label { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+  .numbers { font-size: 13px; font-variant-numeric: tabular-nums; }
+  .numbers b { font-size: 16px; }
+  .bar-wrap { height: 10px; background: color-mix(in srgb, var(--border) 80%, transparent); border-radius: 999px; overflow: hidden; position: relative; }
+  .bar { height: 100%; border-radius: 999px; transition: width 0.6s ease, background 0.4s; background: var(--accent); }
+  .bar.warn { background: #eab308; }
+  .bar.danger { background: #ef4444; }
+  .meta { display: flex; gap: 10px; flex-wrap: wrap; font-size: 11px; color: var(--muted); }
+  .pill { border: 1px solid var(--border); border-radius: 999px; padding: 3px 8px; background: color-mix(in srgb, var(--card) 90%, var(--border)); }
+  .pill strong { color: var(--fg); }
+  button { font: inherit; font-size: 11px; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--border); background: transparent; color: var(--fg); cursor: pointer; }
+  button:hover { background: var(--card); }
+  .hint { font-size: 11px; color: var(--muted); line-height: 1.4; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="row">
+      <span class="label">Context Window</span>
+      <span class="numbers"><b id="pct">—%</b> <span id="nums">— / 1048k</span></span>
+    </div>
+    <div class="bar-wrap"><div id="bar" class="bar" style="width:0%"></div></div>
+    <div class="meta">
+      <span class="pill">Used <strong id="used">—</strong></span>
+      <span class="pill">Remaining <strong id="remain">—</strong></span>
+      <span class="pill">Overhead <strong id="overhead">~20k</strong></span>
+      <span class="pill">Window <strong id="window">1048k</strong></span>
+    </div>
+    <div class="row">
+      <span class="hint" id="hint">Polling <code>hermes prompt-size</code> every 3s… keep this tab open to always see it.</span>
+      <button id="refresh">Refresh now</button>
+    </div>
+  </div>
+<script>
+  const CONTEXT = 1048576;
+  const OVERHEAD_BYTES = 28742 + 47086;
+  const overheadTokens = Math.round(OVERHEAD_BYTES / 4);
+
+  async function fetchSize() {
+    // Try local server first (http://localhost:8765/context), fallback to estimate
+    try {
+      const r = await fetch('http://localhost:8765/context', {cache:'no-store'});
+      if (r.ok) { const j = await r.json(); return j; }
+    } catch(e) {}
+    return null;
+  }
+
+  function estimateTokens() {
+    // Fallback: we don't have exact token count without backend, show overhead + hint
+    return { used: null, total: CONTEXT };
+  }
+
+  function render(used) {
+    const total = CONTEXT;
+    const pct = used != null ? Math.min(100, Math.round(used/total*100)) : null;
+    const remain = used != null ? total - used : total - overheadTokens;
+    const bar = document.getElementById('bar');
+    const pctEl = document.getElementById('pct');
+    const numsEl = document.getElementById('nums');
+    const usedEl = document.getElementById('used');
+    const remainEl = document.getElementById('remain');
+
+    if (pct != null) {
+      pctEl.textContent = pct + '%';
+      numsEl.textContent = (used/1000).toFixed(1) + 'k / ' + (total/1000).toFixed(0) + 'k';
+      usedEl.textContent = Math.round(used/1000) + 'k';
+      remainEl.textContent = Math.round(remain/1000) + 'k';
+      bar.style.width = pct + '%';
+      bar.className = 'bar' + (pct >= 85 ? ' danger' : pct >= 70 ? ' warn' : '');
+    } else {
+      // No server — show overhead baseline + instruction
+      pctEl.textContent = '~' + Math.round(overheadTokens/total*100) + '%';
+      numsEl.textContent = '~' + Math.round(overheadTokens/1000) + 'k / ' + (total/1000).toFixed(0) + 'k';
+      usedEl.textContent = '~' + Math.round(overheadTokens/1000) + 'k (overhead)';
+      remainEl.textContent = Math.round((total-overheadTokens)/1000) + 'k';
+      bar.style.width = Math.round(overheadTokens/total*100) + '%';
+      document.getElementById('hint').innerHTML = 'Start the live server: <code>python3 ~/.local/bin/context-meter-server &</code> then this bar shows real usage.';
+      bar.className = 'bar';
+    }
+  }
+
+  async function tick() {
+    const j = await fetchSize();
+    if (j && j.used_tokens != null) {
+      render(j.used_tokens);
+      document.getElementById('window').textContent = (j.total/1000).toFixed(0)+'k';
+      document.getElementById('overhead').textContent = '~'+Math.round(j.overhead/1000)+'k';
+      document.getElementById('hint').textContent = 'Live — updates every 3s. Model: ' + (j.model||'') + ' • ' + new Date().toLocaleTimeString();
+    } else if (j && j.estimated_used != null) {
+      render(j.estimated_used);
+    } else {
+      // Estimate from overhead only
+      render(null);
+    }
+  }
+  document.getElementById('refresh').onclick = tick;
+  tick();
+  setInterval(tick, 3000);
+</script>
+</body>
+</html>

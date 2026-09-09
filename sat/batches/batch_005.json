@@ -1,0 +1,1707 @@
+[
+  {
+    "id": "nx_3ac5a62034e7819d8ea2c13b0a36b007",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "",
+    "difficulty": "Easy",
+    "passage": "Passage (no passage) Question 3(kx + n) = −(18/7)x + 20/11 In the given equation, k and n are constants and n &lt; 0. The equation has no solution. What is the value of k? Passage (no passage) Question 3(kx + n) = −(18/7)x + 20/11 In the given equation, k and n are constants and n &lt; 0. The equation has no solution. What is the value of k? Student-produced response (no answer choices). Correct Answer not recorded. OnePrep exposes no Explanation panel for this question — there is no Explanation button in the toolbar and no Correct Answer block anywhere on the page. Per the sync rules, the answer was not invented. Reference approach for review: a linear equation ax + b = cx + d has no solution exactly when the x-coefficients match (a = c) and the constants differ (b ≠ d). Expanding the left side gives 3kx + 3n = −(18/7)x + 20/11, so matching coefficients requires 3k = −18/7. The condition n &lt; 0 guarantees 3n ≠ 20/11, so the constants automatically differ. Student-produced response (grid-in) — no answer choices. Correct value: k = −6/7 — CORRECT",
+    "question": "Passage (no passage) Question 3(kx + n) = −(18/7)x + 20/11 In the given equation, k and n are constants and n &lt; 0. The equation has no solution. What is the value of k? Passage (no passage) Question 3(kx + n) = −(18/7)x + 20/11 In the given equation, k and n are constants and n &lt; 0. The equation has no solution. What is the value of k? Student-produced response (no answer choices). Correct Answer not recorded. OnePrep exposes no Explanation panel for this question — there is no Explanation button in the toolbar and no Correct Answer block anywhere on the page. Per the sync rules, the answer was not invented. Reference approach for review: a linear equation ax + b = cx + d has no solution exactly when the x-coefficients match (a = c) and the constants differ (b ≠ d). Expanding the left side gives 3kx + 3n = −(18/7)x + 20/11, so matching coefficients requires 3k = −18/7. The condition n &lt; 0 guarantees 3n ≠ 20/11, so the constants automatically differ. Student-produced response (grid-in) — no answer choices. Correct value: k = −6/7 — CORRECT",
+    "options": [],
+    "answer": "[\"\\u22126/7 (grid-in; derived \\u2014 see note)\"]",
+    "rationale": "⚠️ OnePrep did not display a Correct Answer block for this item: it is a grid-in (student-produced response) question, and the Explanation panel only exposes &quot;Ask Preppy&quot; and &quot;Info&quot; tabs until an answer is submitted. No answer was submitted. The value below is derived algebraically and is fully determined by the problem, not read off the site. A linear equation in one variable has no solution exactly when the x-terms on both sides have the same coefficient but the constant terms differ — the variable cancels and leaves a false statement. Expand the left side: 3(kx + n) = 3kx + 3n Set it against the right side: 3kx + 3n = −(18/7)x + 20/11 Match the x-coefficients (required for no solution): 3k = −18/7 k = −18/21 = −6/7 Now confirm the constants differ, so the equation really is contradictory rather than an identity: 3n ≠ 20/11 ⟹ n ≠ 20/33 The problem states n &lt; 0, and 20/33 &gt; 0, so n ≠ 20/33 is automatically satisfied. The constants can never match, so with k = −6/7 the equation reduces to a false statement for every x — no solution, as required. Why the n &lt; 0 condition matters: without it, k = −6/7 paired with n = 20/33 would produce 0 = 0, an identity with infinitely many solutions rather than none. The condition rules that single case out and makes k = −6/7 the unique answer. Common trap: solving 3k = −18/7 as k = −54/7 (multiplying instead of dividing by 3), or answering −18/7 by ignoring the factor of 3 distributed across the parenthesis. Explanation written by Claude (OnePrep&#x27;s was unavailable — grid-in with no submitted answer). Math · Easy · Algebra · Linear equations in one variable Math · Easy · Algebra · Linear equations in one variable",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e7819f895edc63363a210f",
+    "section": "reading & writing",
+    "domain": "Expression of Ideas",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage While researching a topic, a student has taken the following notes: Two major early writing traditions are Egyptian hieroglyphics and the Maya script. Egyptian hieroglyphics combine logographic signs with phonetic elements. The system is partially phonetic, allowing symbols to represent sounds. The Maya script is also logophonetic but uses a far larger set of glyphs. Maya writing is highly syllabic, with many signs representing full syllables. Both systems employ logograms, but the balance between logograms and phonetic signs differs greatly. Question The student wants to highlight a structural distinction between these two writing traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "Passage While researching a topic, a student has taken the following notes: Two major early writing traditions are Egyptian hieroglyphics and the Maya script. Egyptian hieroglyphics combine logographic signs with phonetic elements. The system is partially phonetic, allowing symbols to represent sounds. The Maya script is also logophonetic but uses a far larger set of glyphs. Maya writing is highly syllabic, with many signs representing full syllables. Both systems employ logograms, but the balance between logograms and phonetic signs differs greatly. Question The student wants to highlight a structural distinction between these two writing traditions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Egyptian hieroglyphics and the Maya script are ancient writing systems that both use logograms.",
+      "Egyptian hieroglyphics contain phonetic signs, while the Maya script uses logograms to record historical events.",
+      "Both writing systems mix logograms with phonetic elements, though the Maya script relies more heavily on syllabic signs.",
+      "The Maya script uses a large set of glyphs, whereas Egyptian hieroglyphics originated along the Nile River."
+    ],
+    "answer": "[\"C \\u2014 Both writing systems mix logograms with phonetic elements, though the Maya script relies more heavily on syllabic signs.\"]",
+    "rationale": "Step 1: Identify the goal. The student wants to highlight a structural distinction between Egyptian hieroglyphics and the Maya script based on the provided notes. Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Eliminate A. A states only what the two systems share (&quot;both use logograms&quot;). A similarity is the opposite of a distinction — it fails the goal outright. Step 3: Eliminate B. B draws a false contrast. The notes say both systems are logophonetic; B implies hieroglyphics have phonetic signs and Maya has logograms, as if each had only one. It also adds &quot;to record historical events,&quot; which appears nowhere in the notes. Step 4: Eliminate D. D pairs a real note (Maya&#x27;s large glyph set) with a fabricated one — nothing in the notes mentions the Nile River. Even if it did, geographic origin is not a structural distinction. Step 5: Confirm C. C establishes the shared baseline (both mix logograms with phonetic elements) and then names the actual structural difference the notes support: Maya&#x27;s heavier reliance on syllabic signs. That is precisely the &quot;balance between logograms and phonetic signs differs greatly&quot; note, made specific. Reading &amp; Writing · Medium · (domain not shown) · Rhetorical Synthesis",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e7819faa14d6080bda6598",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage This text is adapted from Henri Murger&#x27;s 1851 short story &quot;The Passage of the Red Sea.&quot; Marcel was comfortably settled in his opinion that his picture was, in a modest way, the companion piece long awaited by the &quot;Wedding of Cana,&quot; that gigantic masterpiece whose dazzling splendor the dust of three centuries has not dimmed. Accordingly, each year, at the time of the Salon, Marcel sent his picture to be examined by the jury. Only, in order to throw the examiners off the track and if possible to make them abandon the policy of exclusion which they seemed to have adopted toward the &quot;Passage of the Red Sea,&quot; Marcel, without in any way disturbing the general scheme of his picture, modified certain details, and changed its title. Question Which choice best states the main purpose of the text?",
+    "question": "Passage This text is adapted from Henri Murger&#x27;s 1851 short story &quot;The Passage of the Red Sea.&quot; Marcel was comfortably settled in his opinion that his picture was, in a modest way, the companion piece long awaited by the &quot;Wedding of Cana,&quot; that gigantic masterpiece whose dazzling splendor the dust of three centuries has not dimmed. Accordingly, each year, at the time of the Salon, Marcel sent his picture to be examined by the jury. Only, in order to throw the examiners off the track and if possible to make them abandon the policy of exclusion which they seemed to have adopted toward the &quot;Passage of the Red Sea,&quot; Marcel, without in any way disturbing the general scheme of his picture, modified certain details, and changed its title. Question Which choice best states the main purpose of the text?",
+    "options": [
+      "To describe the actions resulting from Marcel&#x27;s high regard for &quot;Passage of the Red Sea&quot;",
+      "To call attention to some of the unusual features of Marcel&#x27;s best-known picture",
+      "To explain why the salon judges reject &quot;Passage of the Red Sea&quot; despite Marcel&#x27;s efforts",
+      "To illustrate how Marcel and the salon judges have attempted to arrive at a compromise"
+    ],
+    "answer": "[\"A \\u2014 To describe the actions resulting from Marcel's high regard for \\\"Passage of the Red Sea\\\"\"]",
+    "rationale": "Step 1: Analyze Marcel&#x27;s perspective. The passage begins by establishing Marcel&#x27;s extremely high opinion of his own work, &quot;The Passage of the Red Sea.&quot; He views it as a worthy companion to the famous masterpiece &quot;Wedding of Cana.&quot; Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Connect opinion to actions. The structural hinge is &quot;Accordingly&quot; — because Marcel rates the picture so highly, he keeps resubmitting it each year, and then disguises it (modifying details, changing the title) to slip past the jury. Opinion → consequent behavior is the shape of the whole passage. Step 3: Eliminate B. The text never describes the picture&#x27;s features — we learn nothing about its composition or subject beyond the title. It also never says this is his &quot;best-known&quot; picture. Step 4: Eliminate C. The passage says the jury seems to have &quot;adopted a policy of exclusion&quot; toward the painting, but it never explains why they reject it. The reasons are absent; only Marcel&#x27;s countermeasures are described. Step 5: Eliminate D. There is no compromise. Marcel is deceiving the examiners (&quot;throw the examiners off the track&quot;), and the judges are not portrayed as negotiating at all — the relationship is adversarial and one-sided. Step 6: Confirm A. A captures both halves: Marcel&#x27;s high regard (his settled opinion that it rivals the &quot;Wedding of Cana&quot;) and the resulting actions (annual resubmission plus cosmetic disguise). That is exactly the passage&#x27;s arc. Reading &amp; Writing · Medium · Craft and Structure · Text Structure and Purpose",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781a596edda59644045f1",
+    "section": "reading & writing",
+    "domain": "Information and Ideas",
+    "skill": "",
+    "difficulty": "Hard",
+    "passage": "Passage Frequently, scientists speak of the deep reaches of the world&#x27;s oceans as largely unexplored ecosystems. However, biomes subjected to similarly incomplete investigation exist below ground level, starting with the stratum surrounding the roots of plants—the rhizosphere. Biologist Karen Lloyd, in a series of 2018 comments, observed that exploring the rhizosphere and closely adjacent regions is akin to &quot;finding a whole new reservoir of life on Earth,&quot; given that the organisms within these subsurface strata represent both a high level of microbial biodiversity and a group of behaviors, such as the extended dormancy that some archaea microbes enter into to survive for thousands of years, frequently unparalleled in other environments. Question What does the text suggest about scientists&#x27; current knowledge of the rhizosphere?",
+    "question": "Passage Frequently, scientists speak of the deep reaches of the world&#x27;s oceans as largely unexplored ecosystems. However, biomes subjected to similarly incomplete investigation exist below ground level, starting with the stratum surrounding the roots of plants—the rhizosphere. Biologist Karen Lloyd, in a series of 2018 comments, observed that exploring the rhizosphere and closely adjacent regions is akin to &quot;finding a whole new reservoir of life on Earth,&quot; given that the organisms within these subsurface strata represent both a high level of microbial biodiversity and a group of behaviors, such as the extended dormancy that some archaea microbes enter into to survive for thousands of years, frequently unparalleled in other environments. Question What does the text suggest about scientists&#x27; current knowledge of the rhizosphere?",
+    "options": [
+      "Despite recent initiatives to more effectively catalogue the biodiversity of the rhizosphere, biome-specific behaviors such as extended dormancy remain difficult to explain.",
+      "Despite the similarly incomplete documentation of deep ocean ecosystems and of the rhizosphere, the latter of these environments could be much easier to comprehensively examine.",
+      "Scientists have discovered rhizosphere organisms that exhibit behaviors that are rare in other ecosystems.",
+      "Scientists have yet to categorize the full range of rhizosphere microorganisms despite exhaustively documenting rhizosphere-adjacent plant species."
+    ],
+    "answer": "[\"C \\u2014 Scientists have discovered rhizosphere organisms that exhibit behaviors that are rare in other ecosystems.\"]",
+    "rationale": "Choice C is the best answer because the text directly states that the rhizosphere and nearby regions contain a &quot;high level of microbial biodiversity&quot; and a &quot;group of behaviors&quot; that are &quot;frequently unparalleled in other environments.&quot; The specific example provided (the extended dormancy of certain archaea microbes that allows them to survive for thousands of years) supports the idea that scientists have identified behaviors in this subterranean biome that are rare… [explanation truncated]",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781a7839bc8fa9c92932f",
+    "section": "reading & writing",
+    "domain": "Information and Ideas",
+    "skill": "",
+    "difficulty": "Hard",
+    "passage": "Passage This text is adapted from Anne Brontë&#x27;s 1846 poem &quot;Memory.&quot; Sweet Memory! ever smile on me; Nature&#x27;s chief beauties spring from thee; Oh, still thy tribute bring Still make the golden crocus shine Among the flowers the most divine, The glory of the spring. Still in the wallflower&#x27;s fragrance dwell; And hover round the slight bluebell, My childhood&#x27;s darling flower. Smile on the little daisy still, The buttercup&#x27;s bright goblet fill With all thy former power. Question Which choice best states the main idea of the text?",
+    "question": "Passage This text is adapted from Anne Brontë&#x27;s 1846 poem &quot;Memory.&quot; Sweet Memory! ever smile on me; Nature&#x27;s chief beauties spring from thee; Oh, still thy tribute bring Still make the golden crocus shine Among the flowers the most divine, The glory of the spring. Still in the wallflower&#x27;s fragrance dwell; And hover round the slight bluebell, My childhood&#x27;s darling flower. Smile on the little daisy still, The buttercup&#x27;s bright goblet fill With all thy former power. Question Which choice best states the main idea of the text?",
+    "options": [
+      "Memories of pleasant landscapes grow more vivid over time.",
+      "Different flowers are known to symbolize specific emotions.",
+      "Childhood reminiscences can inspire unexpected hope.",
+      "Recollections can intensify a person&#x27;s experience of nature."
+    ],
+    "answer": "[\"D \\u2014 Recollections can intensify a person\\u2019s experience of nature.\"]",
+    "rationale": "Choice D is the best answer because, while much of the passage focuses on the speaker&#x27;s appreciation for the natural world, she begins by connecting her appreciation of the natural world to how it is connected to memories of the past. The speaker declares that &quot;Sweet Memory! ever smile on me;/Nature&#x27;s chief beauties spring from thee,&quot; revealing that experiences of the natural world are more powerful when nature evokes personal recollections. [explanation truncated]",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781afa804c8d41a6a14c7",
+    "section": "reading & writing",
+    "domain": "Information and Ideas",
+    "skill": "",
+    "difficulty": "Easy",
+    "passage": "Passage This text is adapted from Oscar Wilde&#x27;s 1878 poem &quot;Ravenna.&quot; The title refers to an Italian city famous as a cultural center. The white road rang beneath my horse&#x27;s feet, And musing on Ravenna&#x27;s ancient name, I watched the day till, marked with wounds of flame, The turquoise sky to burnished gold was turned. O how my heart with boyish passion burned, When far away across the sedge and mere I saw that Holy City rising clear, Crowned with her crown of towers!—On and on I galloped, racing with the setting sun, And ere the crimson after-glow was passed, I stood within Ravenna&#x27;s walls at last! Question Which choice best states the main idea of the text?",
+    "question": "Passage This text is adapted from Oscar Wilde&#x27;s 1878 poem &quot;Ravenna.&quot; The title refers to an Italian city famous as a cultural center. The white road rang beneath my horse&#x27;s feet, And musing on Ravenna&#x27;s ancient name, I watched the day till, marked with wounds of flame, The turquoise sky to burnished gold was turned. O how my heart with boyish passion burned, When far away across the sedge and mere I saw that Holy City rising clear, Crowned with her crown of towers!—On and on I galloped, racing with the setting sun, And ere the crimson after-glow was passed, I stood within Ravenna&#x27;s walls at last! Question Which choice best states the main idea of the text?",
+    "options": [
+      "The speaker&#x27;s journey to Ravenna has been interrupted.",
+      "After being impressed by Ravenna from a distance, the speaker reaches the city.",
+      "After dreaming about Ravenna, the speaker sets out to see the city in person.",
+      "The speaker feels unable to describe Ravenna&#x27;s beauty."
+    ],
+    "answer": "[\"B \\u2014 After being impressed by Ravenna from a distance, the speaker reaches the city.\"]",
+    "rationale": "Step 1: Track the speaker&#x27;s journey. The speaker is traveling by horse toward the city of Ravenna. As the sun sets, the speaker views the city from a distance with great excitement, described as &quot;boyish passion.&quot; Step 2: Note the successful arrival. The speaker continues to gallop &quot;on and on&quot; until finally reaching the destination just as the sun&#x27;s glow fades. Step 3: Eliminate option A. Choice A is incorrect because the speaker explicitly states that they &quot;stood within Ravenna&#x27;s walls at last,&quot; proving the journey was completed rather than interrupted. Step 4: Confirm the correct option. Therefore, the main idea is that the speaker sees the city from a distance and then successfully arrives, which is accurately reflected in choice B. Source: OnePrep explanation. Reading &amp; Writing · Easy · Information and Ideas · Central Ideas and Details",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781b5b465c93e77e1ec2b",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "",
+    "difficulty": "Hard",
+    "passage": "Passage (no passage) Question f(x) = 8,000(0.81)^(x/6) The function f gives the value, in dollars, of a vehicle after x months of use. If the value of the vehicle decreases each year by p% of its value the preceding year, what is the value of p?",
+    "question": "Passage (no passage) Question f(x) = 8,000(0.81)^(x/6) The function f gives the value, in dollars, of a vehicle after x months of use. If the value of the vehicle decreases each year by p% of its value the preceding year, what is the value of p?",
+    "options": [
+      "9",
+      "19",
+      "34",
+      "81"
+    ],
+    "answer": "[\"C \\u2014 34\"]",
+    "rationale": "Explanation written by Claude. Step 1: Identify what the base and the exponent mean. In f(x) = 8,000(0.81)^(x/6), the variable x is measured in months . The exponent x/6 increases by 1 every 6 months, so 0.81 is the factor by which the value is multiplied per 6 months , not per year. Step 2: Convert to a yearly factor. One year = 12 months, so the exponent grows by 12/6 = 2. The yearly multiplier is Step 3: Turn the retained fraction into a percent decrease. Keeping 0.6561 of the value means losing Rounded to the nearest whole number, p = 34. Answer C. Step 4: Rule out the traps. B (19) — computes 1 − 0.81 = 19%. This is the decrease per 6-month period, not per year. It ignores the /6 in the exponent entirely. This is the single most common trap on this item. D (81) — reads 0.81 as the percent lost rather than the fraction retained . The base of an exponential in this form is always the multiplier that survives, so 0.81 means 81% remains and 19% is lost. A (9) — roughly half of 19; it comes from taking the 19% figure and dividing by a period count instead of compounding. Percent change never scales linearly across periods; it compounds, which is why the annual figure (34%) is more than 19%, not less. Rule to carry forward: with b^(x/k), the base b applies once per k units of x. To get the rate per unit-of-time T, raise b to (T/k) first, then subtract from 1. Math · Hard · Advanced Math · Nonlinear functions",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781b597c6eb3f1f6bf605",
+    "section": "reading & writing",
+    "domain": "Standard English Conventions",
+    "skill": "",
+    "difficulty": "Hard",
+    "passage": "Passage Located in Denmark, the Samsø Labyrinten maze is notable both for its record-setting proportions and for its judicious use of natural resources. The attraction itself is large _ ten full-sized soccer fields could fit inside it, and the site of this greenery-based maze—Samsø Island—relies on wind power for energy production. Question Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question": "Passage Located in Denmark, the Samsø Labyrinten maze is notable both for its record-setting proportions and for its judicious use of natural resources. The attraction itself is large _ ten full-sized soccer fields could fit inside it, and the site of this greenery-based maze—Samsø Island—relies on wind power for energy production. Question Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "enough,",
+      "enough, that",
+      "enough",
+      "enough that"
+    ],
+    "answer": "[\"D \\u2014 enough that\"]",
+    "rationale": "Step 1: Analyze the relationship. The sentence is describing the size of the maze by providing a result: the fact that ten soccer fields can fit inside it. We need to connect the adjective large to the result clause ten full-sized soccer fields could fit inside it using the correct grammatical structure. Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Name what the blank must do. English expresses &quot;degree + consequence&quot; with the fixed pair so … that or enough … that . The word that is a subordinating conjunction here: it turns the following independent clause into a subordinate result clause attached to enough . Without it, two independent clauses sit side by side with no connector. Step 3: Eliminate C. &quot;is large enough ten full-sized soccer fields could fit inside it&quot; — nothing links the two clauses. Run-on (fused sentence). Step 4: Eliminate A. &quot;is large enough, ten full-sized soccer fields could fit inside it&quot; — a comma alone cannot join two independent clauses. Comma splice. Step 5: Eliminate B. &quot;enough, that&quot; has the right connector but punctuates it wrongly. A subordinating that introducing a required complement is never separated from the word it completes by a comma — the result clause is restrictive, not parenthetical. Step 6: Confirm D. &quot;is large enough that ten full-sized soccer fields could fit inside it&quot; — enough that correctly subordinates the result clause with no stray punctuation, and the rest of the sentence continues with &quot;and the site … relies on wind power.&quot; Rule to carry forward: when a blank sits between a degree word ( so, such, enough ) and a full clause stating the consequence, the answer is the version with that and no comma. Reading &amp; Writing · Hard · Standard English Conventions · Boundaries",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781b687b7fad3ed584e74",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage (no passage) Question 49x² + kx + 36 = 0 In the given equation, k is a constant. For which of the following values of k will the equation have more than one real solution?",
+    "question": "Passage (no passage) Question 49x² + kx + 36 = 0 In the given equation, k is a constant. For which of the following values of k will the equation have more than one real solution?",
+    "options": [
+      "−90",
+      "−84",
+      "20",
+      "80"
+    ],
+    "answer": "[\"A \\u2014 \\u221290\"]",
+    "rationale": "Explanation written by Claude. Step 1: Translate &quot;more than one real solution&quot; into a condition. For ax² + bx + c = 0, the number of real solutions is governed by the discriminant D = b² − 4ac: D &gt; 0 → two distinct real solutions D = 0 → exactly one real solution (a double root) D &lt; 0 → no real solutions &quot;More than one&quot; means strictly two, so we need D &gt; 0 . Step 2: Compute the threshold. Here a = 49, c = 36, b = k: So the equation has two real solutions exactly when k &lt; −84 or k &gt; 84. Step 3: Test each choice against |k| &gt; 84. A: k = −90 → |−90| = 90 &gt; 84. ✓ D = 8100 − 7056 = 1044 &gt; 0. Two real solutions. Correct. B: k = −84 → |−84| = 84, which is not greater than 84. D = 7056 − 7056 = 0, a perfect square trinomial (7x + 6)² = 0 with the single root x = −6/7. Exactly one solution — this is the trap, since it satisfies the boundary but the question asked for more than one. C: k = 20 → 400 − 7056 = −6656 &lt; 0. No real solutions. D: k = 80 → 6400 − 7056 = −656 &lt; 0. No real solutions. Close to the threshold but still short — 84, not 80, is the cutoff. Rule to carry forward: &quot;more than one real solution&quot; = strict inequality D &gt; 0. Any choice that makes D exactly 0 is a deliberate trap, and negative k values count just as well as positive ones because the discriminant squares b. Math · Medium · Advanced Math · Nonlinear equations in one variable and systems of equations in two variables",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781b98957dbf343f3addd",
+    "section": "reading & writing",
+    "domain": "Information and Ideas",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage Poetry embraced portrayals of awe-inspiring, momentous, and intimidating experiences of nature at the height of the nineteenth century Romantic Era, only to rediscover such &quot;sublime&quot; experiences in a much different context—the Postmodern twentieth century. Exemplary here is Sylvia Plath&#x27;s 1962 poem &quot;Blackberrying.&quot; Here, the text&#x27;s speaker begins by picking blackberries in a somewhat unassuming manner. Then, the poem shifts emphasis, as the speaker moves towards the sea and observes an impersonal &quot;great space&quot; opening in nature—exactly the sort of daunting impression that Romanticism associated with the sublime. Question Which choice best states the main idea of the text?",
+    "question": "Passage Poetry embraced portrayals of awe-inspiring, momentous, and intimidating experiences of nature at the height of the nineteenth century Romantic Era, only to rediscover such &quot;sublime&quot; experiences in a much different context—the Postmodern twentieth century. Exemplary here is Sylvia Plath&#x27;s 1962 poem &quot;Blackberrying.&quot; Here, the text&#x27;s speaker begins by picking blackberries in a somewhat unassuming manner. Then, the poem shifts emphasis, as the speaker moves towards the sea and observes an impersonal &quot;great space&quot; opening in nature—exactly the sort of daunting impression that Romanticism associated with the sublime. Question Which choice best states the main idea of the text?",
+    "options": [
+      "Like Romantic Era poets, Postmodern poets such as Sylvia Plath emphasized the sublime.",
+      "Plath&#x27;s &quot;Blackberrying&quot; enters into an intentional contrast with some Romantic Era poetry.",
+      "A dramatic shift in tone occurs as the poem Blackberrying progresses.",
+      "Plath&#x27;s poetry as a whole depicts everyday events as disorienting."
+    ],
+    "answer": "[\"A \\u2014 Like Romantic Era poets, Postmodern poets such as Sylvia Plath emphasized the sublime.\"]",
+    "rationale": "Step 1: Identify the core claim. The passage begins by establishing a connection between two different literary eras: the nineteenth-century Romantic Era and the Postmodern twentieth century. It notes that Postmodern poetry &quot;rediscovered&quot; the Romantic concept of the sublime (awe-inspiring or daunting nature). Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Note the structural role of the example. &quot;Exemplary here is Sylvia Plath&#x27;s 1962 poem&quot; signals that everything after it is evidence for the opening claim, not a new claim. The final clause closes the loop explicitly: the &quot;great space&quot; is &quot;exactly the sort of daunting impression that Romanticism associated with the sublime.&quot; The passage&#x27;s argument is continuity across eras, not contrast. Step 3: Eliminate B. Wrong polarity. B says Plath contrasts with Romantic poetry; the passage says she rediscovers the same sublime. The only contrast mentioned is of context (&quot;a much different context&quot;), not of aesthetic aim. Step 4: Eliminate C. True but too narrow. The tonal shift from berry-picking to &quot;great space&quot; is a supporting detail inside the example. A main-idea answer must cover the era-to-era claim in the first sentence, which C never touches. Step 5: Eliminate D. Out of scope and overreaching. The passage discusses one 1962 poem, not &quot;Plath&#x27;s poetry as a whole,&quot; and never characterizes everyday events as disorienting — the daunting impression comes from the sea and open space, not the ordinary act of picking blackberries. Step 6: Confirm A. A states both halves of the passage: Postmodern poets (Plath) emphasized the sublime, like the Romantics. That is the claim the example exists to prove. Rule to carry forward: on main-idea questions, the answer must match the sentence the example is serving — an option describing only what happens inside the example (like C) is a detail, and an option flipping the relationship (like B) is a polarity trap. Reading &amp; Writing · Medium · Information and Ideas · Central Ideas and Details",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781ba86bfe1e64b2b56d4",
+    "section": "reading & writing",
+    "domain": "Information and Ideas",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage Because goats will readily consume a large number of different types of plants, landscaping services that utilize goats to clear unwanted vegetation have gained popularity. Services of this sort vary considerably in terms of pricing and speed of completion: _ Question Which choice uses relevant and accurate information from the table to complete the statement?",
+    "question": "Passage Because goats will readily consume a large number of different types of plants, landscaping services that utilize goats to clear unwanted vegetation have gained popularity. Services of this sort vary considerably in terms of pricing and speed of completion: _ Question Which choice uses relevant and accurate information from the table to complete the statement?",
+    "options": [
+      "one acre in a residential area can be cleared with roughly 25 goats, while 40 goats are needed for standard brush clearing within the same timeframe.",
+      "the number of goats involved in a project differs depending on whether a &quot;small residential,&quot; &quot;standard brush clearing,&quot; or &quot;rapid clearing&quot; landscaping service is being hired.",
+      "under some circumstances, 40 goats can clear an acre of land in five to seven days.",
+      "&quot;rapid clearing&quot; goat landscaping can cost three times as much as &quot;small residential&quot; services and can involve more than five times as many goats."
+    ],
+    "answer": "[\"D \\u2014 \\u201crapid clearing\\u201d goat landscaping can cost three times as much as \\u201csmall residential\\u201d services and can involve more than five times as many goats.\"]",
+    "rationale": "Step 1: Analyze the lead-in. The sentence we need to complete states that goat landscaping services &quot;vary considerably in terms of pricing and speed of completion.&quot; We should look for an answer choice that compares different service types and provides accurate data from the table to illustrate this variation. Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Set the two tests. Every choice must clear both bars: (a) accurate — it must not misstate the table; and (b) relevant — it must actually illustrate variation in pricing and speed , which is what the colon promises. Step 3: Eliminate A — inaccurate. A claims 25 goats (residential) and 40 goats (standard brush clearing) work &quot;within the same timeframe.&quot; The table says the opposite: residential takes 10–14 days per acre, standard brush clearing 5–7 days. The timeframes are explicitly different, which is the whole point of the sentence. Step 4: Eliminate B — accurate but irrelevant. B is true per the table, but it only reports that goat counts differ. It says nothing about pricing or speed, so it fails to support the claim the colon sets up. It also just restates the table&#x27;s structure without giving any figures. Step 5: Eliminate C — accurate but not a comparison. 40 goats clearing an acre in 5–7 days matches the Standard Brush Clearing row exactly. But a single data point cannot demonstrate that services &quot;vary considerably&quot; — you need at least two service types set against each other. Also silent on price. Step 6: Confirm D. D compares the two extreme rows and hits both required dimensions: Price: Rapid Clearing is $3,000+ vs. Small Residential $800–$1,200. $3,000 ÷ $1,000 ≈ 3, so &quot;three times as much&quot; is supported. Goats: 100+ vs. 20–25. 100 ÷ 20 = 5, so &quot;more than five times as many&quot; is supported. Both figures are hedged with &quot;can,&quot; which matches the table&#x27;s open-ended &quot;$3,000+&quot; and &quot;100+&quot; entries. Rule to carry forward: on table/graph completion questions, first read the clause before the blank and list the variables it names. A choice that is factually true but discusses a different variable is the most common wrong answer, not a careless one. Estimated Project Statistics for a Goat Landscaping Service Classification Days required per acre Price (USD) per acre Number of goats Small Residential 10–14 Days $800–$1,200 20–25 Goats Standard Brush Clearing 5–7 Days $1,400–$2,000 40–50 Goats Rapid Clearing 1–3 Days $3,000+ 100+ Goats Reading &amp; Writing · Medium · Information and Ideas · Command of Evidence",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781bab9d9ca0f3d4a1aa6",
+    "section": "reading & writing",
+    "domain": "Standard English Conventions",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage When river ecologists assess how pollutants alter freshwater mussel behavior, they often introduce controlled chemical stimuli to isolate specific stress responses. In a recent experiment, Dr. Maya Ellsworth of the University of Minnesota incorporated the food-grade _ into test tanks to evaluate whether trace additives that normally pass unnoticed in waterways might nonetheless affect mussels&#x27; ability to clamp their shells under sudden environmental shifts. Question Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question": "Passage When river ecologists assess how pollutants alter freshwater mussel behavior, they often introduce controlled chemical stimuli to isolate specific stress responses. In a recent experiment, Dr. Maya Ellsworth of the University of Minnesota incorporated the food-grade _ into test tanks to evaluate whether trace additives that normally pass unnoticed in waterways might nonetheless affect mussels&#x27; ability to clamp their shells under sudden environmental shifts. Question Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "preservative sodium benzoate",
+      "preservative, sodium benzoate,",
+      "preservative sodium benzoate,",
+      "preservative, sodium benzoate"
+    ],
+    "answer": "[\"A \\u2014 preservative sodium benzoate\"]",
+    "rationale": "Step 1: Analyze the noun phrase. The sentence discusses a specific chemical substance: sodium benzoate. In the phrase &quot;the food-grade preservative sodium benzoate,&quot; the name sodium benzoate specifies which &quot;food-grade preservative&quot; is being used. This is called a restrictive appositive. Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Apply the restrictive/non-restrictive rule. A restrictive appositive — one that narrows a general noun down to a particular referent — takes no commas. A non-restrictive appositive (extra, droppable information) is fenced off with a pair of commas. &quot;Food-grade preservative&quot; is generic; there are many. The name is doing identifying work, so it is restrictive and takes no punctuation. Step 3: Check the sentence frame. The blank sits inside &quot;incorporated the food-grade _ into test tanks.&quot; The noun phrase is the direct object of incorporated and is immediately followed by the prepositional phrase into test tanks . Nothing may separate a verb from its object, or the object from the preposition that completes the thought. Step 4: Eliminate C and B. Both end the blank with a comma, cutting the direct object off from &quot;into test tanks&quot;: &quot;incorporated the food-grade preservative sodium benzoate, into test tanks.&quot; A comma never separates an object from the prepositional phrase that follows it. B compounds the error by also inserting an opening comma. Step 5: Eliminate D. &quot;the food-grade preservative, sodium benzoate into test tanks&quot; opens a non-restrictive appositive but never closes it. Paired commas must come in twos; a single leading comma leaves the sentence unbalanced. (Even if it were closed, the appositive is restrictive here, so commas would be wrong regardless.) Step 6: Confirm A. &quot;incorporated the food-grade preservative sodium benzoate into test tanks&quot; — clean noun phrase, no punctuation intruding between the object and its preposition. Rule to carry forward: name-after-category (&quot;the poet Sylvia Plath,&quot; &quot;the preservative sodium benzoate&quot;) is restrictive → zero commas. Also, if a choice adds one comma but not its partner, it is wrong on structure alone. Reading &amp; Writing · Medium · Standard English Conventions · Boundaries",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781c2ab2dfa1e270ddf06",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage The following text is adapted from Christina Rossetti&#x27;s 1876 poem &quot;Twilight Calm.&quot; One by one the flowers close, Lily and dewy rose Shutting their tender petals from the moon: The grasshoppers are still; but not so soon Are still the noisy crows. The dormouse squats and eats Choice little dainty bits Beneath the spreading roots of a broad lime; Nibbling his fill he stops from time to time And listens where he sits. Question As used in the text, what does the word &quot;bits&quot; most nearly mean?",
+    "question": "Passage The following text is adapted from Christina Rossetti&#x27;s 1876 poem &quot;Twilight Calm.&quot; One by one the flowers close, Lily and dewy rose Shutting their tender petals from the moon: The grasshoppers are still; but not so soon Are still the noisy crows. The dormouse squats and eats Choice little dainty bits Beneath the spreading roots of a broad lime; Nibbling his fill he stops from time to time And listens where he sits. Question As used in the text, what does the word &quot;bits&quot; most nearly mean?",
+    "options": [
+      "Examples",
+      "Morsels",
+      "Moments",
+      "Extracts"
+    ],
+    "answer": "[\"B \\u2014 Morsels\"]",
+    "rationale": "Step 1: Analyze the context. The text describes a dormouse that squats and eats something described as &quot;Choice little dainty bits.&quot; The next lines mention the dormouse &quot;Nibbling his fill,&quot; which strongly suggests that bits refers to small pieces of food. Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Define what the blank demands. Substitute into the line: &quot;The dormouse squats and eats choice little dainty ___.&quot; The word must name a physical, edible thing, and the modifiers choice , little , and dainty all point to something small and appetizing. Anything that is not food fails immediately. Step 3: Eliminate A — Examples. &quot;Bits&quot; can mean instances in ordinary usage (&quot;bits of evidence&quot;), but a dormouse cannot eat an example. Right dictionary entry, wrong sense for this context. Step 4: Eliminate C — Moments. &quot;Bits&quot; does mean short spans of time (&quot;wait a bit&quot;), and the poem even uses &quot;from time to time&quot; two lines later, which makes this tempting. But eats takes a physical object, and &quot;dainty moments&quot; is not something to nibble. This is the trap for readers who match the nearby word time instead of the governing verb. Step 5: Eliminate D — Extracts. An extract is a portion drawn out of a larger source — a passage from a book or a concentrated substance (vanilla extract). Neither sense fits scraps a mouse forages under a lime tree; nothing is being drawn out of anything. Right general family (a part of a whole) but wrong register and wrong process. Step 6: Confirm B — Morsels. A morsel is precisely a small, tasty piece of food. It carries the same connotation as choice and dainty and pairs naturally with nibbling . Rule to carry forward: on words-in-context, let the verb pick the sense. Here eats forces a concrete edible noun, which kills three of four choices before you weigh nuance. Reading &amp; Writing · Medium · Craft and Structure · Words in Context",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781c3923aeed7bf8124a6",
+    "section": "reading & writing",
+    "domain": "Expression of Ideas",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage Protein-based treatments at the cellular level guide the development of measures to mitigate problems such as heart disease. _ John Elrod and Joanne Garbincius have studied the mitochondrial proteins NCLX and TMEM65 not simply for the sake of intellectual interest but because understanding these proteins could help to prevent heart failure. Question Which choice completes the text with the most logical transition?",
+    "question": "Passage Protein-based treatments at the cellular level guide the development of measures to mitigate problems such as heart disease. _ John Elrod and Joanne Garbincius have studied the mitochondrial proteins NCLX and TMEM65 not simply for the sake of intellectual interest but because understanding these proteins could help to prevent heart failure. Question Which choice completes the text with the most logical transition?",
+    "options": [
+      "More broadly speaking,",
+      "By this logic,",
+      "On the other hand,",
+      "Rather,"
+    ],
+    "answer": "[\"B \\u2014 By this logic,\"]",
+    "rationale": "Step 1: Analyze the relationship. The first sentence states a general principle: protein-based treatments are used to mitigate heart disease. The second sentence provides a specific example: researchers study two proteins specifically because they could help prevent heart failure. The second sentence directly applies the logic introduced in the first. Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Name the required relationship. General principle → specific case that follows from it. That is consequence / application , not contrast, not broadening, not correction. The transition must signal &quot;and so, following that principle…&quot; Step 3: Eliminate A — More broadly speaking. Wrong direction of movement. &quot;More broadly&quot; signals zooming out to a wider claim, but sentence 2 zooms in to two named proteins and two named researchers. Movement from general to specific cannot be flagged as a widening. Step 4: Eliminate C — On the other hand. Wrong polarity. This signals contrast or an opposing consideration, but nothing in sentence 2 opposes sentence 1 — the researchers&#x27; motive (&quot;could help to prevent heart failure&quot;) is exactly what sentence 1 predicts. Step 5: Eliminate D — Rather. Rather corrects or replaces a preceding statement (&quot;not X; rather, Y&quot;). Sentence 1 is not being retracted or corrected. Note the passage already contains its own &quot;not simply … but&quot; correction inside sentence 2; Rather at the front would wrongly aim that corrective force at sentence 1. Step 6: Confirm B — By this logic. It marks sentence 2 as an application of the reasoning just established: because protein work at the cellular level guides heart-disease treatment, these two researchers pursue these two proteins for therapeutic reasons. Rule to carry forward: classify the two sentences&#x27; relationship before looking at the choices, then reject on category (contrast / correction / broadening / application). Transitions questions are almost always decided by category, not by which one &quot;sounds smoother.&quot; Reading &amp; Writing · Medium · Expression of Ideas · Transitions",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781c6afc0ffb9b55fd274",
+    "section": "reading & writing",
+    "domain": "Expression of Ideas",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage When it began operations in 1869, the Transcontinental Railroad could send a train across the contiguous United States—starting in New York and ending in San Francisco—in just over three days, at least in theory. _ mechanical failures and the need for frequent transfers could slow progress across the continent considerably: some travelers, particularly those who did not pay premium rates, could take almost two weeks to cross the country. Question Which choice completes the text with the most logical transition?",
+    "question": "Passage When it began operations in 1869, the Transcontinental Railroad could send a train across the contiguous United States—starting in New York and ending in San Francisco—in just over three days, at least in theory. _ mechanical failures and the need for frequent transfers could slow progress across the continent considerably: some travelers, particularly those who did not pay premium rates, could take almost two weeks to cross the country. Question Which choice completes the text with the most logical transition?",
+    "options": [
+      "For instance,",
+      "As noted,",
+      "In actuality,",
+      "Likewise,"
+    ],
+    "answer": "[\"C \\u2014 In actuality,\"]",
+    "rationale": "Choice C is the best answer because &quot;In actuality&quot; indicates that the long transit times of the Transcontinental Railroad did not align with the short theoretical transit times. This transition properly signals an opposing relationship. Choice A is incorrect because &quot;For instance&quot; introduces a support relationship and wrongly indicates that the long transit times of the Transcontinental Railroad are examples of the theoretical transit times. Choice B is incorrect because &quot;As noted&quot; introduces a reiteration relationship and wrongly indicates that the long transit times of the Transcontinental Railroad are a restatement of the theoretical transit times. Choice D is incorrect because &quot;Likewise&quot; introduces a similarity relationship and wrongly indicates that the long transit times of the Transcontinental Railroad are similar to the theoretical transit times.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781cca0e7e0e632d0ad34",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "",
+    "difficulty": "Hard",
+    "passage": "Passage The following text is adapted from Alexander Pope&#x27;s 1711 poem &quot;An Essay on Criticism.&quot; Nature to all things fixed the limits fit, And wisely curbed proud man&#x27;s pretending wit. As on the land while here the ocean gains, In other parts it leaves wide sandy plains; Thus in the soul while memory prevails, The solid power of understanding fails. Question As used in the text, what does the word &quot;gains&quot; most nearly mean?",
+    "question": "Passage The following text is adapted from Alexander Pope&#x27;s 1711 poem &quot;An Essay on Criticism.&quot; Nature to all things fixed the limits fit, And wisely curbed proud man&#x27;s pretending wit. As on the land while here the ocean gains, In other parts it leaves wide sandy plains; Thus in the soul while memory prevails, The solid power of understanding fails. Question As used in the text, what does the word &quot;gains&quot; most nearly mean?",
+    "options": [
+      "Improves",
+      "Encroaches",
+      "Multiplies",
+      "Profits"
+    ],
+    "answer": "[\"B \\u2014 Encroaches\"]",
+    "rationale": "Step 1: Analyze the physical context. The poem uses a physical analogy to explain how human faculties work. In the line &quot;while here the ocean gains,&quot; the text describes a situation where the ocean moves into space previously occupied by the land, contrasted with it leaving &quot;wide sandy plains&quot; elsewhere. Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Read the structural cue. The whole passage is built on a zero-sum trade-off: &quot;while here the ocean gains... In other parts it leaves wide sandy plains,&quot; and then &quot;while memory prevails, / The solid power of understanding fails.&quot; The word &quot;while&quot; plus the paired opposites tell you that what one side gets, the other side loses. So &quot;gains&quot; must mean takes territory from something else , not merely gets better . Step 3: Test the choices. A. Improves — wrong sense entirely. The ocean isn&#x27;t getting better in quality; it is expanding over the land. Nothing in the trade-off structure is about improvement. C. Multiplies — right general direction (increase) but wrong mechanism. &quot;Multiplies&quot; suggests the ocean reproduces or increases in quantity on its own; the analogy requires the increase to come at the land&#x27;s expense . D. Profits — a financial/benefit sense of &quot;gains.&quot; Tempting because &quot;gains&quot; commonly means profit, but there is no exchange of value in the poem, only physical encroachment of water onto land. B. Encroaches — exactly the required sense: to advance gradually onto territory belonging to something else. It preserves the zero-sum logic (ocean advances → land becomes sandy plains) and mirrors the second analogy (memory advances → understanding fails). Takeaway rule: in Words-in-Context items, substitute each choice into the sentence and check it against the sentence&#x27;s logical structure (here, a contrast/trade-off), not against the word&#x27;s most common everyday meaning. Reading &amp; Writing · Hard · Craft and Structure · Words in Context",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781cc8c02db48b201c5a3",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "",
+    "difficulty": "Hard",
+    "passage": "Passage The following text is from August Strindberg&#x27;s 1887 play The Father , translated by Edith and Warner Oland. Laura and the Doctor are discussing Laura&#x27;s husband. LAURA: That is just what we fear, too. You see he has sometimes the most extraordinary ideas which, of course, one might expect in a learned man, if they did not have a disastrous effect on the welfare of his whole family. For instance, one of his whims is buying all kinds of things. DOCTOR: That is serious, but what does he buy? LAURA: Whole boxes of books that he never reads. Question As used in the text, what does the word &quot;extraordinary&quot; most nearly mean?",
+    "question": "Passage The following text is from August Strindberg&#x27;s 1887 play The Father , translated by Edith and Warner Oland. Laura and the Doctor are discussing Laura&#x27;s husband. LAURA: That is just what we fear, too. You see he has sometimes the most extraordinary ideas which, of course, one might expect in a learned man, if they did not have a disastrous effect on the welfare of his whole family. For instance, one of his whims is buying all kinds of things. DOCTOR: That is serious, but what does he buy? LAURA: Whole boxes of books that he never reads. Question As used in the text, what does the word &quot;extraordinary&quot; most nearly mean?",
+    "options": [
+      "Legendary",
+      "Indescribable",
+      "Outlandish",
+      "Magnified"
+    ],
+    "answer": "[\"C \\u2014 Outlandish\"]",
+    "rationale": "Section: Reading &amp; Writing · Difficulty: Hard · Domain: Craft and Structure · Skill: Words in Context",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781d591fdd377cffe937c",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "",
+    "difficulty": "Hard",
+    "passage": "Passage Standard classroom demonstrations of the physics behind friction tend to _ direct applications of perpendicular force: surfaces, instead, are configured to merely slip past one another. Not so, however, for new experiments by Liang Peng, Thibault Roch, and colleagues. These researchers are preoccupied with how pressing a sliding surface downward creates points of concentrated tension–-dubbed &quot;asperities&quot;—along with overall frictional force. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "question": "Passage Standard classroom demonstrations of the physics behind friction tend to _ direct applications of perpendicular force: surfaces, instead, are configured to merely slip past one another. Not so, however, for new experiments by Liang Peng, Thibault Roch, and colleagues. These researchers are preoccupied with how pressing a sliding surface downward creates points of concentrated tension–-dubbed &quot;asperities&quot;—along with overall frictional force. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "enervate",
+      "ameliorate",
+      "eschew",
+      "condone"
+    ],
+    "answer": "[\"C \\u2014 eschew\"]",
+    "rationale": "Step 1: Analyze the contrast. The sentence structure uses the phrase &quot;Not so, however&quot; to contrast standard classroom demonstrations with the new experiments by Liang Peng and colleagues. Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Define what the blank demands. Two cues fix the meaning. First, the colon: what follows explains the blank — &quot;surfaces, instead, are configured to merely slip past one another.&quot; The word &quot;instead&quot; signals that the standard demos leave out perpendicular force and substitute pure sliding. Second, &quot;Not so, however, for new experiments... preoccupied with how pressing a sliding surface downward&quot; — the new work does use downward (perpendicular) force, so the standard demos must avoid it. The blank therefore needs a verb meaning &quot;deliberately avoid.&quot; Step 3: Rule out each wrong choice. A. enervate — means to weaken or drain of energy. You enervate a person or an organism, not an &quot;application of force,&quot; and weakening perpendicular force is not the same as omitting it. Wrong meaning and wrong collocation. B. ameliorate — means to make better. Wrong polarity: the contrast requires the demos to lack perpendicular force, not improve it. D. condone — means to tolerate or overlook something objectionable. Wrong polarity again (condoning is a form of accepting) and it wrongly implies perpendicular force is a wrongdoing. C. eschew — means to deliberately abstain from or avoid. Fits the &quot;instead... merely slip past one another&quot; explanation and sets up the &quot;Not so, however&quot; contrast exactly. Takeaway rule: when a colon follows the blank, the clause after the colon defines the blank. Read it first, convert it into a plain-English requirement (&quot;avoids perpendicular force&quot;), then match — don&#x27;t pick on vocabulary vibes. Reading &amp; Writing · Hard · Craft and Structure · Words in Context",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781d78748ce793aaa44c9",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "",
+    "difficulty": "Easy",
+    "passage": "Passage Early reviews of mathematician Sofia Kovalevskaya&#x27;s work focused narrowly on her groundbreaking contributions to differential equations, taking view of her achievements. However, her intellectual legacy spans multiple disciplines, including physics, literature, and advocacy for women&#x27;s education. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "question": "Passage Early reviews of mathematician Sofia Kovalevskaya&#x27;s work focused narrowly on her groundbreaking contributions to differential equations, taking view of her achievements. However, her intellectual legacy spans multiple disciplines, including physics, literature, and advocacy for women&#x27;s education. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "an expansive",
+      "a limited",
+      "an intuitive",
+      "a specialized"
+    ],
+    "answer": "[\"B \\u2014 a limited\"]",
+    "rationale": "Step 1: Identify the contrast. The sentence uses the transition word However to contrast how early reviews focused narrowly on one area with the fact that her legacy actually spans multiple disciplines. This suggests the blank must mean something similar to narrow or restricted . Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Note that the blank is already defined earlier in the same sentence. &quot;Focused narrowly on her groundbreaking contributions to differential equations&quot; is an appositive-style restatement of the blank. The blank describes the reviews&#x27; scope, so the required word is essentially a synonym for &quot;narrow.&quot; Step 3: Rule out each wrong choice. A. an expansive — wrong polarity. &quot;Expansive&quot; means broad and wide-ranging, which contradicts &quot;focused narrowly&quot; and destroys the However contrast. C. an intuitive — out of scope. &quot;Intuitive&quot; describes how a judgment was reached (by instinct rather than analysis), not how wide its scope is. The sentence says nothing about the reviewers&#x27; method. D. a specialized — the classic trap. It is true that the reviews were about a specialty (differential equations), and &quot;specialized&quot; is adjacent in meaning to &quot;narrow.&quot; But &quot;specialized&quot; describes expertise or subject-matter focus as a neutral or even positive attribute, and the noun it modifies here is view of her achievements . The sentence needs a word saying the view of her achievements was incomplete — that is the thing &quot;However&quot; corrects. &quot;A specialized view of her achievements&quot; would not be an error to be corrected. B. a limited — directly means restricted in scope and carries the implication of incompleteness that the However clause then rebuts. Takeaway rule: when two choices are both &quot;narrow-ish,&quot; pick the one whose connotation the contrast sentence actually corrects. Here the second sentence corrects an undercount of her achievements, so the blank must mean incomplete , not merely specific . Reading &amp; Writing · Easy · (domain not listed) · Words in Context",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781d98219c5a356ddf536",
+    "section": "reading & writing",
+    "domain": "Information and Ideas",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage Urban-climate researchers typically attribute cooler nighttime temperatures in wealthier neighborhoods to higher rates of air-conditioning and better home insulation. A new study challenges that assumption by examining districts within a single city that have overlapping building densities but sharply different tree-canopy levels. The researchers argue that tree coverage—not income—is the dominant predictor of nighttime temperature variation after controlling for density. Question Which choice provides the strongest evidence for this conclusion?",
+    "question": "Passage Urban-climate researchers typically attribute cooler nighttime temperatures in wealthier neighborhoods to higher rates of air-conditioning and better home insulation. A new study challenges that assumption by examining districts within a single city that have overlapping building densities but sharply different tree-canopy levels. The researchers argue that tree coverage—not income—is the dominant predictor of nighttime temperature variation after controlling for density. Question Which choice provides the strongest evidence for this conclusion?",
+    "options": [
+      "Although Districts A and C differ dramatically in income and density, their similar tree-canopy levels correspond to nearly identical nighttime temperatures.",
+      "Districts B and D, the two areas with the highest canopy coverage, record the lowest nighttime temperatures despite having income levels that differ by more than $40,000.",
+      "Districts A and B have almost identical incomes and densities, yet their nighttime temperatures diverge by nearly 4°F, mirroring their large gap in tree-canopy coverage.",
+      "Districts C and D share closely matched income levels, but their nighttime temperatures differ by more than 3°F."
+    ],
+    "answer": "[\"C \\u2014 Districts A and B have almost identical incomes and densities, yet their nighttime temperatures diverge by nearly 4\\u00b0F, mirroring their large gap in tree-canopy coverage.\"]",
+    "rationale": "Step 1: Understand the research claim. The researchers argue that tree coverage, rather than income, is the primary factor determining nighttime temperatures, provided that building density is held constant (controlled). Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Convert the claim into a data requirement. The conclusion has two moving parts that must both be satisfied: (1) income and density are held constant — otherwise they remain live alternative explanations; (2) tree canopy varies and temperature varies with it. So the winning choice must name a pair of districts that match on income and density but differ on canopy. Step 3: Test each pair against the table. A. Districts A and C — canopy 12 vs 15 (similar, as claimed) and temps 7.7 vs 7.0 (similar). But income is 45 vs 88 and density 60 vs 40, so both controls are broken. This shows canopy tracking temperature while income differs, which is suggestive, but it does not control density — the study explicitly says &quot;after controlling for density.&quot; Weaker than C. B. Districts B and D — canopy 39 vs 38, incomes 46 vs 90, temps 3.8 vs 3.6. Also shows income doesn&#x27;t matter, but here canopy barely varies, so it demonstrates nothing about canopy&#x27;s effect ; it only rules out income. It supports half the claim. D. Districts C and D — incomes 88 vs 90 (matched), temps 7.0 vs 3.6 (differ by 3.4°F). This is close, but the choice never mentions canopy, so as written it establishes only that income fails to predict temperature — it does not identify tree coverage as the cause. An unstated variable could explain the gap. C. Districts A and B — income 45 vs 46 (matched), density 60 vs 58 (matched), canopy 12 vs 39 (large gap), temp 7.7 vs 3.8 (3.9°F gap). Both confounders are controlled, the proposed cause varies sharply, and the effect varies with it. This is exactly the controlled comparison the conclusion requires. Takeaway rule: for table-based Command of Evidence items supporting a causal claim, look for the row pair that holds the rival variables equal and lets only the claimed variable move. Choices that merely show the rival variable failing (B, D) are incomplete; choices that break a stated control (A) are disqualified. Table: Environmental and Economic Characteristics of Four Urban Districts District Tree Canopy (%) Median Household Income (thousands of $) Building Density (units/acre) Avg Summer Night Temp (°F above rural baseline) A 12 45 60 7.7 B 39 46 58 3.8 C 15 88 40 7.0 D 38 90 42 3.6 Reading &amp; Writing · Medium · (domain not listed) · Command of Evidence",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781dd8d10f71eed2073e5",
+    "section": "reading & writing",
+    "domain": "Standard English Conventions",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage Astronomers analyzing spectral-velocity data from a newly identified exoplanet orbiting a dim red dwarf noted that its jet-stream patterns, though recorded only intermittently during the probe&#x27;s first pass, appeared to exceed the peak wind speeds documented on any previously surveyed world — a finding they argued _ consistent with the fastest atmospheric currents ever measured on an exoplanet. Question Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question": "Passage Astronomers analyzing spectral-velocity data from a newly identified exoplanet orbiting a dim red dwarf noted that its jet-stream patterns, though recorded only intermittently during the probe&#x27;s first pass, appeared to exceed the peak wind speeds documented on any previously surveyed world — a finding they argued _ consistent with the fastest atmospheric currents ever measured on an exoplanet. Question Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "have been",
+      "was",
+      "were",
+      "had been"
+    ],
+    "answer": "[\"B \\u2014 was\"]",
+    "rationale": "Step 1: Identify the subject. To determine the correct verb form, we first need to identify the subject. The verb in the blank refers back to a finding , which is a singular noun. Remaining steps written by Claude (OnePrep&#x27;s were locked). Step 2: Strip the interrupting material. The blank sits in the appositive &quot;— a finding they argued __ consistent with...&quot;. &quot;They argued&quot; is a parenthetical insertion; remove it and the skeleton is &quot;a finding __ consistent with the fastest atmospheric currents.&quot; The subject controlling the blank is therefore the singular a finding — not the plural jet-stream patterns or wind speeds that appear earlier and closer to the blank. Step 3: Rule out each wrong choice. A. have been — plural present-perfect. Fails subject-verb agreement with singular a finding , and the present perfect clashes with the past-tense narration (&quot;noted,&quot; &quot;appeared&quot;). C. were — plural past. This is the trap: it agrees with the nearby plurals &quot;patterns&quot; and &quot;speeds,&quot; which is exactly the misreading the sentence is testing. Wrong subject. D. had been — singular-compatible but wrong tense. The past perfect signals an action completed before another past event. The finding&#x27;s consistency is not prior to the astronomers&#x27; argument; it is simultaneous with it, so the past perfect creates a false sequence. B. was — singular past, agreeing with a finding and matching the past-tense frame of &quot;noted&quot;/&quot;appeared.&quot; Takeaway rule: for subject-verb agreement items, cross out every modifier, appositive, and inserted clause between the subject and the blank, then reread the bare subject + verb. The plural noun sitting right before the blank is almost always the decoy. Reading &amp; Writing · Medium · (domain not listed) · Form, Structure and Sense",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781de9cc3e8ddaa28bcaf",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage (no passage) Question When the quadratic function g is graphed in the xy-plane, where y = g(x), its vertex is (−2, 4). One of the x-intercepts of this graph is (−9/2, 0). What is the other x-intercept of the graph?",
+    "question": "Passage (no passage) Question When the quadratic function g is graphed in the xy-plane, where y = g(x), its vertex is (−2, 4). One of the x-intercepts of this graph is (−9/2, 0). What is the other x-intercept of the graph?",
+    "options": [
+      "(−13/2, 0)",
+      "(0, 0)",
+      "(5/2, 0)",
+      "(1/2, 0)"
+    ],
+    "answer": "[\"D \\u2014 (1/2, 0)\"]",
+    "rationale": "Explanation written by Claude. (OnePrep showed only a menu of locked solution methods: Use Symmetry / Average of Roots / Vertex Form / Check Choices with Symmetry.) Step 1: State the structural fact. A parabola is symmetric about the vertical line through its vertex. With vertex (−2, 4), that axis of symmetry is x = −2. The two x-intercepts are mirror images across that line, so the vertex&#x27;s x-coordinate is the average of the two roots. Step 2: Set up the average. Let the unknown root be r. Then (−9/2 + r) / 2 = −2 Step 3: Solve. −9/2 + r = −4 r = −4 + 9/2 r = −8/2 + 9/2 = 1/2 So the other x-intercept is (1/2, 0) → D . Step 4: Check with distances. The known root −9/2 = −4.5 is 2.5 units left of the axis x = −2. The mirror point must be 2.5 units right: −2 + 2.5 = 0.5 = 1/2. ✓ Why the wrong choices fail: A. (−13/2, 0) = −6.5, which is 4.5 units left of the axis — same side as the given root, so it cannot be the mirror. This is what you get by subtracting 2 from −9/2 instead of reflecting. B. (0, 0) = 0 is only 2 units right of the axis, not 2.5. Also implies g(0) = 0, but a parabola with vertex (−2, 4) opening downward through (−4.5, 0) gives g(0) ≠ 0. C. (5/2, 0) = 2.5 — this uses the distance 2.5 as the coordinate itself rather than measuring 2.5 from the axis. Classic sign/reference-point slip. Takeaway rule: vertex x-coordinate = midpoint of the roots. Whenever a problem gives a vertex and one root, use r₂ = 2·x_vertex − r₁ (here 2(−2) − (−9/2) = −4 + 9/2 = 1/2) — no need to reconstruct the equation. Math · Medium · Advanced Math · Nonlinear functions",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781eba3d1f54387b186e6",
+    "section": "reading & writing",
+    "domain": "Standard English Conventions",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage As tempting as it can be to trace similarities between novelist Haruki Murakami and some of his candid and emotional first-person narrators, the temptation should be _ part because Murakami himself has warned readers that his own life is not meant to be confused with the lives of his most famous characters, such as the narrator of Norwegian Wood. Question Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question": "Passage As tempting as it can be to trace similarities between novelist Haruki Murakami and some of his candid and emotional first-person narrators, the temptation should be _ part because Murakami himself has warned readers that his own life is not meant to be confused with the lives of his most famous characters, such as the narrator of Norwegian Wood. Question Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "resisted: in",
+      "resisted. In",
+      "resisted, in",
+      "resisted; in"
+    ],
+    "answer": "[\"C \\u2014 resisted, in\"]",
+    "rationale": "Step 1: Analyze the sentence structure. The sentence begins with an introductory dependent clause followed by an independent main clause: &quot;the temptation should be [resisted].&quot; The information that follows the blank serves to explain the reason for this resistance. Step 2: Rule out option B (&quot;resisted. In&quot;). A period must separate two complete, independent sentences. The phrase starting with &quot;In part because...&quot; is a dependent fragment and cannot stand alone as its own sentence. Step 3: Rule out option D (&quot;resisted; in&quot;). A semicolon is used to connect two independent clauses that are closely related. Since the text following the punctuation is a dependent fragment, the semicolon is used incorrectly here. Step 4: Confirm option C (&quot;resisted, in&quot;). Option C is correct because it uses a comma to set off the supplementary explanatory phrase from the main clause. While a colon (Option A) can introduce an explanation, it is typically used for a more formal or emphatic introduction; a comma is the standard convention for linking an integrated adverbial modifier like &quot;in part because.&quot; Therefore, the answer is C. Source: OnePrep explanation. Reading &amp; Writing · Medium · Standard English Conventions · Boundaries",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781eb8142c2c6d3e2578a",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "",
+    "difficulty": "Hard",
+    "passage": "Passage Two data sets, each containing 25 integers, are displayed in the histograms below. For each histogram, the first interval represents the frequency of integers greater than or equal to 0 but less than 10, the second interval represents the frequency of integers greater than or equal to 10 but less than 20, and so on. Question What is the smallest possible difference between the mean of data set A and the mean of data set B?",
+    "question": "Passage Two data sets, each containing 25 integers, are displayed in the histograms below. For each histogram, the first interval represents the frequency of integers greater than or equal to 0 but less than 10, the second interval represents the frequency of integers greater than or equal to 10 but less than 20, and so on. Question What is the smallest possible difference between the mean of data set A and the mean of data set B?",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "5"
+    ],
+    "answer": "[\"A \\u2014 0\"]",
+    "rationale": "Explanation written by Claude. (OnePrep showed only a menu of locked solution methods: Possible sum ranges / Construct Equal Totals / Choice Elimination.) Step 1: Recognize what a histogram hides. The bars give only counts per interval , not the individual values. Every integer in a bin is a free choice within that bin&#x27;s range, so each data set has a range of possible totals — and therefore a range of possible means. The question asks for the smallest achievable gap, so the task is to see whether the two ranges overlap. Step 2: Find the range of possible sums for A. Minimum (put every value at the bottom of its bin): 6(0) + 7(10) + 4(20) + 8(30) = 0 + 70 + 80 + 240 = 390 Maximum (every value at the top, i.e. 9, 19, 29, 39): 6(9) + 7(19) + 4(29) + 8(39) = 54 + 133 + 116 + 312 = 615 So sum(A) can be any integer from 390 to 615. Step 3: Find the range of possible sums for B. Minimum: 3(0) + 9(10) + 6(20) + 7(30) = 0 + 90 + 120 + 210 = 420 Maximum: 3(9) + 9(19) + 6(29) + 7(39) = 27 + 171 + 174 + 273 = 645 So sum(B) can be any integer from 420 to 645. Step 4: Compare. The intervals [390, 615] and [420, 645] overlap on [420, 615]. Since raising any single value by 1 raises the total by 1, every integer total inside a set&#x27;s range is attainable. Pick any common total — say 500 for both. Then mean(A) = 500/25 = 20 and mean(B) = 500/25 = 20, difference = 0 . Both sets have the same size (25), so equal sums give equal means. The answer is A, 0 . Why the wrong choices fail: B (1), C (3), and D (5) all assume the means are forced apart. They come from treating each bin as if its values were pinned to the bin midpoint (5, 15, 25, 35), which gives mean(A) = 495/25 = 19.8 and mean(B) = 520/25 = 20.8, a difference of 1 — choice B. That midpoint calculation is a legitimate estimate , but the question says &quot;smallest possible,&quot; which licenses choosing the actual values freely inside each bin. Takeaway rule: when a histogram question says &quot;smallest/largest possible,&quot; never use bin midpoints. Compute the min and max attainable total by pushing every value to the bottom or top of its bin, then check whether the ranges overlap. Watch the bin endpoints: &quot;greater than or equal to 0 but less than 10&quot; means the max value in that bin is 9 for integers, not 10. Two side-by-side bar histograms. Both have y-axis &quot;Frequency&quot; (gridlines at 2, 4, 6, 8, 10) and x-axis &quot;Integer&quot; with tick marks at 0, 10, 20, 30, 40 (four bins, each 10 wide). Interval Data set A frequency Data set B frequency 0 ≤ x &lt; 10 6 3 10 ≤ x &lt; 20 7 9 20 ≤ x &lt; 30 4 6 30 ≤ x &lt; 40 8 7 Total 25 25 Math · Hard · Problem-Solving and Data Analysis · One-variable data: Distributions and measures of center and spread",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781efb81ee0794d02d9be",
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage (no passage) Question A rectangular advertising billboard has an area of \\(192\\) square feet. If the length of the billboard is three times the width, what is the length of the billboard, in feet?",
+    "question": "Passage (no passage) Question A rectangular advertising billboard has an area of \\(192\\) square feet. If the length of the billboard is three times the width, what is the length of the billboard, in feet?",
+    "options": [
+      "\\(48\\)",
+      "\\(24\\)",
+      "\\(64\\)",
+      "\\(8\\)"
+    ],
+    "answer": "[\"B \\u2014 24\"]",
+    "rationale": "Choice B is the best answer. It is given that the billboard is rectangular with an area of 192 square feet. The formula for the area of a rectangle is \\(A = lw\\), where \\(A\\) is the area, \\(l\\) is the length, and \\(w\\) is the width. The problem states that the length is three times the width, so \\(l = 3w\\). Substituting these values into the area formula gives \\(192 = (3w)(w)\\), which simplifies to \\(192 = 3w^2\\). Dividing both sides by 3 yields \\(64 = w^2\\). Taking the square root of both sides gives \\(w = 8\\). The question asks for the length, not the width. Using the relationship \\(l = 3w\\), substitute \\(w = 8\\) to find \\(l = 3(8) = 24\\).",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781f7bcd6e4092d001acc",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage (no passage) Question A rectangular region consists of 4,608 congruent squares, where each square has area m. If the length is 3.2 times the width and the width is x√m, what is the value of x? Round to the nearest integer. Grid-in (student-produced response). Correct answer: 38",
+    "question": "Passage (no passage) Question A rectangular region consists of 4,608 congruent squares, where each square has area m. If the length is 3.2 times the width and the width is x√m, what is the value of x? Round to the nearest integer. Grid-in (student-produced response). Correct answer: 38",
+    "options": [],
+    "answer": "[\"38 (grid-in)\"]",
+    "rationale": "Explanation written by Claude. (OnePrep showed only a menu of locked solution methods: Area Equation / Square Counts.) Step 1: Translate the tiling into side lengths. Each small square has area m, so each square has side length √m. The rectangle is tiled by 4,608 of them, so its total area is 4,608m. Step 2: Express both dimensions. The width is given as x√m — meaning x squares fit across the width. The length is 3.2 times the width, so length = 3.2 · x√m. Step 3: Set up the area equation. Area = length × width = (3.2x√m)(x√m) = 3.2x²·m Set equal to the known area: 3.2x²·m = 4,608m Step 4: Solve for x. Divide both sides by m (m ≠ 0): 3.2x² = 4,608 x² = 4,608 / 3.2 = 1,440 x = √1,440 ≈ 37.947 Rounded to the nearest integer, x = 38 . Step 5: Sanity-check. With x ≈ 37.95, the length is 3.2(37.95) ≈ 121.4 squares, and 37.95 × 121.4 ≈ 4,608 ✓. Note that x is not a whole number here — the problem only asks you to round the final answer, so don&#x27;t force x to be an integer count mid-problem and lose precision. Common traps: Forgetting that side length is √m, not m, and writing area = 3.2x²·m² or 3.2x·m. Dividing 4,608 by 3.2 and stopping at 1,440 without taking the square root. Rounding x² = 1,440 → x = 37 by truncating instead of rounding (37.947 rounds up). Takeaway rule: when a figure is described by a count of unit tiles, convert immediately to area = count × tile area , then write each dimension in terms of the tile side. The variable in the answer is usually a count of tiles along one edge. Math · Medium · Algebra · Systems of two linear equations in two variables",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781fca698e4edab7fc4b5",
+    "section": "reading & writing",
+    "domain": "Information and Ideas",
+    "skill": "",
+    "difficulty": "Hard",
+    "passage": "Passage Lady Susan is a 1794 novel by Jane Austen. In the novel, Lady Susan herself calls attention to a form of ambition that she sees as inadvisable: _ Question Which quotation from Lady Susan most effectively illustrates the claim?",
+    "question": "Passage Lady Susan is a 1794 novel by Jane Austen. In the novel, Lady Susan herself calls attention to a form of ambition that she sees as inadvisable: _ Question Which quotation from Lady Susan most effectively illustrates the claim?",
+    "options": [
+      "&quot;I was so much indulged in my infant years that I was never obliged to attend to anything, and consequently am without the accomplishments which are now necessary.&quot;",
+      "&quot;Not that I am an advocate for the prevailing fashion of acquiring a perfect knowledge of all languages, arts, and sciences. It is throwing time away.&quot;",
+      "&quot;If I am vain of anything, it is of my eloquence. Consideration and esteem as surely follow command of language as admiration waits on beauty, and here I have opportunity enough for the exercise of my talent, as the chief of my time is spent in conversation.&quot;",
+      "&quot;I cannot bear reproaches: my spirits are not so high as to need being repressed. I must endeavour to seek amusement, and fortunately many of my friends are in town.&quot;"
+    ],
+    "answer": "[\"B \\u2014 \\\"Not that I am an advocate for the prevailing fashion of acquiring a perfect knowledge of all languages, arts, and sciences. It is throwing time away.\\\"\"]",
+    "rationale": "Choice B is the best answer because it names a specific form of ambition (&quot;the prevailing fashion of acquiring a perfect knowledge of all languages, arts, and sciences&quot;) and also expresses a distrust and suspicion towards this ambition of acquiring vast amounts of knowledge. Choice A is incorrect because it features an individual deploring a lack of education and accomplishment, but does not express skepticism towards ambition. Choice C is in… [explanation truncated]",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781feb625f2df12ddae1e",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "",
+    "difficulty": "Hard",
+    "passage": "Passage (no passage) Question Point P lies on a unit circle in the xy-plane and has coordinates (1, 0). Point Q is the center of the circle and has coordinates (0, 0). Point R also lies on the unit circle and has coordinates (−√2/2, √2/2). Which of the following could be the positive measure of angle PQR in radians?",
+    "question": "Passage (no passage) Question Point P lies on a unit circle in the xy-plane and has coordinates (1, 0). Point Q is the center of the circle and has coordinates (0, 0). Point R also lies on the unit circle and has coordinates (−√2/2, √2/2). Which of the following could be the positive measure of angle PQR in radians?",
+    "options": [
+      "449π/4",
+      "451π/4",
+      "453π/4",
+      "455π/4"
+    ],
+    "answer": "[\"B \\u2014 451\\u03c0/4\"]",
+    "rationale": "Explanation written by Claude. (OnePrep showed only a menu of locked solution methods: Coterminal Angles / Trig Choice Check.) Step 1: Locate ray QP and ray QR. Q is the origin, so both rays start at the center. QP points along the positive x-axis (angle 0). For R, the coordinates (−√2/2, √2/2) have a negative x and positive y, so R is in Quadrant II, and cos θ = −√2/2, sin θ = √2/2. The reference angle is π/4, so θ = π − π/4 = 3π/4 . Step 2: Account for coterminal measures. The question says &quot;could be,&quot; which signals that the intended measure is any angle coterminal with the standard one — you can wind around the circle any whole number of times. So the valid measures are 3π/4 + 2πk, k = 0, 1, 2, … Rewriting with denominator 4: 2π = 8π/4, so the family is (3 + 8k)π/4. Step 3: Test each choice by checking whether the numerator is 3 more than a multiple of 8. A. 449π/4 — 449 − 3 = 446; 446/8 = 55.75, not an integer. ✗ B. 451π/4 — 451 − 3 = 448; 448/8 = 56 ✓. So 451π/4 = 3π/4 + 56(2π). Correct. C. 453π/4 — 453 − 3 = 450; 450/8 = 56.25 ✗. Note 453π/4 = 5π/4 + 56(2π), i.e. coterminal with 5π/4. That is the reflex rotation from QP to QR going the other way around; the measure of an angle ∠PQR is the non-reflex value 3π/4, so this is the main trap. D. 455π/4 — 455 − 3 = 452; 452/8 = 56.5 ✗ (this one is coterminal with 7π/4, wrong quadrant entirely). Takeaway rule: convert the point on the unit circle to its standard angle first (use the signs of the coordinates to pick the quadrant, and the reference angle from the absolute values). Then convert 2π to the same denominator as the choices and test divisibility on the numerator — much faster than dividing each choice by π and reducing. ⚠️ Note: OnePrep&#x27;s Info panel tags this question Domain Algebra , Skill Linear functions , which appears to be a mislabel — the content is unit-circle trigonometry (Geometry &amp; Trigonometry). The &quot;Question Type&quot; property was set from OnePrep&#x27;s tag; consider correcting it to Geometry &amp; Trigonometry. Math · Hard · Algebra · Linear functions (per OnePrep; content is actually unit-circle trigonometry)",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e78113a0bedad4216dd5b1",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Trap answer",
+    "difficulty": "Hard",
+    "passage": "Passage Critics have long noted that the prose resists ___: each sentence carries a literal meaning and a second allegorical one, and neither can be discarded without loss. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "question": "Passage Critics have long noted that the prose resists ___: each sentence carries a literal meaning and a second allegorical one, and neither can be discarded without loss. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "repetition",
+      "reduction",
+      "revision",
+      "imitation"
+    ],
+    "answer": "[\"B \\u2014 reduction\"]",
+    "rationale": "Two meanings coexisting means the prose resists being reduced to one. The colon defines the blank: whatever follows explains what the prose refuses to do. Choice A (repetition) is about sameness across sentences; the sentence describes multiplicity within a sentence. That is the trap you took — it matches the idea of &quot;two&quot; without matching the structure the colon sets up. Choices C and D name operations the passage never raises. Rule: match the blank to the structure the colon describes, not to a word that merely feels related.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e78123a63ed2a5a7346fb8",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Trap answer",
+    "difficulty": "Hard",
+    "passage": "Passage The critic&#x27;s praise was ___: he called the technique technically flawless, yet admitted that the work had never once moved him. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "question": "Passage The critic&#x27;s praise was ___: he called the technique technically flawless, yet admitted that the work had never once moved him. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "disingenuous",
+      "effusive",
+      "qualified",
+      "perfunctory"
+    ],
+    "answer": "[\"C \\u2014 qualified\"]",
+    "rationale": "The blank describes the praise , not the critic&#x27;s honesty. Praise that is real but limited is qualified . Choice A (disingenuous) claims the critic was lying — an accusation the sentence never makes. That is the motive you imported. Choice B (effusive) means unrestrained, contradicting the reservation. Choice D (perfunctory) means done without care, but he engaged closely enough to judge the technique flawless. Rule: never import a motive the text does not state.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e7816d8e98c522e4fe1746",
+    "section": "reading & writing",
+    "domain": "Expression of Ideas",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage The study surveyed only urban households. ___, its conclusions about rural energy use should be treated cautiously. Question Which choice completes the text with the most logical transition?",
+    "question": "Passage The study surveyed only urban households. ___, its conclusions about rural energy use should be treated cautiously. Question Which choice completes the text with the most logical transition?",
+    "options": [
+      "On the other hand",
+      "For this reason",
+      "Similarly",
+      "In addition"
+    ],
+    "answer": "[\"B \\u2014 For this reason\"]",
+    "rationale": "Sentence 2 is the consequence of the limitation in sentence 1, not a counterpoint to it. The narrow sample is why the rural conclusions are shaky. Test: insert &quot;therefore.&quot; If the meaning survives, the relationship is CONCLUDE, and you need For this reason . Choice A requires sentence 2 to push against sentence 1; here it follows from it. That was your answer. Choice C claims a parallel, choice D claims an additional point — neither is a cause-effect link. Rule: run the direction test before the word test.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e78156982cc5433de1c2e7",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Knowledge gap",
+    "difficulty": "Hard",
+    "passage": "Passage The council&#x27;s transit plan is ambitious but not ___; every provision is funded by revenue the city already collects. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "question": "Passage The council&#x27;s transit plan is ambitious but not ___; every provision is funded by revenue the city already collects. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "prudent",
+      "pragmatic",
+      "fanciful",
+      "restrained"
+    ],
+    "answer": "[\"C \\u2014 fanciful\"]",
+    "rationale": "&quot;X but not Y&quot; means Y is the bad thing X is often accused of being. Ambitious plans are accused of being unrealistic, so Y = fanciful . The semicolon then proves the plan is grounded: the money already exists. Choices A, B and D are all positive. Plugging any of them in asserts the plan is imprudent, impractical or immoderate — the exact opposite of the evidence after the semicolon. You chose A for this reason. Rule: read the polarity of the &quot;but not&quot; frame before choosing.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e7818195a3e451b6be5004",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Trap answer",
+    "difficulty": "Medium",
+    "passage": "Passage The results were preliminary but nonetheless ___: they pointed clearly toward a mechanism no one had proposed before. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "question": "Passage The results were preliminary but nonetheless ___: they pointed clearly toward a mechanism no one had proposed before. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "inscrutable",
+      "suggestive",
+      "tentative",
+      "exhaustive"
+    ],
+    "answer": "[\"B \\u2014 suggestive\"]",
+    "rationale": "The clause after the colon defines the blank. &quot;Pointed clearly toward&quot; means the findings communicated something, so the blank must be positive and about signalling. Choice A means the opposite — unable to be understood. You chose it, likely reading &quot;preliminary&quot; as a cue for something murky, but &quot;nonetheless&quot; flips the direction. Choice C simply restates &quot;preliminary,&quot; so &quot;but nonetheless&quot; would connect two agreeing ideas. Choice D contradicts &quot;preliminary.&quot; Rule: substitute the definition after the colon literally before judging tone.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e7817b9f01dc7ff60e3452",
+    "section": "reading & writing",
+    "domain": "Expression of Ideas",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage Between 2010 and 2020 the price of solar panels fell by 89 percent. ___, installations in several states remained low, held back by permitting backlogs rather than cost. Question Which choice completes the text with the most logical transition?",
+    "question": "Passage Between 2010 and 2020 the price of solar panels fell by 89 percent. ___, installations in several states remained low, held back by permitting backlogs rather than cost. Question Which choice completes the text with the most logical transition?",
+    "options": [
+      "Consequently",
+      "Nevertheless",
+      "For example",
+      "Likewise"
+    ],
+    "answer": "[\"B \\u2014 Nevertheless\"]",
+    "rationale": "Direction test before choice test: prices DOWN should mean installations UP. Installations stayed LOW. Expectation defeated equals CONTRAST. Choice A requires sentence 2 to be what sentence 1 predicts — here it is the opposite. That is the flip you made. Choices C and D also assume agreement between the two sentences. The final clause (&quot;held back by permitting rather than cost&quot;) confirms the obstacle is unrelated to price, which is only worth saying if the result was surprising. Rule: predict sentence 2 from sentence 1 first. If reality contradicts your prediction, the transition is a contrast word.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e7818fa42ff6d0103d52de",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Trap answer",
+    "difficulty": "Medium",
+    "passage": "Passage Early refracting telescopes rendered the planets as ___ smudges, offering little of the surface detail that later optics would reveal. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "question": "Passage Early refracting telescopes rendered the planets as ___ smudges, offering little of the surface detail that later optics would reveal. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "uniform",
+      "indistinct",
+      "luminous",
+      "fleeting"
+    ],
+    "answer": "[\"B \\u2014 indistinct\"]",
+    "rationale": "The blank must restate the contrast at the end of the sentence: &quot;little detail&quot; equals indistinct . Choice A means all-alike — a claim about multiple planets resembling one another, not about resolution. That is a different dimension from the one the sentence raises, and it is the one you took. Choice C describes brightness, choice D describes duration. Neither is contradicted by &quot;little detail,&quot; but neither is restated by it either. Rule: the second half of the sentence is the definition. Match it word for word.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ac5a62034e781f5ae6ff1593d97c330",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Knowledge gap",
+    "difficulty": "Medium",
+    "passage": "Passage The novel&#x27;s ending is deliberately ___, refusing to specify whether the narrator survives the crossing. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "question": "Passage The novel&#x27;s ending is deliberately ___, refusing to specify whether the narrator survives the crossing. Question Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "protracted",
+      "equivocal",
+      "abrupt",
+      "conventional"
+    ],
+    "answer": "[\"B \\u2014 equivocal\"]",
+    "rationale": "The participial phrase after the comma defines the blank. &quot;Refusing to specify&quot; means ambiguous, not long. Choice A describes LENGTH; nothing in the sentence mentions length. That was your answer. Choice C also describes length or pacing, in the opposite direction. Choice D describes conformity, which &quot;deliberately&quot; and &quot;refusing&quot; both argue against. Rule: if a choice answers a dimension the sentence never raises, it is wrong — however plausible it sounds on its own.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ab5a62034e7814897bcd397daf125bb",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage (no passage) Question \\(\\frac{1}{2}(kx + 12y) = 5\\) \\(2(x - 3) = 14 - 4y\\) In the given system of equations, \\(k\\) is a constant. If the system has no solution, what is the value of \\(k\\)? Student-produced response (grid-in). Correct answer: 6 — CORRECT Your answer: 4 ← your answer",
+    "question": "Passage (no passage) Question \\(\\frac{1}{2}(kx + 12y) = 5\\) \\(2(x - 3) = 14 - 4y\\) In the given system of equations, \\(k\\) is a constant. If the system has no solution, what is the value of \\(k\\)? Student-produced response (grid-in). Correct answer: 6 — CORRECT Your answer: 4 ← your answer",
+    "options": [],
+    "answer": "[\"6\"]",
+    "rationale": "A system of linear equations has no solution if the lines are parallel but not identical. This occurs when the coefficients of \\(x\\) and \\(y\\) are proportional, but the constant terms are not. First, simplify both equations into the standard form \\(Ax + By = C\\). Multiplying the first equation by 2 to eliminate the fraction gives \\(kx + 12y = 10\\). For the second equation, distribute the 2 on the left side: \\(2x - 6 = 14 - 4y\\). Then, add \\(4y\\) and \\(6\\) to both sides to get \\(2x + 4y = 20\\). For the lines to be parallel, the ratio of the \\(x\\)-coefficients must equal the ratio of the \\(y\\)-coefficients: \\(\\frac{k}{2} = \\frac{12}{4}\\). Simplifying the ratio on the right gives \\(\\frac{k}{2} = 3\\). Multiplying both sides by 2 gives \\(k = 6\\). To ensure there is no solution, verify that the lines are distinct by comparing the ratio of the constants: \\(\\frac{10}{20} = 0.5\\). Since \\(0.5 \\neq 3\\), the lines are parallel and distinct.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ab5a62034e78164a8b1eba469a500bb",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage (no passage) Question A landscaping company is treating a lawn with a total area of \\(A\\) square yards. The company applies \\(4\\) separate treatments of fertilizer to the entire lawn. One bag of fertilizer covers \\(600\\) square yards. Which equation represents the total number of bags of fertilizer, \\(B\\), needed to treat the lawn?",
+    "question": "Passage (no passage) Question A landscaping company is treating a lawn with a total area of \\(A\\) square yards. The company applies \\(4\\) separate treatments of fertilizer to the entire lawn. One bag of fertilizer covers \\(600\\) square yards. Which equation represents the total number of bags of fertilizer, \\(B\\), needed to treat the lawn?",
+    "options": [
+      "\\(B = \\frac{A}{600}\\)",
+      "\\(B = \\frac{A}{150}\\)",
+      "\\(B = 600A\\)",
+      "\\(B = 2,400A\\)"
+    ],
+    "answer": "[\"B \\u2014 B = \\\\frac{A}{150}\"]",
+    "rationale": "Choice B is the best answer. To find the total number of bags needed, we must first determine the total area that needs to be covered by fertilizer. Since the lawn has an area of \\(A\\) and is treated \\(4\\) times, the total coverage area is \\(4A\\) square yards. Given that one bag of fertilizer covers \\(600\\) square yards, we divide the total coverage area by the area covered per bag: \\(B = \\frac{4A}{600}\\) Simplifying the fraction \\(\\frac{4}{600}\\) by dividing both the numerator and denominator by \\(4\\) gives \\(\\frac{1}{150}\\). Therefore, the equation is \\(B = \\frac{A}{150}\\).",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ab5a62034e7818d9a6df3db0df2b78b",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "",
+    "difficulty": "Easy",
+    "passage": "Passage (no passage) Question For groups of 40 or more people, a museum charges $18 per person for the first 30 people and $12 for each additional person. Which function \\(f\\) gives the total charge, in dollars, for a tour group with \\(n\\) people, where \\(n \\ge 40\\)?",
+    "question": "Passage (no passage) Question For groups of 40 or more people, a museum charges $18 per person for the first 30 people and $12 for each additional person. Which function \\(f\\) gives the total charge, in dollars, for a tour group with \\(n\\) people, where \\(n \\ge 40\\)?",
+    "options": [
+      "\\(f(n) = 18n\\)",
+      "\\(f(n) = 12n + 180\\)",
+      "\\(f(n) = 18n + 360\\)",
+      "\\(f(n) = 12n + 540\\)"
+    ],
+    "answer": "[\"B \\u2014 f(n) = 12n + 180\"]",
+    "rationale": "For a group of n ≥ 40 people, the first 30 people are charged $18 each, which costs 30 × 18 = 540. The remaining (n − 30) people are charged $12 each, which costs 12(n − 30). So the total cost is: 540 + 12(n − 30) = 540 + 12n − 360 = 12n + 180. Therefore, the function is f(n) = 12n + 180.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ab5a62034e7818ca61de86c40ae03a6",
+    "section": "math",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage (no passage — dot plot figure) Question The dot plot represents the \\(15\\) values in Data Set A. Data Set B is created by adding \\(10\\) to each of the values in Data Set A. Which of the following correctly compares the medians and the ranges of Data Set A and Data Set B?",
+    "question": "Passage (no passage — dot plot figure) Question The dot plot represents the \\(15\\) values in Data Set A. Data Set B is created by adding \\(10\\) to each of the values in Data Set A. Which of the following correctly compares the medians and the ranges of Data Set A and Data Set B?",
+    "options": [
+      "The median of Data Set B is greater than the median of Data Set A, and the range of Data Set B is equal to the range of Data Set A.",
+      "The median of Data Set B is equal to the median of Data Set A, and the range of Data Set B is equal to the range of Data Set A.",
+      "The median of Data Set B is greater than the median of Data Set A, and the range of Data Set B is greater than the range of Data Set A.",
+      "The median of Data Set B is equal to the median of Data Set A, and the range of Data Set B is greater than the range of Data Set A."
+    ],
+    "answer": "[\"A \\u2014 The median of Data Set B is greater than the median of Data Set A, and the range of Data Set B is equal to the range of Data Set A.\"]",
+    "rationale": "To determine the median of Data Set A, we identify the middle value. Since there are \\(15\\) values, the median is the 8th value when the data is ordered from least to greatest. Based on the dot plot: Value 12: 2 dots (positions 1–2); Value 13: 4 dots (positions 3–6); Value 14: 5 dots (positions 7–11). The 8th value is \\(14\\), so the median of Data Set A is \\(14\\). The range of Data Set A is the difference between the maximum and minimum values: \\(16 - 12 = 4\\). Data Set B is created by adding \\(10\\) to each value in Data Set A: the new median will be \\(14 + 10 = 24\\), so the median of Data Set B is greater. The new maximum will be \\(16 + 10 = 26\\) and the new minimum \\(12 + 10 = 22\\); the new range is \\(26 - 22 = 4\\), equal to the range of Data Set A. In general, adding a constant to every value shifts the measures of center but leaves the spread unchanged.",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "nx_3ab5a62034e7819a9797fb6985dda038",
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "",
+    "difficulty": "Medium",
+    "passage": "Passage (no passage) Question A landscaping company purchased a total of \\(460\\) pounds of two types of mulch. The weight of the Type A mulch is \\(x\\) pounds, and the weight of the Type B mulch is \\(y\\) pounds. The weight of the Type A mulch is \\(40\\) pounds more than \\(3\\) times the weight of the Type B mulch. What is the value of \\(x\\)?",
+    "question": "Passage (no passage) Question A landscaping company purchased a total of \\(460\\) pounds of two types of mulch. The weight of the Type A mulch is \\(x\\) pounds, and the weight of the Type B mulch is \\(y\\) pounds. The weight of the Type A mulch is \\(40\\) pounds more than \\(3\\) times the weight of the Type B mulch. What is the value of \\(x\\)?",
+    "options": [
+      "105",
+      "250",
+      "335",
+      "355"
+    ],
+    "answer": "[\"D \\u2014 355\"]",
+    "rationale": "Choice D is the best answer. Set up a system: the total weight is \\(460\\) pounds, so \\(x + y = 460\\). The weight of Type A (\\(x\\)) is \\(40\\) pounds more than \\(3\\) times Type B (\\(y\\)), so \\(x = 3y + 40\\). Solve the first equation for \\(y\\): \\(y = 460 - x\\). Substitute: \\(x = 3(460 - x) + 40\\). Distribute: \\(x = 1,380 - 3x + 40\\). Combine: \\(x = 1,420 - 3x\\). Add \\(3x\\): \\(4x = 1,420\\). Divide by 4: \\(x = 355\\). Alternatively, solving for \\(y\\) first gives \\(y = 105\\), and then \\(x = 460 - 105 = 355\\).",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp10_m1_q7",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "passage": "This text is adapted from Phillis Wheatley's 1773 poem \"On Imagination.\" Which choice best describes the overall structure of the text?",
+    "question": "This text is adapted from Phillis Wheatley's 1773 poem \"On Imagination.\" Which choice best describes the overall structure of the text?",
+    "options": [],
+    "answer": "The speaker describes a reaction, then explains the nature of a powerful influence.",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp10_m1_q14",
+    "section": "reading & writing",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
+    "passage": "Text about the Jewish Museum's 2016-2017 exhibition Take Me (I'm Yours) and Felix Gonzalez-Torres's Untitled (USA Today). Which choice most logically completes the text?",
+    "question": "Text about the Jewish Museum's 2016-2017 exhibition Take Me (I'm Yours) and Felix Gonzalez-Torres's Untitled (USA Today). Which choice most logically completes the text?",
+    "options": [],
+    "answer": "pick up and take home a few of the candies that Gonzalez-Torres had supplied.",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp10_m1_q16",
+    "section": "reading & writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "Text about oceanic trench exploration and a carnivorous sea sponge (Chondrocladia genus). Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question": "Text about oceanic trench exploration and a carnivorous sea sponge (Chondrocladia genus). Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [],
+    "answer": "2025: that year, these",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp10_m1_q19",
+    "section": "reading & writing",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "Text about the standard model of the universe's formation and super-concentrated galaxy clusters (Giant Arc). Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "question": "Text about the standard model of the universe's formation and super-concentrated galaxy clusters (Giant Arc). Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [],
+    "answer": "though, by",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp10_m1_q26",
+    "section": "reading & writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "Student notes on the phrase \"jumping the shark\" (origin in Happy Days). The student wants to make a generalization about the phrase. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "Student notes on the phrase \"jumping the shark\" (origin in Happy Days). The student wants to make a generalization about the phrase. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [],
+    "answer": "Since it first appeared, \"jumping the shark\" has been applied to activities and pursuits that extend well beyond television comedies.",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp10_m2h_q5",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "Text adapted from Emilio Rabasa's short story \"The Independent Press\" (1904). Which choice best describes the function of the underlined portion?",
+    "question": "Text adapted from Emilio Rabasa's short story \"The Independent Press\" (1904). Which choice best describes the function of the underlined portion?",
+    "options": [],
+    "answer": "It pinpoints the emotions that guide the speaker's response to Albar's directions.",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp10_m2h_q7",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "Text adapted from Marianne Moore's 1919 poem \"Poetry.\" Which choice best describes the overall structure of the text?",
+    "question": "Text adapted from Marianne Moore's 1919 poem \"Poetry.\" Which choice best describes the overall structure of the text?",
+    "options": [],
+    "answer": "The speaker begins with a strong assertion but moves towards a moderate stance.",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp10_m2h_q22",
+    "section": "reading & writing",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "Text about Igbo clans of West Africa and the Kongo Kingdom's centralized government. Which choice completes the text with the most logical transition?",
+    "question": "Text about Igbo clans of West Africa and the Kongo Kingdom's centralized government. Which choice completes the text with the most logical transition?",
+    "options": [],
+    "answer": "similarly,",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp10_m2h_q26",
+    "section": "reading & writing",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "passage": "Student notes on bryophytes (mosses, hornworts, liverworts). The student wants to make and support a generalization about bryophytes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "question": "Student notes on bryophytes (mosses, hornworts, liverworts). The student wants to make and support a generalization about bryophytes. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [],
+    "answer": "Many elements of other plants are absent from bryophytes, which lack root systems and vascular systems.",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp_cs_20260810_1",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Medium",
+    "passage": "Text 1 (leaf insects, Le Tirant, DNA analysis) and Text 2 (male/female leaf insects, breeding study). Based on the texts, how would the author of Text 2 most likely respond to the underlined portion of Text 1?",
+    "question": "Text 1 (leaf insects, Le Tirant, DNA analysis) and Text 2 (male/female leaf insects, breeding study). Based on the texts, how would the author of Text 2 most likely respond to the underlined portion of Text 1?",
+    "options": [],
+    "answer": "By pointing out that Le Tirant has used methods other than DNA analysis to properly identify leaf insects",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp_cs_20260810_3",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Cross-Text Connections",
+    "difficulty": "Hard",
+    "passage": "Text 1 (Nicole Kay Peterson, evolution of office spaces) and Text 2 (Nikil Saval, Cubed). Based on the texts, how does Peterson's approach to the history of office spaces in Text 1 differ from Saval's in Text 2?",
+    "question": "Text 1 (Nicole Kay Peterson, evolution of office spaces) and Text 2 (Nikil Saval, Cubed). Based on the texts, how does Peterson's approach to the history of office spaces in Text 1 differ from Saval's in Text 2?",
+    "options": [],
+    "answer": "Peterson analyzes a variety of developments without passing critical judgment, while Saval combines a negative critique with documentation.",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp_cs_20260810_4",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "Text about Barbara Rose's 1965 essay \"ABC Art\" and its origin. Which choice best describes the function of the underlined portion in the text as a whole?",
+    "question": "Text about Barbara Rose's 1965 essay \"ABC Art\" and its origin. Which choice best describes the function of the underlined portion in the text as a whole?",
+    "options": [],
+    "answer": "It summarizes a premise that is illustrated in the following sentences.",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp_cs_20260810_5",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Text from Victor Hugo's 1849 \"Odilon Barrot\" (delivery becomes hoarse, thoughts cloudy, hearers unable to catch what he says). As used in the text, what does the word \"catch\" most nearly mean?",
+    "question": "Text from Victor Hugo's 1849 \"Odilon Barrot\" (delivery becomes hoarse, thoughts cloudy, hearers unable to catch what he says). As used in the text, what does the word \"catch\" most nearly mean?",
+    "options": [],
+    "answer": "Discern",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp_cs_20260810_6",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "passage": "Text about Clive Campbell (DJ Kool Herc) and breakdancing/hip hop origins. Which choice best describes the function of the underlined portion in the text as a whole?",
+    "question": "Text about Clive Campbell (DJ Kool Herc) and breakdancing/hip hop origins. Which choice best describes the function of the underlined portion in the text as a whole?",
+    "options": [],
+    "answer": "It calls attention to an important characteristic of Herc's classic breakdancing format.",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp_cs_20260810_7",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Text about early English dictionaries incorporating common, obscure, and profession-specific words. Which choice completes the text with the most logical and precise word or phrase?",
+    "question": "Text about early English dictionaries incorporating common, obscure, and profession-specific words. Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [],
+    "answer": "miscellaneous",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": "pp_cs_20260810_8",
+    "section": "reading & writing",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Medium",
+    "passage": "Text about Kim Goodling of Grand View Farm and guardian llamas. Which choice best describes the structure of the text as a whole?",
+    "question": "Text about Kim Goodling of Grand View Farm and guardian llamas. Which choice best describes the structure of the text as a whole?",
+    "options": [],
+    "answer": "The text introduces the role played by llamas in some herding contexts, then explains how llamas function as guardians for other livestock.",
+    "rationale": "",
+    "source": "DailyDoseOfStuff/sat-question-bank"
+  },
+  {
+    "id": 1,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Researchers have struggled to pinpoint specific causes for hiccups, which happen when a person’s diaphragm contracts ______. However, neuroscientist Kimberley Whitehead has found that these uncontrollable contractions may play an important role in helping infants regulate their breathing.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "involuntarily",
+      "beneficially",
+      "strenuously",
+      "smoothly"
+    ],
+    "answer": "involuntarily",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 2,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Ofelia Zepeda’s contributions to the field of linguistics are ______: her many accomplishments include working as a linguistics professor and bilingual poet, authoring the first Tohono O’odham grammar book, and co-founding the American Indian Language Development Institute.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "pragmatic",
+      "controversial",
+      "extensive",
+      "universal"
+    ],
+    "answer": "extensive",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 3,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Some researchers believe that the genes that enable groundhogs and certain other mammals to hibernate through the winter by slowing their breathing and heart rates and lowering their body temperature may be ______ in humans: present yet having essentially no effect on our bodily processes.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "decisive",
+      "lacking",
+      "variable",
+      "dormant"
+    ],
+    "answer": "dormant",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 4,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Although science fiction was dominated mostly by white male authors when Octavia Butler, a Black woman, began writing, she did not view the genre as ______: Butler broke into the field with the publication of several short stories and her 1976 novel Patternmaster, and she later became the first science fiction writer to win a prestigious MacArthur Fellowship.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "legitimate",
+      "impenetrable",
+      "compelling",
+      "indecipherable"
+    ],
+    "answer": "impenetrable",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 5,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Oral histories—whether they consist of interviews or recordings of songs and stories—can offer researchers a rich view of people’s everyday experiences. For her book about coal mining communities in Kentucky during the twentieth century, Karida Brown therefore relied in part on interviews with coal miners and their families. By doing so, she gained valuable insights into her subjects’ day-to-day lives.",
+    "question": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "options": [
+      "It provides a little-known geographical fact about Kentucky.",
+      "It argues that Karida Brown is an expert on United States politics.",
+      "It presents a major historical event that took place in the twentieth century.",
+      "It describes how Karida Brown benefited from incorporating oral history in her book."
+    ],
+    "answer": "It describes how Karida Brown benefited from incorporating oral history in her book.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 6,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The following text is from Sarah Orne Jewett’s 1899 short story “Martha’s Lady.” Martha is employed by Miss Pyne as a maid. Miss Pyne sat by the window watching, in her best dress, looking stately and calm; she seldom went out now, and it was almost time for the carriage. Martha was just coming in from the garden with the strawberries, and with more flowers in her apron. It was a bright cool evening in June, the golden robins sang in the elms, and the sun was going down behind the apple-trees at the foot of the garden. The beautiful old house stood wide open to the long-expected guest.",
+    "question": "Which choice best states the main purpose of the text?",
+    "options": [
+      "To convey the worries brought about by a new guest",
+      "To describe how the characters have changed over time",
+      "To contrast the activity indoors with the stillness outside",
+      "To depict the setting as the characters await a visitor’s arrival"
+    ],
+    "answer": "To depict the setting as the characters await a visitor’s arrival",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 7,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The following text is adapted from George Bernard Shaw’s 1912 play Pygmalion . Henry Higgins has just arrived at the house of his mother (Mrs. Higgins). She is expecting her friends to visit soon. MRS. HIGGINS: I’m serious, Henry. You offend all my friends: they stop coming whenever they meet you. HIGGINS: Nonsense! I know I have no small talk; but people don’t mind. MRS. HIGGINS: Oh! don’t they? Small talk indeed! What about your large talk? Really, dear, you mustn’t stay.",
+    "question": "Which choice best states the main purpose of the text?",
+    "options": [
+      "To describe what Henry’s mother does when she goes out with her friends",
+      "To show that Henry’s mother wants him to leave",
+      "To present a detailed account of what Henry’s home looks like",
+      "To explain why Henry often visits his mother"
+    ],
+    "answer": "To show that Henry’s mother wants him to leave",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 8,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "In response to concerns that some recent financial crises were exacerbated by consumers misunderstanding risks associated with credit cards, loans, and other financial products, policymakers in many countries have instituted risk-disclosure requirements on sellers of those products. Enrique Seira et al. investigated a variety of risk-disclosure messages sent to thousands of credit card customers and found that the messages had only small and short-lived effects on behavior. Seira et al. asserted that such effects may nevertheless be worth pursuing, given the negligible cost of messaging.",
+    "question": "Which choice best describes the function of the underlined portion in the text as a whole?",
+    "options": [
+      "It notes a factor that led Seira et al. to not dismiss risk-disclosure messaging altogether despite their evidence of its limited utility.",
+      "It acknowledges a type of risk-disclosure messaging that Seira et al. may not have fully accounted for in their study.",
+      "It describes a consideration that explains why Seira et al. recommended risk-disclosure messaging even though its effects may be small relative to its costs.",
+      "It points out a circumstance that Seira et al. conceded may make risk-disclosure messaging more effective than their study suggests."
+    ],
+    "answer": "It notes a factor that led Seira et al. to not dismiss risk-disclosure messaging altogether despite their evidence of its limited utility.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 9,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The following text is adapted from Charles W. Chesnutt’s 1901 novel The Marrow of Tradition. Mrs. Ochiltree was a woman of strong individuality, whose comments upon her acquaintance[s], present or absent, were marked by a frankness at times no less than startling. This characteristic caused her to be more or less avoided. Mrs. Ochiltree was aware of this sentiment on the part of her acquaintance[s], and rather exulted in it.",
+    "question": "Based on the text, what is true about Mrs. Ochiltree’s acquaintances?",
+    "options": [
+      "They try to refrain from discussing topics that would upset Mrs. Ochiltree.",
+      "They are unable to spend as much time with Mrs. Ochiltree as she would like.",
+      "They are too preoccupied with their own concerns to speak with Mrs. Ochiltree.",
+      "They are likely offended by what Mrs. Ochiltree has said about them."
+    ],
+    "answer": "They are likely offended by what Mrs. Ochiltree has said about them.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 10,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "“Mrs. Spring Fragrance” is a 1912 short story by Sui Sin Far. In the story, Mrs. Spring Fragrance, a Chinese immigrant living in Seattle, is traveling in California. In letters to her husband and friend, she demonstrates her concern for what’s happening at her home in Seattle while she is away: ______",
+    "question": "Which quotation from Mrs. Spring Fragrance’s letters most effectively illustrates the claim?",
+    "options": [
+      "“My honorable cousin is preparing for the Fifth Moon Festival, and wishes me to compound for the occasion some American ‘fudge,’ for which delectable sweet, made by my clumsy hands, you have sometimes shown a slight prejudice.”",
+      "“Next week I accompany Ah Oi to the beauteous town of San José. There will we be met by the son of the Illustrious Teacher.”",
+      "“Forget not to care for the cat, the birds, and the flowers. Do not eat too quickly nor fan too vigorously now that the weather is warming.”",
+      "“I am enjoying a most agreeable visit, and American friends, as also our own, strive benevolently for the accomplishment of my pleasure.”"
+    ],
+    "answer": "“Forget not to care for the cat, the birds, and the flowers. Do not eat too quickly nor fan too vigorously now that the weather is warming.”",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 11,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "A student is examining a long, challenging poem that was initially published in a quarterly journal without explanatory notes, then later republished in a stand-alone volume containing only that poem and accompanying explanatory notes written by the poet. The student asserts that the explanatory notes were included in the republication primarily as a marketing device to help sell the stand-alone volume.",
+    "question": "Which statement, if true, would most directly support the student’s claim?",
+    "options": [
+      "The text of the poem as published in the quarterly journal is not identical to the text of the poem published in the stand-alone volume.",
+      "Many critics believe that the poet’s explanatory notes remove certain ambiguities of the poem and make it less interesting as a result.",
+      "The publishers of the stand-alone volume requested the explanatory notes from the poet in order to make the book attractive to readers who already had a copy of the poem in a journal issue.",
+      "Correspondence between the poet and the publisher reveals that the poet’s explanatory notes went through several drafts."
+    ],
+    "answer": "The publishers of the stand-alone volume requested the explanatory notes from the poet in order to make the book attractive to readers who already had a copy of the poem in a journal issue.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 12,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Many plants lose their leaf color when exposed to kanamycin, an antibiotic produced by some soil microorganisms. Spelman College biologist Mentewab Ayalew and her colleagues hypothesized that plants’ response to kanamycin exposure involves altering their uptake of metals, such as iron and zinc. The researchers grew two groups of seedlings of the plant Arabidopsis thaliana , half of which were exposed to kanamycin and half of which were a control group without exposure to kanamycin, and measured the plants’ metal content five days after germination.",
+    "question": "Which choice most effectively uses data from the graph to illustrate Angell's claim?",
+    "options": [
+      "The control plants contained higher levels of zinc than iron, but plants exposed to kanamycin contained higher levels of iron than zinc.",
+      "Both groups of plants contained more than 200 parts per million of both iron and zinc.",
+      "Zinc levels were around 300 parts per million in the control plants but nearly 400 parts per million in the plants exposed to kanamycin.",
+      "The plants exposed to kanamycin showed lower levels of iron and zinc than the control plants did."
+    ],
+    "answer": "The plants exposed to kanamycin showed lower levels of iron and zinc than the control plants did.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 13,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Characteristics of Five Recently Discovered Gas Exoplanets Exoplanet designation Mass (Jupiters) Radius (Jupiters) Orbital period (days) Distance from the Sun (parsecs) TOI-640 b 0.88 1.771 5.003 340 TOI-1601 b 0.99 1.239 5.331 336 TOI-628 b 6.33 1.060 3.409 178 TOI-1478 b 0.85 1.060 10.180 153 TOI-1333 b 2.37 1.396 4.720 200 “Hot Jupiters” are gas planets that have a mass of at least 0.25 Jupiters (meaning that their mass is at least 25% of that of Jupiter) and an orbital period of less than 10 days (meaning that they complete one orbit around their star in less than 10 days), while “warm Jupiters” are gas planets that meet the same mass criterion but have orbital periods of more than 10 days. In 2021, Michigan State University astronomer Joseph Rodriguez and colleagues announced the discovery of five new gas exoplanets and asserted that four are hot Jupiters and one is a warm Jupiter.",
+    "question": "Which choice best describes data from the table that support Rodriguez and colleagues’ assertion?",
+    "options": [
+      "None of the planets have an orbital period of more than 10 days, and TOI-628 b has a mass of 6.33 Jupiters.",
+      "TOI-1478 b has an orbital period of 153 days, and the masses of all the planets range from 0.85 to 6.33 Jupiters.",
+      "All the planets have a radius between 1.060 and 1.771 Jupiters, and only TOI-1333 b has an orbital period of more than 10 days.",
+      "Each of the planets has a mass greater than 0.25 Jupiters, and all except for TOI-1478 b have an orbital period of less than 10 days."
+    ],
+    "answer": "Each of the planets has a mass greater than 0.25 Jupiters, and all except for TOI-1478 b have an orbital period of less than 10 days.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 14,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Archaeologist Christiana Kohler and her team excavated the Egyptian tomb of Queen Merneith, the wife of a First Dynasty pharaoh. Some scholars claim that she also ruled Egypt on her own and was actually the first female pharaoh. The team found a tablet in Merneith’s tomb with writing suggesting that she was in charge of the country’s treasury and other central offices. Whether Merneith was a pharaoh or not, this discovery supports the idea that Merneith likely ______",
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "had an important role in Egypt’s government.",
+      "lived after rather than before the First Dynasty of Egypt.",
+      "traveled beyond Egypt’s borders often.",
+      "created a new form of writing in Egypt."
+    ],
+    "answer": "had an important role in Egypt’s government.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 15,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The widespread use of social media enables linguists to study changes in language usage in real time. A notable recent example is the proliferation of the affix meng- among speakers of Bahasa Indonesia, the official language of Indonesia. Linguists observed meng- originate as an onomatopoetic tag that social-media users applied to images of cats they posted; over time, users increasingly applied it as a prefix to existing words (e.g., mengsedih affixes meng- to the word for sad) in text that they posted. From there, it has begun to move into spoken Bahasa Indonesia. Linguists have noted many similar examples of this phenomenon occurring in other languages, suggesting that social media ______",
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "is more useful for studying informal language than for studying formal or official language.",
+      "appears to be exerting an exceptionally strong influence on the evolution of Bahasa Indonesia.",
+      "may give linguists a somewhat misleading sense of how languages are changing.",
+      "does not merely register changes in language usage but can facilitate such changes."
+    ],
+    "answer": "does not merely register changes in language usage but can facilitate such changes.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 16,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "For thousands of years, people in the Americas ______ the bottle gourd, a large bitter fruit with a thick rind, to make bottles, other types of containers, and even musical instruments. Oddly, there is no evidence that any type of bottle gourd is native to the Western Hemisphere; either the fruit or its seeds must have somehow been carried from Asia or Africa.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "to use",
+      "have used",
+      "having used",
+      "using"
+    ],
+    "answer": "have used",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 17,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Lucía Michel of the University of Chile observed that alkaline soils contain an insoluble form of iron that blueberry plants cannot absorb, thus inhibiting blueberry growth. If these plants were grown in alkaline soil alongside grasses that aid in iron solubilization, ______ Michel was determined to find out.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "could the blueberries thrive.",
+      "the blueberries could thrive.",
+      "the blueberries could thrive?",
+      "could the blueberries thrive?"
+    ],
+    "answer": "could the blueberries thrive?",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 18,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The intense pressure found in the deep ocean can affect the structure of proteins in fish’s cells, distorting the proteins’ shape. The chemical trimethylamine N-oxide (TMAO) counters this effect, ensuring that proteins retain their original ______ is found in high concentrations in the cells of the deepest-dwelling fish.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "configurations. TMAO",
+      "configurations TMAO",
+      "configurations, TMAO",
+      "configurations and TMAO"
+    ],
+    "answer": "configurations. TMAO",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 19,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Mathematician Grigori Perelman, sometimes in conjunction with mathematicians Richard S. Hamilton and Shing-Tung Yau, ______ credited with proving the Poincaré conjecture. Having built on Hamilton’s previous work to solve the proof, Perelman has insisted that Hamilton receive credit. Yau later found and closed gaps in Perelman’s proof, persuading some mathematicians that he deserves credit as well.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "are",
+      "have been",
+      "are being",
+      "is"
+    ],
+    "answer": "is",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 20,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Jetties—long, narrow structures that extend from a landmass into the water—are often constructed to protect coastlines from erosion. Jetties can sometimes have the opposite ______ obstructing the natural flow of sand along the shore can lead to increased erosion in some areas.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "effect, though;",
+      "effect, though",
+      "effect; though",
+      "effect, though,"
+    ],
+    "answer": "effect, though;",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 21,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Archaeologist Sue Brunning explains why the seventh-century ship burial site at Sutton Hoo in England was likely the tomb of a king. First, the gold artifacts inside the ship suggest that the person buried with them was a wealthy and respected leader. ______ the massive effort required to bury the ship would likely only have been undertaken for a king.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Instead,",
+      "Still,",
+      "Specifically,",
+      "Second,"
+    ],
+    "answer": "Second,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 22,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Earth’s auroras—colorful displays of light seen above the northern and southern poles—result, broadly speaking, from the Sun’s activity. ______ the Sun releases charged particles that are captured by Earth’s magnetic field and channeled toward the poles. These particles then collide with atoms in the atmosphere, causing the atoms to emit auroral light.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Specifically,",
+      "Similarly,",
+      "Nevertheless,",
+      "Hence,"
+    ],
+    "answer": "Specifically,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 23,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The Coastal Virginia Offshore Wind project is anticipated to generate 2.6 gigawatts of energy, enough to power almost one million homes. As its name indicates, the project—currently in development—consists of wind turbines located off the Virginia coast. ______ the project plan calls for 176 large turbines to be placed at a site 27 miles east of Virginia Beach.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "To be exact,",
+      "In conclusion,",
+      "As a result,",
+      "In contrast"
+    ],
+    "answer": "To be exact,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 24,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "While researching a topic, a student has taken the following notes: If a moon orbiting a planet comes close enough to that planet, tidal forces can cause the moon to break apart. In a 2022 study, researchers proposed that Saturn was once orbited by a large moon they named Chrysalis. Their simulations indicated that Chrysalis would likely have come very close to Saturn around 160 million years ago. At that distance, Chrysalis would have been broken apart by tidal forces. The researchers hypothesized that the resulting debris formed Saturn’s rings.",
+    "question": "The student wants to recount the sequence of events proposed by the researchers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "According to researchers’ simulations, two events likely occurred around 160 million years ago: first, Chrysalis came very close to Saturn, and second, debris from Saturn’s rings caused the moon to break apart.",
+      "If a moon orbiting a planet (like Saturn) comes close enough to that planet, tidal forces can cause the moon to break apart.",
+      "Around 160 million years ago, a large moon (Chrysalis) came close enough to Saturn that tidal forces broke the moon apart; its debris then formed the planet’s rings.",
+      "First, researchers proposed that Saturn was orbited by a large moon (Chrysalis); next, they conducted simulations; and, finally, they formed a hypothesis."
+    ],
+    "answer": "Around 160 million years ago, a large moon (Chrysalis) came close enough to Saturn that tidal forces broke the moon apart; its debris then formed the planet’s rings.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 25,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "While researching a topic, a student has taken the following notes: Pinnipeds, which include seals, sea lions, and walruses, live in and around water. Pinnipeds are descended not from sea animals but from four-legged, land-dwelling carnivores. Canadian paleobiologist Natalia Rybczynski recently found a fossil with four legs, webbed toes, and the skull and teeth of a seal. Rybczynski refers to her rare find as a “transitional fossil.” The fossil illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors.",
+    "question": "The student wants to emphasize the fossil’s significance. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Canadian paleobiologist Natalia Rybczynski’s fossil has the skull and teeth of a seal, which, like sea lions and walruses, is a pinniped.",
+      "Pinnipeds are descended from four-legged, land-dwelling carnivores; a fossil that resembles both was recently found.",
+      "Having four legs but the skull and teeth of a seal, the rare fossil illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors.",
+      "A “transitional fossil” was recently found by paleobiologist Natalia Rybczynski."
+    ],
+    "answer": "Having four legs but the skull and teeth of a seal, the rare fossil illustrates an early stage in the evolution of pinnipeds from their land-dwelling ancestors.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 26,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "While researching a topic, a student has taken the following notes: Started in 1925, the Scripps National Spelling Bee is a US-based spelling competition. The words used in the competition have diverse linguistic origins. In 2008, Sameer Mishra won by correctly spelling the word “guerdon.” “Guerdon” derives from the Anglo-French word “guerdun.” In 2009, Kavya Shivashankar won by correctly spelling the word “Laodicean.” “Laodicean” derives from the ancient Greek word “Laodíkeia.”",
+    "question": "The student wants to emphasize a difference in the origins of the two words. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "“Guerdon,” the final word of the 2008 Scripps National Spelling Bee, is of Anglo-French origin, while the following year’s final word, “Laodicean,” derives from ancient Greek.",
+      "In 2008, Sameer Mishra won the Scripps National Spelling Bee by correctly spelling the word “guerdon”; however, the following year, Kavya Shivashankar won based on spelling the word “Laodicean.”",
+      "Kavya Shivashankar won the 2009 Scripps National Spelling Bee by correctly spelling “Laodicean,” which derives from the ancient Greek word “Laodíkeia.”",
+      "The Scripps National Spelling Bee uses words from diverse linguistic origins, such as “guerdon” and “Laodicean.”"
+    ],
+    "answer": "“Guerdon,” the final word of the 2008 Scripps National Spelling Bee, is of Anglo-French origin, while the following year’s final word, “Laodicean,” derives from ancient Greek.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 27,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "While researching a topic, a student has taken the following notes: In 1851, German American artist Emanuel Leutze painted Washington Crossing the Delaware. His huge painting (149 × 255 inches) depicts the first US president crossing a river with soldiers in the Revolutionary War. In 2019, Cree artist Kent Monkman painted mistikôsiwak (Wooden Boat People): Resurgence of the People. Monkman’s huge painting (132 × 264 inches) was inspired by Leutze’s. It portrays Indigenous people in a boat rescuing refugees.",
+    "question": "The student wants to emphasize a similarity between the two paintings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Monkman, a Cree artist, finished his painting in 2019; Leutze, a German American artist, completed his in 1851.",
+      "Although Monkman’s painting was inspired by Leutze’s, the people and actions the two paintings portray are very different.",
+      "Leutze’s and Monkman’s paintings are both huge, measuring 149 × 255 inches and 132 × 264 inches, respectively.",
+      "Leutze’s painting depicts Revolutionary War soldiers, while Monkman’s depicts Indigenous people and refugees."
+    ],
+    "answer": "Leutze’s and Monkman’s paintings are both huge, measuring 149 × 255 inches and 132 × 264 inches, respectively.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 28,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The biologist conducted an experiment to test whether different levels of soil acidity have ______ impact on the growth rate of tomato plants.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "a negligible",
+      "a promising",
+      "an artificial",
+      "a significant"
+    ],
+    "answer": "a significant",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 29,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Despite initial skepticism, historians now ______ that the newly discovered manuscript is an authentic work of the 18th century.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "speculate",
+      "ascertain",
+      "dismiss",
+      "contradict"
+    ],
+    "answer": "ascertain",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 30,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Jim Metzner is a sound engineer who has collected sounds of nature from all over the world and shared them with his audiences for over 40 years. He hesitates to describe his work as \"capturing\" sound because he perceives every recording as a gift, _____ the creatures on the planet.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "taken by him from",
+      "sought by him from",
+      "ascribed to him by",
+      "bestowed upon him by"
+    ],
+    "answer": "bestowed upon him by",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 31,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Recent advancements in renewable energy technology have ______ the feasibility of replacing fossil fuels with cleaner alternatives.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "questioned",
+      "underscored",
+      "ignored",
+      "diminished"
+    ],
+    "answer": "underscored",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 32,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The following text is from Louisa May Alcott's 1887 novel Eight Cousins . Rose sat all alone in the big best parlor, with her little handkerchief laid ready to catch the first tear, for she was thinking of her troubles, and a shower was expected. She had retired to this room as a good place in which to be miserable; for it was dark and still , full of ancient furniture, somber curtains, and hung all round with portraits of solemn old gentlemen in wigs, severe-nosed ladies in top-heavy caps, and staring children in little bob-tailed coats or short-waisted frocks. It was an excellent place for woe; and the fitful spring rain that pattered on the window-pane seemed to sob,\"Cryaway: I'm with you!\"",
+    "question": "Which choice best states the function of the underlined portion in the text as a whole?",
+    "options": [
+      "It establishes a contrast with the description of the setting mentioned earlier in the sentence.",
+      "It provides an example that supports the description of the setting mentioned earlier in the sentence.",
+      "It sets up the character description presented in the rest of the sentence.",
+      "It introduces a character trait that contrasts with the description in the previous sentence."
+    ],
+    "answer": "It provides an example that supports the description of the setting mentioned earlier in the sentence.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 33,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Text1 Fossils of the hominin Australopithecus africanus have been found in the Sterkfontein Caves of South Africa, but assigning an age to the fossils is challenging because of the unreliability of dating methods in this context . The geology of Sterkfontein has caused soil layers from different periods to mix, impeding stratigraphic dating, and dates cannot be reliably imputed from those of nearby animal bones since the bones may have been relocated by flooding. Text2 Archaeologists used new cosmogenic nuclide dating techniques to reevaluate the ages of A. africanus fossils found in the Sterkfontein Caves. This technique involves analyzing the cosmogenic nucleotides in the breccia—the matrix of rock fragments immediately surrounding the fossils. The researchers assert that this approach avoids the potential for misdating associated with assigning ages based on Sterkfontein’s soil layers or animal bones.",
+    "question": "Based on the texts, how would the researchers in Text 2 most likely respond to the underlined portion in Text 1?",
+    "options": [
+      "They would emphasize the fact that the A. africanus fossils found in the Sterkfontein Caves may have been corrupted in some way over the years.",
+      "They would contend that if analyses of surrounding layers and bones in the Sterkfontein Caves were combined, then the dating of the fossils there would be more accurate.",
+      "They would argue that their techniques are better suited than other methods to the unique challenges posed by the Sterkfontein Caves.",
+      "They would claim that cosmogenic nuclide dating is reliable in the context of the Sterkfontein Caves because it is applied to the fossils directly."
+    ],
+    "answer": "They would argue that their techniques are better suited than other methods to the unique challenges posed by the Sterkfontein Caves.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 34,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Text 1 In a study of the benefits of having free time, Marissa Sharif found that the reported sense of life satisfaction tended to plateau when participants had two hours of free time per day and actually began to fall when they had five hours of free time per day. After further research, Sharif concluded that this dip in life satisfaction mainly occurred when individuals spent all their free time unproductively, such as by watching TV or playing games. Text 2 Psychologist James Maddux cautions against suggesting an ideal amount of free time. The human desire for both free time and productivity is universal, but Maddux asserts that individuals have unique needs for life satisfaction. Furthermore, he points out that there is no objective definition for what constitutes productivity; reading a book might be considered a productive activity by some, but idleness by others.",
+    "question": "Based on the texts, how would Maddux (Text 2) most likely respond to the conclusion Sharif (Text 1) reached after her further research?",
+    "options": [
+      "By acknowledging that free time is more likely to enhance life satisfaction when it is spent productively than when it is spent unproductively",
+      "By challenging the reasoning in Text 1, as it has not been proved that productivity commonly contributes to individuals’ life satisfaction",
+      "By warning against making an overly broad assumption, as there is no clear consensus in distinguishing between productive and unproductive activities",
+      "By claiming that the specific activities named in Text 1 are actually examples of productive activities rather than unproductive ones"
+    ],
+    "answer": "By warning against making an overly broad assumption, as there is no clear consensus in distinguishing between productive and unproductive activities",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 35,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The following text is from Georgia Douglas Johnson’s 1922 poem “Benediction.” Go forth, my son, Winged by my heart’s desire! Great reaches, yet unknown, Await For your possession. I may not, if I would, Retrace the way with you, My pilgrimage is through, But life is calling you!",
+    "question": "Which choice best states the main purpose of the text?",
+    "options": [
+      "To express hope that a child will have the same accomplishments as his parent did",
+      "To suggest that raising a child involves many struggles",
+      "To warn a child that he will face many challenges throughout his life",
+      "To encourage a child to embrace the experiences life will offer"
+    ],
+    "answer": "To encourage a child to embrace the experiences life will offer",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 36,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The following text is adapted from Zora Neale Hurston’s 1921 short story “John Redding Goes to Sea.” John is a child who lives in a town in the woods. Perhaps ten-year-old John was puzzling to the folk there in the Florida woods for he was an imaginative child and fond of day-dreams. The St. John River flowed a scarce three hundred feet from his back door. On its banks at this point grow numerous palms, luxuriant magnolias and bay trees. On the bosom of the stream float millions of delicately colored hyacinths. [John Redding] loved to wander down to the water’s edge, and, casting in dry twigs, watch them sail away down stream to Jacksonville, the sea, the wide world and [he] wanted to follow them .",
+    "question": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+    "options": [
+      "It provides an extended description of a location that John likes to visit.",
+      "It reveals that some residents of John’s town are confused by his behavior.",
+      "It illustrates the uniqueness of John’s imagination compared to the imaginations of other children.",
+      "It suggests that John longs to experience a larger life outside the Florida woods."
+    ],
+    "answer": "It suggests that John longs to experience a larger life outside the Florida woods.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 37,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Industrial activity is often assumed to be a threat to wildlife, but that isn’t always so. Consider the silver-studded blue butterfly ( Plebejus argus ) : as forest growth has reduced grasslands in northern Germany, many of these butterflies have left meadow habitats and are now thriving in active limestone quarries. In a survey of multiple active quarries and patches of maintained grassland, an ecologist found silver-studded blue butterflies in 100% of the quarries but only 57% of the grassland patches. Moreover, butterfly populations in the quarries were four times larger than those in the meadows",
+    "question": "Which choice best describes the function of the underlined portion in the text as a whole?",
+    "options": [
+      "It challenges a common assumption about the species under investigation in the research referred to in the text.",
+      "It introduces discussion of a specific example that supports the general claim made in the previous sentence.",
+      "It suggests that a certain species should be included in additional studies like the one mentioned later in the text.",
+      "It provides a definition for an unfamiliar term that is central to the main argument in the text."
+    ],
+    "answer": "It introduces discussion of a specific example that supports the general claim made in the previous sentence.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 38,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "To make her art more widely available, graphic artist Elizabeth Catlett turned to linocuts. In linocut printing, an artist carves an image into a sheet of linoleum to create a stamp that is used to mass-produce prints. In the linocut series The Black Woman (1946–1947), Catlett depicts the everyday experiences of Black women alongside the achievements of well-known Black women. This pairing invites the viewer to draw connections among the women. The linocut process enabled Catlett’s work to reach a wide audience and supported her aim to unite Black women through her art.",
+    "question": "According to the text, what is significant about Catlett’s use of linocut printing?",
+    "options": [
+      "Linocut printing involved using materials that were readily available to Catlett.",
+      "Linocut printing helped Catlett use art to connect people, especially Black women.",
+      "Catlett became commercially successful once she started using linocut printing.",
+      "Catlett was one of the first Black artists to use linocut printing."
+    ],
+    "answer": "Linocut printing helped Catlett use art to connect people, especially Black women.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 39,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Shimmering is a collective defense behavior that researchers have observed in giant honeybee colonies. When shimmering, different groups of bees flip their bodies up and down in what looks like waves. This defense is initiated when hornets hover near a colony, serving to deter the hornets from approaching the bees. Researchers hypothesize that this behavior is a specialized defense response to hornets, as it is not observed when other, larger predators approach the colony.",
+    "question": "Which choice best states the main idea of the text?",
+    "options": [
+      "Researchers are unsure how giant honeybees defend against predators larger than hornets.",
+      "Researchers think that shimmering in giant honeybees is a specific defense against hornets.",
+      "Hornets are known to be the main predator of giant honeybees.",
+      "Several different species of insects use shimmering to defend against hornets."
+    ],
+    "answer": "Researchers think that shimmering in giant honeybees is a specific defense against hornets.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 40,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Even with the widespread adoption of personal computers, many authors still choose to write and revise their novels by hand and only then transcribe the final version on a computer. It may be tempting to speculate about how a novel written this way would be affected if it had been exclusively typed instead, but each novel is a unique entity resulting from a specific set of circumstances. Therefore, ______",
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "in order to increase their efficiency, authors who currently write their novels largely by hand should instead work only on a computer.",
+      "authors who do most of their drafting and revising by hand likely have more success than those who work entirely on a computer.",
+      "novels written by hand take less time to produce, on average, than novels written on a computer do.",
+      "there is no way to reasonably evaluate how a work would be different if it had been written by other means."
+    ],
+    "answer": "there is no way to reasonably evaluate how a work would be different if it had been written by other means.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 41,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "It’s common for jazz musicians and fans to refer to certain songs as having “swing,” indicating that the songs provoke a strong feeling, like the impulse to tap one’s foot or dance. The exact acoustic properties that give a song swing, however, have long been thought to be undefinable. To investigate swing, a team led by physicist Corentin Nelias delayed the downbeats and synchronized the offbeats in jazz piano solos and asked jazz musicians to compare the intensity of swing in each modified piece with the intensity of swing in the original piece. They found that participants were more than seven times likelier to characterize the modified songs as having swing than to characterize the original versions as having swing, suggesting that ______",
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "synchronized offbeats tend to give a song swing regardless of whether downbeats are delayed.",
+      "the acoustic properties that give a song swing are not easy for jazz musicians to manipulate.",
+      "jazz songs that feature the piano are more likely to have swing than are jazz songs that do not feature the piano.",
+      "the timing of downbeats and offbeats may play a crucial role in giving a song swing."
+    ],
+    "answer": "the timing of downbeats and offbeats may play a crucial role in giving a song swing.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 42,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Recordings of Female Bottlenose Dolphins with Their Calves Depth of tools found below surface in cave (meters) Clamshells that Neanderthals collected from the beach Clamshells that Neanderthals harvested from the seafloor 3–4 99 33 6–7 1 0 4–5 2 0 2–3 7 0 5–6 18 7 Studying tools unearthed at a cave site on the western coast of Italy, archaeologist Paola Villa and colleagues have determined that prehistoric Neanderthal groups fashioned them from shells of clams that they harvested from the seafloor while wading or diving or that washed up on the beach. Clamshells become thin and eroded as they wash up on the beach, while those on the seafloor are smooth and sturdy, so the research team suspects that Neanderthals prized the tools made with seafloor shells. However, the team also concluded that those tools were likely more challenging to obtain, noting that ______",
+    "question": "Which choice most effectively uses data from the table to support the research team’s conclusion?",
+    "options": [
+      "at each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that shells were easier to collect from the beach than to harvest from the seafloor.",
+      "the highest number of tools were at a depth of 3–4 meters below the surface, which suggests that the Neanderthal population at the site was highest during the related period of time.",
+      "at each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that Neanderthals preferred to use clamshells from the beach because of their durability.",
+      "the higher number of tools at depths of 5–6 meters below the surface in the cave than at depths of 4–5 meters below the surface suggests that the size of clam populations changed over time."
+    ],
+    "answer": "at each depth below the surface in the cave, the difference in the numbers of tools of each type suggests that shells were easier to collect from the beach than to harvest from the seafloor.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 43,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The Alvarez theory, developed in 1980 by physicist Luis Walter Alvarez and his geologist son Walter Alvarez, maintained that the secondary effects of an asteroid impact caused many dinosaurs and other animals to die ______ it left unexplored the question of whether unrelated volcanic activity might have also contributed to the mass extinctions.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "out but",
+      "out, but",
+      "out",
+      "out,"
+    ],
+    "answer": "out, but",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  }
+]

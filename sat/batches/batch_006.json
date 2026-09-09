@@ -1,0 +1,1712 @@
+[
+  {
+    "id": 44,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Among the earliest internet hoaxes was the case ofJohn Titor, a self-proclaimed time traveler. Over the course of 2000 and 2001, Titor posted on a variety of message boards, sharing information about the future during a 'layover' on his mission to retrieve a particular model of computer from the 1970s. Titor revealed an obscure secret feature of that computer model, one its manufacturer had successfully hidden for decades, _____",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "which served as proof of his apparent claims.",
+      "which served as apparent proof of his claims.",
+      "which served as apparent proof of his claims?",
+      "which served as proof of his apparent claims?"
+    ],
+    "answer": "which served as apparent proof of his claims.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 45,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The new exhibit at the natural history museum showcases fossils from various prehistoric periods, offering visitors a rare glimpse into Earth’s ancient past—including the age of the dinosaurs, the rise of mammals, and the evolutionary changes that led ______ modern species.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "to,",
+      "to:",
+      "to—",
+      "to"
+    ],
+    "answer": "to",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 46,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The professor emphasized the importance of primary sources in historical research—diaries, letters, and official documents ______ firsthand accounts of past events.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "providing",
+      "which provide",
+      "provides",
+      "provided"
+    ],
+    "answer": "which provide",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 48,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Oglala Lakota poet Layli Long Soldier’s star quilt poems offer an unusually open-ended reading experience. With ______ eight panels of text stitched together in the shape of a traditional eight-pointed Lakota star quilt, the poems present viewers with a seemingly infinite number of ways to read them.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "their",
+      "it's",
+      "they're",
+      "its"
+    ],
+    "answer": "their",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 49,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "In 1930, Japanese American artist Chiura Obata depicted the natural beauty of Yosemite National Park in two memorable woodcuts: Evening at Carl Inn and Lake Basin in the High Sierra. In 2019, ______ exhibited alongside 150 of Obata’s other works in a single-artist show at the Smithsonian American Art Museum.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "it was",
+      "they were",
+      "this was",
+      "some were"
+    ],
+    "answer": "they were",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 50,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "With its clichéd imagery of suburban lawns and power lines, John Ashbery’s 2004 poem “Ignorance of the Law Is No Excuse” may seem barren terrain for critical analysis. ______ cultural critic Lauren Berlant finds fertile ground in just its first two stanzas, devoting most of a book chapter to deciphering the “weight of the default space” Ashbery creates in this poem.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "In fact,",
+      "After,",
+      "Regardsless,",
+      "Instead,"
+    ],
+    "answer": "In fact,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 51,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "With its art deco features, including the exterior’s striking vertical and horizontal lines and vibrant red sign, the theater stood out as a modern landmark against the city’s predominantly Victorian architecture. By the time of its closing in 2006 ________ the theater had fallen into disrepair",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "therefore,",
+      "however,",
+      "besides,",
+      "likewise"
+    ],
+    "answer": "however,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 52,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The ancient Spartans were known for their bitingly concise—or laconic—wit, a quality they maintained even in the face of great peril. ______ when Philip II of Macedon threatened Laconia (the region of Greece containing Sparta), he said, “If I invade Laconia, I shall turn you out.” The Spartans replied with a single word: “If.”",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Rather,",
+      "In other words,",
+      "That said,",
+      "For instance,"
+    ],
+    "answer": "For instance,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 54,
+    "section": "verbal",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "While researching a topic, a student has taken the following notes: British musicians John Lennon and Paul McCartney shared writing credit for numerous Beatles songs. Many Lennon-McCartney songs were actually written by either Lennon or McCartney, not by both. The exact authorship of specific parts of many Beatles songs, such as the verse for “In My Life,” is disputed. Mark Glickman, Jason Brown, and Ryan Song used statistical methods to analyze the musical content of Beatles songs. They concluded that there is 18.9% probability that McCartney wrote the verse for “In My Life,” stating that the verse is “consistent with Lennon’s songwriting style.”",
+    "question": "The student wants to make a generalization about the kind of study conducted by Glickman, Brown, and Song. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Based on statistical analysis, Glickman, Brown, and Song claim that John Lennon wrote the verse of “In My Life.”",
+      "There is only an 18.9% probability that Paul McCartney wrote the verse for “In My Life”; John Lennon is the more likely author.",
+      "It is likely that John Lennon, not Paul McCartney, wrote the verse for “In My Life.”",
+      "Researchers have used statistical methods to address questions of authorship within the field of music."
+    ],
+    "answer": "Researchers have used statistical methods to address questions of authorship within the field of music.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 55,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "4, 4, 4, 4, 8, 8, 8, 13, 13 Which frequency table correctly represents the data listed?",
+    "options": [
+      "Number Frequency 4 4 8 3 13 2",
+      "Number Frequency 4 4 3 8 2 13",
+      "Number Frequency 4 16 8 24 13 26",
+      "Number Frequency 16 4 24 8 26 13"
+    ],
+    "answer": "Number Frequency 4 4 8 3 13 2",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 56,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "Which expression is equivalent to \\(x^2 + 3x - 40\\) ?",
+    "options": [
+      "\\((x-4)(x-10)\\)",
+      "\\((x-5)(x+8)\\)",
+      "\\((x-8)(x+5)\\)",
+      "\\((x-10)(x+4)\\)"
+    ],
+    "answer": "\\((x-5)(x+8)\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 57,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "Jay walks at a speed of 3 miles per hour and runs at a speed of 5 miles per hour. He walks for \\(w\\) hours and runs for \\(r\\) hours for a combined total of 14 miles. Which equation represents this situation?",
+    "options": [
+      "\\(3w + 5r = 14\\)",
+      "\\(\\frac{1}{3}w + \\frac{1}{5}r = 14\\)",
+      "\\(\\frac{1}{3}w + \\frac{1}{5}r = 112\\)",
+      "\\(3w+5r=112\\)"
+    ],
+    "answer": "\\(3w + 5r = 14\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 58,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "In triangle ABC, the measure of angle B is 52º and the measure of angle C is 17º. What is the measure of angle A?",
+    "options": [
+      "21º",
+      "35º",
+      "69º",
+      "111º"
+    ],
+    "answer": "111º",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 59,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "The graph represents the total charge, in dollars, by an electrician for \\(x\\) hours of work. The electrician charges a onetime fee plus an hourly rate. What is the best interpretation of the slope of the graph?",
+    "options": [
+      "The electrician’s hourly rate",
+      "The electrician’s onetime fee",
+      "The maximum amount that the electrician charges",
+      "The total amount that the electrician charges"
+    ],
+    "answer": "The electrician’s hourly rate",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 60,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "The table summarizes the distribution of color and shape for tiles of equal area. Red Blue Yellow Total Square 10 20 25 55 Pentagon 20 10 15 45 Total 30 30 40 100 If one of these tiles is selected at random, what is the probability of selecting a red tile? (Express your answer as a decimal or fraction, not as a percent.)",
+    "options": [],
+    "answer": "0.3",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 62,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "\\(3x+6=4y\\) \\(3x+4=2y\\) The solution to the given system of equations is \\((x, y)\\). What is the value of \\(y\\)?",
+    "options": [],
+    "answer": "1",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 63,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "Data value Frequency 6 3 7 3 8 8 9 8 10 9 11 11 12 9 13 0 14 6",
+    "question": "The frequency table summarizes the 57 data values in a data set. What is the maximum data value in the data set?",
+    "options": [],
+    "answer": "14",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 64,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "Circle \\(K\\) has a radius of 4 millimeters \\((mm)\\). Circle \\(L\\) has an area of 100\\(\\pi mm^2\\). What is the total area in \\(mm^2\\), of circles \\(K\\) and \\(L\\)?",
+    "options": [
+      "\\(14\\pi\\)",
+      "\\(28\\pi\\)",
+      "\\(56\\pi\\)",
+      "\\(116\\pi\\)"
+    ],
+    "answer": "\\(116\\pi\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 66,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "Triangle \\(FGH\\) is similar to triangle \\(JKL\\), where angle \\(F\\) corresponds to angles \\(G\\) and \\(K\\) are right angles. If \\(sin(F)=\\frac{308}{317}\\), what is the value of \\(sin(J)\\)?",
+    "options": [
+      "\\(\\frac{75}{317}\\)",
+      "\\(\\frac{308}{317}\\)",
+      "\\(\\frac{317}{308}\\)",
+      "\\(\\frac{317}{75}\\)"
+    ],
+    "answer": "\\(\\frac{308}{317}\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 68,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "A certain township consists of a 5-hectare industrial park and a 24-hectare neighborhood. The total number of trees in the township is 4,529. The equation \\(5x+24y=4,529\\) represents this situation. Which of the following is the best interpretation of \\(x\\) in this context?",
+    "options": [
+      "The average number of trees per hectare in the industrial park",
+      "The average number of trees per hectare in the neighborhood",
+      "The total number of trees in the industrial park",
+      "The total number of trees in the neighborhood"
+    ],
+    "answer": "The average number of trees per hectare in the industrial park",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 69,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "Which expression is equivalent to \\(a^{\\frac{11}{12}}\\), where \\(a > 9\\)?",
+    "options": [
+      "\\(\\sqrt[\\leftroot{-2}\\uproot{2}12]{a^{132}}\\)",
+      "\\(\\sqrt[\\leftroot{-2}\\uproot{2}144]{a^{132}}\\)",
+      "\\(\\sqrt[\\leftroot{-2}\\uproot{2}121]{a^{132}}\\)",
+      "\\(\\sqrt[\\leftroot{-2}\\uproot{2}11]{a^{132}}\\)"
+    ],
+    "answer": "\\(\\sqrt[\\leftroot{-2}\\uproot{2}144]{a^{132}}\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 70,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "The graph of \\(7x + 2y = -31\\) in the xy-plane has an x-intercept at \\((s, 0)\\) and a y-intercept at \\((0, t)\\). Where \\(s\\) and \\(t\\) are constants. What is the value of \\(s/t\\)?",
+    "options": [],
+    "answer": "2025-02-07 00:00:00",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 71,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "\\(y=4x+1\\) \\(4y=15x-8\\)",
+    "question": "The solution to the given system of equations is \\((x, y)\\). What is the value of \\(x-y\\)?",
+    "options": [],
+    "answer": "35",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 72,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "\\(f(t)=8,000(0.65)^{t}\\) The given function \\(f\\) models the number of coupons a company sent to their customers at the end of each year, where \\(t\\) represents the number of years since the end of 1998, and \\(0 \\le t \\le 5\\). If \\(y = f(t)\\) is graphed in the \\(ty\\)-plane, which of the following is the best interpretation of the y-intercept of the graph in this context?",
+    "options": [
+      "The minimum estimated number of coupons the company sent to their customers during the 5 years was 1,428.",
+      "The minimum estimated number of coupons the company sent to their customers during the 5 years was 8,000.",
+      "The estimated number of coupons the company sent to their customers at the end of 1998 was 1,428.",
+      "The estimated number of coupons the company sent to their customers at the end of 1998 was 8,000."
+    ],
+    "answer": "The estimated number of coupons the company sent to their customers at the end of 1998 was 8,000.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 73,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "Every year, the value of an investment increases by 0.6% of its value the previous year. Which of the following functions best models how the value of the investment changes over time?",
+    "options": [
+      "Decreasing exponential",
+      "Decreasing linear",
+      "Increasing exponential",
+      "Increasing linear"
+    ],
+    "answer": "Increasing exponential",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 74,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "\\(f(x)=4x^{2}-50x+126\\) The given equation defines the function \\(f\\). For what value of \\(x\\) does \\(f(x)\\) reach its minimum?",
+    "options": [],
+    "answer": "6.25",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 75,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "For groups of 25 or more people, a museum charges $21 per person for the first 25 people and $14 for each additional person.",
+    "question": "Which function f gives the total charge, in dollars, for a tour group with 7 people, where n > 25?",
+    "options": [
+      "f(n)=14n+175",
+      "f(n)=14n+525",
+      "f(n)=35n-350",
+      "f(n)=14n+21"
+    ],
+    "answer": "f(n)=14n+175",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 76,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "In the xy-plane, a line with equation \\(2y=c\\) for some constant \\(c\\) intersects a parabola at exactly one point. If the parabola has equation \\(y=-2x^{2}+9x\\), what is the value of c?",
+    "options": [],
+    "answer": "20.25",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 77,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "Right triangles \\(LMN\\) and \\(PQR\\) are similar, where \\(L\\) and \\(M\\) correspond to \\(P\\) and \\(Q\\) respectively. Angle \\(M\\) has a measure of 53º. What is the measure of angle \\(Q\\)?",
+    "options": [
+      "37º",
+      "53º",
+      "127º",
+      "143º"
+    ],
+    "answer": "53º",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 78,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "\\(73, 74, 75, 77, 79, 82, 84, 85, 91\\) What is the median of the data shown?",
+    "options": [],
+    "answer": "79",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 80,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "\\(66x = 66x\\) How many solutions does the given equation have?",
+    "options": [
+      "Exactly one",
+      "Exactly two",
+      "Infinitely many",
+      "Zero"
+    ],
+    "answer": "Infinitely many",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 81,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "A model predicts that the population of Bergen was 15,00 in 2005. The model also predicts that each year for the next 5 years, the population \\(p\\) increased by 4% of the previous year's population. Which equation best represents this model, where \\(x\\) is the number of years after 2005, for \\(x \\le 5\\)?",
+    "options": [
+      "\\(p=0.96(15,000)^{x}\\)",
+      "\\(p=1.04(15,000)^{x}\\)",
+      "\\(p=15,000(0.96)^{x}\\)",
+      "\\(p=15,000(1.04)^{x}\\)"
+    ],
+    "answer": "\\(p=15,000(1.04)^{x}\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 83,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "Which expression is equivalent to \\[ \\frac{8x(x-7) - 3(x-7)}{2x - 14}, \\quad \\text{where } x > 7? \\]",
+    "options": [
+      "\\( \\frac{x-7}{5} \\)",
+      "\\( \\frac{8x - 3}{2} \\)",
+      "\\( \\frac{8x^2 - 3x - 14}{2x - 14} \\)",
+      "\\( \\frac{8x^2 - 3x - 77}{2x - 14} \\)"
+    ],
+    "answer": "\\( \\frac{8x - 3}{2} \\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 85,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "A circle has center \\( O \\), and points \\( R \\) and \\( S \\) lie on the circle. In triangle \\( ORS \\), the measure of \\( \\angle ROS \\) is \\( 88^\\circ \\). What is the measure of \\( \\angle RSO \\), in degrees? (Disregard the degree symbol when entering your answer.)",
+    "options": [],
+    "answer": "46",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 87,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "A right triangle has legs with lengths of 24 centimeters and 21 centimeters. If the length of this triangle's hypotenuse, in centimeters, can be written in the form \\( 3\\sqrt{d} \\), where \\( d \\) is an integer, what is the value of \\( d \\)?",
+    "options": [],
+    "answer": "113",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 89,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "For \\( x > 0 \\), the function \\( f \\) is defined as follows: \\[ f(x) \\text{ equals } 201\\% \\text{ of } x \\] Which of the following could describe this function?",
+    "options": [
+      "Decreasing exponential",
+      "Decreasing linear",
+      "Increasing exponential",
+      "Increasing linear"
+    ],
+    "answer": "Increasing linear",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 90,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "\\(x\\) \\(y\\) \\(k\\) \\(13\\) \\(k+7\\) \\(-15\\)",
+    "question": "The table gives the coordinates of two points on a line in the \\( xy \\)-plane. The \\( y \\)-intercept of the line is \\( (k - 5, b) \\), where \\( k \\) and \\( b \\) are constants. What is the value of \\( b \\)?",
+    "options": [],
+    "answer": "33",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 91,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "Keenan made 32 cups of vegetable broth. Keenan then filled \\( x \\) small jars and \\( y \\) large jars with all the vegetable broth he made. The equation \\[ 3x + 5y = 32 \\] represents this situation. Which is the best interpretation of \\( 5y \\) in this context?",
+    "options": [
+      "The number of large jars Keenan filled",
+      "The number of small jars Keenan filled",
+      "The total number of cups of vegetable broth in the large jars",
+      "The total number of cups of vegetable broth in the small jars"
+    ],
+    "answer": "The total number of cups of vegetable broth in the large jars",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 92,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "\\[ 3x = 36y - 45 \\] One of the two equations in a system of linear equations is given. The system has no solution. Which equation could be the second equation in this system?",
+    "options": [
+      "\\( x = 4y \\)",
+      "\\( \\frac{1}{3}x = 4y \\)",
+      "\\(x = 12y - 15 \\)",
+      "\\( \\frac{1}{3}x = 12y - 15 \\)"
+    ],
+    "answer": "\\( \\frac{1}{3}x = 4y \\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 93,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "\\[ x - 29 = (x - a)(x - 29) \\] Which of the following are solutions to the given equation, where \\( a \\) is a constant and \\( a > 30 \\)? I. \\( a \\) II. \\( a + 1 \\) III. \\( 29 \\)",
+    "options": [
+      "I and II only",
+      "I and III only",
+      "II and III only",
+      "I, II, and III"
+    ],
+    "answer": "II and III only",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 94,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "One gallon of stain will cover 170 square feet of a surface. A yard has a total fence area of \\( w \\) square feet. Which equation represents the total amount of stain \\( S \\), in gallons, needed to stain the fence in this yard twice?",
+    "options": [
+      "\\( S = \\frac{w}{170} \\)",
+      "\\( S = 170w \\)",
+      "\\( S = 340w \\)",
+      "\\( S = \\frac{w}{85} \\)"
+    ],
+    "answer": "\\( S = \\frac{w}{85} \\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 95,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "In the \\( xy \\)-plane, the graph of the equation \\[ y = -x^2 + 9x - 100 \\] intersects the line \\( y = c \\) at exactly one point. What is the value of \\( c \\)?",
+    "options": [
+      "\\( -\\frac{481}{4} \\)",
+      "\\( -100 \\)",
+      "\\( -\\frac{319}{4} \\)",
+      "\\( -\\frac{9}{2} \\)"
+    ],
+    "answer": "\\( -\\frac{319}{4} \\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 96,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "The quadratic function \\( g \\) models the depth, in meters, below the surface of the water of a seal \\( t \\) minutes after the seal entered the water during a dive. The function estimates that the seal reached its maximum depth of 302.4 meters 6 minutes after it entered the water and then reached the surface of the water 12 minutes after it entered the water. Based on the function, what was the estimated depth, to the nearest meter, of the seal 10 minutes after it entered the water?",
+    "options": [],
+    "answer": "168",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 98,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "",
+    "question": "\\[ 5x + 7y = 1 \\] \\[ ax + by = 1 \\] In the given pair of equations, \\( a \\) and \\( b \\) are constants. The graph of this pair of equations in the \\( xy \\)-plane is a pair of perpendicular lines. Which of the following pairs of equations also represents a pair of perpendicular lines?",
+    "options": [
+      "\\(10x + 7y = 1\\) \\(ax - 2by = 1\\)",
+      "\\(10x + 7y = 1\\) \\(ax + 2by = 1\\)",
+      "\\(10x + 7y = 1 \\) \\( 2ax + by = 1 \\)",
+      "\\( 5x - 7y = 1 \\) \\( ax + by = 1 \\)"
+    ],
+    "answer": "\\(10x + 7y = 1\\) \\(ax + 2by = 1\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 60,
+    "section": "math",
+    "domain": "unknown",
+    "skill": "",
+    "difficulty": "unknown",
+    "passage": "The table summarizes the distribution of color and shape for tiles of equal area. Red Blue Yellow Total Square 10 20 25 55 Pentagon 20 10 15 45 Total 30 30 40 100",
+    "question": "If one of these tiles is selected at random, what is the probability of selecting a red tile? (Express your answer as a decimal or fraction, not as a percent.)",
+    "options": [],
+    "answer": "0.3",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 1,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Easy",
+    "passage": "Artist Marilyn Dingle’s intricate, coiled baskets are ______ blank sweetgrass and palmetto palm. Following a Gullah technique that originated in West Africa, Dingle skillfully winds a thin palm frond around a bunch of sweetgrass with the help of a “sewing bone” to create the basket’s signature look that no factory can reproduce.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "indicated by",
+      "handmade from",
+      "represented by",
+      "collected with"
+    ],
+    "answer": "handmade from",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 2,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Easy",
+    "passage": "The invention in 1958 of the integrated circuit (or microchip) radically altered the semiconductor industry. In fact, some historians argue that it fundamentally ______ blank the industry by enabling it to take advantage of mass production methods for the first time.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "overwhelmed",
+      "bypassed",
+      "obstructed",
+      "transformed"
+    ],
+    "answer": "transformed",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 3,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Easy",
+    "passage": "Botanist Al Kovaleski has pointed out that maple trees already thrive in a wide variety of climates and thus may ______ blank changes in climate better than some other tree species do. The alterations maples may undergo in response to a changing climate are likely to be relatively small and easily achieved.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "relocate from",
+      "refer to",
+      "originate from",
+      "adapt to"
+    ],
+    "answer": "adapt to",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 9,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "According to a team of neuroeconomists from the University of Zurich, ease of decision making may be linked to communication between two brain regions, the prefrontal cortex and the parietal cortex. Individuals tend to be more decisive if the information flow between the regions is intensified, whereas they make choices more slowly when information flow is ______ blank .",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "reduced",
+      "evaluated",
+      "determined",
+      "accquired"
+    ],
+    "answer": "reduced",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 10,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Cross-text Connection",
+    "difficulty": "Easy",
+    "passage": "Text 1 Imagine you and your friend are trying to decide where to eat lunch. When people try to make joint decisions like this, they often don’t reveal their true preferences. Instead, they say they would be happy with all options because they think this response will help them appear more easygoing and likable to the other person. Text 2 Research shows that people who don’t state their preferences when making a decision with others aren’t more likable in the eyes of others. In fact, stating that you have no preference actually makes the decision more difficult for other people. It can also cause them to feel less happy with their ultimate decision and with you.",
+    "question": "Based on the texts, what response would the author of Text 2 most likely suggest for someone in the situation described in the underlined sentence in Text 1?",
+    "options": [
+      "Cancel the plan to have lunch together.",
+      "Ask where the friend typically likes to eat.",
+      "State a preference about where to eat.",
+      "Change the subject to talk about something else."
+    ],
+    "answer": "State a preference about where to eat.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 13,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Cross-text Connection",
+    "difficulty": "Easy",
+    "passage": "Text 1 For decades, bluegrass musicians have debated whether their genre should exclude influences from mainstream genres such as rock. Many insist that bluegrass is defined by its adherence to the folk music of the US South, out of which bluegrass emerged. Such “purists,” as they are known, regard the recordings of Bill Monroe, which established the bluegrass sound in the 1940s, as a standard against which the genre should still be measured. Text 2 Bluegrass isn’t simply an extension of folk traditions into the era of recorded music. In reality, Bill Monroe created the bluegrass sound in the 1940s by combining Southern folk music with commercial genres that had arisen only a few decades before, such as jazz and the blues. Since bluegrass has always been a mixed genre, contemporary bluegrass musicians should not be forbidden from incorporating into it influences from rock and other mainstream genres.",
+    "question": "Based on the texts, how would the author of Text 2 most likely regard the perspective of bluegrass purists, as described in Text 1?",
+    "options": [
+      "As inconsistent, since bluegrass purists themselves enjoy other musical genres",
+      "As unrealistic, since bluegrass purists have no way of enforcing their musical preferences",
+      "As shortsighted, because bluegrass could enlarge its audience by including influences from mainstream genres",
+      "As illogical, because the purists overlook crucial aspects of how the bluegrass sound first originated."
+    ],
+    "answer": "As illogical, because the purists overlook crucial aspects of how the bluegrass sound first originated.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 17,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Easy",
+    "passage": "In 1942, the 1,500-mile Alaska Highway was constructed in under nine months, largely due to the skilled work of nearly 4,000 African American soldiers from US Army engineering regiments. The soldiers’ contribution was overlooked for decades. ______ blank in 2017, lawmakers declared October 25 a day of recognition—“Alaska Highway Day”—for the troops who helped build this critical roadway.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Lastly,",
+      "Then,",
+      "Similarly,",
+      "For example,"
+    ],
+    "answer": "Then,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 18,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Easy",
+    "passage": "Samuel Coleridge-Taylor was a prominent classical music composer from England who toured the US three times in the early 1900s. The child of a West African father and an English mother, Coleridge-Taylor emphasized his mixed-race ancestry. For example, he referred to himself as Anglo-African. ______ blank he incorporated the sounds of traditional African music into his classical music compositions.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "In addition,",
+      "Actually,",
+      "However,",
+      "Regardless,"
+    ],
+    "answer": "In addition,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 19,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "While researching a topic, a student has taken the following notes: Organisms release cellular material into their environment by shedding substances such as hair or skin. The DNA in these substances is known as environmental DNA, or eDNA. Researchers collect and analyze eDNA to detect the presence of species that are difficult to observe. Geneticist Sara Oyler-McCance’s research team analyzed eDNA in water samples from the Florida Everglades to detect invasive constrictor snake species in the area. The study determined a 91% probability of detecting Burmese python eDNA in a given location.",
+    "question": "The student wants to present the study to an audience already familiar with environmental DNA. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Sara Oyler-McCance’s researchers analyzed eDNA in water samples from the Florida Everglades for evidence of invasive constrictor snakes, which are difficult to observe.",
+      "An analysis of eDNA can detect the presence of invasive species that are difficult to observe, such as constrictor snakes.",
+      "Researchers found Burmese python eDNA, or environmental DNA, in water samples; eDNA is the DNA in released cellular materials, such as shed skin cells.",
+      "Sara Oyler-McCance’s researchers analyzed environmental DNA (eDNA)—that is, DNA from cellular materials released by organisms—in water samples from the Florida Everglades."
+    ],
+    "answer": "Sara Oyler-McCance’s researchers analyzed eDNA in water samples from the Florida Everglades for evidence of invasive constrictor snakes, which are difficult to observe.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 22,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Easy",
+    "passage": "While researching a topic, a student has taken the following notes: The Philadelphia and Lancaster Turnpike was a road built between 1792 and 1794. It was the first private turnpike in the United States. It connected the cities of Philadelphia and Lancaster in the state of Pennsylvania. It was sixty-two miles long.",
+    "question": "The student wants to emphasize the distance covered by the Philadelphia and Lancaster Turnpike. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "The sixty-two-mile-long Philadelphia and Lancaster Turnpike connected the Pennsylvania cities of Philadelphia and Lancaster.",
+      "The Philadelphia and Lancaster Turnpike was the first private turnpike in the United States.",
+      "The Philadelphia and Lancaster Turnpike, which connected two Pennsylvania cities, was built between 1792 and 1794.",
+      "A historic Pennsylvania road, the Philadelphia and Lancaster Turnpike was completed in 1794."
+    ],
+    "answer": "The sixty-two-mile-long Philadelphia and Lancaster Turnpike connected the Pennsylvania cities of Philadelphia and Lancaster.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 23,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "When, in 2017, Cambridge University students Lucy Moss and Toby Marlow decided they wanted to develop a musical together, one of their goals was for their female actor friends to have good parts to play. ______ blank they created the show Six, a retelling of the history of King Henry VIII’s wives in which each of the six queens has a starring role.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "In other words,",
+      "In summary,",
+      "For example,",
+      "To that end,"
+    ],
+    "answer": "To that end,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 25,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "While researching a topic, a student has taken the following notes: Architect Julian Abele studied Gregorian and neo-Gothic architecture in Europe. Abele worked for an architecture firm that was hired in 1924 to design buildings for Duke University’s new campus. Most of the buildings on Duke’s campus were designed in the Gregorian or neo-Gothic architectural styles. At the time, Abele was not formally credited with designing the buildings. Based on the buildings’ architectural styles, historians believe Abele designed most of the campus buildings.",
+    "question": "The student wants to specify why historians believe Abele designed most of Duke’s campus buildings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Given that most of the buildings on Duke’s campus feature architectural styles that Abele had studied in Europe, historians believe Abele is the one who designed them.",
+      "Though Abele wasn’t formally credited at the time, historians believe he designed most of the buildings on Duke’s campus.",
+      "Most of Duke’s campus buildings, which were designed by a firm Abele worked for, were designed in the Gregorian and neo-Gothic architectural styles.",
+      "Abele, an architect who studied Gregorian and neo-Gothic architecture in Europe, is believed to have designed most of the buildings on Duke’s campus."
+    ],
+    "answer": "Given that most of the buildings on Duke’s campus feature architectural styles that Abele had studied in Europe, historians believe Abele is the one who designed them.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 27,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Easy",
+    "passage": "NASA’s Cassini probe has detected an unusual wobble in the rotation of Mimas, Saturn’s smallest moon. Using a computer model to study Mimas’s gravitational interactions with Saturn and tidal forces, geophysicist Alyssa Rhoden and colleagues have proposed that this wobble could be due to a liquid ocean moving beneath the moon’s icy surface. The researchers believe other moons should be examined to see if they too might have oceans hidden beneath their surfaces.",
+    "question": "Which choice best states the main idea of the text?",
+    "options": [
+      "Rhoden and colleagues were the first to confirm that several of Saturn’s moons contain hidden oceans.",
+      "Research has failed to identify signs that there is an ocean hidden beneath the surface of Mimas.",
+      "Rhoden and colleagues created a new computer model that identifies moons with hidden oceans without needing to analyze the moons’ rotation.",
+      "Research has revealed that an oddity in the rotation of Mimas could be explained by an ocean hidden beneath its surface."
+    ],
+    "answer": "Research has revealed that an oddity in the rotation of Mimas could be explained by an ocean hidden beneath its surface.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 30,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Easy",
+    "passage": "In the South Pacific, New Caledonian crows use two different kinds of stick tools. One tool is complex. The crows shape a stick from a rare plant into a hook. The other tool is basic. The crows find a stick without a hook on the ground. The hooked tool is harder to get but is much better than the basic tool at removing prey from holes. When studying New Caledonian crows, ecologist Barbara Klump found that they hold the hooked tools in their claws when not using them, or they carefully put them in a safe place. The crows don’t do the same with the basic tools. This suggests to Klump that the ______ blank",
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "hooked stick tools are more valuable to the crows than the stick tools without hooks.",
+      "hooked stick tools are easier for most of the crows to hold than the stick tools without hooks.",
+      "crows prefer to share their hooked stick tools but don’t share the stick tools without hooks.",
+      "crows realize that both kinds of stick tools are less effective than their claws are at removing prey from holes."
+    ],
+    "answer": "hooked stick tools are more valuable to the crows than the stick tools without hooks.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 34,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Easy",
+    "passage": "Pyramids in Egypt and the Americas Pyramid Country Height (meters) Age (years before present) The Great Pyramid Mexico 33 2,050 to 2,400 The Pyramid of Djoser Egypt 60 4,600 to 4,700 The Pyramid of Sahure Egypt 47 4,400 to 4,500 El Castillo Belize 40 1,100 to 1,400 A student is writing an essay about four pyramids for a history class and wants to note how long ago each pyramid was built and how tall each pyramid is. Consulting the table, the student finds that el Castillo was built 1,100 to 1,400 years ago and is&nbsp; ______ blank &nbsp;",
+    "question": "Which choice most effectively uses data from the table to complete the text?",
+    "options": [
+      "33 meters tall.",
+      "47 meters tall.",
+      "40 meters tall.",
+      "60 meters tall."
+    ],
+    "answer": "40 meters tall.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 35,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Easy",
+    "passage": "Annual Car Production in the United States, 1910–1925 Year Number of cars produced Number of companies producing cars 1910 123,990 320 1915 548,139 224 1920 1,651,625 197 1925 3,185,881 80 A student is using the table as part of a social studies class presentation on the US auto industry in the early twentieth century. The student notes that, according to the table, from 1910 to 1925 ______ blank",
+    "question": "Which choice most effectively uses data from the table to complete the statement?",
+    "options": [
+      "the number of cars produced increased but the number of companies producing cars decreased.",
+      "both the number of cars produced and the number of companies producing cars remained unchanged.",
+      "the number of cars produced decreased but the number of companies producing cars remained unchanged.",
+      "both the number of cars produced and the number of companies producing cars increased."
+    ],
+    "answer": "the number of cars produced increased but the number of companies producing cars decreased.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 36,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "passage": "Annual Spending by International Tourists in Four Countries (in billions of US dollars) Country 2016 2017 2018 South Korea $21.0 $17.2 $23.1 Japan $33.5 $37.0 $45.3 Thailand $48.5 $57.1 $61.4 Malaysia $19.7 $20.3 $21.8 One measure of international tourism is how much money visitors from abroad spend in a country. A student writing a report about tourism in several Asian countries notes that among the countries in the table, most had annual increases in international tourism revenue in 2017 and 2018, but that trend wasn’t universal. For example, ______ blank",
+    "question": "Which choice most effectively uses data from the table to complete the example?",
+    "options": [
+      "in each year shown, the revenue from tourism by residents of those countries was greater than the revenue from international tourism.",
+      "Japan’s international tourism revenue was higher in 2016 than it was in 2018.",
+      "South Korea’s annual international tourism revenue decreased from 2016 to 2017.",
+      "in each year shown, Thailand had higher international tourism income than any of the other countries."
+    ],
+    "answer": "South Korea’s annual international tourism revenue decreased from 2016 to 2017.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 37,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Medium",
+    "passage": "Incorporated and Unincorporated Self-Employment Rates in Four Occupational Fields, 2015 Occupational field Incorporated self-employment rate Unincorporated self-employment rate Construction and resource extraction 4.4% 14.8% Installation, maintenance, and repair 2.7% 6.2% Management, business, and financial services 8.9% 9.7% Sales and related 5.8% 7.8% Self-employed workers—individuals who are not employees of other individuals or businesses but instead earn their income as business owners, independent contractors, or freelance workers—make up an important part of the US labor force. In order to receive legal and tax benefits enjoyed by corporations, self-employed individuals may choose to incorporate their business. A 2015 survey of incorporated and unincorporated self-employment rates in four occupational fields showed that the highest incorporated self-employment rate occurred among people working in ______ blank",
+    "question": "Which choice most effectively uses data from the table to complete the text?",
+    "options": [
+      "sales and related occupations.",
+      "installation, maintenance, and repair occupations.",
+      "construction and resource extraction occupations.",
+      "management, business, and financial services occupations."
+    ],
+    "answer": "management, business, and financial services occupations.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 40,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "passage": "Generations of mystery and horror ______ blank have been influenced by the dark, gothic stories of celebrated American author Edgar Allan Poe (1809–1849).",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "writers",
+      "writers,",
+      "writers—",
+      "writers;"
+    ],
+    "answer": "writers",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 41,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "passage": "After the printing press was introduced in 1440, handwritten manuscripts from Europe’s medieval period were often destroyed and the paper used for other purposes. In one instance, pages ______ blank a collection of Norse tales dating to 1270 were discovered lining a bishop’s miter (hat).",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "from:",
+      "from,",
+      "from",
+      "from—"
+    ],
+    "answer": "from",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 42,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Easy",
+    "passage": "In her large-scale sculpture Casa-Isla , artist Edra Soto included references to her childhood in Puerto Rico. For example, the sculpture’s steel panels have a crisscrossing pattern inspired by the iron gates ______ blank",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "Soto would see in her neighborhood?",
+      "Soto would see in her neighborhood.",
+      "would Soto see in her neighborhood.",
+      "would Soto see in her neighborhood?"
+    ],
+    "answer": "Soto would see in her neighborhood.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 44,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "Archaeologists have estimated that the pre-Columbian Native American city of Cahokia, located across the Mississippi River from modern-day St. Louis, Missouri, had as many as 20,000 inhabitants in the year 1150 ______ blank it one of the largest cities in North America at the time.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "CE making",
+      "CE. Making",
+      "CE, making",
+      "CE; making"
+    ],
+    "answer": "CE, making",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 47,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "With some 16,000 in attendance, the Second World Black and African Festival of Arts and ______ blank or FESTAC ‘77, as the event was more commonly known—became the largest pan-African event on record. FESTAC drew people from around the world to Lagos, Nigeria, for a monthlong celebration of Black and African art, scholarship, and activism.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "Culture:",
+      "Culture—",
+      "Culture,",
+      "Culture"
+    ],
+    "answer": "Culture—",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 48,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "passage": "The radiation that ______ blank during the decay of radioactive atomic nuclei is known as gamma radiation.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "occurs",
+      "have occurred",
+      "occur",
+      "are occurring"
+    ],
+    "answer": "occurs",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 49,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Easy",
+    "passage": "In 1903, environmentalist John Muir guided President Theodore Roosevelt on a scenic, sprawling trip through California’s Yosemite Valley. Upon returning from the three-day excursion, Roosevelt ______ blank to conserve the nation’s wilderness areas, a vow he upheld for his remaining six years in office.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "is vowing",
+      "vowed",
+      "will vow",
+      "vows"
+    ],
+    "answer": "vowed",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 50,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "passage": "Anthropologist Lívia Barbosa, of the Universidade Federal Fluminense in Brazil, ______ blank food and sociability in contemporary Brazil—specifically, how foods such as cabidela (a rice and rabbit dish) and churrasco (a barbeque dish) function as central mechanisms in building social relationships, values, and identities.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "studies",
+      "are studying",
+      "have studied",
+      "study"
+    ],
+    "answer": "studies",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 55,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Easy",
+    "passage": "",
+    "question": "If \\( \\frac{x}{8} = 5 \\), what is the value of \\(8x\\)?",
+    "options": [],
+    "answer": "0.2",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 59,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Easy",
+    "passage": "",
+    "question": "For the linear function \\(f\\), the graph of \\(y=f(x)\\) in the \\(xy\\)-plane has a slope of \\(2\\) and has a \\(y\\)-intercept at \\((0,−5)\\). Which equation defines \\(f\\)?",
+    "options": [
+      "\\(𝑓(𝑥)=12𝑥−5\\)",
+      "\\(𝑓(𝑥)=−\\frac{1}{2}𝑥−5\\)",
+      "\\(𝑓(𝑥)=−2𝑥−5\\)",
+      "\\(𝑓(𝑥)=2𝑥−5\\)"
+    ],
+    "answer": "\\(𝑓(𝑥)=2𝑥−5\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 61,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "Distance (kilometers) Average time (minutes) \\(0.32\\) \\(8\\) \\(0.56\\) \\(14\\) \\(0.68\\) \\(17\\) The table gives the average time \\(𝑡\\), in minutes, it takes Carly to travel a certain distance \\(𝑑\\), in kilometers. Which equation could represent this linear relationship?",
+    "options": [
+      "\\(𝑡=4𝑑\\)",
+      "\\(𝑡=\\frac{1}{25}𝑑\\)",
+      "\\(𝑡=25𝑑\\)",
+      "\\(𝑡=\\frac{1}{4}𝑑\\)"
+    ],
+    "answer": "\\(𝑡=25𝑑\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 63,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "Line \\(𝑘\\) is defined by \\(𝑦=−173𝑥+5\\). Line \\(𝑗\\) is perpendicular to line \\(𝑘\\) in the \\(xy\\)-plane. What is the slope of line \\(𝑗\\)?",
+    "options": [],
+    "answer": "3/17",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 66,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Easy",
+    "passage": "",
+    "question": "\\(y=2x+3\\) \\(x=1\\) What is the solution \\((x,y)\\) to the given system of equations?",
+    "options": [
+      "\\((1,2)\\)",
+      "\\((1,5)\\)",
+      "\\((2,3)\\)",
+      "\\((2,7)\\)"
+    ],
+    "answer": "\\((1,5)\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 68,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Systems of two linear equations in two variables",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "\\(y=\\frac{1}{3}x-14\\) \\(y=-x+18\\) The solution to the given system of equations is \\((x,y)\\). What is the value of \\(x\\)?",
+    "options": [],
+    "answer": "24",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 71,
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Easy",
+    "passage": "",
+    "question": "Which expression is equivalent to \\(23𝑥^3+2𝑥^2+9𝑥\\)?",
+    "options": [
+      "\\(23𝑥(𝑥^2+2𝑥+9)\\)",
+      "\\(9𝑥(23𝑥^3+2𝑥^2+1)\\)",
+      "\\(𝑥(23𝑥^2+2𝑥+9)\\)",
+      "\\(34(𝑥^3+𝑥^2+𝑥)\\)"
+    ],
+    "answer": "\\(𝑥(23𝑥^2+2𝑥+9)\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 75,
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "\\(y=x^2+1.7\\) \\(y=1.7-x\\) Which graph represents the given system of equations?",
+    "options": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "answer": "",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 79,
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
+    "passage": "",
+    "question": "The graph shown models the number of residents of a certain city \\(𝑥\\) years after 2010. How many residents does this model estimate the city had in 2010?",
+    "options": [
+      "\\(0\\)",
+      "\\(2,000\\)",
+      "\\(20,000\\)",
+      "\\(25,000\\)"
+    ],
+    "answer": "\\(20,000\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 80,
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
+    "passage": "",
+    "question": "What is the \\(x\\)-coordinate of the \\(x\\)-intercept of the graph shown?",
+    "options": [],
+    "answer": "6",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 81,
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Easy",
+    "passage": "",
+    "question": "The function \\(𝑓(𝑥)=200,000(1.21)^𝑥\\) gives a company’s predicted annual revenue, in dollars, \\(𝑥\\) years after the company started selling light bulbs online, where \\(0< 𝑥 ≤ 10\\). What is the best interpretation of the statement “\\(𝑓(5)\\) is approximately equal to \\(518,748\\)” in this context?",
+    "options": [
+      "5 years after the company started selling light bulbs online, its predicted annual revenue is approximately 518,748 dollars.",
+      "5 years after the company started selling light bulbs online, its predicted annual revenue will have increased by a total of approximately 518,748 dollars.",
+      "When the company’s predicted annual revenue is approximately 518,748 dollars, it is 5 times the predicted annual revenue for the previous year.",
+      "When the company’s predicted annual revenue is approximately 518,748 dollars, it is 5% greater than the predicted annual revenue for the previous year."
+    ],
+    "answer": "5 years after the company started selling light bulbs online, its predicted annual revenue is approximately 518,748 dollars.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 90,
+    "section": "math",
+    "domain": "Problem-Solving & Data Analysis",
+    "skill": "Two-variable data: Models and scatterplots",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "An inspector begins a day of work with a large sample of shirts that need to be checked for defects. The inspector works at a constant rate throughout the morning. What type of model is best to model the number of shirts remaining to be checked for defects at any given time throughout the morning?",
+    "options": [
+      "A linear model with a positive slope",
+      "A linear model with a negative slope",
+      "An exponential growth model",
+      "An exponential decay model"
+    ],
+    "answer": "A linear model with a negative slope",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 95,
+    "section": "math",
+    "domain": "Geometry & Trigonometry",
+    "skill": "Area and volume",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "A right circular cylinder has a base diameter of 22 centimeters and a height of 6 centimeters. What is the volume, in cubic centimeters, of the cylinder?",
+    "options": [
+      "\\(132𝜋\\)",
+      "\\(264𝜋\\)",
+      "\\(726𝜋\\)",
+      "\\(2,904𝜋\\)"
+    ],
+    "answer": "\\(726𝜋\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 96,
+    "section": "math",
+    "domain": "Geometry & Trigonometry",
+    "skill": "Lines, angles, and triangles",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "In triangle 𝐽𝐾𝐿, the measures of ∠𝐾 and ∠𝐿 are each 48°. What is the measure of ∠𝐽 , in degrees? (Disregard the degree symbol when entering your answer.)",
+    "options": [],
+    "answer": "84",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 97,
+    "section": "math",
+    "domain": "Geometry & Trigonometry",
+    "skill": "Right triangles and trigonometry",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "A right triangle has legs with lengths of 28 centimeters and 20 centimeters. What is the length of this triangle's hypotenuse, in centimeters?",
+    "options": [
+      "\\(8\\sqrt{6}\\)",
+      "\\(4\\sqrt{74}\\)",
+      "\\(48\\)",
+      "\\(1184\\)"
+    ],
+    "answer": "\\(4\\sqrt{74}\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 4,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "The following text is adapted from Nathaniel Hawthorne’s 1837 story “Dr. Heidegger’s Experiment.” The main character, a physician, is experimenting with rehydrating a dried flower. At first [the rose] lay lightly on the surface of the fluid, appearing to imbibe none of its moisture. Soon, however, a singular change began to be visible. The crushed and dried petals stirred and assumed a deepening tinge of crimson, as if the flower were reviving from a deathlike slumber.",
+    "question": "As used in the text, what does the phrase “a singular” most nearly mean?",
+    "options": [
+      "A lonely",
+      "A disagreeable",
+      "An acceptable",
+      "An extraordinary"
+    ],
+    "answer": "An extraordinary",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 5,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Hard",
+    "passage": "Rejecting the premise that the literary magazine Ebony and Topaz (1927) should present a unified vision of Black American identity, editor Charles S. Johnson fostered his contributors’ diverse perspectives by promoting their authorial autonomy. Johnson’s self-effacement diverged from the editorial stances of W.E.B. Du Bois and Alain Locke, whose decisions for their publications were more ______ blank .",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "proficient",
+      "dogmatic",
+      "ambiguous",
+      "unpretentious"
+    ],
+    "answer": "dogmatic",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 6,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "“How lifelike are they?” Many computer animators prioritize this question as they strive to create ever more realistic environments and lighting. Generally, while characters in computer-animated films appear highly exaggerated, environments and lighting are carefully engineered to mimic reality. But some animators, such as Pixar’s Sanjay Patel, are focused on a different question. Rather than asking first whether the environments and lighting they’re creating are convincingly lifelike, Patel and others are asking whether these elements reflect their films’ unique stories.",
+    "question": "Which choice best describes the function of the underlined question in the text as a whole?",
+    "options": [
+      "It reflects a primary goal that many computer animators have for certain components of the animations they produce.",
+      "It represents a concern of computer animators who are more interested in creating unique backgrounds and lighting effects than realistic ones.",
+      "It conveys the uncertainty among many computer animators about how to create realistic animations using current technology.",
+      "It illustrates a reaction that audiences typically have to the appearance of characters created by computer animators."
+    ],
+    "answer": "It reflects a primary goal that many computer animators have for certain components of the animations they produce.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 7,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Text Structure and Purpose",
+    "difficulty": "Hard",
+    "passage": "The field of study called affective neuroscience seeks instinctive, physiological causes for feelings such as pleasure or displeasure. Because these sensations are linked to a chemical component (for example, the release of the neurotransmitter dopamine in the brain when one receives or expects a reward), they can be said to have a partly physiological basis. These processes have been described in mammals, but Jingnan Huang and his colleagues have recently observed that some behaviors of honeybees (such as foraging) are also motivated by a dopamine-based signaling process.",
+    "question": "What choice best describes the main purpose of the text?",
+    "options": [
+      "It describes an experimental method of measuring the strength of physiological responses in humans.",
+      "It illustrates processes by which certain insects can express how they are feeling.",
+      "It summarizes a finding suggesting that some mechanisms in the brains of certain insects resemble mechanisms in mammalian brains.",
+      "It presents research showing that certain insects and mammals behave similarly when there is a possibility of a reward for their actions."
+    ],
+    "answer": "It summarizes a finding suggesting that some mechanisms in the brains of certain insects resemble mechanisms in mammalian brains.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 8,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "Drivers who strongly believe that the toll they must pay to use the Lewis and Clark Bridge, which spans the Ohio River to connect Indiana and Kentucky, is currently too high are unlikely to be ______ blank a proposal to increase the toll. Advocates for a higher toll are likely to have more success if they instead direct their arguments toward a more persuadable segment of the population.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "receptive to",
+      "apprised of",
+      "incensed by",
+      "cited in"
+    ],
+    "answer": "receptive to",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 14,
+    "section": "verbal",
+    "domain": "Craft and Structure",
+    "skill": "Words in Context",
+    "difficulty": "Medium",
+    "passage": "Handedness, a preferential use of either the right or left hand, typically is easy to observe in humans. Because this trait is present but less ______ blank in many other animals, animal-behavior researchers often employ tasks specially designed to reveal individual animals’ preferences for a certain hand or paw.",
+    "question": "Which choice completes the text with the most logical and precise word or phrase?",
+    "options": [
+      "recognizable",
+      "intriguing",
+      "significant",
+      "useful"
+    ],
+    "answer": "recognizable",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 15,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "The prime meridian, the global indicator of zero degrees longitude established in 1884, was originally determined using astronomically derived coordinates. ______ blank as decades passed, new calculations would reveal increasingly precise coordinates, yet the prime meridian remained unchanged; it wasn’t until the 1980s that, spurred by improved geodetic data, the prime meridian was officially moved—roughly one hundred meters east.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Specifically,",
+      "To that end,",
+      "Again and again,",
+      "Granted,"
+    ],
+    "answer": "Again and again,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 16,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Hard",
+    "passage": "While researching a topic, a student has taken the following notes: As engineered structures, many bird nests are uniquely flexible yet cohesive. A research team led by Yashraj Bhosale wanted to better understand the mechanics behind these structural properties. Bhosale’s team used laboratory models that simulated the arrangement of flexible sticks into nest-like structures. The researchers analyzed the points where sticks touched one another. When pressure was applied to the model nests, the number of contact points between the sticks increased, making the structures stiffer.",
+    "question": "The student wants to present the primary aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "Bhosale’s team wanted to better understand the mechanics behind bird nests’ uniquely flexible yet cohesive structural properties.",
+      "The researchers used laboratory models that simulated the arrangement of flexible sticks and analyzed the points where sticks touched one another.",
+      "After analyzing the points where sticks touched, the researchers found that the structures became stiffer when pressure was applied.",
+      "As analyzed by Bhosale’s team, bird nests are uniquely flexible yet cohesive engineered structures."
+    ],
+    "answer": "Bhosale’s team wanted to better understand the mechanics behind bird nests’ uniquely flexible yet cohesive structural properties.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 20,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "While researching a topic, a student has taken the following notes: Sam Maloof (1916–2009) was an American woodworker and furniture designer. He was the son of Lebanese immigrants. He received a “genius grant” from the John D. and Catherine T. MacArthur Foundation in 1985. The Museum of Fine Arts in Boston, Massachusetts, owns a rocking chair that Maloof made from walnut wood. The armrests and the seat of the chair are sleek and contoured, and the back consists of seven spindle-like slats.",
+    "question": "The student wants to describe the rocking chair to an audience unfamiliar with Sam Maloof. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "With its sleek, contoured armrests and seat, the walnut rocking chair in Boston’s Museum of Fine Arts is just one piece of furniture created by American woodworker Sam Maloof.",
+      "Sam Maloof was born in 1916 and died in 2009, and during his life, he made a chair that you can see if you visit the Museum of Fine Arts in Boston.",
+      "Furniture designer Sam Maloof was a recipient of one of the John D. and Catherine T. MacArthur Foundation’s “genius grants.”",
+      "The rocking chair is made from walnut, and it has been shaped such that its armrests and seat are sleek and contoured."
+    ],
+    "answer": "With its sleek, contoured armrests and seat, the walnut rocking chair in Boston’s Museum of Fine Arts is just one piece of furniture created by American woodworker Sam Maloof.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 21,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis",
+    "difficulty": "Medium",
+    "passage": "While researching a topic, a student has taken the following notes: Species belonging to the Orchidaceae (orchid) family can be found in both tropical and temperate environments. Orchidaceae species diversity has not been well studied in temperate forests, such as those in Oaxaca, Mexico. Arelee Estefanía Muñoz-Hernández led a study to determine how many different Orchidaceae species are present in the forests of Oaxaca. Muñoz-Hernández and her team collected orchids each month for a year at a site in Oaxaca. Seventy-four Orchidaceae species were present at the site.",
+    "question": "The student wants to present the study and its findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "options": [
+      "A study led by Arelee Estefanía Muñoz-Hernández identified a total of 74 Orchidaceae species in the temperate forests of Oaxaca, Mexico.",
+      "There are orchids in many environments, but there are 74 Orchidaceae species in Oaxaca, Mexico.",
+      "Oaxaca, Mexico, is home to temperate forests containing 74 Orchidaceae species.",
+      "Arelee Estefanía Muñoz-Hernández and her team wanted to know how many different Orchidaceae species are present in the forests of Oaxaca, Mexico, so they conducted a study to collect orchids."
+    ],
+    "answer": "A study led by Arelee Estefanía Muñoz-Hernández identified a total of 74 Orchidaceae species in the temperate forests of Oaxaca, Mexico.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 24,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Medium",
+    "passage": "Establishing Coordinated Universal Time (UTC) is no easy task. Each month, readings of a single second from atomic clocks around the world are taken and sent to the International Bureau of Weights and Measures (BIPM) in France. ______ blank BIPM metrologists perform the meticulous work of assembling these minutely disparate readings into a globally shared time standard.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "There,",
+      "In particular,",
+      "For example,",
+      "Conversely,"
+    ],
+    "answer": "There,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 26,
+    "section": "verbal",
+    "domain": "Expression of Ideas",
+    "skill": "Transitions",
+    "difficulty": "Hard",
+    "passage": "To perform a quad axel, a figure skater must leap into the air and complete four and a half rotations before landing, an extreme feat. ______ blank in 2022, when 17-year-old Ilia Malinin landed the first quad axel—considered the most difficult quad jump—in a high-level competition, the audience was left awestruck.",
+    "question": "Which choice completes the text with the most logical transition?",
+    "options": [
+      "Moreover,",
+      "Fittingly,",
+      "Next,",
+      "However,"
+    ],
+    "answer": "Fittingly,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 28,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Medium",
+    "passage": "In a study by Mika R. Moran, Daniel A. Rodriguez, and colleagues, residents of Quito, Ecuador, and Lima, Peru, were surveyed about parks in their cities. Of the 618 respondents from Quito, 82.9% indicated that they use the city’s parks, and of the 663 respondents from Lima, 72.7% indicated using city parks. Given that the percentage of Quito respondents who reported living within a 10-minute walk of a park was much lower than that reported by Lima respondents, greater proximity alone can’t explain the difference in park use.",
+    "question": "The text makes which point about the difference between the proportions of Quito residents and Lima residents using parks?",
+    "options": [
+      "It was much larger than the researchers conducting the study expected.",
+      "It is caused by something other than the parks’ proximity to city residents.",
+      "It could be due to inaccuracies in the survey results.",
+      "It was calculated using sources that predate the survey."
+    ],
+    "answer": "It is caused by something other than the parks’ proximity to city residents.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 29,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Central Ideas and Details",
+    "difficulty": "Hard",
+    "passage": "In a study of new technology adoption, Davit Marikyan et al. examined negative disconfirmation (which occurs when experiences fall short of one’s expectations) to determine whether it could lead to positive outcomes for users. The team focused on established users of&nbsp; “smart home” technology, which presents inherent utilization challenges but tends to attract users with high expectations, often leading to feelings of dissonance. The researchers found that many users employed cognitive mechanisms to mitigate those feelings, ultimately reversing their initial sense of disappointment.",
+    "question": "Which choice best states the main idea of the text?",
+    "options": [
+      "Research suggests that most users of smart home technology will not achieve a feeling of satisfaction given the utilization challenges of such technology.",
+      "Although most smart home technology is aimed at meeting or exceeding users’ high expectations, those expectations in general remain poorly understood.",
+      "Research suggests that users with high expectations for a new technology can feel content with that technology even after experiencing negative disconfirmation.",
+      "Although negative disconfirmation has often been studied, little is known about the cognitive mechanisms shaping users’ reactions to it in the context of new technology adoption."
+    ],
+    "answer": "Research suggests that users with high expectations for a new technology can feel content with that technology even after experiencing negative disconfirmation.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  }
+]

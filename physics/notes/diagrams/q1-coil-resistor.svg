@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320">
+  <rect width="600" height="320" fill="white" stroke="#ccc"/>
+  <text x="300" y="22" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold">Fig. 1.1 — Coil + Resistor Timing (9702/51/M/J/21)</text>
+  <!-- supply -->
+  <rect x="40" y="80" width="80" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <text x="80" y="100" text-anchor="middle" font-size="10">High-voltage</text>
+  <text x="80" y="112" text-anchor="middle" font-size="10">DC Supply</text>
+  <!-- switch -->
+  <line x1="120" y1="95" x2="170" y2="95" stroke="black" stroke-width="1.5"/>
+  <circle cx="175" cy="95" r="5" fill="white" stroke="black" stroke-width="1.5"/>
+  <line x1="180" y1="95" x2="230" y2="95" stroke="black" stroke-width="1.5"/>
+  <text x="175" y="85" font-size="7">switch</text>
+  <!-- coil -->
+  <path d="M 230 85 Q 235 95 230 105 Q 240 115 250 105 Q 260 95 250 85 Q 260 75 270 85 Q 280 95 270 105 Q 285 115 290 95" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="260" y="75" font-size="8">coil: N, L, A</text>
+  <text x="260" y="130" font-size="7">(N counted, L with rule, A=πd²/4)</text>
+  <!-- resistor -->
+  <rect x="310" y="85" width="60" height="20" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="340" y="98" text-anchor="middle" font-size="9">R</text>
+  <text x="340" y="125" font-size="7">variable R (Ω)</text>
+  <!-- back to supply -->
+  <line x1="370" y1="95" x2="420" y2="95" stroke="black" stroke-width="1.5"/>
+  <line x1="420" y1="95" x2="420" y2="140" stroke="black" stroke-width="1.5"/>
+  <line x1="420" y1="140" x2="80" y2="140" stroke="black" stroke-width="1.5"/>
+  <line x1="80" y1="140" x2="80" y2="140" stroke="black"/>
+  <!-- oscilloscope / timer across R -->
+  <line x1="310" y1="105" x2="310" y2="170" stroke="black" stroke-dasharray="4,3"/>
+  <line x1="370" y1="105" x2="370" y2="170" stroke="black" stroke-dasharray="4,3"/>
+  <rect x="280" y="170" width="110" height="45" fill="none" stroke="black"/>
+  <text x="335" y="188" text-anchor="middle" font-size="9">Oscilloscope</text>
+  <text x="335" y="200" text-anchor="middle" font-size="7">/ timer (measures t)</text>
+  <!-- bench -->
+  <line x1="20" y1="260" x2="580" y2="260" stroke="black" stroke-width="2"/>
+  <text x="80" y="275" font-size="7">G-clamped bench</text>
+  <text x="335" y="250" font-size="8" fill="#555">Different unmarked R → measure R with ohmmeter. Measure t for current to max (few ms) → oscilloscope.</text>
+  <text x="335" y="265" font-size="8" fill="#555">Keep N,A,L, supply voltage constant. Safety: shrouded leads, switch off before changing R, allow coil to cool.</text>
+</svg>

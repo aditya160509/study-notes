@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <rect width="600" height="360" fill="white" stroke="#ccc"/>
+  <text x="300" y="22" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold">Fig. 2.1 + Fig. 2.2 — AC Phase Difference (9702/52/F/M/22)</text>
+  <!-- Circuit top -->
+  <text x="80" y="50" font-size="9" font-weight="bold">Circuit (Fig. 2.1)</text>
+  <rect x="40" y="60" width="90" height="40" fill="none" stroke="black" stroke-width="2"/>
+  <text x="85" y="78" text-anchor="middle" font-size="8">AC Power</text>
+  <text x="85" y="90" text-anchor="middle" font-size="8">Supply (f)</text>
+  <line x1="130" y1="75" x2="200" y2="75" stroke="black" stroke-width="1.5"/>
+  <!-- C -->
+  <line x1="200" y1="60" x2="200" y2="90" stroke="black" stroke-width="2"/>
+  <line x1="210" y1="60" x2="210" y2="90" stroke="black" stroke-width="2"/>
+  <text x="205" y="105" font-size="8">C</text>
+  <line x1="210" y1="75" x2="270" y2="75" stroke="black" stroke-width="1.5"/>
+  <!-- R -->
+  <rect x="270" y="65" width="60" height="20" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="300" y="78" text-anchor="middle" font-size="9">R</text>
+  <text x="300" y="98" font-size="7">variable R</text>
+  <line x1="330" y1="75" x2="380" y2="75" stroke="black" stroke-width="1.5"/>
+  <line x1="380" y1="75" x2="380" y2="110" stroke="black" stroke-width="1.5"/>
+  <line x1="380" y1="110" x2="85" y2="110" stroke="black" stroke-width="1.5"/>
+  <!-- oscilloscope connections -->
+  <line x1="200" y1="90" x2="200" y2="130" stroke="black" stroke-dasharray="4,3"/>
+  <line x1="210" y1="90" x2="210" y2="130" stroke="black" stroke-dasharray="4,3"/>
+  <line x1="270" y1="85" x2="270" y2="130" stroke="black" stroke-dasharray="4,3"/>
+  <line x1="330" y1="85" x2="330" y2="130" stroke="black" stroke-dasharray="4,3"/>
+  <rect x="180" y="130" width="160" height="40" fill="none" stroke="black"/>
+  <text x="260" y="148" text-anchor="middle" font-size="9">Dual-beam Oscilloscope</text>
+  <text x="260" y="162" text-anchor="middle" font-size="7">CH1 across C, CH2 across R</text>
+  <!-- Oscilloscope traces Fig 2.2 -->
+  <text x="80" y="195" font-size="9" font-weight="bold">Traces (Fig. 2.2)</text>
+  <rect x="80" y="205" width="440" height="110" fill="#111" stroke="black"/>
+  <!-- grid -->
+  <line x1="80" y1="260" x2="520" y2="260" stroke="#333" stroke-width="0.5"/>
+  <!-- trace 1: capacitor (phase shifted) -->
+  <path d="M 80 250 Q 130 205 180 250 T 280 250 T 380 250 T 480 250" fill="none" stroke="#4ade80" stroke-width="1.5"/>
+  <!-- trace 2: resistor (in phase with current) -->
+  <path d="M 80 270 Q 130 225 180 270 T 280 270 T 380 270 T 480 270" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+  <text x="90" y="220" font-size="7" fill="#4ade80">C trace</text>
+  <text x="90" y="285" font-size="7" fill="#60a5fa">R trace</text>
+  <!-- phase difference arrow -->
+  <line x1="180" y1="250" x2="210" y2="270" stroke="yellow" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="195" y="245" font-size="7" fill="yellow">θ</text>
+  <text x="185" y="300" font-size="7" fill="white">← phase difference θ (measure time shift Δt, θ = 360°×Δt/T) →</text>
+  <text x="300" y="340" text-anchor="middle" font-size="8" fill="#555">Measure θ for each R, calculate tanθ and 1/R. Plot tanθ vs 1/R → gradient = 1/(2πfC) through origin.</text>
+</svg>

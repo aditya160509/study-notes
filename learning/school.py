@@ -1,58 +1,46 @@
-dataarray = [0, 3, 4, 56, 67, 44, 43, 32, 31, 345, 45, 6, 54, 1]
+class Record:
+    def __init__(self,key,item,item2):
+        self.__key = key
+        self.__item = item
+        self.__item2 = item2
 
 
-def insertionsort(dataarray):
-    for i in range(1, len(dataarray)):
-        value = dataarray[i]
-        y = i - 1
-
-        while y >= 0 and dataarray[y] > value:
-            dataarray[y + 1] = dataarray[y]
-            y = y - 1
-
-        dataarray[y + 1] = value
-
-    return dataarray
+        def GetKey(self):
+             return self.__Key
+             def GetItem1(self):
+              return self.__Item1
 
 
-def outputArray(dataarray):
-    output = ""
-    for i in dataarray:
-        output = output + str(i) + " "
-    print(output)
+        def GetItem2(self):
+          return self.__Item2
 
 
-outputArray(dataarray)
-sorted_array = insertionsort(dataarray)
-outputArray(sorted_array)
+        Hashtable = []
+        spare = []
+        def Initialise():
+         global HashTable
+         global Spare
+        for X in range(200):
+         Hashtable.append(Record(-1,-1,-1))
+         for X in range(100):
+             spare.append(Record(-1,-1,-1))
+
+def calculatehash(key):
+        return key %200
 
 
-def binarysearch(dataarray,itemtofind):
-    low= 0
-    high = len(dataarray) - 1
-    found = False
+def InsertIntoHash(TheRecord):
+    global HashTable
+    global Spare
 
-    while low <= high and not found:
-        mid = (low + high) // 2
-        if dataarray[mid] == itemtofind:
-            found = True
-        else:
-            if itemtofind < dataarray[mid]:
-                high = mid - 1
-            else:
-                low = mid + 1
-                return mid 
-        return -1
-  
+    HashValue = calculatehash(TheRecord.GetKey())
 
-    def bubble_sort(arr):
-     n = len(arr)
-     for i in range(n - 1):
-        swapped = False
-        for j in range(n - 1 - i):
-            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
-                swapped = True
-        if not swapped:        # optimisation: stop early if already sorted
-            break
-     return arr
+    if HashTable[HashValue].GetKey() == -1:
+        HashTable[HashValue] = TheRecord
+
+    else:
+        for x in range(0, 100):
+            if Spare[x].GetKey() == -1:
+                Spare[x] = TheRecord
+                break
+        

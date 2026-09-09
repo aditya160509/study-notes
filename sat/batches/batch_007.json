@@ -1,0 +1,476 @@
+[
+  {
+    "id": 31,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
+    "passage": "Although military veterans make up a small proportion of the total population of the United States, they occupy a significantly higher proportion of the jobs in the civilian government. One possible explanation for this disproportionate representation is that military service familiarizes people with certain organizational structures that are also reflected in the civilian government bureaucracy, and this familiarity thus ______ blank",
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "makes civilian government jobs especially appealing to military veterans.",
+      "alters the typical relationship between military service and subsequent career preferences.",
+      "encourages nonveterans applying for civilian government jobs to consider military service instead.",
+      "increases the number of civilian government jobs that require some amount of military experience to perform."
+    ],
+    "answer": "makes civilian government jobs especially appealing to military veterans.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 32,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Medium",
+    "passage": "Euphorbia esula (leafy spurge) is a Eurasian plant that has become invasive in North America, where it displaces native vegetation and sickens cattle. E. esula can be controlled with chemical herbicides, but that approach can also kill harmless plants nearby. Recent research on introducing engineered DNA into plant species to inhibit their reproduction may offer a path toward exclusively targeting E. esula , consequently ______ blank",
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "making individual E. esula plants more susceptible to existing chemical herbicides.",
+      "enhancing the ecological benefits of E. esula in North America.",
+      "enabling cattle to consume E. esula&nbsp; without becoming sick.",
+      "reducing invasive E. esula numbers without harming other organisms."
+    ],
+    "answer": "reducing invasive E. esula numbers without harming other organisms.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 33,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Inferences",
+    "difficulty": "Hard",
+    "passage": "Tides can deposit large quantities of dead vegetation within a salt marsh, smothering healthy plants and leaving a salt panne—a depression devoid of plants that tends to trap standing water—in the marsh’s interior. Ecologist Kathryn Beheshti and colleagues found that burrowing crabs living within these pannes improve drainage by loosening the soil, leading the pannes to shrink as marsh plants move back in. At salt marsh edges, however, crab-induced soil loosening can promote marsh loss by accelerating erosion, suggesting that the burrowing action of crabs ______ blank &nbsp; &nbsp;",
+    "question": "Which choice most logically completes the text?",
+    "options": [
+      "can be beneficial to marshes with small pannes but can be harmful to marshes with large pannes.",
+      "may promote increases in marsh plants or decreases in marsh plants, depending on the crabs’ location.",
+      "tends to be more heavily concentrated in areas of marsh interiors with standing water than at marsh edges.",
+      "varies in intensity depending on the size of the panne relative to the size of the surrounding marsh."
+    ],
+    "answer": "may promote increases in marsh plants or decreases in marsh plants, depending on the crabs’ location.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 38,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Hard",
+    "passage": "When digging for clams, their primary food, sea otters damage the roots of eelgrass plants growing on the seafloor. Near Vancouver Island in Canada, the otter population is large and well established, yet the eelgrass meadows are healthier than those found elsewhere off Canada’s coast. To explain this, conservation scientist Erin Foster and colleagues compared the Vancouver Island meadows to meadows where otters are absent or were reintroduced only recently. Finding that the Vancouver Island meadows have a more diverse gene pool than the others do, Foster hypothesized that damage to eelgrass roots increases the plant’s rate of sexual reproduction; this, in turn, boosts genetic diversity, which benefits the meadows’ health overall.",
+    "question": "Which finding, if true, would most directly undermine Foster’s hypothesis?",
+    "options": [
+      "At some sites in the study, eelgrass meadows are found near otter populations that are small and have only recently been reintroduced.",
+      "At several sites not included in the study, there are large, well-established sea otter populations but no eelgrass meadows.",
+      "At several sites not included in the study, eelgrass meadows’ health correlates negatively with the length of residence and size of otter populations.",
+      "At some sites in the study, the health of plants unrelated to eelgrass correlates negatively with the length of residence and size of otter populations."
+    ],
+    "answer": "At several sites not included in the study, eelgrass meadows’ health correlates negatively with the length of residence and size of otter populations.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 39,
+    "section": "verbal",
+    "domain": "Information and Ideas",
+    "skill": "Command of Evidence",
+    "difficulty": "Hard",
+    "passage": "Effects of Mycorrhizal Fungi on 3 Plant Species Plant species Mycorrhizal host Average mass of plants grown in soil containing mycorrhizal fungi (in grams) Average mass of plants grown in soil treated to kill fungi (in grams) Corn yes 15.1 3.8 Marigold yes 10.2 2.4 Broccoli no 7.5 7 Mycorrhizal fungi in soil benefits many plants, substantially increasing the mass of some. A student conducted an experiment to illustrate this effect. The student chose three plant species for the experiment, including two that are mycorrhizal hosts (species known to benefit from mycorrhizal fungi) and one nonmycorrhizal species (a species that doesn’t benefit from and may even be harmed by mycorrhizal fungi). The student then grew several plants from each species both in soil containing mycorrhizal fungi and in soil that had been treated to kill mycorrhizal and other fungi. After several weeks, the student measured the plants’ average mass and was surprised to discover that ______ blank",
+    "question": "Which choice most effectively uses data from the table to complete the statement?",
+    "options": [
+      "broccoli grown in soil containing mycorrhizal fungi had a slightly higher average mass than broccoli grown in soil that had been treated to kill fungi.",
+      "corn grown in soil containing mycorrhizal fungi had a higher average mass than broccoli grown in soil containing mycorrhizal fungi.",
+      "marigolds grown in soil containing mycorrhizal fungi had a much higher average mass than marigolds grown in soil that had been treated to kill fungi.",
+      "corn had the highest average mass of all three species grown in soil that had been treated to kill fungi, while marigolds had the lowest."
+    ],
+    "answer": "broccoli grown in soil containing mycorrhizal fungi had a slightly higher average mass than broccoli grown in soil that had been treated to kill fungi.",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 43,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "Gathering accurate data on water flow in the United States is challenging because of the country’s millions of miles of ______ blank the volume and speed of water at any given location can vary drastically over time.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "waterways and the fact that,",
+      "waterways, and the fact that,",
+      "waterways, and, the fact that",
+      "waterways and the fact that"
+    ],
+    "answer": "waterways and the fact that",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 45,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Medium",
+    "passage": "The city of Pompeii, which was buried in ash following the eruption of Mount Vesuvius in 79 CE, continues to be studied by archaeologists. Unfortunately, as ______ blank attest, archaeological excavations have disrupted ash deposits at the site, causing valuable information about the eruption to be lost. &nbsp; &nbsp;",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "researchers, Roberto Scandone and Christopher Kilburn,",
+      "researchers, Roberto Scandone and Christopher Kilburn",
+      "researchers Roberto Scandone and Christopher Kilburn",
+      "researchers Roberto Scandone, and Christopher Kilburn"
+    ],
+    "answer": "researchers Roberto Scandone and Christopher Kilburn",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 46,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Boundaries",
+    "difficulty": "Hard",
+    "passage": "The pedagogy of the Suzuki method is rooted in several central ______ blank by Japanese violinist Shinichi Suzuki, who sought to parallel the linguistic learning environment, the method emphasizes playing instruments from a very young age and teaches students as young as three to play simple classical pieces such as “March in G.”",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "tenets. Developed",
+      "tenets developed",
+      "tenets that, developed",
+      "tenets, developed"
+    ],
+    "answer": "tenets. Developed",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 51,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "passage": "The Proto-Nilotic language, common ancestor of fifty-five African languages with similar linguistic properties, ______ blank like all protolanguages, hypothetical: there’s no direct evidence these ancestral languages actually existed.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "is,",
+      "are,",
+      "have been,",
+      "were,"
+    ],
+    "answer": "is,",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 52,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Medium",
+    "passage": "Oyster mushrooms typically get their nutrients from the damp logs on which they grow, but the fungi are also carnivorous, with the ability to kill and consume microscopic worms known as nematodes. As researcher Yen-Ping Hsueh has shown, the mushrooms release a toxin that is deadly to nematodes that ______ blank in contact with it.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "has come",
+      "comes",
+      "is coming",
+      "come"
+    ],
+    "answer": "come",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 53,
+    "section": "verbal",
+    "domain": "Standard English Conventions",
+    "skill": "Form, Structure, and Sense",
+    "difficulty": "Hard",
+    "passage": "In the late nineteenth and early twentieth centuries, automobiles were commonly referred to as horseless carriages after the older technology they still resembled. Known as the Brass Era, this period in automotive design is remembered for its grandeur and artistry, its vehicles ______ blank by collectors for their ornate detailing and gleaming brass fittings.",
+    "question": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+    "options": [
+      "are highly prized",
+      "had been highly prized",
+      "highly prized",
+      "were highly prized"
+    ],
+    "answer": "highly prized",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 56,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "\\( 13(x+6)−12(x+6)=−8 \\) What value of \\(x\\) is the solution to the given equation?",
+    "options": [],
+    "answer": "42",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 57,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in one variable",
+    "difficulty": "Hard",
+    "passage": "",
+    "question": "\\( −49x=−98x \\) How many solutions does the given equation have?",
+    "options": [
+      "Zero",
+      "Exactly one",
+      "Exactly two",
+      "Infinitely many"
+    ],
+    "answer": "Exactly one",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 60,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "The function \\(𝑓\\) is defined by \\(𝑓(𝑥)=7𝑥−84\\). What is the \\(x\\)-intercept of the graph of \\(𝑦=𝑓(𝑥)\\) in the \\(xy\\)-plane?",
+    "options": [
+      "\\((−12,0)\\)",
+      "\\((−7,0)\\)",
+      "\\((7,0)\\)",
+      "\\((12,0)\\)"
+    ],
+    "answer": "\\((12,0)\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 62,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear functions",
+    "difficulty": "Hard",
+    "passage": "",
+    "question": "Energy per Gram of Typical Macronutrient Macronutrient Food calories Kilojoules Protein \\(4.0\\) \\(16.7\\) Fat \\(9.0\\) \\(37.7\\) Carbohydrate \\(4.0\\) \\(16.7\\) The table above gives the typical amounts of energy per gram, expressed in both food calories and kilojoules, of the three macronutrients in food. If \\(x\\) food calories is equivalent to \\(k\\) kilojoules, of the following, which best represents the relationship between \\(x\\) and \\(k\\) ?",
+    "options": [
+      "\\(k=0.24x\\)",
+      "\\(k=4.2x\\)",
+      "\\(x=4.2k\\)",
+      "\\(xk=4.2\\)"
+    ],
+    "answer": "\\(k=4.2x\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 64,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "When line \\(𝑛\\) is graphed in the \\(xy\\)-plane, it has an \\(x\\)-intercept of \\((−4,0)\\) and a \\(y\\)-intercept of \\((0,863)\\). What is the slope of line \\(𝑛\\)?",
+    "options": [
+      "\\(\\frac{3}{344}\\)",
+      "\\(\\frac{6}{43}\\)",
+      "\\(\\frac{43}{6}\\)",
+      "\\(\\frac{344}{3}\\)"
+    ],
+    "answer": "\\(\\frac{43}{6}\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 65,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables",
+    "difficulty": "Hard",
+    "passage": "",
+    "question": "The points plotted in the coordinate plane above represent the possible numbers of wallflowers and cornflowers that someone can buy at the Garden Store in order to spend exactly $24.00 total on the two types of flowers. The price of each wallflower is the same and the price of each cornflower is the same. What is the price, in dollars, of 1 cornflower?",
+    "options": [],
+    "answer": "1.5",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 69,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "In North America, the standard width of a parking space is at least 7.5 feet and no more than 9.0 feet. A restaurant owner recently resurfaced the restaurant’s parking lot and wants to determine the number of parking spaces, \\(n\\), in the parking lot that could be placed perpendicular to a curb that is 135 feet long, based on the standard width of a parking space. Which of the following describes all the possible values of \\(n\\) ?",
+    "options": [
+      "\\(18 \\leq n \\leq 135\\)",
+      "\\(7.5 \\leq n \\leq 9\\)",
+      "\\(15 \\leq n \\leq 135\\)",
+      "\\(15 \\leq n \\leq 18\\)"
+    ],
+    "answer": "\\(15 \\leq n \\leq 18\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 70,
+    "section": "math",
+    "domain": "Algebra",
+    "skill": "Linear inequalities in one or two variables",
+    "difficulty": "Hard",
+    "passage": "",
+    "question": "\\(11x+14y \\leq 115\\) Anthony will spend at most $\\(115\\) to purchase \\(𝑥\\) small cheese pizzas and \\(𝑦\\) large cheese pizzas for a team dinner. The given inequality represents this situation. Which of the following is the best interpretation of \\(14𝑦\\) in this context?",
+    "options": [
+      "The amount, in dollars, Anthony will spend on each large cheese pizza",
+      "The amount, in dollars, Anthony will spend on each small cheese pizza",
+      "The total amount, in dollars, Anthony will spend on large cheese pizzas",
+      "The total amount, in dollars, Anthony will spend on small cheese pizzas"
+    ],
+    "answer": "The total amount, in dollars, Anthony will spend on large cheese pizzas",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 72,
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Equivalent expressions",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "Which expression is equivalent to \\(\\frac{h^{15}q^{7}}{h^5q^{21}}\\), where \\(h>0\\) and \\(q>0\\)?",
+    "options": [
+      "\\(\\frac{h^{10}}{q^{14}}\\)",
+      "\\(\\frac{h^{3}}{q^{3}}\\)",
+      "\\(h^{10}q^{14}\\)",
+      "\\(h^3q^3\\)"
+    ],
+    "answer": "\\(\\frac{h^{10}}{q^{14}}\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 76,
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear equations in one variable and systems of equations in two variables",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "\\(x^2-ax+12=0\\) In the equation above, \\(a\\) is a constant and \\(a > 0\\). If the equation has two integer solutions, what is a possible value of \\(a\\) ?",
+    "options": [],
+    "answer": "[7, 8, 13]",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 82,
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "\\(g(x)=11(\\frac{1}{12})^x\\) If the given function \\(𝑔\\) is graphed in the \\(xy\\)-plane, where \\(𝑦=𝑔(𝑥)\\), what is the \\(y\\)-intercept of the graph?",
+    "options": [
+      "\\((0,11)\\)",
+      "\\((0,132)\\)",
+      "\\((0,1)\\)",
+      "\\((0,12)\\)"
+    ],
+    "answer": "\\((0,11)\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 83,
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "What is an \\(x\\)-coordinate of an x-intercept of the graph of \\(𝑦=3(𝑥−14)(𝑥+5)(𝑥+4)\\) in the \\(xy\\)-plane?",
+    "options": [],
+    "answer": "[14, -5, -4]",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 84,
+    "section": "math",
+    "domain": "Advanced Math",
+    "skill": "Nonlinear functions",
+    "difficulty": "Hard",
+    "passage": "",
+    "question": "A landscaper is designing a rectangular garden. The length of the garden is to be 5 feet longer than the width. If the area of the garden will be 104 square feet, what will be the length, in feet, of the garden?",
+    "options": [],
+    "answer": "13",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 91,
+    "section": "math",
+    "domain": "Problem-Solving & Data Analysis",
+    "skill": "Probability and conditional probability",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "If 1,200 customers register for new accounts at a social media website every day, what fraction of the first 60,000 new accounts are registered in the first 5 days?",
+    "options": [
+      "\\(\\frac{1}{5}\\)",
+      "\\(\\frac{1}{10}\\)",
+      "\\(\\frac{1}{12}\\)",
+      "\\(\\frac{1}{50}\\)"
+    ],
+    "answer": "\\(\\frac{1}{10}\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 92,
+    "section": "math",
+    "domain": "Problem-Solving & Data Analysis",
+    "skill": "Inference from sample statistics and margin of error",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "A bag containing 10,000 beads of assorted colors is purchased from a craft store. To estimate the percent of red beads in the bag, a sample of beads is selected at random. The percent of red beads in the bag was estimated to be 15%, with an associated margin of error of 2%. If r is the actual number of red beads in the bag, which of the following is most plausible?",
+    "options": [
+      "\\(r > 1700\\)",
+      "\\(1300 < r < 1700\\)",
+      "\\(200 < r < 1500\\)",
+      "\\(r < 1300\\)"
+    ],
+    "answer": "\\(1300 < r < 1700\\)",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 93,
+    "section": "math",
+    "domain": "Problem-Solving & Data Analysis",
+    "skill": "Evaluating statistical claims: Observational studies and experiments",
+    "difficulty": "Medium",
+    "passage": "",
+    "question": "A polling agency recently surveyed 1,000 adults who were selected at random from a large city and asked each of the adults, “Are you satisfied with the quality of air in the city?” Of those surveyed, 78 percent responded that they were satisfied with the quality of air in the city. Based on the results of the survey, which of the following statements must be true? Of all adults in the city, 78 percent are satisfied with the quality of air in the city. If another 1,000 adults selected at random from the city were surveyed, 78 percent of them would report they are satisfied with the quality of air in the city. If 1,000 adults selected at random from a different city were surveyed, 78 percent of them would report they are satisfied with the quality of air in the city.",
+    "options": [
+      "\"None\"",
+      "2 Only",
+      "1 and 2 only",
+      "1 and 3 only"
+    ],
+    "answer": "\"None\"",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  },
+  {
+    "id": 98,
+    "section": "math",
+    "domain": "Geometry & Trigonometry",
+    "skill": "Circles",
+    "difficulty": "Hard",
+    "passage": "",
+    "question": "\"Circle A in the xy-plane has the equation \\((𝑥+5)^2+(𝑦−5)^2=4\\). Circle B has the same center as circle A. The radius of circle B is two times the radius of circle A. The equation defining circle B in the xy-plane is \\((𝑥+5)^2+(𝑦−5)^2=𝑘\\), where \\(𝑘\\) is a constant. What is the value of \\(𝑘\\)?\"",
+    "options": [],
+    "answer": "16",
+    "rationale": "",
+    "source": "bosserz/sat-simulation-2 (primary)"
+  }
+]

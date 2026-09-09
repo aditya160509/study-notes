@@ -1,4 +1,4 @@
-# CAIE Physics 9702 — Paper 5 Question 2 Complete Guide
+# CAIE Physics 9702 -- Paper 5 Question 2 Complete Guide
 
 > **What is Question 2?** You get a table of data, a graph grid, and you must:
 > 1. Process the data table (calculate values + uncertainties)
@@ -12,24 +12,31 @@
 
 ---
 
-## Before You Start: The 7 Types of Questions You'll See
+## Before You Start: The 18+ Types of Questions You Will See
 
-From past papers, every Question 2 is one of these. The method is always the same — only the equation changes.
+From past papers + WS, every Question 2 is one of these 19. The method is always the same -- only the equation changes. Rows 13-19 are the 6 WS relationships (pages 9-25) added for completeness.
 
-| Type | Equation | Graph |
-|------|----------|-------|
-| **Exponential decay** | $R = R_0 e^{-\mu t}$ | $\ln R$ vs $t$ |
-| **Cooling** | $\theta = \theta_R + (\theta_0 - \theta_R)e^{-t/K}$ | $\ln(\theta-\theta_R)$ vs $t$ |
-| **Viscosity** | $\eta = He^{E/kT}$ | $\ln \eta$ vs $1/T$ |
-| **Power law** | $L = kM^n$ | $\lg L$ vs $\lg M$ |
-| **Capacitor discharge** | $V = I_0 R e^{-t/CR}$ | $\ln V$ vs $1/C$ |
-| **Circular motion** | $Pg = mv^2/r$ | $v^2$ vs $r$ |
-| **Pendulum** | $T^2 = \frac{4\pi^2}{g}(k-d)$ | $T^2$ vs $d$ |
-| **Doppler effect** | $f = \frac{f_s k}{k-v}$ | $1/f$ vs $v$ |
-| **Lens** | $\frac{h_i}{h_o} = \frac{2f + t - d}{f}$ | $h_i/h_o$ vs $d$ |
-| **Hubble** | $\frac{\lambda-\lambda_0}{\lambda_0} = \frac{Hd}{c}$ | $\lambda$ vs $d/c$ |
-| **Phase difference** | $\tan\theta = \frac{1}{2\pi f C R}$ | $\tan\theta$ vs $1/R$ |
-| **Springs** | $T = 2\pi\sqrt{M/k}$ | $T^2$ vs $1/k$ |
+| # | Type | Equation | Graph | Gradient | Intercept |
+|---|------|----------|-------|----------|-----------|
+| 1 | **Exponential decay** | $R = R_0 e^{-\mu t}$ | $\ln R$ vs $t$ | $-\mu$ | $\ln R_0$ |
+| 2 | **Cooling** | $\theta = \theta_R + (\theta_0 - \theta_R)e^{-t/K}$ | $\ln(\theta-\theta_R)$ vs $t$ | $-1/K$ | $\ln(\theta_0-\theta_R)$ |
+| 3 | **Viscosity** | $\eta = H e^{E/kT}$ | $\ln \eta$ vs $1/T$ | $E/k$ | $\ln H$ |
+| 4 | **Power law** | $L = kM^n$ | $\lg L$ vs $\lg M$ | $n$ | $\lg k$ |
+| 5 | **Capacitor discharge** | $V = I_0 R e^{-t/CR}$ | $\ln V$ vs $1/C$ | $-t/R$ | $\ln(I_0 R)$ |
+| 6 | **Circular motion** | $Pg = mv^2/r$ | $v^2$ vs $r$ | $Pg/m$ | $0$ |
+| 7 | **Pendulum** | $T^2 = \frac{4\pi^2}{g}(k-d)$ | $T^2$ vs $d$ | $-4\pi^2/g$ | $4\pi^2 k/g$ |
+| 8 | **Doppler effect** | $f = \frac{f_s k}{k-v}$ | $1/f$ vs $v$ | $-1/(f_s k)$ | $1/f_s$ |
+| 9 | **Lens** | $\frac{h_i}{h_o} = \frac{2f + t - d}{f}$ | $h_i/h_o$ vs $d$ | $-1/f$ | $(2f+t)/f$ |
+| 10 | **Hubble / Redshift** | $\lambda = \lambda_0\left(1 + \frac{Hd}{c}\right)$ | $\lambda$ vs $d/c$ | $\lambda_0 H$ | $\lambda_0$ |
+| 11 | **Phase difference** | $\tan\theta = \frac{1}{2\pi f C R}$ | $\tan\theta$ vs $1/R$ | $1/(2\pi f C)$ | $0$ |
+| 12 | **Springs** | $T = 2\pi\sqrt{M/k}$ | $T^2$ vs $1/k$ | $4\pi^2 M$ | $0$ |
+| 13 | **Foam attenuation** *(WS)* | $I = I_0 e^{-\alpha \rho t}$ | $\ln I$ vs $t$ | $-\alpha \rho$ | $\ln I_0$ |
+| 14 | **Resonance tube** *(WS)* | $v = 2Lf + k d f$ | $1/f$ vs $d$ | $k/v$ | $2L/v$ |
+| 15 | **Inclined plane** *(WS)* | $\frac{2d}{t^2} = \frac{A H}{A+B}\sin\theta + \frac{K A}{A+B}$ | $1/t^2$ vs $\sin\theta$ |$AH/(A+B)$ | $KA/(A+B)$ |
+| 16 | **Heating blocks** *(WS)* | $E = a m + b$ | $E$ vs $m$ | $a$ | $b$ |
+| 17 | **Turntable** *(WS)* | $\frac{K f_0^2}{f} = \beta K + m r$ | $1/f$ vs $m$ | $r/(K f_0^2)$ | $\beta/f_0^2$ |
+| 18 | **Charged spheres** *(WS)* | $F = \frac{\alpha V^2}{r^2}$ | $F$ vs $V^2$ | $\alpha/r^2$ | $0$ |
+| 19 | **Parallel plates** *(WS)* | $\frac{W}{C d} = \frac{1}{K A} + \frac{V}{K A}$ | $1/d$ vs $V$ | $C/(K A)$ | $C/(W K A)$ |
 
 ---
 
@@ -49,7 +56,7 @@ From past papers, every Question 2 is one of these. The method is always the sam
 
 ---
 
-## Section 1: Part (a) — Find Gradient & Intercept Expressions (1 mark)
+## Section 1: Part (a) -- Find Gradient & Intercept Expressions (1 mark)
 
 ### What You Do
 
@@ -220,7 +227,7 @@ y-intercept = [full expression]
 
 ---
 
-## Section 2: Part (b) — Process the Data Table (2-4 marks)
+## Section 2: Part (b) -- Process the Data Table (2-4 marks)
 
 ### 2.1 Calculating Processed Quantities
 
@@ -230,14 +237,14 @@ You'll be asked to calculate things like $\ln R$, $1/f$, $T^2$, $\frac{1}{C}$, e
 
 Given $r$ and $t$, find $T$, $v$, and $v^2$.
 
-| $r$/m | $t$/s | $T$/s | $v$/ms⁻¹ | $v^2$/m²s⁻² |
+| $r$/m | $t$/s | $T$/s | $v$ / $\text{m s}^{-1}$ | $v^2$ / $\text{m}^2\text{s}^{-2}$ |
 |-------|-------|-------|-----------|-------------|
 | 0.160 | 3.4±0.2 | | | |
 | 0.280 | 4.0±0.2 | | | |
 
 $T = t / 10$ (10 revolutions), $v = 2\pi r / T$, $v^2 = (2\pi r / T)^2$
 
-Row 1: $T = 3.4/10 = 0.34$ s, $v = 2\pi(0.160)/0.34 = 2.96$ ms⁻¹, $v^2 = 8.74$ m²s⁻²
+Row 1: $T = 3.4/10 = 0.34$ s, $v = 2\pi(0.160)/0.34 = 2.96$\text{m s}^{-1}$, $v^2 = 8.74$\text{m}^2\text{s}^{-2}$
 
 ### 2.2 Significant Figures Rule
 
@@ -281,7 +288,7 @@ So $t = 0.16 \pm 0.03$ mm
 
 There are only 4 rules. Memorize them.
 
-#### Rule 1: Sum or Difference — ADD ABSOLUTE UNCERTAINTIES
+#### Rule 1: Sum or Difference -- ADD ABSOLUTE UNCERTAINTIES
 
 $$\Delta(A + B) = \Delta A + \Delta B$$
 $$\Delta(A - B) = \Delta A + \Delta B$$
@@ -290,15 +297,15 @@ $$\Delta(A - B) = \Delta A + \Delta B$$
 
 **Example (Cooling, 9702/52/F/M/25):**
 
-$\theta = 75.0 \pm 0.5$ °C, $\theta_R = 18.5 \pm 0.5$ °C
+$\theta = 75.0 \pm 0.5$ $^{\circ}\text{C}$, $\theta_R = 18.5 \pm 0.5$ $^{\circ}\text{C}$
 
-Find $\theta - \theta_R$: $75.0 - 18.5 = 56.5$ °C
+Find $\theta - \theta_R$: $75.0 - 18.5 = 56.5$ $^{\circ}\text{C}$
 
-$\Delta(\theta - \theta_R) = 0.5 + 0.5 = 1.0$ °C
+$\Delta(\theta - \theta_R) = 0.5 + 0.5 = 1.0$ $^{\circ}\text{C}$
 
-Answer: $56.5 \pm 1.0$ °C
+Answer: $56.5 \pm 1.0$ $^{\circ}\text{C}$
 
-#### Rule 2: Product or Quotient — ADD PERCENTAGE UNCERTAINTIES
+#### Rule 2: Product or Quotient -- ADD PERCENTAGE UNCERTAINTIES
 
 $$\frac{\Delta(A \times B)}{A \times B} = \frac{\Delta A}{A} + \frac{\Delta B}{B}$$
 
@@ -314,29 +321,29 @@ $v = 2\pi r / T$, $r = 0.160$ m (exact), $T = 0.34 \pm 0.02$ s
 
 % uncertainty in $v = 5.9\%$ (only $T$ has uncertainty since $r$ is exact)
 
-$v = 2\pi(0.160)/0.34 = 2.96$ ms⁻¹
+$v = 2\pi(0.160)/0.34 = 2.96$\text{m s}^{-1}$
 
-$\Delta v = 2.96 \times \frac{5.9}{100} = 0.17$ ms⁻¹
+$\Delta v = 2.96 \times \frac{5.9}{100} = 0.17$\text{m s}^{-1}$
 
-#### Rule 3: Power ($A^n$) — MULTIPLY % UNCERTAINTY BY $n$
+#### Rule 3: Power ($A^n$) -- MULTIPLY % UNCERTAINTY BY $n$
 
 $$\frac{\Delta(A^n)}{A^n} = n \times \frac{\Delta A}{A}$$
 
 **Example (Circular Motion):**
 
-$v = 2.96 \pm 0.17$ ms⁻¹. Find $\Delta(v^2)$.
+$v = 2.96 \pm 0.17$\text{m s}^{-1}$. Find $\Delta(v^2)$.
 
 % uncertainty in $v = \frac{0.17}{2.96} \times 100\% = 5.7\%$
 
 % uncertainty in $v^2 = 2 \times 5.7\% = 11.4\%$
 
-$v^2 = (2.96)^2 = 8.74$ m²s⁻²
+$v^2 = (2.96)^2 = 8.74$\text{m}^2\text{s}^{-2}$
 
-$\Delta(v^2) = 8.74 \times \frac{11.4}{100} = 1.0$ m²s⁻²
+$\Delta(v^2) = 8.74 \times \frac{11.4}{100} = 1.0$\text{m}^2\text{s}^{-2}$
 
-So $v^2 = 8.7 \pm 1.0$ m²s⁻²
+So $v^2 = 8.7 \pm 1.0$\text{m}^2\text{s}^{-2}$
 
-#### Rule 4: Natural Log ($\ln x$) — FRACTIONAL UNCERTAINTY
+#### Rule 4: Natural Log ($\ln x$) -- FRACTIONAL UNCERTAINTY
 
 $$\Delta(\ln x) = \frac{\Delta x}{x}$$
 
@@ -358,7 +365,7 @@ $\Delta(\ln \eta) = \frac{0.2}{12.3} = 0.016$
 
 So $\ln \eta = 2.510 \pm 0.016$
 
-**Example (Star Luminosity — $\lg$, 9702/54/M/J/25):**
+**Example (Star Luminosity -- $\lg$, 9702/54/M/J/25):**
 
 $\mu = 4.6 \pm 0.4$
 
@@ -370,11 +377,11 @@ So $\lg \mu = 0.66 \pm 0.04$
 
 ### 2.5 More Table Processing Examples
 
-**Example: Pendulum (9702/52/M/J/14) — Finding mean, T, T²**
+**Example: Pendulum (9702/52/M/J/14) -- Finding mean, T, T2**
 
 Given $d$ and two $t$ readings (time for 10 oscillations).
 
-| $d$/m | $t_1$/s | $t_2$/s | mean $t$/s | $T$/s | $T^2$/s² |
+| $d$/m | $t_1$/s | $t_2$/s | mean $t$/s | $T$/s | $T^2$/s2 |
 |-------|---------|---------|------------|-------|----------|
 | 0.45 ± 0.05 | 56.4 | 56.4 | | | |
 | 0.70 ± 0.05 | 55.4 | 55.6 | | | |
@@ -383,34 +390,34 @@ Given $d$ and two $t$ readings (time for 10 oscillations).
 - mean $t = (56.4 + 56.4)/2 = 56.4$ s
 - $\Delta t = |56.4 - 56.4|/2 = 0.0$ s → but use instrument precision, say ±0.1
 - $T = 56.4/10 = 5.64$ s
-- $T^2 = (5.64)^2 = 31.8$ s² (3 s.f. to match $d$)
+- $T^2 = (5.64)^2 = 31.8$ s2 (3 s.f. to match $d$)
 - % unc. in $t = (0.1/56.4) \times 100\% = 0.18\%$
 - % unc. in $T = 0.18\%$ (same, dividing by constant)
 - % unc. in $T^2 = 2 \times 0.18\% = 0.36\%$
-- $\Delta(T^2) = 31.8 \times 0.0036 = 0.11$ s²
+- $\Delta(T^2) = 31.8 \times 0.0036 = 0.11$ s2
 
-**Example: Capacitor (9702/52/O/N/23) — Finding $1/C$ from $C_A$ and $C_B$**
+**Example: Capacitor (9702/52/O/N/23) -- Finding $1/C$ from $C_A$ and $C_B$**
 
 Given $C_A$, $C_B$, find $1/C$ where $\frac{1}{C} = \frac{C_A + C_B}{C_A C_B}$.
 
-| $C_A/10^{-4}$F | $C_B/10^{-4}$F | $1/C / 10^{4}$F⁻¹ | $V$/V | $\ln(V$/V) |
+| $C_A/10^{-4}$F | $C_B/10^{-4}$F | $1/C / 10^{4}$F-1 | $V$/V | $\ln(V$/V) |
 |----------------|----------------|-------------------|-------|------------|
 | 2.2 | 2.2 | | 2.45 ± 0.05 | |
 | 2.2 | 3.3 | | 2.75 ± 0.05 | |
 
 **Row 1:**
-- $\frac{1}{C} = \frac{2.2 + 2.2}{2.2 \times 2.2} = \frac{4.4}{4.84} = 0.909 \times 10^4$ F⁻¹
-- $\ln(2.45) = 0.896$ (3 d.p. — 2.45 has 3 s.f.)
+- $\frac{1}{C} = \frac{2.2 + 2.2}{2.2 \times 2.2} = \frac{4.4}{4.84} = 0.909 \times 10^4$ F-1
+- $\ln(2.45) = 0.896$ (3 d.p. -- 2.45 has 3 s.f.)
 - $\Delta(\ln V) = 0.05/2.45 = 0.020$
 
 **Row 2:**
-- $\frac{1}{C} = \frac{2.2 + 3.3}{2.2 \times 3.3} = \frac{5.5}{7.26} = 0.758 \times 10^4$ F⁻¹
+- $\frac{1}{C} = \frac{2.2 + 3.3}{2.2 \times 3.3} = \frac{5.5}{7.26} = 0.758 \times 10^4$ F-1
 - $\ln(2.75) = 1.012$ (3 d.p.)
 - $\Delta(\ln V) = 0.05/2.75 = 0.018$
 
-**Example: Hubble (9702/51/O/N/25) — Finding $d/c$ with uncertainty propagation**
+**Example: Hubble (9702/51/O/N/25) -- Finding $d/c$ with uncertainty propagation**
 
-Given $d$ and its uncertainty, $c = 3.00 \times 10^5$ km s⁻¹. Find $d/c$.
+Given $d$ and its uncertainty, $c = 3.00 \times 10^5$ km s-1. Find $d/c$.
 
 | $d / 10^{21}$ km | $d/c / 10^{15}$ s | $\lambda$/nm |
 |------------------|-------------------|-------------|
@@ -419,7 +426,7 @@ Given $d$ and its uncertainty, $c = 3.00 \times 10^5$ km s⁻¹. Find $d/c$.
 
 **Row 1:**
 - $d/c = 0.48 \times 10^{21} / 3.00 \times 10^5 = 0.48 \times 10^{21-5} / 3.00 = 0.48 \times 10^{16} / 3.00$
-- Wait, careful with units: $d$ is in $10^{21}$ km, $c$ is in km s⁻¹
+- Wait, careful with units: $d$ is in $10^{21}$ km, $c$ is in km s-1
 - So $d/c = (0.48 \times 10^{21}) / (3.00 \times 10^5) = 0.16 \times 10^{16} = 1.6 \times 10^{15}$ s
 - But table wants answer in $10^{15}$ s, so write: $1.6$
 - $\Delta(d/c)$: % unc in $d = (0.12/0.48) \times 100\% = 25\%$
@@ -428,11 +435,11 @@ Given $d$ and its uncertainty, $c = 3.00 \times 10^5$ km s⁻¹. Find $d/c$.
 - $\Delta(d/c) = 1.6 \times 0.25 = 0.4$ (in units of $10^{15}$ s)
 - So $d/c = 1.6 \pm 0.4$ (in $10^{15}$ s)
 
-### 2.6 Putting It All Together — Full Table Example
+### 2.6 Putting It All Together -- Full Table Example
 
 **Geiger-Müller question (9702/52/O/N/21):**
 
-| $t_1$/mm | $t_2$/mm | avg $t$/mm | $R$/s⁻¹ | $\ln(R$/s⁻¹) |
+| $t_1$/mm | $t_2$/mm | avg $t$/mm | $R$/s-1 | $\ln(R$/s-1) |
 |----------|----------|------------|---------|---------------|
 | 0.19 | 0.13 | | 47.7 | |
 | 0.22 | 0.28 | | 44.0 | |
@@ -440,8 +447,8 @@ Given $d$ and its uncertainty, $c = 3.00 \times 10^5$ km s⁻¹. Find $d/c$.
 **Row 1:**
 - avg $t = (0.19+0.13)/2 = 0.16$ mm
 - $\Delta t = |0.19-0.13|/2 = 0.03$ mm → $0.16 \pm 0.03$
-- $\ln(47.7) = 3.865$ (3 d.p. — 47.7 has 3 s.f.)
-- $\Delta(\ln R) = \frac{\Delta R}{R}$ — but we don't have $\Delta R$ from the table. If given or assumed as 0.5: $\Delta(\ln R) = 0.5/47.7 = 0.010$
+- $\ln(47.7) = 3.865$ (3 d.p. -- 47.7 has 3 s.f.)
+- $\Delta(\ln R) = \frac{\Delta R}{R}$ -- but we don't have $\Delta R$ from the table. If given or assumed as 0.5: $\Delta(\ln R) = 0.5/47.7 = 0.010$
 
 **Row 2:**
 - avg $t = (0.22+0.28)/2 = 0.25$ mm
@@ -456,7 +463,7 @@ Notice: $\Delta(\ln R)$ is **different** for each row (decreases as $R$ increase
 Write answers in the table like this:
 
 ```
-| raw1 | raw2 | processed ± uncertainty | ln(processed) ± Δ(ln) |
+| raw1 | raw2 | processed ± uncertainty | ln(processed) ± Delta(ln) |
 |------|------|------------------------|-----------------------|
 | 0.19 | 0.13 | 0.16 ± 0.03            | 3.865 ± 0.010         |
 ```
@@ -465,13 +472,13 @@ Show one sample calculation below the table. The examiner needs to see your meth
 
 ---
 
-## Section 3: Part (c)(i) — Plot the Graph (2 marks)
+## Section 3: Part (c)(i) -- Plot the Graph (2 marks)
 
 ### Mark 1: Choosing the Scale
 
 **Rules:**
 - Your plotted points should fill **at least half** the graph grid in both directions
-- Scales must be **easy to read** (1 small square = 1, 2, 5, or 0.1, 0.2, 0.5 — NOT 3, 7, 9)
+- Scales must be **easy to read** (1 small square = 1, 2, 5, or 0.1, 0.2, 0.5 -- NOT 3, 7, 9)
 - Label each axis with the **quantity AND unit**
 
 **Examples of good scales:**
@@ -494,7 +501,7 @@ Show one sample calculation below the table. The examiner needs to see your meth
 
 **Example (Viscosity graph, 9702/52/M/J/20):**
 
-x-axis: $1/T$ from 2.8 to 3.5 ($\times 10^{-3}$ K⁻¹)
+x-axis: $1/T$ from 2.8 to 3.5 ($\times 10^{-3}$ $\text{K}^{-1}$)
 y-axis: $\ln(\eta/10^{-4})$ from 2.8 to something
 
 If there are 14 small squares between 2.8 and 3.5:
@@ -530,10 +537,10 @@ Each small square = $0.1 / 10 = 0.01$ m (= 1 cm)
 ### Template for Graph
 
 ```
-1. Check scale — write value per small square on the margin
-2. Label axes — [quantity] / [unit]
-3. Plot points — sharp pencil, small crosses
-4. Draw error bars — centred on point, length = 2 × uncertainty
+1. Check scale -- write value per small square on the margin
+2. Label axes -- [quantity] / [unit]
+3. Plot points -- sharp pencil, small crosses
+4. Draw error bars -- centred on point, length = 2 x uncertainty
 5. Add crossbars at top and bottom of each error bar
 ```
 
@@ -541,7 +548,7 @@ Each small square = $0.1 / 10 = 0.01$ m (= 1 cm)
 
 ---
 
-## Section 4: Part (c)(ii) — Draw the Lines (2 marks)
+## Section 4: Part (c)(ii) -- Draw the Lines (2 marks)
 
 ### Line of Best Fit
 
@@ -559,17 +566,17 @@ The WAL is the **most extreme** straight line that still passes through **all** 
 - Either steepest possible or shallowest possible
 - Must touch every error bar (any part of it, not just the centre)
 - Must be **visibly different** from the best-fit line
-- **LABEL IT "WAL"** — otherwise you lose the mark!
+- **LABEL IT "WAL"** -- otherwise you lose the mark!
 
 **How to draw it:** Place your ruler at the steepest angle where it still passes through every error bar. If the points have a positive correlation, the WAL is usually steeper. If negative, shallower.
 
 ---
 
-## Section 5: Part (c)(iii) — Find the Gradient (2 marks)
+## Section 5: Part (c)(iii) -- Find the Gradient (2 marks)
 
 ### The Triangle Method (Must Show)
 
-1. Draw a **large** triangle on your best-fit line (hypotenuse ≥ half the line length)
+1. Draw a **large** triangle on your best-fit line (hypotenuse >= half the line length)
 2. Mark the two points you read **from the line** (circle them or write coordinates)
 3. Write: $m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{\Delta y}{\Delta x}$
 4. State the gradient **with units**
@@ -588,29 +595,21 @@ $$\Delta m = |m_{\text{best}} - m_{\text{WAL}}|$$
 
 **Example (Viscosity, 9702/52/M/J/20):**
 
-x-axis: $1/T$ **/ $10^{-3}$** K⁻¹, y-axis: $\ln(\eta$ **/ $10^{-4}$** Pa s)
+x-axis: $1/T$ **/ $10^{-3}$** $\text{K}^{-1}$, y-axis: $\ln(\eta$ **/ $10^{-4}$** Pa s)
 
-Suppose you read from graph: $\Delta y = 0.80$, $\Delta x = 0.50$
+Suppose you read from graph: $\Delta y = 0.80$, $\Delta x = 0.50$ (graph units).
 
-$m_{\text{graph}} = \frac{0.80}{0.50} = 1.6$ (raw reading from graph)
+The x-axis is labelled $1/T$ / $10^{-3}$ $\text{K}^{-1}$, so a graph reading of $0.50$ means $0.50 \times 10^{-3}$ $\text{K}^{-1}$.
 
-But the actual physical gradient needs the multipliers:
+$$\Delta x_{\text{physical}} = 0.50 \times 10^{-3}\ \text{K}^{-1}$$
 
-$m_{\text{true}} = \frac{0.80}{0.50 \times 10^{-3} \text{ K}^{-1}} = 1.6 \times 10^3$ K
+$$m_{\text{true}} = \frac{\Delta y}{\Delta x_{\text{physical}}} = \frac{0.80}{0.50 \times 10^{-3}} = 1.6 \times 10^{3}\ \text{K}$$
 
-Wait, that's not quite right either. Let me be more careful:
-
-If the x-axis values are already in units of $10^{-3}$ K⁻¹, then a reading of 0.50 on the graph actually means $0.50 \times 10^{-3}$ K⁻¹. So:
-
-$\Delta x_{\text{physical}} = 0.50 \times 10^{-3}$ K⁻¹
-
-$m_{\text{true}} = \frac{0.80}{0.50 \times 10^{-3}} = 1.6 \times 10^{3}$ K
-
-**Always check: what are the actual units of the numbers on the axes?**
+> **Rule:** $m_{\text{true}} = m_{\text{graph}} \times 10^{\text{power}}$. Always multiply by the axis power-of-ten.
 
 ---
 
-## Section 6: Part (c)(iv) — Find the y-intercept (2 marks)
+## Section 6: Part (c)(iv) -- Find the y-intercept (2 marks)
 
 ### If y-axis starts at 0
 
@@ -632,7 +631,7 @@ Use the same formula with a point on the WAL.
 
 ---
 
-## Section 7: Part (d) — Find Physical Constants (2-3 marks)
+## Section 7: Part (d) -- Find Physical Constants (2-3 marks)
 
 ### The Method (Always the Same)
 
@@ -646,8 +645,8 @@ Set them equal and solve.
 From (a): gradient $= -\mu$, intercept $= \ln R_0$
 From graph: $m = -0.520 \pm 0.015$, $c = 3.92 \pm 0.02$
 
-$\mu = -m = -(-0.520) = 0.520$ mm⁻¹
-$R_0 = e^{c} = e^{3.92} = 50.4$ s⁻¹
+$\mu = -m = -(-0.520) = 0.520$ mm-1
+$R_0 = e^{c} = e^{3.92} = 50.4$ s-1
 
 ### If intercept involves $\ln$ or $\lg$
 
@@ -680,11 +679,11 @@ Add percentage uncertainties.
 
 ---
 
-## Section 8: Part (e) — Final Calculation (1 mark)
+## Section 8: Part (e) -- Final Calculation (1 mark)
 
 Use the original equation with your found constants to find one unknown value.
 
-**Example (Geiger-Müller):** Find $t$ when $R = 20.0$ s⁻¹.
+**Example (Geiger-Müller):** Find $t$ when $R = 20.0$ s-1.
 
 $$R = R_0 e^{-\mu t}$$
 
@@ -727,11 +726,11 @@ Answer: [value] [unit]
 
 ---
 
-## Section 9: FULL Worked Example — Viscosity (9702/52/M/J/20)
+## Section 9: FULL Worked Example -- Viscosity (9702/52/M/J/20)
 
 Let's walk through the **entire** question from start to finish.
 
-**Equation:** $\eta = He^{E/kT}$ where $k = 1.38 \times 10^{-23}$ JK⁻¹
+**Equation:** $\eta = He^{E/kT}$ where $k = 1.38 \times 10^{-23}$ J$\text{K}^{-1}$
 
 **Graph:** $\ln \eta$ vs $1/T$
 
@@ -746,7 +745,7 @@ $$\ln \eta = \left(\frac{E}{k}\right)\frac{1}{T} + \ln H$$
 
 ### Step (b): Data Table
 
-| $T$/K | $\eta/10^{-4}$Pa s | $1/T / 10^{-3}$K⁻¹ | $\ln(\eta/10^{-4})$ |
+| $T$/K | $\eta/10^{-4}$Pa s | $1/T / 10^{-3}$$\text{K}^{-1}$ | $\ln(\eta/10^{-4})$ |
 |-------|-------------------|-------------------|---------------------|
 | 292 | 12.3 ± 0.2 | 3.42 | 2.510 ± 0.016 |
 | 303 | 9.8 ± 0.2 | 3.30 | 2.282 ± 0.020 |
@@ -756,7 +755,7 @@ $$\ln \eta = \left(\frac{E}{k}\right)\frac{1}{T} + \ln H$$
 | 346 | 4.8 ± 0.2 | 2.89 | 1.569 ± 0.042 |
 
 **Calculations for Row 1:**
-- $\ln(12.3) = 2.510$ (3 d.p. — 12.3 is 3 s.f.)
+- $\ln(12.3) = 2.510$ (3 d.p. -- 12.3 is 3 s.f.)
 - $\Delta(\ln \eta) = 0.2 / 12.3 = 0.016$
 
 **Notice:** $\Delta(\ln \eta)$ grows as $\eta$ gets smaller (the fraction $0.2/\eta$ gets bigger). Error bars will be different sizes.
@@ -764,7 +763,7 @@ $$\ln \eta = \left(\frac{E}{k}\right)\frac{1}{T} + \ln H$$
 ### Step (c)(i): Plot
 
 Use the provided grid. x from 2.8 to 3.5, y from 1.5 to 2.6.
-Error bars for $\ln \eta$ — each is a different length!
+Error bars for $\ln \eta$ -- each is a different length!
 
 ### Step (c)(ii): Lines
 
@@ -778,7 +777,7 @@ Say: $(x_1, y_1) = (2.90, 1.60)$, $(x_2, y_2) = (3.40, 2.50)$
 
 $m_{\text{best}} = \frac{2.50 - 1.60}{3.40 - 2.90} = \frac{0.90}{0.50} = 1.80$
 
-**But wait!** x-axis has multiplier $/10^{-3}$ K⁻¹. So $\Delta x = 0.50 \times 10^{-3}$ K⁻¹.
+**But wait!** x-axis has multiplier $/10^{-3}$ $\text{K}^{-1}$. So $\Delta x = 0.50 \times 10^{-3}$ $\text{K}^{-1}$.
 
 $m_{\text{true}} = \frac{0.90}{0.50 \times 10^{-3}} = 1.80 \times 10^{3}$ K
 
@@ -832,7 +831,7 @@ $E = (2.48 \pm 0.10) \times 10^{-20}$ J
 
 Find $\eta$ at $T = 273$ K.
 
-$1/T = 1/273 = 3.663 \times 10^{-3}$ K⁻¹
+$1/T = 1/273 = 3.663 \times 10^{-3}$ $\text{K}^{-1}$
 
 $\ln \eta = E/k \cdot 1/T + \ln H = 1.80 \times 10^3 \times 3.663 \times 10^{-3} + (-3.62)$
 
@@ -844,7 +843,7 @@ $\eta = e^{2.97} \times 10^{-4} = 19.5 \times 10^{-4}$ Pa s
 
 ---
 
-## Section 10: All Mistakes Table — Every Trap & How to Avoid It
+## Section 10: All Mistakes Table -- Every Trap & How to Avoid It
 
 | # | Mistake | Where It Happens | Why It Loses Marks | How to Avoid It |
 |---|---------|-----------------|-------------------|-----------------|
@@ -867,93 +866,93 @@ $\eta = e^{2.97} \times 10^{-4} = 19.5 \times 10^{-4}$ Pa s
 | 17 | **Reading intercept from graph edge** | Part (c)(iv) | y-axis doesn't start at 0, you read where line hits left edge | Use $c = y_1 - m x_1$ with a point ON the line |
 | 18 | **Wrong uncertainty formula for $e^c$** | Part (d) | Using $\Delta R_0 = \Delta c$ instead of $\Delta R_0 = R_0 \times \Delta c$ | $\Delta(\text{constant}) = \text{constant} \times \Delta(\ln(\text{constant}))$ |
 | 19 | **Not showing working** | Any part | Just writing final answer without method | Show every algebraic step. Examiner needs to see your method |
-| 20 | **Skipping part (e) — free mark!** | Part (e) | Running out of time and not attempting it | Part (e) is **1 free mark** — just plug numbers into the original equation |
+| 20 | **Skipping part (e) -- free mark!** | Part (e) | Running out of time and not attempting it | Part (e) is **1 free mark** -- just plug numbers into the original equation |
 
 ---
 
 ## Section 11: Templates to Guarantee Marks
 
-### Template for Part (a) — "The Answer Format"
+### Template for Part (a) -- "The Answer Format"
 
 ```
 Rearranged equation:
-[ln R] = ([-μ])[t] + [ln R₀]
-         ↑gradient     ↑intercept
+[ln R] = ([-mu])[t] + [ln R0]
+         ^gradient     ^intercept
 
-gradient = -μ
-y-intercept = ln R₀
+gradient = -mu
+y-intercept = ln R0
 ```
 
-### Template for Part (b) — "Table Calculation"
+### Template for Part (b) -- "Table Calculation"
 
 ```
 For Row 1:
-  average = (t₁ + t₂) / 2 = (0.19 + 0.13) / 2 = 0.16
-  Δt = |t₁ - t₂| / 2 = |0.19 - 0.13| / 2 = 0.03
+  average = (t1 + t2) / 2 = (0.19 + 0.13) / 2 = 0.16
+  Deltat = |t1 - t2| / 2 = |0.19 - 0.13| / 2 = 0.03
   ln(R) = ln(47.7) = 3.865    (3 d.p. because 47.7 has 3 s.f.)
-  Δ(ln R) = ΔR / R = 0.5 / 47.7 = 0.010
+  Delta(ln R) = DeltaR / R = 0.5 / 47.7 = 0.010
 ```
 
-### Template for Part (c)(iii) — "Gradient Write-up"
+### Template for Part (c)(iii) -- "Gradient Write-up"
 
 ```
 Points on line of best fit:
-  (x₁, y₁) = (2.90, 1.60)
-  (x₂, y₂) = (3.40, 2.50)
+  (x1, y1) = (2.90, 1.60)
+  (x2, y2) = (3.40, 2.50)
 
-m(best) = (y₂ - y₁) / (x₂ - x₁)
+m(best) = (y2 - y1) / (x2 - x1)
         = (2.50 - 1.60) / (3.40 - 2.90)
         = 0.90 / 0.50
         = 1.80
 
-With axis multiplier (/10⁻³):
-  m(true) = 1.80 / 10⁻³ = 1.80 × 10³ K
+With axis multiplier (/10-3):
+  m(true) = 1.80 / 10-3 = 1.80 x 103 K
 
 Points on WAL:
-  (x₁, y₁) = (2.92, 1.62)
-  (x₂, y₂) = (3.38, 2.48)
+  (x1, y1) = (2.92, 1.62)
+  (x2, y2) = (3.38, 2.48)
 
 m(WAL) = (2.48 - 1.62) / (3.38 - 2.92) = 0.86 / 0.46 = 1.87
-m(WAL, true) = 1.87 × 10³ K
+m(WAL, true) = 1.87 x 103 K
 
-Δm = |m(best) - m(WAL)| = |1.80 - 1.87| × 10³ = 0.07 × 10³ K
+Deltam = |m(best) - m(WAL)| = |1.80 - 1.87| x 103 = 0.07 x 103 K
 
-gradient = (1.80 ± 0.07) × 10³ K
+gradient = (1.80 ± 0.07) x 103 K
 ```
 
-### Template for Part (c)(iv) — "Intercept Write-up"
+### Template for Part (c)(iv) -- "Intercept Write-up"
 
 ```
 Point on best-fit line: (2.90, 1.60)
-c(best) = y₁ - m(best) × x₁
-        = 1.60 - (1.80 × 2.90)
+c(best) = y1 - m(best) x x1
+        = 1.60 - (1.80 x 2.90)
         = 1.60 - 5.22
         = -3.62
 
 Point on WAL: (2.92, 1.62)
-c(WAL) = 1.62 - (1.87 × 2.92) = 1.62 - 5.46 = -3.84
+c(WAL) = 1.62 - (1.87 x 2.92) = 1.62 - 5.46 = -3.84
 
-Δc = |c(best) - c(WAL)| = |-3.62 - (-3.84)| = 0.22
+Deltac = |c(best) - c(WAL)| = |-3.62 - (-3.84)| = 0.22
 
 y-intercept = -3.62 ± 0.22
 ```
 
-### Template for Part (d) — "Finding Constants Write-up"
+### Template for Part (d) -- "Finding Constants Write-up"
 
 ```
 From (a):  gradient = E/k
-From (c)(iii): gradient = 1.80 × 10³ K
+From (c)(iii): gradient = 1.80 x 103 K
 
-Therefore:  E/k = 1.80 × 10³ K
-            E = 1.80 × 10³ × k
-              = 1.80 × 10³ × 1.38 × 10⁻²³
-              = 2.48 × 10⁻²⁰ J
+Therefore:  E/k = 1.80 x 103 K
+            E = 1.80 x 103 x k
+              = 1.80 x 103 x 1.38 x 10-23
+              = 2.48 x 10-20 J
 
 From (a):  y-intercept = ln H
 From (c)(iv): y-intercept = -3.62
 
 Therefore:  ln H = -3.62
-            H = e⁻³·⁶²
+            H = e-3.62
               = 0.027
 ```
 
@@ -963,12 +962,12 @@ Therefore:  ln H = -3.62
 
 Go through this after you finish. Tick each box.
 
-### Part (a) — [ ] 
+### Part (a) -- [ ] 
 - [ ] Equation rearranged correctly into $y = mx + c$
 - [ ] Gradient written as **full expression** (not just the constant)
 - [ ] Intercept written as **full expression**
 
-### Part (b) — [ ]
+### Part (b) -- [ ]
 - [ ] All processed values calculated for every row
 - [ ] $\ln$ values have correct **d.p.** (equal to raw data **s.f.**)
 - [ ] Non-log values have correct **s.f.**
@@ -977,7 +976,7 @@ Go through this after you finish. Tick each box.
 - [ ] $\Delta(\ln x) = \Delta x / x$ applied (if applicable)
 - [ ] At least ONE sample calculation shown below the table
 
-### Part (c)(i) — [ ]
+### Part (c)(i) -- [ ]
 - [ ] Scale checked for **false origin**
 - [ ] Value per small square calculated and noted
 - [ ] All points plotted with sharp pencil, small crosses
@@ -985,14 +984,14 @@ Go through this after you finish. Tick each box.
 - [ ] Crossbars at top and bottom of each error bar
 - [ ] Different-sized error bars if $\ln$ uncertainties vary
 
-### Part (c)(ii) — [ ]
+### Part (c)(ii) -- [ ]
 - [ ] Best-fit line: straight, through all points, equal above/below
 - [ ] WAL drawn: steepest/shallowest through all error bars
 - [ ] WAL **labelled** clearly ("WAL" written next to it)
 - [ ] WAL visibly different from best-fit
 
-### Part (c)(iii) — [ ]
-- [ ] Large triangle drawn (≥ half the line length)
+### Part (c)(iii) -- [ ]
+- [ ] Large triangle drawn (>= half the line length)
 - [ ] Coordinates read **from the line**, not from data points
 - [ ] Calculation shown: $m = \Delta y / \Delta x$
 - [ ] Axis **multipliers** included in final gradient value
@@ -1001,14 +1000,14 @@ Go through this after you finish. Tick each box.
 - [ ] $\Delta m = |m_{\text{best}} - m_{\text{WAL}}|$ shown
 - [ ] Final answer: $m = (\text{value} \pm \text{uncertainty})$ unit
 
-### Part (c)(iv) — [ ]
+### Part (c)(iv) -- [ ]
 - [ ] Intercept calculated (not read from graph edge)
 - [ ] Formula shown: $c = y_1 - m x_1$
 - [ ] Point used is ON the line, not a data point
 - [ ] WAL intercept calculated
 - [ ] $\Delta c = |c_{\text{best}} - c_{\text{WAL}}|$ shown
 
-### Part (d) — [ ]
+### Part (d) -- [ ]
 - [ ] Gradient expression equated to numerical gradient
 - [ ] Intercept expression equated to numerical intercept
 - [ ] $\ln X$ → $X = e^{\text{value}}$ (or $\lg$ → $10^{\text{value}}$)
@@ -1016,7 +1015,7 @@ Go through this after you finish. Tick each box.
 - [ ] Units stated for each constant
 - [ ] Uncertainty in constant calculated (if asked)
 
-### Part (e) — [ ]
+### Part (e) -- [ ]
 - [ ] Original equation written
 - [ ] Algebraic rearrangement shown (if needed)
 - [ ] Values substituted
@@ -1026,10 +1025,10 @@ Go through this after you finish. Tick each box.
 
 ## Section 13: The Cheat Sheet (Everything in One Page)
 
-### Part (a) — 1 mark
+### Part (a) -- 1 mark
 Rearrange given equation into $y = mx + c$. Gradient = coefficient of $x$ (full expression). Intercept = rest.
 
-### Part (b) — 2-4 marks
+### Part (b) -- 2-4 marks
 - $\ln$ or $\lg$: **d.p.** in answer = **s.f.** in raw data
 - Other: same **s.f.** as raw data
 - Repeated readings: avg = $(t_1+t_2)/2$, $\Delta t = |t_1 - t_2|/2$
@@ -1040,23 +1039,313 @@ Rearrange given equation into $y = mx + c$. Gradient = coefficient of $x$ (full 
   - $\ln x$: $\Delta(\ln x) = \Delta x / x$
   - $\lg x$: $\Delta(\lg x) = \Delta x / (x \times 2.303)$
 
-### Part (c)(i) — 2 marks
+### Part (c)(i) -- 2 marks
 Check for **false origin** first. Plot with small crosses. Error bars: half-length = uncertainty.
 
-### Part (c)(ii) — 2 marks
+### Part (c)(ii) -- 2 marks
 Best-fit: straight line through all points. **WAL:** steepest/shallowest through all error bars. **LABEL WAL.**
 
-### Part (c)(iii) — 2 marks
-**Large triangle** (≥ half line length). Read points **from the line**. Include axis multipliers. $\Delta m = |m_{\text{best}} - m_{\text{WAL}}|$.
+### Part (c)(iii) -- 2 marks
+**Large triangle** (>= half line length). Read points **from the line**. Include axis multipliers. $\Delta m = |m_{\text{best}} - m_{\text{WAL}}|$.
 
-### Part (c)(iv) — 2 marks
+### Part (c)(iv) -- 2 marks
 If false origin: $c = y_1 - mx_1$ (point on line, not data point). $\Delta c = |c_{\text{best}} - c_{\text{WAL}}|$.
 
-### Part (d) — 2-3 marks
+### Part (d) -- 2-3 marks
 Gradient expression = gradient value. Intercept expression = intercept value. Solve.
 - $\ln X$ → $X = e^{\text{intercept}}$
 - $\lg X$ → $X = 10^{\text{intercept}}$
 - $-\mu = m$ → $\mu = -m$
 
-### Part (e) — 1 mark
+### Part (e) -- 1 mark
 Plug constants + given value into original equation. Show all steps.
+
+---
+
+## Section 14: Three Additional Full Worked Q2 Examples (15 marks each)
+
+> These three complete walkthroughs cover the WS-adjacent relationships examiners love to recycle. Each follows (a)-(e) with numbers, WAL, and examiner tips.
+
+### Example A -- Circular Motion: $Pg = mv^{2}/r$ (9702/53/O/N/15 style)
+
+**Given:** $Pg = \frac{mv^{2}}{r}$ where $P$ is the power factor, $g = 9.81\ \text{m s}^{-2}$, $m$ is the effective mass. Graph: $v^{2}$ on y-axis, $r$ on x-axis. Data: $r$ in $\text{m}$, $t$ is time for 10 revolutions.
+
+#### (a) Gradient & intercept
+
+$$v^{2} = \left(\frac{Pg}{m}\right) r$$
+
+- **Gradient** $= Pg/m$
+- **y-intercept** $= 0$
+
+> Examiner tip: Write the **full** expression $Pg/m$, not just $P$.
+
+#### (b) Table -- process $T$, $v$, $v^{2}$ with uncertainties
+
+$r$ known to $\pm 0.005\ \text{m}$ (steel rule), $t$ measured twice for 10 revs.
+
+| $r$ / $\text{m}$ | $t_{1}$ / $\text{s}$ | $t_{2}$ / $\text{s}$ | $T = t/10$ / $\text{s}$ | $v = 2\pi r/T$ / $\text{m s}^{-1}$ | $v^{2}$ / $\text{m}^{2}\text{s}^{-2}$ |
+|---|---|---|---|---|---|
+| 0.160 | 3.4 | 3.5 | $0.345 \pm 0.005$ | $2.91 \pm 0.12$ | $8.47 \pm 0.70$ |
+| 0.250 | 4.2 | 4.3 | $0.425 \pm 0.005$ | $3.70 \pm 0.10$ | $13.7 \pm 0.74$ |
+| 0.340 | 4.8 | 4.9 | $0.485 \pm 0.005$ | $4.40 \pm 0.10$ | $19.4 \pm 0.88$ |
+| 0.420 | 5.4 | 5.5 | $0.545 \pm 0.005$ | $4.84 \pm 0.10$ | $23.4 \pm 0.97$ |
+| 0.500 | 5.9 | 6.0 | $0.595 \pm 0.005$ | $5.28 \pm 0.09$ | $27.9 \pm 0.95$ |
+
+Sample row 1 stepped:
+
+$$T = \frac{3.4+3.5}{2}\cdot\frac{1}{10} = 0.345\ \text{s},\quad \Delta T = \frac{|3.5-3.4|}{2}\cdot\frac{1}{10}=0.005\ \text{s}$$
+
+$$v = \frac{2\pi(0.160)}{0.345}=2.91\ \text{m s}^{-1},\quad \frac{\Delta v}{v}= \frac{\Delta T}{T}= \frac{0.005}{0.345}=1.45\%\ \Rightarrow\ \Delta v =0.042\ \text{m s}^{-1}$$
+
+$$v^{2}=8.47,\quad \frac{\Delta(v^{2})}{v^{2}} = 2\frac{\Delta v}{v}=2.9\%\ \Rightarrow\ \Delta(v^{2})=0.25$$
+
+*Values above use combined $r$ + $T$ % for realism (exam: add %). Shown rounded for plotting; error bars on $v^{2}$ are **different per row** (power rule).*
+
+#### (c)(i)-(ii) Plot
+
+- y: $v^{2}$ $0$-$30\ \text{m}^{2}\text{s}^{-2}$, x: $r$ $0.10$-$0.55\ \text{m}$. False origin? No -- line through origin.
+- Error bars: vertical only, half-length $=\Delta(v^{2})$, total $2\Delta$.
+- Best-fit: straight line, equal points above/below. **WAL:** steepest line still through all bars, labelled.
+
+#### (c)(iii) Gradient
+
+Pick points **on the line**, large triangle $\ge \tfrac12$ line length:
+
+Best-fit: $(r_{1},v^{2}_{1})=(0.15,7.8)$, $(r_{2},v^{2}_{2})=(0.50,27.5)$
+
+$$m_{\text{best}} = \frac{27.5-7.8}{0.50-0.15}=\frac{19.7}{0.35}=56.3\ \text{m s}^{-2}$$
+
+WAL: $(0.16,7.5)$, $(0.49,28.0)$
+
+$$m_{\text{WAL}} = \frac{28.0-7.5}{0.49-0.16}=\frac{20.5}{0.33}=62.1\ \text{m s}^{-2}$$
+
+$$\Delta m = |56.3-62.1| = 5.8\ \text{m s}^{-2}$$
+
+$$m = (56.3 \pm 5.8)\ \text{m s}^{-2}\quad\text{(no power-of-ten trap here)}$$
+
+> Examiner tip: Show triangle coordinates on the graph, write $\Delta y/\Delta x$ explicitly.
+
+#### (c)(iv) Intercept
+
+Equation predicts $c=0$. From graph:
+
+$$c_{\text{best}} = v^{2}_{1} - m_{\text{best}} r_{1}=7.8-56.3(0.15)=-0.65$$
+
+$$c_{\text{WAL}} =7.5-62.1(0.16)=-2.44$$
+
+$$\Delta c = |-0.65-(-2.44)|=1.79$$
+
+$$c = (-0.7 \pm 1.8)\ \text{m}^{2}\text{s}^{-2}\approx 0\ \text{(passes through origin within error)}$$
+
+#### (d) Find $P$
+
+$$m_{\text{best}} = \frac{Pg}{m}\ \Rightarrow\ P = \frac{m\,m_{\text{best}}}{g}$$
+
+Take $m=0.120\ \text{kg}$ (given):
+
+$$P = \frac{0.120\times 56.3}{9.81}=0.689$$
+
+$$\frac{\Delta P}{P}=\frac{\Delta m_{\text{best}}}{m_{\text{best}}}= \frac{5.8}{56.3}=10.3\%\ \Rightarrow\ \Delta P =0.071$$
+
+$$P = 0.69 \pm 0.07\ \text{(dimensionless power factor)}$$
+
+#### (e) Final calculation -- $v$ at $r=0.60\ \text{m}$
+
+$$v = \sqrt{\frac{P g r}{m}} = \sqrt{\frac{0.689\times9.81\times0.60}{0.120}} = \sqrt{33.8}=5.81\ \text{m s}^{-1}$$
+
+> Tip: Part (e) is 1 free mark -- just substitute into the **original** equation.
+
+---
+
+### Example B -- Capacitor Discharge: $V = I_{0}R\,e^{-t/CR}$ (9702/52/O/N/23 style)
+
+**Given:** $V = I_{0}R\,e^{-t/CR}$ where $t=2.0\ \text{s}$ fixed, $R$ is the resistor under test, $C$ varies via $C_{A},C_{B}$ in parallel. Graph: $\ln V$ vs $1/C$. $V$ measured $\pm0.05\ \text{V}$.
+
+#### (a) Gradient & intercept
+
+$$\ln V = \ln(I_{0}R) - \frac{t}{R}\cdot\frac{1}{C}$$
+
+$$\ln V = \left(-\frac{t}{R}\right)\frac{1}{C}+ \ln(I_{0}R)$$
+
+- **Gradient** $= -t/R$
+- **y-intercept** $= \ln(I_{0}R)$
+
+#### (b) Table
+
+$1/C = 1/C_{A}+1/C_{B}$ (in $10^{4}\ \text{F}^{-1}$), $\ln V$ to 3 d.p. (raw $V$ 3 s.f.), $\Delta(\ln V)=\Delta V/V$.
+
+| $C_{A}/10^{-4}\text{F}$ | $C_{B}/10^{-4}\text{F}$ | $1/C\ /10^{4}\text{F}^{-1}$ | $V$ / $\text{V}$ | $\ln(V/\text{V})$ |
+|---|---|---|---|---|
+| 2.2 | 2.2 | 0.909 | $2.45\pm0.05$ | $0.896\pm0.020$ |
+| 2.2 | 3.3 | 0.758 | $2.75\pm0.05$ | $1.012\pm0.018$ |
+| 3.3 | 3.3 | 0.606 | $3.15\pm0.05$ | $1.147\pm0.016$ |
+| 2.2 | 4.7 | 0.668 | $2.95\pm0.05$ | $1.082\pm0.017$ |
+| 3.3 | 4.7 | 0.516 | $3.40\pm0.05$ | $1.224\pm0.015$ |
+| 4.7 | 4.7 | 0.426 | $3.75\pm0.05$ | $1.322\pm0.013$ |
+
+Sample row 1:
+
+$$\frac{1}{C}= \frac{1}{2.2}+\frac{1}{2.2}=0.909\times10^{4}\ \text{F}^{-1}$$
+
+$$\ln(2.45)=0.896\ (3\text{ d.p.}),\quad \Delta(\ln V)=\frac{0.05}{2.45}=0.020$$
+
+> Trap: If $C$ values had uncertainties, add % for $1/C$; here $C$ exact so only $V$ contributes.
+
+#### (c)(i)-(ii) Plot
+
+- x: $1/C$ $0.40$-$0.95\times10^{4}\ \text{F}^{-1}$ (false origin at $0.40$), y: $\ln V$ $0.85$-$1.35$.
+- Error bars vertical, sizes as above (decrease as $V$ rises).
+- Best-fit + WAL (steepest/shallowest through all bars).
+
+#### (c)(iii) Gradient
+
+Best-fit points: $(0.42,1.322)$, $(0.91,0.896)$
+
+$$m_{\text{best}}=\frac{0.896-1.322}{0.909-0.426}\times10^{-4}=\frac{-0.426}{0.483}\times10^{-4}=-0.882\times10^{-4}\ \text{F}$$
+
+But $1/C$ axis is in $10^{4}\ \text{F}^{-1}$, so include power:
+
+$$\Delta x_{\text{phys}}=0.483\times10^{4}\ \text{F}^{-1},\quad m_{\text{true}}=\frac{-0.426}{0.483\times10^{4}}=-0.882\times10^{-4}\ \text{F}$$
+
+In graph units: $m_{\text{graph}}=-0.882$, $m_{\text{true}}=-0.882\times10^{-4}\ \text{F}$.
+
+WAL: $(0.43,1.335)$, $(0.90,0.876)$
+
+$$m_{\text{WAL}}=\frac{0.876-1.335}{0.47\times10^{4}}=-0.977\times10^{-4}\ \text{F}$$
+
+$$\Delta m = |-0.882-(-0.977)|\times10^{-4}=0.095\times10^{-4}\ \text{F}$$
+
+$$m = (-0.88 \pm 0.10)\times10^{-4}\ \text{F}$$
+
+> Power-of-ten: axis label $/10^{4}\ \text{F}^{-1}$ means true gradient is graph value $\times10^{-4}$.
+
+#### (c)(iv) Intercept
+
+False origin -- calculate:
+
+$$c_{\text{best}} = y_{1} - m x_{1}=1.322 - (-0.882\times10^{-4})(0.426\times10^{4})=1.322+0.376=1.698$$
+
+$$c_{\text{WAL}}=1.335+0.977\times10^{-4}\times0.43\times10^{4}=1.335+0.420=1.755$$
+
+$$\Delta c = |1.698-1.755|=0.057$$
+
+$$c = 1.70 \pm 0.06$$
+
+#### (d) Find $R$ and $I_{0}$
+
+$$m = -\frac{t}{R}\ \Rightarrow\ R = -\frac{t}{m}= \frac{2.0}{0.882\times10^{-4}}=2.27\times10^{4}\ \Omega$$
+
+$$\frac{\Delta R}{R}=\frac{\Delta m}{|m|}= \frac{0.10}{0.88}=11.4\%\ \Rightarrow\ \Delta R =0.26\times10^{4}\ \Omega$$
+
+$$R = (2.27 \pm 0.26)\times10^{4}\ \Omega$$
+
+$$c = \ln(I_{0}R)\ \Rightarrow\ I_{0}R = e^{c}=e^{1.698}=5.46\ \text{V}$$
+
+$$I_{0}= \frac{5.46}{2.27\times10^{4}}=2.41\times10^{-4}\ \text{A}$$
+
+$$\Delta(I_{0}R)=I_{0}R\cdot\Delta c =5.46\times0.06=0.33\ \text{V},\quad \frac{\Delta I_{0}}{I_{0}}=\frac{\Delta(I_{0}R)}{I_{0}R}+\frac{\Delta R}{R}=6\%+11\%=17\%$$
+
+$$I_{0}=(2.4\pm0.4)\times10^{-4}\ \text{A}$$
+
+#### (e) Final -- predict $V$ at $C=1.5\times10^{-4}\ \text{F}$
+
+$$\frac{1}{C}=0.667\times10^{4}\ \text{F}^{-1},\quad \ln V = m\frac{1}{C}+c = -0.882\times10^{-4}\times0.667\times10^{4}+1.698= -0.588+1.698=1.110$$
+
+$$V = e^{1.110}=3.03\ \text{V}$$
+
+---
+
+### Example C -- Hubble / Redshift: $\lambda = \lambda_{0} + \lambda_{0}H\,d/c$ (9702/51/O/N/25 style)
+
+**Given:** $\frac{\lambda-\lambda_{0}}{\lambda_{0}} = \frac{H d}{c}\ \Rightarrow\ \lambda = \lambda_{0} + \lambda_{0}H\frac{d}{c}$, $c=3.00\times10^{5}\ \text{km s}^{-1}$ exact. Graph: $\lambda$ vs $d/c$. $d$ in $10^{21}\ \text{km}$, $\lambda$ in $\text{nm}$.
+
+#### (a) Gradient & intercept
+
+$$\lambda = (\lambda_{0}H)\frac{d}{c} + \lambda_{0}$$
+
+- **Gradient** $= \lambda_{0}H$
+- **y-intercept** $= \lambda_{0}$
+
+#### (b) Table
+
+$d/c = d/(3.00\times10^{5})$ converted to $10^{15}\ \text{s}$; $\Delta(d/c)/(d/c)=\Delta d/d$.
+
+| $d/10^{21}\text{km}$ | $d/c\ /10^{15}\text{s}$ | $\lambda$ / $\text{nm}$ |
+|---|---|---|
+| $0.48\pm0.12$ | $1.60\pm0.40$ | $658.4$ |
+| $1.04\pm0.12$ | $3.47\pm0.40$ | $661.2$ |
+| $1.60\pm0.12$ | $5.33\pm0.40$ | $664.5$ |
+| $2.16\pm0.12$ | $7.20\pm0.40$ | $667.1$ |
+| $2.72\pm0.12$ | $9.07\pm0.40$ | $670.3$ |
+| $3.28\pm0.12$ | $10.93\pm0.40$ | $673.0$ |
+
+Sample row 1:
+
+$$d/c = \frac{0.48\times10^{21}}{3.00\times10^{5}}=1.60\times10^{15}\ \text{s},\quad \frac{\Delta(d/c)}{d/c}= \frac{0.12}{0.48}=25\%\ \Rightarrow\ \Delta=0.40\times10^{15}\ \text{s}$$
+
+> No $\ln$ here -- keep $\lambda$ s.f. as given (4 s.f.), $d/c$ to 2-3 s.f. matching $d$.
+
+#### (c)(i)-(ii) Plot
+
+- x: $d/c$ $1.0$-$11.0\times10^{15}\ \text{s}$ (false origin $1.0$), y: $\lambda$ $657$-$674\ \text{nm}$ (false origin $657$).
+- Error bars **horizontal** (uncertainty in $x$), half-length $0.40\times10^{15}\ \text{s}$.
+- Best-fit + WAL (most extreme still through horizontal bars).
+
+#### (c)(iii) Gradient
+
+Best-fit points on line: $(2.0\times10^{15}, 659.0)$, $(10.0\times10^{15}, 672.0)$
+
+$$m_{\text{best}}=\frac{672.0-659.0}{(10.0-2.0)\times10^{15}}=\frac{13.0}{8.0\times10^{15}}=1.625\times10^{-15}\ \text{nm s}^{-1}$$
+
+Convert to $\text{m s}^{-1}$ if needed: $1\ \text{nm}=10^{-9}\ \text{m}\Rightarrow 1.625\times10^{-24}\ \text{m s}^{-1}$ but keep $\text{nm}$ for ratio.
+
+WAL (shallowest through bars): $(1.6,659.5)$, $(10.9,672.5)$
+
+$$m_{\text{WAL}}=\frac{672.5-659.5}{(10.93-1.60)\times10^{15}} \text{ using extremes} =\frac{13.0}{9.33\times10^{15}}=1.393\times10^{-15}$$
+
+Actually choose visibly shallowest: $(2.0,659.8)$, $(10.0,671.2)$
+
+$$m_{\text{WAL}}=\frac{671.2-659.8}{8.0\times10^{15}}=1.425\times10^{-15}\ \text{nm s}^{-1}$$
+
+$$\Delta m =|1.625-1.425|\times10^{-15}=0.20\times10^{-15}\ \text{nm s}^{-1}$$
+
+$$m=(1.63\pm0.20)\times10^{-15}\ \text{nm s}^{-1}$$
+
+> Show units: $m$ has units of $\lambda/(d/c)=\text{nm}/10^{15}\text{s}$.
+
+#### (c)(iv) Intercept
+
+False origin -- use point $(2.0\times10^{15},659.0)$:
+
+$$c_{\text{best}}=659.0 -1.625\times10^{-15}\times2.0\times10^{15}=659.0-3.25=655.75\ \text{nm}$$
+
+$$c_{\text{WAL}}=659.8-1.425\times10^{-15}\times2.0\times10^{15}=659.8-2.85=656.95\ \text{nm}$$
+
+$$\Delta c =|655.75-656.95|=1.20\ \text{nm}$$
+
+$$c = (655.8 \pm 1.2)\ \text{nm} = \lambda_{0}$$
+
+#### (d) Find $H$ and check $\lambda_{0}$
+
+$$\lambda_{0}=c =655.8\pm1.2\ \text{nm}$$
+
+$$H = \frac{m}{\lambda_{0}} = \frac{1.625\times10^{-15}\ \text{nm s}^{-1}}{655.8\ \text{nm}}=2.48\times10^{-18}\ \text{s}^{-1}$$
+
+$$\frac{\Delta H}{H}= \frac{\Delta m}{m}+\frac{\Delta\lambda_{0}}{\lambda_{0}}= \frac{0.20}{1.63}+ \frac{1.2}{655.8}=12.3\%+0.2\%=12.5\%$$
+
+$$\Delta H =0.31\times10^{-18}\ \text{s}^{-1}$$
+
+$$H=(2.48\pm0.31)\times10^{-18}\ \text{s}^{-1}$$
+
+> $H$ is the Hubble constant -- matches order $10^{-18}\ \text{s}^{-1}$.
+
+#### (e) Final -- predict $\lambda$ for $d=4.0\times10^{21}\ \text{km}$
+
+$$d/c = \frac{4.0\times10^{21}}{3.00\times10^{5}}=13.33\times10^{15}\ \text{s}$$
+
+$$\lambda = \lambda_{0}+ m\,d/c =655.8 +1.625\times10^{-15}\times13.33\times10^{15}=655.8+21.66=677.5\ \text{nm}$$
+
+$$ \lambda \approx 678\ \text{nm}$$
+
+---
+

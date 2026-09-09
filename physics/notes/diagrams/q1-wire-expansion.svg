@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320">
+  <rect width="600" height="320" fill="white" stroke="#ccc"/>
+  <text x="300" y="22" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold">Fig. 1.1 — Wire Expansion by Current (9702/52/O/N/09)</text>
+  <!-- supports -->
+  <rect x="80" y="80" width="10" height="80" fill="#aaa" stroke="black"/>
+  <rect x="480" y="80" width="10" height="80" fill="#aaa" stroke="black"/>
+  <text x="85" y="175" font-size="7">G-clamp</text>
+  <text x="480" y="175" font-size="7">G-clamp</text>
+  <!-- wire -->
+  <line x1="90" y1="110" x2="480" y2="110" stroke="black" stroke-width="1.5"/>
+  <text x="280" y="102" font-size="8">thin wire, diameter d (micrometer)</text>
+  <!-- weight for tension -->
+  <line x1="285" y1="110" x2="285" y2="150" stroke="black"/>
+  <rect x="270" y="150" width="30" height="20" fill="#ccc" stroke="black"/>
+  <text x="285" y="182" text-anchor="middle" font-size="7">weight</text>
+  <text x="285" y="192" font-size="6">(keeps tension constant)</text>
+  <!-- displacement pointer -->
+  <line x1="285" y1="110" x2="285" y2="90" stroke="red" stroke-width="1.5"/>
+  <polygon points="285,85 280,90 290,90" fill="red"/>
+  <text x="300" y="85" font-size="8" fill="red">y ↑ pointer</text>
+  <!-- scale -->
+  <rect x="300" y="60" width="60" height="50" fill="none" stroke="black" stroke-dasharray="3,3"/>
+  <text x="330" y="55" font-size="7">vertical scale</text>
+  <text x="330" y="75" font-size="7">metre rule</text>
+  <line x1="310" y1="70" x2="350" y2="70" stroke="black" stroke-width="0.5"/>
+  <line x1="310" y1="80" x2="350" y2="80" stroke="black" stroke-width="0.5"/>
+  <!-- circuit -->
+  <line x1="90" y1="110" x2="60" y2="110" stroke="black" stroke-width="1.5"/>
+  <line x1="60" y1="110" x2="60" y2="220" stroke="black" stroke-width="1.5"/>
+  <line x1="60" y1="220" x2="150" y2="220" stroke="black" stroke-width="1.5"/>
+  <rect x="150" y="205" width="60" height="30" fill="none" stroke="black" stroke-width="2"/>
+  <text x="180" y="222" text-anchor="middle" font-size="8">DC Supply</text>
+  <line x1="210" y1="220" x2="300" y2="220" stroke="black" stroke-width="1.5"/>
+  <rect x="300" y="210" width="50" height="20" fill="none" stroke="black"/>
+  <text x="325" y="222" text-anchor="middle" font-size="8">A</text>
+  <line x1="350" y1="220" x2="500" y2="220" stroke="black" stroke-width="1.5"/>
+  <line x1="500" y1="220" x2="500" y2="110" stroke="black" stroke-width="1.5"/>
+  <line x1="500" y1="110" x2="480" y2="110" stroke="black" stroke-width="1.5"/>
+  <text x="380" y="235" font-size="7">ammeter → keep I constant</text>
+  <!-- bench -->
+  <line x1="20" y1="260" x2="580" y2="260" stroke="black" stroke-width="2"/>
+  <text x="300" y="285" text-anchor="middle" font-size="8" fill="#555">Measure d at several orientations → mean. Fix I, length, tension. Switch on for fixed time → y (cool between runs).</text>
+  <text x="300" y="300" text-anchor="middle" font-size="8" fill="#555">Plot lg y vs lg d. Safety: shrouded leads, switch off before changing wire, heat-proof gloves.</text>
+</svg>

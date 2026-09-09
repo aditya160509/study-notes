@@ -2,7 +2,7 @@
 
 ## Cambridge International AS & A Level Further Mathematics (9231) - Paper 2 (Further Pure 2)
 
-> **The complete walkthrough:** Every integration technique from Chapter 22 explained step-by-step, with dozens of fully solved examples in proper LaTeX - substitutions, hyperbolic integrals, reduction formulae, arc lengths, surface areas of revolution and the integral test.
+> **The complete walkthrough:** Every integration technique from Chapter 22 explained step-by-step, with dozens of fully solved examples in proper LaTeX - substitutions (including $t=\tan\frac{x}{2}$), hyperbolic integrals, reduction formulae, arc lengths, surface areas of revolution, Riemann sums with $\Delta x\to 0$ and the integral test.
 
 ---
 
@@ -13,13 +13,14 @@
 3. [PART 3: Reduction Formulae](#part-3-reduction-formulae)
 4. [PART 4: Arc Lengths (Cartesian, Parametric, Polar)](#part-4-arc-lengths-cartesian-parametric-polar)
 5. [PART 5: Surface Areas of Revolution](#part-5-surface-areas-of-revolution)
-6. [PART 6: Limits of Areas - The Integral Test](#part-6-limits-of-areas---the-integral-test)
-7. [Formula Sheet](#formula-sheet)
-8. [Cambridge Exam Analysis](#cambridge-exam-analysis)
-9. [Common Mistakes](#common-mistakes)
-10. [Practice Questions & Solutions](#practice-questions--solutions)
-11. [Exam Strategy](#exam-strategy)
-12. [Quick Reference Card](#quick-reference-card)
+6. [PART 6A: Rectangle Sums and Limits of Areas (width $\to 0$)](#part-6a-rectangle-sums-and-limits-of-areas-width--0)
+7. [PART 6B: Limits of Areas - The Integral Test (unit-width rectangles)](#part-6b-limits-of-areas---the-integral-test-unit-width-rectangles)
+8. [Formula Sheet](#formula-sheet)
+9. [Cambridge Exam Analysis](#cambridge-exam-analysis)
+10. [Common Mistakes](#common-mistakes)
+11. [Practice Questions & Solutions](#practice-questions--solutions)
+12. [Exam Strategy](#exam-strategy)
+13. [Quick Reference Card](#quick-reference-card)
 
 ---
 
@@ -300,6 +301,81 @@ $$I = \int \frac{1}{(x + 1)^2 + 1}\;\mathrm{d}x$$
 This is $\displaystyle \int \frac{1}{u^2 + 1}\;\mathrm{d}u$ with $u = x + 1$, so:
 
 $$I = \tan^{-1}(x + 1) + c \quad\checkmark$$
+
+---
+
+## 1.4 Harder 9709 Techniques Still Examinable in 9231
+
+Cambridge warns: *any 9709 integration technique may appear in a harder form* - specifically **integration by parts on $e^{x}\sin x$/$e^{x}\cos x$ cycles** and the **$t=\tan\frac{x}{2}$ (Weierstrass) substitution**. You already know these from 9709 PM3; here they are in the 9231 context with full LaTeX working.
+
+### The $t=\tan\frac{x}{2}$ Substitution
+
+$$\boxed{t = \tan\frac{x}{2}} \qquad\Longrightarrow\qquad \boxed{\sin x = \frac{2t}{1+t^{2}}},\quad \boxed{\cos x = \frac{1-t^{2}}{1+t^{2}}},\quad \boxed{\mathrm{d}x = \frac{2\,\mathrm{d}t}{1+t^{2}}}$$
+
+Use it when the integrand is rational in $\sin x$ and $\cos x$, especially $\displaystyle \int \frac{1}{a+b\cos x}\,\mathrm{d}x$ or $\displaystyle \int \frac{1}{a+b\sin x}\,\mathrm{d}x$.
+
+| Step | What To Do |
+|---|---|
+| **Step 1** | Set $t=\tan\frac{x}{2}$, replace $\sin x$, $\cos x$, $\mathrm{d}x$ using the boxes above |
+| **Step 2** | Simplify to a rational function in $t$ (often $\int\frac{1}{\text{quadratic in }t}\,\mathrm{d}t$) |
+| **Step 3** | Integrate via partial fractions or completing the square + standard form |
+| **Step 4** | Convert back: $t=\tan\frac{x}{2}$ (or convert limits if definite) |
+
+### Example 7B - Medium ($t=\tan\frac{x}{2}$)
+
+> **Question:** Find $\displaystyle \int \frac{1}{1+\sin x}\,\mathrm{d}x$.
+
+**Solution:**
+
+Let $t=\tan\frac{x}{2}$, so $\sin x = \frac{2t}{1+t^{2}}$ and $\mathrm{d}x = \frac{2\,\mathrm{d}t}{1+t^{2}}$:
+
+$$I = \int \frac{1}{1+\frac{2t}{1+t^{2}}}\cdot\frac{2\,\mathrm{d}t}{1+t^{2}}$$
+
+$$I = \int \frac{2}{1+t^{2}+2t}\,\mathrm{d}t = \int \frac{2}{(t+1)^{2}}\,\mathrm{d}t$$
+
+$$I = -\frac{2}{t+1}+c$$
+
+Convert back:
+
+$$I = -\frac{2}{\tan\frac{x}{2}+1}+c \quad\checkmark$$
+
+### Example 7C - Medium (harder denominator)
+
+> **Question:** Evaluate $\displaystyle \int \frac{1}{3+2\cos x}\,\mathrm{d}x$.
+
+**Solution:**
+
+Let $t=\tan\frac{x}{2}$, so $\cos x = \frac{1-t^{2}}{1+t^{2}}$:
+
+$$I = \int \frac{1}{3+2\frac{1-t^{2}}{1+t^{2}}}\cdot\frac{2\,\mathrm{d}t}{1+t^{2}}$$
+
+$$I = \int \frac{2}{3(1+t^{2})+2(1-t^{2})}\,\mathrm{d}t = \int \frac{2}{t^{2}+5}\,\mathrm{d}t$$
+
+$$I = \frac{2}{\sqrt{5}}\tan^{-1}\!\left(\frac{t}{\sqrt{5}}\right)+c$$
+
+$$I = \frac{2}{\sqrt{5}}\tan^{-1}\!\left(\frac{\tan\frac{x}{2}}{\sqrt{5}}\right)+c \quad\checkmark$$
+
+### The $e^{x}\sin x$ / $e^{x}\cos x$ Cycle (integration by parts twice)
+
+> **Question:** Find $\displaystyle \int e^{x}\sin x\,\mathrm{d}x$.
+
+Let $I=\int e^{x}\sin x\,\mathrm{d}x$. Integrate by parts ($u=\sin x$, $\mathrm{d}v=e^{x}\mathrm{d}x$):
+
+$$I = e^{x}\sin x - \int e^{x}\cos x\,\mathrm{d}x$$
+
+Again ($u=\cos x$, $\mathrm{d}v=e^{x}\mathrm{d}x$):
+
+$$\int e^{x}\cos x\,\mathrm{d}x = e^{x}\cos x + \int e^{x}\sin x\,\mathrm{d}x = e^{x}\cos x + I$$
+
+So:
+
+$$I = e^{x}\sin x - e^{x}\cos x - I$$
+
+$$2I = e^{x}(\sin x - \cos x)$$
+
+$$I = \frac{e^{x}}{2}(\sin x - \cos x)+c \quad\checkmark$$
+
+> ⭐ **Watch Out!** For $t=\tan\frac{x}{2}$, the $\mathrm{d}x = \frac{2\,\mathrm{d}t}{1+t^{2}}$ factor is the most dropped term. For $e^{x}\sin x$, the second by-parts returns to $I$ with the *opposite* sign - do not lose the minus.
 
 ---
 
@@ -1447,9 +1523,247 @@ $$S = 2\pi s + \frac{\pi}{9}\left(2\sqrt{2} - 1\right) \quad\checkmark$$
 ---
 
 
-# PART 6: Limits of Areas - The Integral Test
+# PART 6A: Rectangle Sums and Limits of Areas (width $\to 0$)
 
-## 6.1 The Big Idea: Sums vs Integrals
+## 6A.1 The Big Idea: Rectangles Whose Width Tends to Zero
+
+Cambridge explicitly says *questions may involve rectangles whose width can tend to zero* - e.g.
+
+$$\frac{1}{n}\sum_{r=1}^{n} f\!\left(\frac{r}{n}\right) \to \int_{0}^{1} f(x)\,\mathrm{d}x$$
+
+This is the **Riemann sum** construction. On $[a,b]$ cut it into $n$ strips of equal width:
+
+$$\boxed{\Delta x = \frac{b-a}{n}}$$
+
+$$\boxed{x_{r} = a + r\,\Delta x \qquad (r = 1, 2, \ldots, n)}$$
+
+$$\boxed{\text{height of $r$-th rectangle} = f(x_{r})}$$
+
+$$\boxed{\text{area of $r$-th rectangle} = \Delta x \cdot f(x_{r})}$$
+
+$$\boxed{U_{n} = \sum_{r=1}^{n} \Delta x\,f(x_{r}) = \sum_{r=1}^{n} f\!\left(a + \frac{r(b-a)}{n}\right)\frac{b-a}{n}}$$
+
+Then as $n \to \infty$ the rectangles fill the exact area:
+
+$$\boxed{\int_{a}^{b} f(x)\,\mathrm{d}x = \lim_{n\to\infty} \sum_{r=1}^{n} f\!\left(a + \frac{r(b-a)}{n}\right)\frac{b-a}{n}}$$
+
+**Special case $a = 0$, $b = 1$** (the form Cambridge quotes most often):
+
+$$\boxed{\int_{0}^{1} f(x)\,\mathrm{d}x = \lim_{n\to\infty} \frac{1}{n}\sum_{r=1}^{n} f\!\left(\frac{r}{n}\right)}$$
+
+> 💡 **When is it upper vs lower?** For a finite $n$ the sum is an over- or under-estimate depending on monotonicity and which endpoint you sample.
+
+|  | Left endpoint $x_{r-1}=a+(r-1)\Delta x$ | Right endpoint $x_{r}=a+r\Delta x$ |
+|---|---|---|
+| **$f$ increasing** | **Lower** sum (rectangles lie below curve) | **Upper** sum (rectangles lie above curve) |
+| **$f$ decreasing** | **Upper** sum | **Lower** sum |
+
+For a **decreasing** positive function on $[0,1]$ with right endpoints $r/n$: the sum $\frac{1}{n}\sum_{r=1}^{n} f(r/n)$ is a **lower sum** and lies BELOW the integral. With left endpoints $(r-1)/n$ it would be an upper sum.
+
+> ⭐ **Watch Out!** The $r$-index tells you the endpoint: $r = 1,\ldots,n$ means **right** endpoints; $r = 0,\ldots,n-1$ means **left** endpoints. Shifting the index by 1 flips upper/lower for monotone functions - the most common source of inequality-direction errors.
+
+### The Method (for width $\to 0$ questions)
+
+| Step | What To Do |
+|---|---|
+| **Step 1** | Identify $a$, $b$, $\Delta x = (b-a)/n$ and the sample points $x_{r} = a + r\Delta x$ |
+| **Step 2** | Write the rectangle area: $\Delta x\, f(x_{r})$ and the sum $U_{n} = \sum \Delta x\, f(x_{r})$ |
+| **Step 3** | Decide upper vs lower: increasing + right = upper; decreasing + right = lower (and vice versa for left) |
+| **Step 4** | Evaluate $\lim_{n\to\infty} U_{n}$ by recognising it as $\int_{a}^{b} f(x)\,\mathrm{d}x$ |
+
+---
+
+### Example 32 - Easy (the definition: $[0,1]$ with $f(x)=x^{2}$)
+
+> **Question:** For $f(x)=x^{2}$ on $[0,1]$, write down the right Riemann sum $U_{n}=\frac{1}{n}\sum_{r=1}^{n}\left(\frac{r}{n}\right)^{2}$. Is $U_{n}$ an upper or lower sum? Find $\lim_{n\to\infty}U_{n}$.
+
+**Solution:**
+
+$$\Delta x = \frac{1-0}{n} = \frac{1}{n}, \qquad x_{r} = \frac{r}{n}$$
+
+$$U_{n} = \sum_{r=1}^{n} \frac{1}{n}\left(\frac{r}{n}\right)^{2} = \frac{1}{n^{3}}\sum_{r=1}^{n} r^{2}$$
+
+$f(x)=x^{2}$ is **increasing** on $[0,1]$ and we use **right** endpoints, so $U_{n}$ is an **upper sum** - it lies above the integral for every finite $n$.
+
+Use $\sum_{r=1}^{n} r^{2}=\frac{n(n+1)(2n+1)}{6}$:
+
+$$U_{n} = \frac{1}{n^{3}}\cdot\frac{n(n+1)(2n+1)}{6} = \frac{(n+1)(2n+1)}{6n^{2}}$$
+
+Take the limit:
+
+$$\lim_{n\to\infty} U_{n} = \lim_{n\to\infty}\frac{2n^{2}+3n+1}{6n^{2}} = \frac{2}{6} = \frac{1}{3}$$
+
+Check against the integral:
+
+$$\int_{0}^{1} x^{2}\,\mathrm{d}x = \left[\frac{x^{3}}{3}\right]_{0}^{1} = \frac{1}{3} \quad\checkmark$$
+
+So $\displaystyle \frac{1}{n}\sum_{r=1}^{n} \left(\frac{r}{n}\right)^{2} \to \frac{1}{3}$ and each $U_{n} > \frac{1}{3}$ (upper sum falling down to the limit).
+
+---
+
+### Example 33 - Medium (the rectangle question from your 2024 paper: exponential)
+
+> **Question:** Let $f(x)=e^{x}$ on $[0,1]$. The interval is divided into $n$ equal subintervals of width $\Delta x = 1/n$ with right endpoints $x_{r}=r/n$.
+> a) Show that $U_{n}=\frac{e^{1/n}\left(e-1\right)}{n\left(e^{1/n}-1\right)}$.
+> b) Hence find $\lim_{n\to\infty} U_{n}$ and state whether $U_{n}$ is an upper or lower sum.
+
+**Solution (a):**
+
+$$U_{n} = \sum_{r=1}^{n} \frac{1}{n} e^{r/n} = \frac{1}{n}\sum_{r=1}^{n} \left(e^{1/n}\right)^{r}$$
+
+This is a geometric progression with first term $e^{1/n}$ and ratio $e^{1/n}$:
+
+$$\sum_{r=1}^{n} \left(e^{1/n}\right)^{r} = e^{1/n}\cdot\frac{\left(e^{1/n}\right)^{n}-1}{e^{1/n}-1} = \frac{e^{1/n}(e-1)}{e^{1/n}-1}$$
+
+$$U_{n} = \frac{e^{1/n}(e-1)}{n\left(e^{1/n}-1\right)} \quad\checkmark$$
+
+**Solution (b):**
+
+$e^{x}$ is **increasing** on $[0,1]$ and we use **right** endpoints, so $U_{n}$ is an **upper sum**:
+
+$$U_{n} > \int_{0}^{1} e^{x}\,\mathrm{d}x = e-1 \approx 1.718$$
+
+for every finite $n$, and it decreases to the integral.
+
+To find the limit, use $e^{1/n}-1 \sim \frac{1}{n}$ as $n\to\infty$ (or L'Hôpital with $h=1/n$):
+
+Let $h = 1/n$, so $h\to 0$:
+
+$$\lim_{n\to\infty} U_{n} = \lim_{h\to 0}\frac{e^{h}(e-1)}{(e^{h}-1)/h} = (e-1)\lim_{h\to 0}\frac{h\,e^{h}}{e^{h}-1}$$
+
+Use $e^{h}-1 = h + \frac{h^{2}}{2}+\cdots$, so $\frac{h\,e^{h}}{e^{h}-1}\to 1$:
+
+$$\lim_{n\to\infty} U_{n} = e-1 = \int_{0}^{1} e^{x}\,\mathrm{d}x \quad\checkmark$$
+
+> 💡 **Exam shortcut:** you do NOT need the geometric sum in the exam - you can just state $\lim_{n\to\infty} U_{n}=\int_{0}^{1} e^{x}\,\mathrm{d}x = e-1$ by recognising the Riemann sum. The GP working is only needed if the question says "show that $U_{n}=\ldots$".
+
+---
+
+### Example 34 - Medium (general $[a,b]$ and decreasing function: lower sum)
+
+> **Question:** Let $f(x)=\frac{1}{1+x}$ on $[0,1]$ with right endpoints $x_{r}=r/n$.
+> a) Write down $U_{n}$ and decide if it is an upper or lower sum.
+> b) Hence write down $\lim_{n\to\infty} U_{n}$ as an integral and evaluate it.
+
+**Solution (a):**
+
+$$\Delta x = \frac{1}{n}, \qquad x_{r} = \frac{r}{n}$$
+
+$$U_{n} = \sum_{r=1}^{n} \frac{1}{n}\cdot\frac{1}{1+r/n} = \frac{1}{n}\sum_{r=1}^{n}\frac{n}{n+r} = \sum_{r=1}^{n}\frac{1}{n+r}$$
+
+$f(x)=\frac{1}{1+x}$ is **decreasing** on $[0,1]$ and we use **right** endpoints, so this is a **lower sum**:
+
+$$U_{n} < \int_{0}^{1}\frac{1}{1+x}\,\mathrm{d}x$$
+
+and it **increases** to the integral as $n\to\infty$.
+
+**Solution (b):**
+
+$$\lim_{n\to\infty} U_{n} = \int_{0}^{1}\frac{1}{1+x}\,\mathrm{d}x$$
+
+$$= \left[\ln(1+x)\right]_{0}^{1} = \ln 2 \approx 0.6931 \quad\checkmark$$
+
+So $\displaystyle \sum_{r=1}^{n}\frac{1}{n+r} \to \ln 2$ from **below**.
+
+---
+
+### Example 35 - Hard (Cambridge-style inequality + limit)
+
+> **Question:** Let $f(x)=\ln(1+x)$ on $[0,1]$, divided into $n$ equal strips of width $1/n$ with right endpoints.
+> a) Show that $L_{n} < \int_{0}^{1}\ln(1+x)\,\mathrm{d}x < U_{n}$ where $L_{n}$ and $U_{n}$ are the lower and upper sums. Identify $L_{n}$ and $U_{n}$.
+> b) Use $L_{n}=\frac{1}{n}\sum_{r=0}^{n-1}\ln\!\left(1+\frac{r}{n}\right)$ to prove $\displaystyle \ln\!\left(\frac{n!}{n^{n}}\right)+1 < \int_{0}^{1}\ln(1+x)\,\mathrm{d}x \cdot n$ -type bounds.
+
+**Solution (a):**
+
+$f(x)=\ln(1+x)$ is **increasing** on $[0,1]$ (derivative $1/(1+x)>0$).
+
+- **Lower sum** uses **left** endpoints: $x_{r}=r/n$, $r=0,\ldots,n-1$:
+
+$$L_{n} = \frac{1}{n}\sum_{r=0}^{n-1}\ln\!\left(1+\frac{r}{n}\right)$$
+
+- **Upper sum** uses **right** endpoints: $x_{r}=r/n$, $r=1,\ldots,n$:
+
+$$U_{n} = \frac{1}{n}\sum_{r=1}^{n}\ln\!\left(1+\frac{r}{n}\right)$$
+
+Since left rectangles lie below and right rectangles above an increasing curve:
+
+$$L_{n} < \int_{0}^{1}\ln(1+x)\,\mathrm{d}x < U_{n} \quad\checkmark$$
+
+**Solution (b):**
+
+$$U_{n} - L_{n} = \frac{1}{n}\left[\ln\!\left(1+\frac{n}{n}\right)-\ln\!\left(1+\frac{0}{n}\right)\right] = \frac{\ln 2}{n} \to 0$$
+
+So both squeeze to the integral. Evaluating the integral:
+
+$$\int_{0}^{1}\ln(1+x)\,\mathrm{d}x = \left[(1+x)\ln(1+x)-x\right]_{0}^{1} = 2\ln 2 - 1 \approx 0.3863 \quad\checkmark$$
+
+Hence for large $n$: $\displaystyle \frac{1}{n}\sum_{r=1}^{n}\ln\!\left(1+\frac{r}{n}\right)\to 2\ln 2-1$.
+
+> ⭐ **Key exam move:** if the question asks you to *derive an inequality*, draw the rectangles and argue upper vs lower. If it asks for the *limit*, just write $\lim = \int_{a}^{b} f(x)\,\mathrm{d}x$ and integrate - do not evaluate the sum first.
+
+---
+
+### Practice Questions - Part 6A
+
+#### Question P14a
+
+> The interval $[0,2]$ is divided into $n$ equal subintervals of width $2/n$ with right endpoints $x_{r}=2r/n$.
+> a) Write down the Riemann sum for $f(x)=x^{3}$ on $[0,2]$.
+> b) Is it an upper or lower sum? Why?
+> c) Hence evaluate $\displaystyle \lim_{n\to\infty}\frac{2}{n}\sum_{r=1}^{n}\left(\frac{2r}{n}\right)^{3}$.
+
+<details>
+<summary><strong>Click for Solution</strong></summary>
+
+**Solution (a):**
+
+$$\Delta x = \frac{2}{n}, \qquad x_{r} = \frac{2r}{n}$$
+
+$$U_{n} = \sum_{r=1}^{n} \frac{2}{n}\left(\frac{2r}{n}\right)^{3} = \frac{16}{n^{4}}\sum_{r=1}^{n} r^{3} \quad\checkmark$$
+
+**Solution (b):**
+
+$f(x)=x^{3}$ is **increasing** on $[0,2]$ and we use **right** endpoints, so $U_{n}$ is an **upper sum** - every rectangle lies above the curve. $U_{n} > \int_{0}^{2} x^{3}\,\mathrm{d}x$ for finite $n$. $\quad\checkmark$
+
+**Solution (c):**
+
+$$\lim_{n\to\infty} U_{n} = \int_{0}^{2} x^{3}\,\mathrm{d}x = \left[\frac{x^{4}}{4}\right]_{0}^{2} = 4 \quad\checkmark$$
+
+</details>
+
+#### Question P14b
+
+> Let $f(x)=\frac{1}{x}$ on $[1,2]$ with $n$ strips of width $1/n$ and right endpoints $x_{r}=1+r/n$.
+> a) Write the sum $\frac{1}{n}\sum_{r=1}^{n}\frac{1}{1+r/n}$ as a Riemann sum.
+> b) State whether it is an upper or lower sum and give the inequality it satisfies.
+> c) Find its limit as $n\to\infty$.
+
+<details>
+<summary><strong>Click for Solution</strong></summary>
+
+**Solution (a):**
+
+$$U_{n} = \sum_{r=1}^{n} \frac{1}{n}\cdot\frac{1}{1+r/n} = \frac{1}{n}\sum_{r=1}^{n}\frac{n}{n+r} = \sum_{r=1}^{n}\frac{1}{n+r} \quad\checkmark$$
+
+**Solution (b):**
+
+$f(x)=1/x$ is **decreasing** on $[1,2]$ and we use **right** endpoints, so $U_{n}$ is a **lower sum**:
+
+$$U_{n} < \int_{1}^{2}\frac{1}{x}\,\mathrm{d}x = \ln 2 \quad\checkmark$$
+
+It increases to $\ln 2$ as $n\to\infty$.
+
+**Solution (c):**
+
+$$\lim_{n\to\infty} U_{n} = \int_{1}^{2}\frac{1}{x}\,\mathrm{d}x = \ln 2 \approx 0.6931 \quad\checkmark$$
+
+</details>
+
+---
+
+# PART 6B: Limits of Areas - The Integral Test (unit-width rectangles)
+
+## 6B.1 The Big Idea: Sums vs Integrals
 
 An infinite sum $\sum_{n=1}^{\infty} f(n)$ can be pictured as a staircase of unit-width rectangles of height $f(n)$. The curve $y = f(x)$ either runs above or below that staircase, so **the sum converges exactly when the improper integral $\int f(x)\,\mathrm{d}x$ converges** - as long as $f$ is positive and decreasing.
 
@@ -1476,7 +1790,7 @@ The integral diverges, and since $R < S$, so does the sum.
 
 ---
 
-## 6.2 Finding Upper and Lower Bounds for a Sum
+## 6B.2 Finding Upper and Lower Bounds for a Sum (Unit-Width Rectangles)
 
 **Upper bound:** shift the rectangles LEFT so the curve sits above them. Then:
 
@@ -1490,7 +1804,7 @@ $$\sum_{r=1}^{n} f(r) > \int_1^{n+1} f(x)\,\mathrm{d}x$$
 
 ---
 
-### Example 32 - Medium (bounds for $\sum \frac{1}{r\sqrt{r}}$)
+### Example 36 - Medium (bounds for $\sum \frac{1}{r\sqrt{r}}$)
 
 > **Question:**
 > a) Find the upper and lower bounds for $\displaystyle \sum_{r=1}^{n} \frac{1}{r\sqrt{r}}$.
@@ -1531,7 +1845,7 @@ So the infinite sum satisfies $\sum_{n=1}^{\infty} \frac{1}{n\sqrt{n}} < 3$ - it
 
 ---
 
-## 6.3 The Comparison Test
+## 6B.3 The Comparison Test
 
 When the integral test is awkward, compare your sum against a KNOWN sum:
 
@@ -1547,7 +1861,7 @@ When the integral test is awkward, compare your sum against a KNOWN sum:
 
 ---
 
-### Example 33 - Medium (comparison with the harmonic series)
+### Example 37 - Medium (comparison with the harmonic series)
 
 > **Question:** Show that $\displaystyle \sum_{n=2}^{\infty} \frac{1}{\sqrt{n^2 - 3}}$ diverges.
 
@@ -1567,7 +1881,7 @@ $$\sum_{n=2}^{\infty} \frac{1}{\sqrt{n^2 - 3}} \text{ diverges} \quad\checkmark$
 
 ---
 
-### Example 34 - Medium (comparison using a shifted integral)
+### Example 38 - Medium (comparison using a shifted integral)
 
 > **Question:** Show that $\displaystyle \sum_{n=1}^{\infty} \frac{1}{\sqrt{n}}$ diverges.
 
@@ -1585,7 +1899,7 @@ The integral diverges, so $\sum \frac{1}{\sqrt{n+1}}$ diverges, hence $\sum \fra
 
 ---
 
-### Example 35 - Hard (the $\sum \frac{1}{n\ln n}$ classic)
+### Example 39 - Hard (the $\sum \frac{1}{n\ln n}$ classic)
 
 > **Question:** Find the upper bound for $\displaystyle \sum_{r=2}^{n} \frac{1}{r\ln r}$. Hence, show that $\displaystyle \sum_{n=2}^{\infty} \frac{1}{n\ln n}$ diverges.
 > *(Cambridge International AS & A Level Further Mathematics 9231, Worked Example 22.21)*
@@ -1612,7 +1926,7 @@ $$\sum_{n=2}^{\infty} \frac{1}{n\ln n} \text{ diverges} \quad\checkmark$$
 
 ---
 
-### Example 36 - Medium (the p-series classification)
+### Example 40 - Medium (the p-series classification)
 
 > **Question:** Determine for which values of $p$ the series $\displaystyle \sum_{n=1}^{\infty} \frac{1}{n^p}$ converges.
 
@@ -1625,11 +1939,11 @@ $$\int_1^{\infty} x^{-p}\,\mathrm{d}x = \begin{cases} \left[\frac{x^{1-p}}{1-p}\
 - $p > 1$: $x^{1-p} \to 0$ as $x \to \infty$, so the integral converges, hence the sum converges.
 - $p \leq 1$: the integral diverges (for $p = 1$ it is the harmonic series), hence the sum diverges.
 
-$$\sum \frac{1}{n^p} \text{ converges} \iff p > 1 \quad\checkmark$$
+$$ \sum \frac{1}{n^p} \text{ converges} \iff p > 1 \quad\checkmark$$
 
 ---
 
-### Practice Questions - Part 6
+### Practice Questions - Part 6B
 
 #### Question P14
 
@@ -1726,8 +2040,11 @@ $$\int \frac{1}{\sqrt{x^2 - a^2}}\,\mathrm{d}x = \cosh^{-1}\left(\frac{x}{a}\rig
 | $a^2 + x^2$ | $x = a\sinh u$ | $\sqrt{a^2 + x^2} = a\cosh u$ |
 | $x^2 - a^2$ | $x = a\cosh u$ | $\sqrt{x^2 - a^2} = a\sinh u$ |
 | $a^2 - x^2$ | $x = a\tanh u$ | $a^2 - x^2 = a^2\operatorname{sech}^2 u$ |
+| rational in $\sin x$, $\cos x$ | $t=\tan\frac{x}{2}$ | $\sin x=\frac{2t}{1+t^{2}}$, $\cos x=\frac{1-t^{2}}{1+t^{2}}$, $\mathrm{d}x=\frac{2\,\mathrm{d}t}{1+t^{2}}$ |
 
 **Before substituting, complete the square:** $x^2 + bx + c = \left(x + \frac{b}{2}\right)^2 + \left(c - \frac{b^2}{4}\right)$
+
+**Weierstrass tip:** after $t=\tan\frac{x}{2}$ you always get $\int \frac{2\,R(t)}{1+t^{2}}\,\mathrm{d}t$ where $R$ is rational - simplify before integrating.
 
 ---
 
@@ -1798,15 +2115,23 @@ $$\int \tanh^{-1} x\,\mathrm{d}x = x\tanh^{-1} x + \frac{1}{2}\ln\left(1 - x^2\r
 
 **About y-axis, parametric:** $\displaystyle S = \int_{t_1}^{t_2} 2\pi x\sqrt{\left(\frac{\mathrm{d}x}{\mathrm{d}t}\right)^2 + \left(\frac{\mathrm{d}y}{\mathrm{d}t}\right)^2}\,\mathrm{d}t$
 
+> **Not examinable:** surface area of revolution for **polar** curves ($r=f(\theta)$) - Cambridge explicitly excludes this (syllabus p.22). Only Cartesian and parametric surface areas are required.
+
 ---
 
 ## The Integral Test
 
 If $f(x)$ is positive and decreasing, then $\sum_{n=a}^{\infty} f(n)$ converges $\iff$ $\int_a^{\infty} f(x)\,\mathrm{d}x$ converges.
 
-**Upper bound:** $\displaystyle \sum_{r=2}^{n} f(r) < \int_1^n f(x)\,\mathrm{d}x$
+**Unit-width bounds:** $\displaystyle \sum_{r=2}^{n} f(r) < \int_1^n f(x)\,\mathrm{d}x$
 
-**Lower bound:** $\displaystyle \sum_{r=1}^{n} f(r) > \int_1^{n+1} f(x)\,\mathrm{d}x$
+**Unit-width bounds:** $\displaystyle \sum_{r=1}^{n} f(r) > \int_1^{n+1} f(x)\,\mathrm{d}x$
+
+**Riemann sum (width $\to 0$):** $\displaystyle \int_a^b f(x)\,\mathrm{d}x = \lim_{n\to\infty}\sum_{r=1}^{n} f\!\left(a+\frac{r(b-a)}{n}\right)\frac{b-a}{n}$
+
+**Special case $[0,1]$:** $\displaystyle \int_0^1 f(x)\,\mathrm{d}x = \lim_{n\to\infty}\frac{1}{n}\sum_{r=1}^{n} f\!\left(\frac{r}{n}\right)$
+
+**Upper/lower rule:** increasing + right = upper; decreasing + right = lower (left endpoints reverse it)
 
 **p-series:** $\sum \dfrac{1}{n^p}$ converges $\iff p > 1$ (so $\sum \frac{1}{n}$ diverges, $\sum \frac{1}{n^2}$ converges)
 
@@ -1840,6 +2165,8 @@ If $f(x)$ is positive and decreasing, then $\sum_{n=a}^{\infty} f(n)$ converges 
 | Polar arc length ($r = \sin\theta$, $r = e^\theta$ type) |
 | Surface area about the y-axis |
 | Integral test / comparison test with upper and lower bounds |
+| **Riemann sums with $\Delta x=(b-a)/n\to 0$ (new: explicitly on syllabus)** |
+| $t=\tan\frac{x}{2}$ substitution for $\int \frac{1}{a+b\cos x + c\sin x}\,\mathrm{d}x$ (9709 technique in harder 9231 integrals) |
 
 ---
 
@@ -1897,6 +2224,9 @@ If $f(x)$ is positive and decreasing, then $\sum_{n=a}^{\infty} f(n)$ converges 
 | Confusing surface area $S = \int 2\pi y\,\mathrm{d}s$ with volume $V = \pi\int y^2\,\mathrm{d}x$ ❌ | Surface area uses the ARC element $\mathrm{d}s$; volume uses $\mathrm{d}x$ ✅ |
 | Reduction formula index wrong: $I_n$ in terms of $I_{n-1}$ for $\cos^n x$ ❌ | $\cos^n x$ reduces to $I_{n-2}$ (power drops by 2) ✅ |
 | Integral test conclusion backwards: "curve diverges so sum converges" ❌ | If the curve (R) is below the rectangles (S) and R diverges, S diverges; if R > S and R converges, S converges ✅ |
+| Riemann sum width wrong: using $1$ instead of $(b-a)/n$ ❌ | On $[a,b]$: $\Delta x=(b-a)/n$; on $[0,1]$: $\Delta x=1/n$ ✅ |
+| Riemann upper/lower flipped ❌ | Increasing + right = upper, decreasing + right = lower (left endpoints reverse) ✅ |
+| Confusing unit-width rectangles with width$\to 0$ rectangles ❌ | Unit-width tests *convergence* of $\sum f(n)$; width$\to 0$ evaluates *limits* of $\sum f(r/n)/n$ as $\int f$ ✅ |
 
 ## 🟡 Common Errors
 
@@ -2149,7 +2479,9 @@ $$S_{\text{x-axis}} = \int 2\pi y\,\mathrm{d}s, \qquad S_{\text{y-axis}} = \int 
 
 $$\sum \frac{1}{n^p} \text{ converges } \iff p > 1$$
 
-$$\text{Upper bound: } \sum_{r=2}^n f(r) < \int_1^n f, \qquad \text{Lower bound: } \sum_{r=1}^n f(r) > \int_1^{n+1} f$$
+$$\text{Unit-width: } \sum_{r=2}^n f(r) < \int_1^n f, \qquad \text{Lower: } \sum_{r=1}^n f(r) > \int_1^{n+1} f$$
+
+$$\text{Riemann (width $\to 0$): } \int_a^b f = \lim_{n\to\infty}\sum_{r=1}^{n} f\!\left(a+\tfrac{r(b-a)}{n}\right)\tfrac{b-a}{n}, \quad \int_0^1 f = \lim_{n\to\infty}\tfrac1n\sum f(r/n)$$
 
 ### Deadly Sins
 

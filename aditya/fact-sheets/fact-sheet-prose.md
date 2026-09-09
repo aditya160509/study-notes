@@ -1,5 +1,47 @@
 # Aditya Balaji — Teacher Fact Sheet
 
+## Academic profile
+
+### Student overview
+
+Aditya Balaji is a Cambridge International student at JBCN International School in Mumbai. His academic interests include Computer Science, Mathematics, Further Mathematics, Economics, Physics, artificial intelligence, data science, and quantitative finance. These interests are closely connected: he is drawn to problems involving complex systems, mathematical modelling, human behaviour, and the design of reliable software.
+
+### Academic interests
+
+- **Mathematics:** probability, statistics, optimisation, differential equations, linear algebra, and mathematical modelling.
+- **Computer Science:** algorithms, software architecture, data engineering, machine learning, and agentic systems.
+- **Economics and finance:** market behaviour, volatility, market microstructure, behavioural finance, and quantitative modelling.
+- **Artificial intelligence:** how models learn, why they generalise, and how AI systems can be tested and made more reliable.
+
+### Learning approach
+
+Aditya learns best when he can understand why a method works and then apply it to a real problem. When he encounters a difficult question, he breaks it into smaller parts, teaches himself the missing material, builds an initial model or system, tests it, and revises it when the evidence exposes a weakness. This approach has shaped both his academic work and his independent projects.
+
+### The shortest accurate description
+
+Aditya is a self-directed builder-researcher. He learns difficult material when a real problem requires it, builds tools rather than stopping at ideas, and keeps revising when evidence or criticism exposes a weakness.
+
+### Three themes that connect his work
+
+1. **Mechanism:** He wants to understand why something works, not only reproduce a method.
+2. **Evidence:** He tests ideas against data, simulations, robustness checks, or real users.
+3. **Usefulness:** He tries to make research or software understandable and useful to someone beyond himself.
+
+### Strongest evidence to mention
+
+- Corresponding-author research on investor-attention thresholds across 22 equity markets, submitted to *Borsa Istanbul Review* and taken through peer review.
+- A quantitative-research platform used by another CS graduate for analysis.
+- Daedalus, an engineering decision platform used by his STEM Racing team for real design trade-offs.
+- NEXUS Exchange, an agent-based market simulator used to test an empirical finding through an independent computational model.
+- Quant Finance Club, which he founded and developed into a 25–30-member organisation with a 13-week curriculum and a working market simulation.
+- Teaching and community work that required consistency and adaptation, not just one-off participation.
+
+### How to describe him credibly
+
+The most useful recommendation will include one or two specific moments: a time Aditya changed his method after criticism, explained a difficult idea to others, helped a team make a decision, or stayed with a project after the initial result failed. His work is technically ambitious, but the more revealing point is how he responds when ambition meets error, ambiguity, or resistance.
+
+Avoid describing him only as “passionate,” “hardworking,” or “good at coding.” Those words are less informative than describing what he built, what went wrong, what he changed, and how other people were affected by his work.
+
 ## Who I am
 
 I am a student at JBCN International School in Mumbai, studying the Cambridge International curriculum. My academic interests sit between Computer Science, Mathematics, Further Mathematics, Economics, Physics, artificial intelligence, data science, and quantitative finance. I do not think of these as separate interests. I am most interested in problems where they overlap: how people and algorithms behave in markets, how mathematical models can explain complex systems, how software can help people make decisions, and how evidence can distinguish an attractive idea from a reliable one.
@@ -20,41 +62,41 @@ Economics and finance interest me because they involve interacting people, insti
 
 I am also interested in artificial intelligence, especially how neural networks learn, why large models can generalise, and how agentic systems can plan and verify actions. I do not want to use advanced terminology without understanding the mechanism beneath it. When I study a concept, I try to reduce it to something I can derive, implement, test, or explain in my own words.
 
-## Research work
+## Research and independent projects
 
-One of my main research projects is the Global Attention Saturation Index, or GASI. I designed an empirical measure of investor-attention thresholds across 22 international equity markets. The project examines the relationship between investor attention and volatility, including the possibility that the relationship changes after attention reaches a particular threshold. I used a Lewbel instrumental-variable strategy to address endogeneity, estimated a structural threshold of γ*=1.5625, and calculated a Hansen confidence set of [1.14, 2.50]. I used Driscoll–Kraay standard errors to account for cross-sectional dependence and conducted synthetic-control falsification tests.
+My main research project, the Global Attention Saturation Index, studies how investor attention relates to volatility across 22 international equity markets. I wanted to know whether attention behaves in a simple linear way, or whether the market changes once attention reaches a certain level. To investigate that question, I assembled a cross-market dataset, defined an attention measure, and tested for a structural threshold rather than assuming that one relationship applied everywhere.
 
-The paper documents what I call the “Silence Signature,” a volatility-suppression effect that appears during peak-attention regimes. I confirmed the pattern individually in 14 of the 22 markets studied. I was the corresponding author of the resulting paper, which was submitted to *Borsa Istanbul Review*, a Q1 journal. It passed desk review and completed a full peer-review round; I am preparing a resubmission. This project taught me that a research paper is not finished when the first result appears. The difficult work includes checking assumptions, defending design choices, responding to criticism, and being honest about what the evidence does not establish.
+The analysis used a Lewbel instrumental-variable strategy to address endogeneity, Driscoll-Kraay standard errors to account for dependence across markets, and synthetic-control falsification tests to examine whether the result could be explained by an unrelated pattern. I estimated a structural threshold of gamma*=1.5625, with a Hansen confidence set of [1.14, 2.50]. The paper identifies what I call the "Silence Signature": during the highest-attention regime, volatility can fall rather than continue rising. I found the pattern individually in 14 of the 22 markets studied.
 
-I also developed a research project on Fantasy Premier League behaviour. I introduced the idea of the Behavioral Ownership Gap, which measures the divergence between optimal player ownership and actual player ownership. I treated the Fantasy Premier League not merely as a game but as a behavioural market system in which participants make decisions using imperfect information. I built a Fama–MacBeth panel covering 380 gameweeks and recovered a t-statistic of -57.20. I estimated an annual welfare cost of £137.1 million and pre-registered a frozen out-of-sample validation model that produced 105 profitable weeks out of 105 in an equity long-short replication. The paper is currently under review at the *Journal of Sports Economics*.
+I was the corresponding author of the paper, which was submitted to *Borsa Istanbul Review*. It passed desk review and completed a full peer-review round. The most valuable part of the project was learning that a result is only the beginning of research. I had to defend the design, respond to criticism, check alternative explanations, and be clear about what the data could not prove. That process changed the way I approach every later project.
 
-This project represents one of the ways my interests connect. I enjoy football, but I am also interested in the statistical and behavioural structures beneath sport. I like asking whether something familiar can be examined using a more rigorous framework, and whether a hobby can become the basis for a serious research question.
+I also developed a research paper on decision-making in Fantasy Premier League. I treated the game as a behavioural market in which participants make repeated choices with incomplete information. The central idea was the Behavioral Ownership Gap: the difference between the players that a rational model would select and the players that people actually own. That gap allowed me to study the cost of predictable human behaviour in a setting with public data, repeated decisions, and measurable outcomes.
 
-I built NEXUS Exchange to study market behaviour through simulation. It is an agent-based financial-market simulator with nine behaviourally distinct trader archetypes. I used Numba JIT compilation and multiprocessing to run 10,200 Monte Carlo simulations. Using the Simulated Method of Moments, I recovered the same structural threshold of γ*=1.5625 that appeared in the GASI research, but through an entirely separate methodology. I also validated all nine canonical market stylised facts, including fat tails, volatility clustering, and autocorrelation structure, using jump-filtered ARCH LM testing. The system includes an adversarial reinforcement-learning market maker trained with PPO, liquidity-fragility prediction using XGBoost and LSTM models, and a FastAPI inference server.
+I built a Fama-MacBeth panel covering 380 gameweeks and examined whether ownership patterns predicted later performance. The analysis produced a t-statistic of -57.20 and an estimated annual welfare cost of GBP 137.1 million. I then froze the model before conducting an out-of-sample validation, rather than changing the specification after seeing the result. The validation produced 105 profitable weeks out of 105 in an equity long-short replication. The paper is under review at the *Journal of Sports Economics*.
 
-NEXUS was important to me because it allowed me to test an empirical finding through a separate computational model. It also taught me that a complex system is not automatically a good system. The number of components is less important than whether the model produces meaningful behaviour, whether its assumptions are visible, and whether it can be validated against known facts.
+The project matters to me because it connects something I enjoy, football, with questions from economics, statistics, and decision theory. It also taught me to separate a strong backtest from a reliable finding. A model can look impressive because it has been adjusted too closely to the past; the real test is whether it continues to make sense when the data it has not seen arrives.
+
+NEXUS Exchange is a market simulator that I used to explore whether an empirical finding could also appear in a separate computational model. I created different types of traders and tested how their behaviour affected the market. The project helped me understand that a model is valuable only when its assumptions are clear and its behaviour can be checked against reality.
 
 I wrote a mathematical exposition titled “Why Overparameterised Neural Networks Generalise.” In the paper, I derive the Neural Tangent Kernel from first principles using mathematics available through my Further Mathematics background. I discuss the bias–variance paradox, neural networks as linear maps, gradient descent as a dynamical system, Gram matrices, eigenvalue structure, spectral bias, and why overparameterisation can result in a well-conditioned kernel. I also include a fully worked two-neuron example, calculated line by line. The project allowed me to study a frontier question in AI theory without treating the theory as a collection of words I had memorised.
 
-I built PhenoSync as an open-data climate and phenology research pipeline. It integrates GBIF species-occurrence data, NASA MODIS land-surface-temperature and NDVI data, NOAA GHCND climate records, and FAOSTAT agricultural data. I estimated an OLS slope of 4.57 days per year of phenological shift, with R²=0.83 and p=0.0003. I tested the result using a seven-framework robustness battery involving Kendall, Spearman, Mann–Kendall, permutation, and jackknife tests. I also designed a PMI-severity crop-exposure model that translates phenological mismatch into economic value-at-risk indicators. I was the sole author from conception through manuscript drafting, and I entered the work into the Oxford Saïd Business School Climate Challenge.
+PhenoSync is an open-data climate and phenology project. I combined public information about species, temperature, vegetation, and agriculture to study how seasonal changes can affect ecosystems and crops. The project gave me experience working with messy real-world data and checking whether a result remained stable when the method changed.
 
 I completed the Cambridge IPQ 9980 as an independent research qualification. My 4,982-word report investigated whether high-frequency algorithmic trading destabilises financial markets during periods of stress. I completed the research design, empirical analysis, research log, and bibliography according to Cambridge’s formal assessment criteria. The IPQ gave me experience with a structured independent investigation and helped me understand the difference between an interesting topic and a properly designed research question.
 
-## Software and systems I have built
+## Selected projects
 
-I built ATLAS, also called QUANT360, as a full-stack quantitative research platform. I built it from scratch and designed modules for regimes, research, screening, machine learning, volatility, factors, PCA, and portfolios. The research module includes causal-identification methods such as Callaway–Sant’Anna difference-in-differences, regression discontinuity, instrumental variables, and event studies. The volatility module includes HAR-RV, the GARCH family, statistical jump models, and Diebold–Yilmaz connectedness measures. The machine-learning module includes combinatorial purged cross-validation, the deflated Sharpe ratio, Double Machine Learning, meta-labelling, and hierarchical risk parity.
+### Quantitative research platform
 
-I also implemented point-in-time fundamental data handling, IC–IR weighted composite scoring, QMJ factor construction, and survivorship-bias disclosure. I used free data sources including yfinance, FRED, and the Ken French Data Library. I spent substantial time vectorising the core analytics and removing computational bottlenecks. ATLAS is now used by a CS graduate for real analysis, which matters to me because it means the platform has practical value beyond being a personal demonstration.
+I developed a quantitative-research platform that brings together market screening, portfolio analysis, volatility models, factor research, and machine learning. It began as a way to organise my own work, but it grew into a system another CS graduate could use for real analysis. I paid attention to point-in-time data, survivorship bias, out-of-sample testing, and the difference between a promising backtest and a result that deserves trust. The technical work mattered because it gave the research a reliable base; the real achievement was turning a collection of methods into something another person could inspect, question, and use.
 
-I designed and shipped Daedalus as a solo developer for my STEM Racing team. Daedalus is an engineering research and decision-making platform that the team uses for actual competition-related design trade-offs. It includes dimensional and unit validation, provenance tracking, design-space exploration, Monte Carlo sensitivity analysis, uncertainty and robustness analysis, multi-objective Pareto optimisation, scenario comparison, equation traceability, and 3D visualisation. I built the frontend using Next.js, React, and TypeScript, the backend using Python and FastAPI, the database using PostgreSQL, and the visualisation layer using Three.js.
+### Daedalus - STEM Racing decision platform
 
-Daedalus was different from many of my other projects because it had immediate users with practical constraints. I had to think about whether another person could understand the output, whether assumptions were visible, and whether the system could support a decision under time pressure. Building it taught me that good software is not only technically sophisticated; it must also fit the way people actually work.
+For my STEM Racing team, I created Daedalus, a platform that helps us compare design choices. It checks units, records where inputs come from, explores alternatives, and shows how a decision changes when assumptions move. The system combines a Next.js and React interface with a Python and FastAPI backend, a PostgreSQL database, and 3D visualisation. I did not build it as a technical display piece; teammates use it when an actual design decision has to be made. That forced me to make complicated analysis readable, traceable, and useful under time pressure.
 
-I built Zeus, an agentic goal-decomposition pipeline. It includes importance-weighted memory decay, directed-acyclic-graph execution visualisation, Playwright browser automation, and an end-to-end loop from a natural-language prompt to verified real-world task execution. The design reduced token use by approximately 35%. I was interested in how an agent could break a broad goal into smaller actions, preserve the right information, use external tools, and verify that the task had actually been completed.
+### Zeus and Glassbox SRE
 
-I also engineered Glassbox SRE, an autonomous incident-response agent. A Prometheus or Alertmanager alert enters a FastAPI webhook and Redis queue, after which a LangGraph investigation runs parallel nodes for commit correlation, runbook retrieval, and impact estimation. The system uses OpenAI-driven diff analysis, pgvector retrieval, and Prometheus data. It produces an evidence-cited incident brief, posts findings to Slack, and generates postmortems stored in Postgres and displayed through a React/Vercel dashboard.
-
-I designed Glassbox so the language model could not invent important figures. Impact numbers come directly from Prometheus, and postmortem timelines are reconstructed from stored event timestamps. I built a 15-scenario evaluation harness with seeded ground-truth commits. A deterministic heuristics-only baseline reached 13.3% top-one accuracy, while the full LangGraph system reached 86.7%. This project reinforced my belief that AI systems should be evaluated through explicit tests rather than trusted because their outputs sound convincing.
+I explored two practical applications of AI. Zeus breaks broad goals into smaller actions, uses browser automation when needed, and checks whether the task was actually completed. Glassbox SRE investigates software incidents by connecting alerts, code changes, runbooks, and system data into an evidence-based report. I designed the second system so important numbers come from monitoring data rather than from the language model's guesswork, then tested it against seeded incidents. These projects pushed me toward a view of AI that is both ambitious and demanding: a system should do useful work, but it should also show where its conclusions came from.
 
 ## Leadership, sport, and service
 
@@ -68,7 +110,33 @@ I play football and have participated as a goalkeeper through the IAYP physical-
 
 I completed the IAYP Bronze and Silver Awards. My Silver programme combined community service, football goalkeeping, and a 26-week quantitative-research skills project focused on AI, machine-learning models, and quantitative-trading strategies. I also taught foundational Mathematics and English to more than 50 underprivileged rural children. I learned that teaching is not successful merely because I have explained something; it is successful when the student has understood it. I had to adapt the lessons and delivery when a method did not work.
 
-Through a crowdfunding initiative, I raised more than ₹25,000 to provide study kits, clothing, and footwear to underprivileged children in rural villages. This experience showed me that community work is often made up of logistics, outreach, and repetitive follow-through rather than one dramatic moment. I value that kind of practical work because it produces a direct benefit for somebody else.
+Through a crowdfunding initiative, I raised more than INR 25,000 to provide study kits, clothing, and footwear to underprivileged children in rural villages. This experience showed me that community work is often made up of logistics, outreach, and repetitive follow-through rather than one dramatic moment. I value that kind of practical work because it produces a direct benefit for somebody else.
+
+## Coursework and academic qualifications
+
+My Cambridge International coursework includes Mathematics, Further Mathematics, Computer Science, Economics, Physics, and English General Paper. I also completed the Cambridge IPQ 9980, an independent research qualification. My 4,982-word report examined whether high-frequency algorithmic trading can destabilise financial markets during periods of stress. The IPQ gave me experience with designing a research question, managing evidence, keeping a research log, and writing to formal academic criteria.
+
+## Internship and practical experience
+
+During a three-month internship at MalkansView, a stock-market research firm, I worked with live market data and studied how analysts assess companies. I looked beyond individual price movements by considering revenue, costs, competitive position, management, growth, financial quality, and risk. The experience helped me understand how research moves from evidence to an investment decision and gave me a professional setting in which to strengthen my analytical discipline.
+
+## Personal qualities and hobbies
+
+People who know me well would describe me as curious, self-directed, persistent, and thoughtful. I enjoy difficult problems, but I also value the process of explaining them clearly and working with others. I play football, particularly as a goalkeeper, and I enjoy music, including playing the guitar and piano. These activities give me a balance between analysis, concentration, creativity, and teamwork.
+
+## What I am most proud of
+
+I am proud that I have taken ideas that began as questions and carried them far enough to become research papers, working software, or tools other people can use. The scale of some of this work goes well beyond what is normally expected from a student at my stage, but the part I value most is the responsibility behind it: learning the mathematics, checking the code, listening when someone finds a weakness, and staying with the project after the first version fails. I am also proud of the quieter work, such as teaching children, supporting a team, and creating clubs that other students could return to.
+
+## LOR guidance for recommenders
+
+### What I hope my letters will show
+
+The strongest letters for me would be specific and personal rather than a list of achievements. My work often goes well beyond the usual level of independent work expected from a student of my age, but a recommender should not need to make that claim on its own. The letter should show it through one or two moments: a question that moved beyond the syllabus, a paper or project that required university-level reading, a technical problem I stayed with, or a time I changed my approach after a teacher pointed out that my first answer was incomplete.
+
+I would also want the letters to show the person behind the work. Admissions readers should see someone who is intensely curious but still teachable, ambitious but willing to test his own ideas, and capable of working independently without becoming detached from the people around him. That combination matters more to me than a string of superlatives.
+
+The letter should feel like it comes from someone who has actually taught or mentored me. It should use one or two moments from class, a project, a discussion, or a difficult piece of work to show how I think and how I respond when the first answer is not good enough. The strongest description of me would hold two things together: the unusual level of independence and technical ambition in my work, and the fact that I am still willing to be corrected, learn from other people, and explain my ideas clearly.
 
 ## Personal growth and intellectual integrity
 

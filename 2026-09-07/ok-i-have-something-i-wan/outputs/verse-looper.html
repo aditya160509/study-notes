@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Verse Looper</title>
+<style>
+  body { font: 18px system-ui, sans-serif; max-width: 520px; margin: 15vh auto; padding: 24px; text-align: center; background: #111; color: #fff; }
+  button { font-size: 18px; padding: 12px 24px; margin: 8px; border: 0; border-radius: 10px; cursor: pointer; }
+  #play { background: #1ed760; } #stop { background: #e5484d; color: white; }
+  audio { width: 100%; margin-top: 20px; }
+  .lyrics { text-align: left; margin-top: 28px; padding: 20px; border-radius: 14px; background: #211f2b; line-height: 1.7; }
+  .sanskrit { font-size: 23px; text-align: center; line-height: 1.9; }
+  .translit { font-style: italic; color: #d8cfff; }
+  .words { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 18px; }
+  h2 { color: #8ff0ae; font-size: 20px; margin-bottom: 8px; }
+  @media (max-width: 560px) { .words { grid-template-columns: 1fr; } }
+</style>
+<h1>Verse Looper</h1>
+<p>13:34–13:45 · loops until you stop it</p>
+<button id="play">Play loop</button>
+<button id="stop">Stop</button>
+<audio id="audio" src="verse-13m34s-13m45s-exact.mp3" loop></audio>
+<section class="lyrics">
+  <h2>Verse 46</h2>
+  <div class="sanskrit"><strong>विस्तारः स्थावरस्थाणुः प्रमाणं बीजमव्ययम्।<br>अर्थोऽनर्थो महाकोशो महाभोगो महाधनः॥४६॥</strong></div>
+  <p class="translit">vistāraḥ sthāvarasthāṇuḥ pramāṇaṁ bījamavyayam,<br>artho'nartho mahākośo mahābhogo mahādhanaḥ</p>
+
+  <h2>Easy word-by-word pronunciation</h2>
+  <div class="words">
+    <div><b>vistāraḥ</b> — vis-taa-rah</div>
+    <div><b>sthāvara-sthāṇuḥ</b> — sthaa-va-ra sthaa-nooh</div>
+    <div><b>pramāṇam</b> — pra-maa-nam</div>
+    <div><b>bījam-avyayam</b> — bee-jam a-vya-yam</div>
+    <div><b>arthaḥ</b> — ar-thah</div>
+    <div><b>anarthaḥ</b> — a-nar-thah</div>
+    <div><b>mahākośaḥ</b> — ma-haa-ko-shah</div>
+    <div><b>mahābhogaḥ</b> — ma-haa-bho-gah</div>
+    <div><b>mahādhanaḥ</b> — ma-haa-dha-nah</div>
+  </div>
+  <p><b>Slow practice:</b><br>vis-taa-rah · sthaa-va-ra-sthaa-nooh · pra-maa-nam · bee-jam-a-vya-yam · ar-tho-nar-tho · ma-haa-ko-sho · ma-haa-bho-go · ma-haa-dha-nah</p>
+</section>
+<script>
+  const audio = document.getElementById('audio');
+  document.getElementById('play').onclick = () => audio.play();
+  document.getElementById('stop').onclick = () => { audio.pause(); audio.currentTime = 0; };
+</script>
+</html>

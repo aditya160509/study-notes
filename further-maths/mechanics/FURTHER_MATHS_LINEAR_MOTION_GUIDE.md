@@ -31,9 +31,9 @@
 
 # Syllabus Requirements
 
-## Cambridge 9231 Further Mechanics — What You Must Know
+## Cambridge 9231 Further Mechanics — What You Must Know (Syllabus §3.5)
 
-The **Linear Motion Under a Variable Force** topic (Chapter 17) tests your ability to apply Newton's second law when the net force — and therefore the acceleration — is not constant. This requires setting up and solving differential equations.
+The **Linear Motion Under a Variable Force** topic corresponds to **Cambridge 9231 §3.5: Motion of a particle in a straight line under a variable force**. Every bullet below is directly examinable.
 
 ### Learning Objectives
 
@@ -252,6 +252,12 @@ When $a = f(t)$:
 3. Substitute this $t$ into $v(t)$
 4. Confirm it's a max/min by checking sign change of $a$ or second derivative
 
+> ### 👀 Watch Out!
+> **Do not confuse maximum velocity with maximum displacement.** Maximum velocity occurs when $a = dv/dt = 0$; maximum displacement occurs when $v = dx/dt = 0$. They are different conditions and give different $t$ values.
+
+> ### 🎯 What the examiner wants
+> When asked for "maximum velocity", the examiner expects: (1) set $a = 0$ explicitly (1 mark), (2) solve for $t$ (1 mark), (3) substitute back into $v(t)$ (1 mark). Stating the condition $a = 0$ by name earns the method mark even if arithmetic slips.
+
 ---
 
 # Acceleration as a Function of Velocity
@@ -279,6 +285,12 @@ At terminal velocity, $a = 0$:
 $$mg - kv_T = 0 \quad\Rightarrow\quad v_T = \frac{mg}{k}$$
 
 > 💡 **Did You Know?** The SUVAT equations $v = u + at$, $v^2 = u^2 + 2as$, etc., are derived from $a = \frac{dv}{dt}$ and $a = v\frac{dv}{dx}$ under the **constant acceleration** assumption. For variable forces, you **cannot** use SUVAT — you must integrate from first principles.
+
+> ### 👀 Watch Out!
+> **Terminal velocity is not when $v = 0$ — it is when $a = 0$.** Many students confuse "terminal" with "stopping". Terminal velocity is the **steady** speed approached as $t \to \infty$ when driving and resistive forces balance. Setting $dv/dt = 0$ gives $v_T$; setting $v = 0$ gives the stopping time. They are completely different.
+
+> ### 🎯 What the examiner wants
+> For terminal velocity questions: equate driving force to resistance and solve for $v$ (1 mark for $a = 0$ condition, 1 mark for correct $v_T$). Alternatively, solve the ODE fully and take the limit as $t \to \infty$ — both earn full marks, but the $a = 0$ shortcut is faster.
 
 ---
 
@@ -321,6 +333,12 @@ Given: a = f(x) and initial conditions (v₀ at x₀)
 
 If the expression under the square root becomes negative, this marks a physical boundary — the particle cannot go beyond this point. Set $v^2 = 0$ and solve for $x$ to find the maximum displacement.
 
+> ### 👀 Watch Out!
+> **$v = \sqrt{v^2}$ — choose the correct sign.** If the particle is moving in the positive $x$ direction, take the positive root. If it could reverse, you need $v = \pm\sqrt{\ldots}$ and must determine the sign from the physical context. Cambridge 9231 almost always has $v > 0$ throughout, so the positive root is correct — but state your assumption.
+
+> ### 🎯 What the examiner wants
+> For $a = f(x)$ questions: correct use of $a = v\,dv/dx$ (1 mark); separation and integration to $v^2 = \ldots$ (2 marks); applying the initial condition (1 mark); final $v(x)$ with correct sign on the square root (1 mark).
+
 ---
 
 # Displacement from Velocity-Time Relationships
@@ -338,6 +356,12 @@ This is the **area under the velocity-time graph**.
 If $v(t)$ changes sign during the interval, the **distance travelled** is **not** the same as the **displacement**. You must split the integral at points where $v = 0$:
 
 $$\text{Distance} = \int_{t_1}^{t_2} |v(t)|\,dt$$
+
+> ### 👀 Watch Out!
+> **Distance $\neq$ displacement when $v$ changes sign.** If $v(t)$ goes negative, $\int v\,dt$ gives displacement (which can cancel), while $\int |v|\,dt$ gives total distance. Split the integral at roots of $v(t) = 0$ and sum absolute values.
+
+> ### 🎯 What the examiner wants
+> For "find the distance travelled" when $v$ changes sign: identify where $v = 0$ (1 mark); split the integral correctly (1 mark); evaluate each part and sum absolute values (1 mark). Simply integrating $v$ without the modulus loses the final mark.
 
 ---
 
@@ -1473,6 +1497,364 @@ When $t=0, v=0 \Rightarrow c=0$
 $$v = \sqrt{\frac{2Pt}{m}} \ \text{m s}^{-1} \checkmark$$
 
 </details>
+
+---
+
+## Exercise C (continued) — Hard
+
+**7.** A particle of mass $3$ kg moves in a straight line. Its motion is opposed by a resistance of magnitude $6v$ N and driven by a constant force of $18$ N (both in opposite directions along the line). The particle starts from rest at $t = 0$.
+- **(a)** Show that $\displaystyle \frac{dv}{dt} = 6 - 2v$.
+- **(b)** Solve to find $v(t)$ and determine the terminal velocity.
+- **(c)** Find the distance travelled in the first $2$ seconds.
+
+<details>
+<summary><strong>Solution</strong></summary>
+
+**(a):**
+
+$$F_{\text{net}} = 18 - 6v = 3\frac{dv}{dt}$$
+
+$$\frac{dv}{dt} = \frac{18 - 6v}{3}$$
+
+$$\frac{dv}{dt} = 6 - 2v \checkmark$$
+
+**(b):**
+
+$$\frac{dv}{dt} = 6 - 2v = 2(3 - v)$$
+
+$$\int \frac{dv}{3 - v} = \int 2\,dt$$
+
+$$-\ln|3 - v| = 2t + c$$
+
+When $t = 0$, $v = 0$:
+
+$$-\ln 3 = c$$
+
+$$-\ln|3 - v| = 2t - \ln 3$$
+
+$$\ln\!\left(\frac{3}{3-v}\right) = 2t$$
+
+$$\frac{3}{3-v} = e^{2t}$$
+
+$$3 - v = 3e^{-2t}$$
+
+$$v = 3\left(1 - e^{-2t}\right)\ \text{m s}^{-1} \checkmark$$
+
+Terminal velocity: as $t \to \infty$, $e^{-2t} \to 0$:
+
+$$v_T = 3\ \text{m s}^{-1} \checkmark$$
+
+*Check:* Set $a = 0$: $6 - 2v_T = 0 \Rightarrow v_T = 3$ ✓
+
+**(c):**
+
+$$v = \frac{dx}{dt} = 3 - 3e^{-2t}$$
+
+$$x = \int_0^2 \left(3 - 3e^{-2t}\right)dt$$
+
+$$x = \left[3t + \frac{3}{2}e^{-2t}\right]_0^2$$
+
+$$x = \left(6 + \frac{3}{2}e^{-4}\right) - \left(0 + \frac{3}{2}\right)$$
+
+$$x = 6 - \frac{3}{2} + \frac{3}{2}e^{-4}$$
+
+$$x = \frac{9}{2} + \frac{3}{2}e^{-4}$$
+
+$$x \approx 4.50 + 0.0275 = 4.53\ \text{m} \checkmark$$
+
+</details>
+
+**8.** A particle moves with acceleration $a = 12 - 3x$ m s$^{-2}$, where $x$ is the displacement from $O$. It starts from rest at $x = 0$.
+- **(a)** Find $v^2$ as a function of $x$.
+- **(b)** Find the maximum value of $x$ (where the particle comes to instantaneous rest for $x > 0$).
+- **(c)** Find the value of $x$ where the velocity is maximum and the maximum velocity.
+
+<details>
+<summary><strong>Solution</strong></summary>
+
+**(a):**
+
+$$a = v\frac{dv}{dx} = 12 - 3x$$
+
+$$\int v\,dv = \int (12 - 3x)\,dx$$
+
+$$\frac{1}{2}v^2 = 12x - \frac{3}{2}x^2 + c$$
+
+When $x = 0$, $v = 0 \Rightarrow c = 0$:
+
+$$\frac{1}{2}v^2 = 12x - \frac{3}{2}x^2$$
+
+$$v^2 = 24x - 3x^2 \checkmark$$
+
+**(b):** At instantaneous rest $v = 0$:
+
+$$24x - 3x^2 = 0$$
+
+$$3x(8 - x) = 0$$
+
+$$x = 0 \text{ or } x = 8\ \text{m} \checkmark$$
+
+So the particle travels to $x = 8$ m before momentarily stopping.
+
+**(c):** Maximum velocity when $a = 0$:
+
+$$12 - 3x = 0 \Rightarrow x = 4\ \text{m}$$
+
+At $x = 4$:
+
+$$v^2 = 24(4) - 3(16) = 96 - 48 = 48$$
+
+$$v_{\max} = \sqrt{48} = 4\sqrt{3} \approx 6.93\ \text{m s}^{-1} \checkmark$$
+
+</details>
+
+**9.** A particle of mass $0.8$ kg is projected with speed $10$ m s$^{-1}$ along a rough horizontal surface. The coefficient of friction is $0.15$ and air resistance of magnitude $0.4v$ N opposes the motion. Take $g = 10$ m s$^{-2}$.
+- **(a)** Show that $\displaystyle \frac{dv}{dt} = -1.5 - 0.5v$.
+- **(b)** Find $v$ as a function of $t$.
+- **(c)** Find the time taken for the particle to come to rest and the distance travelled in that time.
+
+<details>
+<summary><strong>Solution</strong></summary>
+
+**(a):** Friction force:
+
+$$F_f = \mu mg = 0.15 \times 0.8 \times 10 = 1.2\ \text{N}$$
+
+Total opposing force: $1.2 + 0.4v$:
+
+$$-(1.2 + 0.4v) = 0.8\frac{dv}{dt}$$
+
+$$\frac{dv}{dt} = -\frac{1.2 + 0.4v}{0.8}$$
+
+$$\frac{dv}{dt} = -1.5 - 0.5v \checkmark$$
+
+**(b):**
+
+$$\frac{dv}{dt} = -0.5(v + 3)$$
+
+$$\int \frac{dv}{v+3} = -0.5\int dt$$
+
+$$\ln|v+3| = -0.5t + c$$
+
+When $t = 0$, $v = 10$:
+
+$$\ln 13 = c$$
+
+$$\ln(v+3) = -0.5t + \ln 13$$
+
+$$\ln\!\left(\frac{v+3}{13}\right) = -0.5t$$
+
+$$\frac{v+3}{13} = e^{-0.5t}$$
+
+$$v = 13e^{-0.5t} - 3\ \text{m s}^{-1} \checkmark$$
+
+**(c):** At rest $v = 0$:
+
+$$13e^{-0.5t} = 3$$
+
+$$e^{-0.5t} = \frac{3}{13}$$
+
+$$-0.5t = \ln\!\left(\frac{3}{13}\right)$$
+
+$$t = -2\ln\!\left(\frac{3}{13}\right)$$
+
+$$t = 2\ln\!\left(\frac{13}{3}\right) \approx 2.93\ \text{s} \checkmark$$
+
+Distance:
+
+$$x = \int_0^t \left(13e^{-0.5u} - 3\right)du$$
+
+$$x = \left[-26e^{-0.5u} - 3u\right]_0^t$$
+
+$$x = \left(-26e^{-0.5t} - 3t\right) - (-26 - 0)$$
+
+$$x = 26 - 26e^{-0.5t} - 3t$$
+
+At $t = 2\ln(13/3)$: $e^{-0.5t} = 3/13$:
+
+$$x = 26 - 26\cdot\frac{3}{13} - 3\cdot 2\ln\!\left(\frac{13}{3}\right)$$
+
+$$x = 26 - 6 - 6\ln\!\left(\frac{13}{3}\right)$$
+
+$$x = 20 - 6\ln\!\left(\frac{13}{3}\right) \approx 11.20\ \text{m} \checkmark$$
+
+</details>
+
+**10.** A particle moves with acceleration $a = 4e^{-2x}$ m s$^{-2}$ away from $O$. It passes through $O$ ($x = 0$) with velocity $3$ m s$^{-1}$. Find $v$ as a function of $x$ and determine the limiting velocity as $x \to \infty$.
+
+<details>
+<summary><strong>Solution</strong></summary>
+
+$$a = v\frac{dv}{dx} = 4e^{-2x}$$
+
+$$\int v\,dv = \int 4e^{-2x}\,dx$$
+
+$$\frac{1}{2}v^2 = 4\cdot\frac{e^{-2x}}{-2} + c$$
+
+$$\frac{1}{2}v^2 = -2e^{-2x} + c$$
+
+When $x = 0$, $v = 3$:
+
+$$\frac{9}{2} = -2 + c$$
+
+$$c = \frac{13}{2}$$
+
+$$\frac{1}{2}v^2 = -2e^{-2x} + \frac{13}{2}$$
+
+$$v^2 = -4e^{-2x} + 13$$
+
+$$v = \sqrt{13 - 4e^{-2x}}\ \text{m s}^{-1} \checkmark$$
+
+As $x \to \infty$, $e^{-2x} \to 0$:
+
+$$v \to \sqrt{13} \approx 3.61\ \text{m s}^{-1} \checkmark$$
+
+</details>
+
+**11.** A particle of mass $2$ kg moves along the $x$-axis under a force $F = 8\cos 2x$ N in the direction of motion. When $x = 0$, $v = 2$ m s$^{-1}$. Find $v$ when $x = \pi/4$.
+
+<details>
+<summary><strong>Solution</strong></summary>
+
+$$F = ma \Rightarrow 8\cos 2x = 2\,v\frac{dv}{dx}$$
+
+$$v\frac{dv}{dx} = 4\cos 2x$$
+
+$$\int v\,dv = \int 4\cos 2x\,dx$$
+
+$$\frac{1}{2}v^2 = 2\sin 2x + c$$
+
+When $x = 0$, $v = 2$:
+
+$$\frac{1}{2}(4) = 2\sin 0 + c$$
+
+$$2 = c$$
+
+$$\frac{1}{2}v^2 = 2\sin 2x + 2$$
+
+$$v^2 = 4\sin 2x + 4$$
+
+When $x = \pi/4$: $\sin(\pi/2) = 1$:
+
+$$v^2 = 4(1) + 4 = 8$$
+
+$$v = \sqrt{8} = 2\sqrt{2}\ \text{m s}^{-1} \checkmark$$
+
+</details>
+
+---
+
+### Extra Worked Examples — Filling Syllabus Gaps
+
+#### Example 19 — Integrating Factor with Time-Dependent Driving Force (Medium–Hard)
+
+> **Question:** A particle of mass $2$ kg moves in a straight line. It is subject to a driving force of $(6e^{-t})$ N in the direction of motion and a resistance of magnitude $2v$ N opposing the motion. The particle starts from rest at $t = 0$. Find $v$ as a function of $t$.
+
+**Solution:**
+
+Net force:
+
+$$F_{\text{net}} = 6e^{-t} - 2v = 2\frac{dv}{dt}$$
+
+$$\frac{dv}{dt} + v = 3e^{-t}$$
+
+This is first-order linear: $\frac{dv}{dt} + P(t)v = Q(t)$ with $P = 1$, $Q = 3e^{-t}$.
+
+Integrating factor:
+
+$$I = e^{\int 1\,dt}$$
+
+$$I = e^{t}$$
+
+Multiply through:
+
+$$e^{t}\frac{dv}{dt} + e^{t}v = 3$$
+
+$$\frac{d}{dt}\left(ve^{t}\right) = 3$$
+
+Integrate:
+
+$$ve^{t} = \int 3\,dt$$
+
+$$ve^{t} = 3t + c$$
+
+When $t = 0$, $v = 0$:
+
+$$0 = 0 + c \Rightarrow c = 0$$
+
+$$v = 3te^{-t}\ \text{m s}^{-1} \checkmark$$
+
+Maximum velocity: $\frac{dv}{dt} = 3e^{-t} - 3te^{-t} = 3e^{-t}(1-t) = 0 \Rightarrow t = 1$ s, $v_{\max} = 3/e \approx 1.10$ m s$^{-1}$.
+
+> ### 👀 Watch Out!
+> When both driving and resistive forces appear, the ODE is **not separable** in general — check whether it is linear first. The integrating factor $I = e^{\int P\,dt}$ is the standard tool. Always write the equation in standard form $\frac{dv}{dt} + P(t)v = Q(t)$ before computing $I$.
+
+> ### 🎯 What the examiner wants
+> Correct identification that separation fails and integrating factor is needed (1 mark); correct $I = e^{t}$ (1 mark); product rule recognition $\frac{d}{dt}(vI) = QI$ (1 mark); correct integration and initial condition (2 marks).
+
+---
+
+#### Example 20 — Stopping Distance with Velocity-Dependent Resistance (Hard)
+
+> **Question:** A particle of mass $m$ kg is projected with speed $U$ m s$^{-1}$ along a smooth horizontal surface. The only horizontal force is a resistance of magnitude $mkv^2$ N opposing the motion, where $k > 0$ is a constant.
+> - **(a)** Find $v$ as a function of $t$.
+> - **(b)** Find the distance travelled before the speed falls to $U/2$.
+> - **(c)** Show that the particle never comes to rest in finite time but approaches a finite limiting distance $1/k$ times $\ln$ terms — and find the total distance if the resistance were $mkv$ instead.
+
+**Solution (a) — $v(t)$:**
+
+$$-mkv^2 = m\frac{dv}{dt}$$
+
+$$\frac{dv}{dt} = -kv^2$$
+
+$$\int \frac{dv}{v^2} = -k\int dt$$
+
+$$-\frac{1}{v} = -kt + c$$
+
+When $t = 0$, $v = U$:
+
+$$-\frac{1}{U} = c$$
+
+$$-\frac{1}{v} = -kt - \frac{1}{U}$$
+
+$$\frac{1}{v} = kt + \frac{1}{U}$$
+
+$$v = \frac{1}{kt + 1/U}$$
+
+$$v = \frac{U}{1 + kUt}\ \text{m s}^{-1} \checkmark$$
+
+**Solution (b) — Distance to reach $U/2$:**
+
+Use $v = \frac{dx}{dt}$:
+
+$$x = \int_0^{t_{1/2}} \frac{U}{1 + kUt}\,dt$$
+
+Let $w = 1 + kUt$, $dw = kU\,dt$:
+
+$$x = \int_1^{1+kUt_{1/2}} \frac{U}{w}\cdot\frac{dw}{kU}$$
+
+$$x = \frac{1}{k}\int_1^{1+kUt_{1/2}} \frac{dw}{w}$$
+
+$$x = \frac{1}{k}\ln\!\left(1 + kUt_{1/2}\right)$$
+
+Time to reach $U/2$: $\frac{U}{1+kUt_{1/2}} = \frac{U}{2} \Rightarrow 1+kUt_{1/2} = 2 \Rightarrow t_{1/2} = \frac{1}{kU}$:
+
+$$x_{1/2} = \frac{1}{k}\ln 2\ \text{m} \checkmark$$
+
+**Solution (c) — Limiting behaviour:**
+
+As $t \to \infty$, $v \to 0$ but $x = \frac{1}{k}\ln(1+kUt) \to \infty$ (logarithmically) — so with $v^2$ resistance the particle travels arbitrarily far, just ever more slowly.
+
+If instead resistance were $mkv$ (linear in $v$):
+
+$$-mkv = m\frac{dv}{dt} \Rightarrow \frac{dv}{v} = -k\,dt \Rightarrow v = Ue^{-kt}$$
+
+$$x = \int_0^\infty Ue^{-kt}dt = \frac{U}{k}\ \text{m (finite limit)} \checkmark$$
+
+The distinction between $kv$ and $kv^2$ resistance is examinable — linear resistance gives a finite total distance, quadratic gives infinite distance.
+
+> ### 👀 Watch Out!
+> Quadratic resistance ($v^2$) vs linear resistance ($v$) gives very different long-term behaviour. Do not assume the particle stops in finite distance — check the integral $\int v\,dt$ for convergence. For $v = U/(1+kUt)$, the displacement grows like $\ln t$ and diverges.
 
 ---
 

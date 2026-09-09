@@ -1,0 +1,44 @@
+{
+  "total_questions": 628,
+  "batches": 7,
+  "sources": [
+    {
+      "repo": "DailyDoseOfStuff/sat-question-bank",
+      "raw_count": 457
+    },
+    {
+      "repo": "bosserz/sat-simulation-2 (primary)",
+      "raw_count": 294
+    },
+    {
+      "repo": "bosserz/sat-simulation-2 (old)",
+      "raw_count": 294
+    }
+  ],
+  "by_section": {
+    "math": 218,
+    "reading & writing": 307,
+    "verbal": 103
+  },
+  "by_domain": {
+    "Standard English Conventions": 111,
+    "unknown": 88,
+    "Information and Ideas": 86,
+    "Craft and Structure": 83,
+    "Expression of Ideas": 78,
+    "Geometry and Trigonometry": 55,
+    "Algebra": 47,
+    "Advanced Math": 45,
+    "Problem-Solving and Data Analysis": 27,
+    "Problem-Solving & Data Analysis": 4,
+    "Geometry & Trigonometry": 4
+  },
+  "by_difficulty": {
+    "Hard": 263,
+    "Medium": 191,
+    "Easy": 86,
+    "unknown": 88
+  },
+  "corpus_file": "questions_corpus.jsonl",
+  "batch_dir": "batches/"
+}

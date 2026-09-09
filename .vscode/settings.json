@@ -5,5 +5,27 @@
         "dataarray",
         "numberword",
         "Rahul"
-    ]
+    ],
+    "extensions.ignoreRecommendations": true,
+    "files.watcherExclude": {
+        "**/.git/**": true,
+        "**/.playwright-cli/**": true,
+        "**/tmp/**": true,
+        "**/output/**": true,
+        "**/workspace_pdfs/**": true,
+        "**/*.pdf": true,
+        "**/*.zip": true
+    },
+    "search.exclude": {
+        "**/.git/**": true,
+        "**/.playwright-cli/**": true,
+        "**/tmp/**": true,
+        "**/output/**": true,
+        "**/workspace_pdfs/**": true,
+        "**/*.pdf": true,
+        "**/*.zip": true
+    },
+    "files.exclude": {
+        "**/.DS_Store": true
+    }
 }

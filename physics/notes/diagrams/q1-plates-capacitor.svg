@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320">
+  <rect width="600" height="320" fill="white" stroke="#ccc"/>
+  <text x="300" y="22" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold">Fig. 1.1 — Parallel plates + Capacitor (9702/51/M/J/22)</text>
+  <!-- DC supply -->
+  <rect x="40" y="80" width="80" height="60" fill="none" stroke="black" stroke-width="2"/>
+  <text x="80" y="100" text-anchor="middle" font-size="10">DC</text>
+  <text x="80" y="112" text-anchor="middle" font-size="10">Supply</text>
+  <text x="80" y="128" text-anchor="middle" font-size="8">+  -</text>
+  <!-- wires to plates -->
+  <line x1="120" y1="95" x2="180" y2="95" stroke="black" stroke-width="1.5"/>
+  <line x1="120" y1="125" x2="180" y2="125" stroke="black" stroke-width="1.5"/>
+  <text x="145" y="88" font-size="8">shrouded leads</text>
+  <!-- plates -->
+  <rect x="180" y="60" width="6" height="110" fill="#888" stroke="black"/>
+  <rect x="260" y="60" width="6" height="110" fill="#888" stroke="black"/>
+  <text x="183" y="55" font-size="8">plate area A</text>
+  <line x1="186" y1="175" x2="260" y2="175" stroke="black" stroke-dasharray="3,3"/>
+  <text x="210" y="188" font-size="9">d ← separation</text>
+  <text x="210" y="200" font-size="8">(micrometer)</text>
+  <!-- switch to capacitor -->
+  <line x1="266" y1="95" x2="340" y2="95" stroke="black" stroke-width="1.5"/>
+  <text x="300" y="88" font-size="7">switch</text>
+  <circle cx="305" cy="95" r="4" fill="white" stroke="black"/>
+  <!-- capacitor -->
+  <line x1="340" y1="70" x2="340" y2="120" stroke="black" stroke-width="2"/>
+  <line x1="350" y1="70" x2="350" y2="120" stroke="black" stroke-width="2"/>
+  <text x="345" y="138" font-size="8">C</text>
+  <!-- voltmeter across C -->
+  <line x1="340" y1="120" x2="340" y2="160" stroke="black" stroke-width="1"/>
+  <line x1="350" y1="120" x2="500" y2="120" stroke="black" stroke-width="1"/>
+  <line x1="500" y1="90" x2="500" y2="160" stroke="black" stroke-width="1"/>
+  <rect x="460" y="125" width="80" height="35" fill="none" stroke="black"/>
+  <text x="500" y="145" text-anchor="middle" font-size="10">V</text>
+  <text x="500" y="155" text-anchor="middle" font-size="7">voltmeter</text>
+  <!-- retort -->
+  <line x1="180" y1="170" x2="180" y2="260" stroke="#888" stroke-width="3"/>
+  <line x1="180" y1="260" x2="280" y2="260" stroke="#888" stroke-width="3"/>
+  <text x="150" y="270" font-size="7">G-clamp to bench</text>
+  <text x="80" y="270" font-size="7">bench</text>
+  <line x1="20" y1="265" x2="580" y2="265" stroke="black" stroke-width="2"/>
+  <text x="300" y="295" text-anchor="middle" font-size="8" fill="#555">Measure d with micrometer at several points → mean. Measure A with vernier → mean. Recharge before each V reading.</text>
+  <text x="300" y="310" text-anchor="middle" font-size="8" fill="#555">Keep C, A, initial charge conditions constant. Safety: discharge via resistor, shrouded leads, goggles.</text>
+</svg>

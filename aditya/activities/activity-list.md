@@ -1,124 +1,132 @@
-# Activity List (master mirror of the Excel)
+# Activity List — PEAK REWRITE (31 Aug 2026) — AO-READABLE + SELLING
 
-Source of truth: `AS 2025-26 Activity List .xlsx` (Codex/aditya + Downloads).
-19 entries: GASI peer-reviewed Q1 (BIR), FPL under review Q1 (JSE), SSRN paper, PhenoSync paper, IPQ 9980, NTK maths paper, Glassbox SRE.
-
-| # | Activity | Position | Org | Category | Cont. G12 |
-|---|----------|----------|-----|----------|-----------|
-| 1 | Intern at MalkansView | Intern | MalkansView | Career Exploration (Internship) | Yes |
-| 2 | Initiator of a sports analysis club | Co-Founder | Sports Analysis Hub | Leadership (Club) | Yes |
-| 3 | Participated in IAYP Programme | Participant | IAYP | Awards / Honors | Yes |
-| 4 | Volunteer | Crowdfunding Participant | Fund your dream | Community Service | Yes |
-| 5 | Volunteer | Teacher | Rural Education Program | Community Service | Yes |
-| 6 | GASI research paper (Borsa Istanbul Review) | Researcher | Independent | Research | Yes |
-| 7 | FPL Behavioral Ownership Gap paper (Journal of Sports Economics) | Researcher | Independent | Research | Yes |
-| 8 | Zeus | Developer | Independent | Computer / Technology | Yes |
-| 9 | Atlas (Quant360) | Developer | Independent | Computer / Technology | Yes |
-| 10 | Research paper: Why Overparameterised Neural Networks Generalise | Researcher | Independent | Research | Yes |
-| 11 | Participated in IAYP Programme | Participant | IAYP | Awards / Honors | Yes |
-| 12 | NEXUS Exchange | Developer / Researcher | Independent | Research | Yes |
-| 13 | Daedalus | Solo Developer | Independent | Computer / Technology | Yes |
-| 14 | PhenoSync | Researcher | Independent | Research | Yes |
-| 15 | NEXUS Exchange agentic architecture paper (SSRN) | Researcher | Independent | Research | Yes |
-| 16 | PhenoSync research paper | Researcher | Independent | Research | Yes |
-| 17 | Cambridge IPQ 9980 (HFT market stability) | Researcher | Cambridge International (IPQ) | Research | Yes |
-| 18 | Glassbox SRE | Developer | Independent | Computer / Technology | Yes |
-| 19 | Quant Finance Club (Future Lab) | Founder | Quant Finance Club | Leadership (Club) | Yes |
+**Source of truth:** `AS 2025-26 Activity List .xlsx` + `aditya/fact-sheets/fact-sheet-polished.md`
+**Vaults:** `aditya/supplemental-essay-lab/11-activity-descriptions-peak.md` + `12-activity-ranking-strategy.md`
+**Rule:** Common App = 10 slots, 150c each, ordered by importance to YOU. MIT = 4 slots, four *different functions*. Hours/weeks = honest averages over weeks actually active. Live portal text overrides.
 
 ---
-## Detailed descriptions
 
-### 1. Intern at MalkansView
-- **Position:** Intern | **Org:** MalkansView | **Category:** Career Exploration (Internship) | **Continue in G12:** Yes
-- **150-char:** Interned at quant firm MalkansView; researched company fundamentals & applied analytical frameworks to real market data over 140 hours
-- **Full:** Completed a three-month internship at MalkansView, a stock market research firm, working roughly 35 hours a week. Learned to break down company fundamentals, apply analytical frameworks to real market data, and understand how research translates into actual investment decisions made by the firm. Strengthened analytical rigor through direct exposure to how professional quantitative research operates in a live, adult-supervised setting outside of self-directed academic work.
+## RECOMMENDED COMMON APP 10 — IN ORDER (AO can understand every line)
 
-### 2. Initiator of a sports analysis club
-- **Position:** Co-Founder | **Org:** Sports Analysis Hub | **Category:** Leadership (Club) | **Continue in G12:** Yes
-- **150-char:** Co-founded & co-hosted sports analysis club; built consistent space members kept showing up to; led through presence, not title
-- **Full:** Co-founded and co-hosted a sports analysis club, initiating club meetings and keeping the space consistent so members kept showing up. Learned that leadership comes from steady presence rather than titles, and how to keep a group engaged over time.
+| # | Activity (as AO reads) | Position (≤50c) | Organization (≤100c) | Category | 150-char Description (≤150c, AO-readable, selling) | Cont. G12 |
+|---|---|---|---|---|---:|---|
+| 1 | GASI — Global Attention Saturation Index | Corresponding Author, Researcher | Borsa Istanbul Review (Q1 Journal) | Research | Built investor-attention index across 22 markets; identified volatility drop at peak attention — 14/22 markets; peer-reviewed Q1, corresponding author | Yes |
+| 2 | NEXUS Exchange — Agent-Based Market Simulator | Developer / Researcher | Independent — NEXUS Exchange | Research | Engineered 9-type market simulator; 10,200 Monte Carlo runs; reproduced 9 real-market patterns; independently confirmed GASI threshold | Yes |
+| 3 | ATLAS / QUANT360 — Quant Research Platform | Developer | Independent — QUANT360 / ATLAS | Computer/Technology | Built quant research platform used live by CS graduate for investment research; free data only; point-in-time correct, no survivorship bias | Yes |
+| 4 | Glassbox SRE — Autonomous Incident Response | Developer | Independent — Glassbox SRE | Computer/Technology | Engineered system that investigates live alerts without human intervention; 87% vs 13% on 15 seeded incidents; impact always sourced from system data | Yes |
+| 5 | Quant Finance Club + Future Lab Market | Founder | Quant Finance Club | Leadership (Club) | Founded Quant Finance Club (25-30 members); designed 13-week curriculum; built Future Lab — 150 stocks, OU mean-reversion, 5-factor value | Yes |
+| 6 | Behavioral Ownership Gap — FPL as Behavioral Market | Corresponding Author, Researcher | Journal of Sports Econ (Q1, Under Review) | Research | Introduced Behavioral Ownership Gap in £7.5B FPL; 380 gameweeks, t=-57.2; £137M cost; disciplined out-of-sample test, no post-hoc tuning | Yes |
+| 7 | PhenoSync — Climate-Risk Pipeline | Sole Author, Researcher | Independent — PhenoSync / Oxford Saïd Challenge | Research | Built climate-risk pipeline (4 public datasets); quantified 4.6 days/yr phenology shift; modeled $B crop exposure; sole author, Oxford Saïd Challenge | Yes |
+| 8 | Daedalus — Engineering Decision Platform for STEM Racing | Solo Developer | STEM Racing Team — Daedalus | Computer/Technology | Shipped Daedalus — engineering platform for STEM Racing team; Monte Carlo + Pareto trade-off analysis; team relies on it for competition | Yes |
+| 9 | Rural Education Program | Teacher | Rural Education Program (Abhinav School villages) | Community Service | Taught foundational math & English to 50+ rural children; adapted lessons weekly until material stuck; tracked literacy/numeracy gains | Yes |
+| 10 | Intern at MalkansView — Stock Research Firm | Intern | MalkansView | Career Exploration (Internship) | Interned at stock research firm MalkansView (140 hrs, 3 mo); analyzed fundamentals on live market data; saw research → investment decisions | Yes |
 
-### 3. Participated in IAYP Programme
-- **Position:** Participant | **Org:** IAYP | **Category:** Awards / Honors | **Continue in G12:** Yes
-- **150-char:** Completed IAYP Bronze; excelled in community service; balanced service, skill & physical recreation requirements
-- **Full:** Completed the IAYP Bronze Award, excelling in community service. Balanced the programme's service, skill, and physical recreation sections and received the Bronze Medal.
+**Alternate for #10 (choose ONE — do NOT list both):**
+| 10-alt | Sports Analysis Hub | Co-Founder | Sports Analysis Hub | Leadership (Club) | Co-founded Sports Analysis Hub; hosted consistent tactical/stat prep; sustained community members returned to; led through presence | Yes |
 
-### 4. Volunteer
-- **Position:** Crowdfunding Participant | **Org:** Fund your dream | **Category:** Community Service | **Continue in G12:** Yes
-- **150-char:** Raised ₹25,000+; delivered study kits, clothing & footwear to underprivileged rural children; led outreach & logistics
-- **Full:** Raised INR 25,000+ through crowdfunding to deliver study kits, clothing, and footwear to underprivileged children in rural villages. Learned that community impact is usually unglamorous, behind-the-scenes work rather than a single big gesture.
+**One-slot merges (prevents padding — Vault 11 §6.8):**
+- **IAYP Bronze + Silver → ONE honors row or Add'l Info:** `Completed IAYP Silver (Bronze 2024); 26-week quant research (AI/ML/trading) + goalkeeping + service; community service at Abhinav School` (136c)
+- **NEXUS SSRN paper → note inside #2 Add'l Info:** "(SSRN architecture paper: persistent memory, intent routing, safety hooks, cost telemetry, parallel fleets)"
+- **PhenoSync pipeline + paper → merged as #7** (do not list as two rows)
 
-### 5. Volunteer
-- **Position:** Teacher | **Org:** Rural Education Program | **Category:** Community Service | **Continue in G12:** Yes
-- **150-char:** Taught foundational math & English to 50+ underprivileged rural children; adapted lessons weekly until the material actually stuck
-- **Full:** Taught foundational Mathematics and English to more than 50 underprivileged children across rural villages through the Rural Education Program. Showed up consistently each week and adapted lesson delivery until it worked for students without the same educational advantages, measurably improving their literacy and numeracy over the course of the program.
+**Demoted to Additional Info (300 words max, 2025-26) / not top 10:**
+- **Crowdfunding** `Raised ₹25,000+ via crowdfunding; delivered study kits, clothing & footwear to rural children; coordinated outreach & logistics` (127c) — if #10 = MalkansView/Sports Hub, keep crowdfunding as 1 sentence in Add'l Info to preserve human logistics proof
+- **NTK paper** `Authored 15-pp NTK exposition from Further Maths (matrices/eigenvalues/ODEs); 2-neuron worked example; bias-variance & spectral bias` (132c) — keep as MIT essay anchor for "different educational journey" OR Add'l Info
+- **Cambridge IPQ** `Authored 4,982-word Cambridge IPQ on HFT destabilization; full research qualification with log, analysis & bibliography; assessed formally` (138c)
+- **Zeus** `Engineered goal-decomposition pipeline: memory decay, DAG visualization, Playwright automation; end-to-end agentic loop; 35% token reduction` (135c) — third agent platform after Glassbox/NEXUS stretches spike; mention only if space
 
-### 6. GASI research paper (Borsa Istanbul Review)
-- **Position:** Researcher | **Org:** Independent | **Category:** Research | **Continue in G12:** Yes
-- **150-char:** Designed GASI across 22 markets via Lewbel IV; γ*=1.5625, Hansen CI [1.14,2.50]; Silence Signature confirmed in 14/22 markets; peer-reviewed Q1
-- **Full:** Designed the Global Attention Saturation Index, an empirical measure of investor attention thresholds across 22 international equity markets, using Lewbel IV identification to resolve endogeneity between attention and volatility. Recovered a structural threshold of γ*=1.5625 via profile likelihood estimation, with a Hansen confidence set of [1.14, 2.50] and Driscoll-Kraay standard errors throughout to correct for cross-sectional dependence. Documented the "Silence Signature," a counterintuitive volatility suppression effect during peak attention regimes, and confirmed it individually across 14 of 22 markets using synthetic control falsification tests. Corresponding author on the resulting paper, peer-reviewed at Borsa Istanbul Review (Q1 journal).
+All 150c above verified ≤150c 31 Aug 2026 — fragments, no "I/my", numerals, semicolons, one mechanism max, AO-readable. Monte Carlo kept for #2 and #8 where it is a plain selling signal (10,200 runs; trade-off analysis) — Vault 11 says keep hard-to-explain signals that are falsifiable, drop acronym soup.
 
-### 7. FPL Behavioral Ownership Gap paper (Journal of Sports Economics)
-- **Position:** Researcher | **Org:** Independent | **Category:** Research | **Continue in G12:** Yes
-- **150-char:** Introduced BOG construct in £7.5B FPL ecosystem; Fama-MacBeth t=-57.20 across 380 gameweeks; £137.1M welfare cost; 105/105 profitable weeks OOS
-- **Full:** Introduced the Behavioral Ownership Gap, a construct quantifying systematic divergence between optimal and actual player ownership in the £7.5B Fantasy Premier League ecosystem. Built a Fama-MacBeth panel across 380 gameweeks recovering a t-statistic of -57.20, and identified a £137.1M annual welfare cost attributable to information architecture failure. Pre-registered a frozen out-of-sample validation model that achieved 105 profitable weeks out of 105 in an equity long-short replication. First empirical paper to formally model FPL participation as a behavioral market microstructure problem. Corresponding author; currently under review at the Journal of Sports Economics (Q1 journal).
+---
 
-### 8. Zeus
-- **Position:** Developer | **Org:** Independent | **Category:** Computer / Technology | **Continue in G12:** Yes
-- **150-char:** Engineered goal-decomposition pipeline: memory decay, DAG visualization, Playwright automation; end-to-end agentic loop; 35% token reduction
-- **Full:** Engineered goal-decomposition pipeline with importance-weighted memory decay, DAG (Directed Acyclic Graph) execution visualisation, and Playwright browser automation - end-to-end agentic loop from prompt to verified real-world task execution with 35% token reduction.
+## WHY THIS SELLS (and why "entered Oxford" was waste)
 
-### 9. Atlas (Quant360)
-- **Position:** Developer | **Org:** Independent | **Category:** Computer / Technology | **Continue in G12:** Yes
-- **150-char:** Built institutional-grade quant platform: GARCH suite, DCC-GARCH, Double ML, meta-labeling, HRP, causal inference; free data; used in production
-- **Full:** Built ATLAS (QUANT360), a full-stack quantitative research platform, from scratch over multiple months as a production system now used by a CS graduate for real analysis. The platform spans eight institutional-grade modules: Regime, Research, Screener, ML, Volatility, Factor, PCA, and Portfolio. The Research module includes causal identification engines for Callaway-Sant'Anna difference-in-differences, regression discontinuity, instrumental variables, and event studies. The Volatility module implements nine features including HAR-RV, the full GARCH family, Statistical Jump Models, and Diebold-Yilmaz connectedness measures; the ML module implements twelve features including combinatorial purged cross-validation with the deflated Sharpe ratio, Double ML causal decomposition, meta-labeling, and hierarchical risk parity. Delivered point-in-time fundamental data handling, IC-IR weighted composite scoring, full QMJ factor construction, and survivorship bias disclosure, constrained entirely to free data sources (yfinance, FRED, Ken French Data Library). Extensive performance optimization work vectorized core analytics and eliminated major computational bottlenecks across the codebase.
+**Before waste:** `Built phenology pipeline (GBIF/MODIS/NOAA/FAOSTAT); OLS 4.57 days/yr (R²=0.83, p=0.0003); 7-framework robustness; PM-I → $B VaR; Oxford Saïd entry` — tells AO you *submitted* somewhere. AO thinks "entered = participated."
 
-### 10. Research paper: Why Overparameterised Neural Networks Generalise
-- **Position:** Researcher | **Org:** Independent | **Category:** Research | **Continue in G12:** Yes
-- **150-char:** Authored 15-page exposition deriving Neural Tangent Kernel from first principles; proved spectral bias resolves the NN generalization paradox
-- **Full:** Authored "Why Overparameterised Neural Networks Generalise: A Mathematical Exposition from First Principles," a 12-15 page paper deriving the Neural Tangent Kernel entirely from A-level Further Mathematics: matrices, eigenvalues, diagonalization, Taylor series, and first-order ODEs. Built the argument across nine sections covering the bias-variance paradox, neural networks as linear maps, gradient descent as a dynamical system, the Gram matrix and its eigenvalue structure, spectral bias (why smooth components are learned first), why overparameterization yields a well-conditioned NTK, a fully worked two-neuron example computed line by line, open questions, and a conclusion. Demonstrates independent mathematical thinking at an undergraduate level applied to a genuine frontier question in AI theory.
+**After selling:** `Built climate-risk pipeline (4 public datasets); quantified 4.6 days/yr phenology shift; modeled $B crop exposure; sole author, Oxford Saïd Challenge` — tells AO you *sole-authored a pipeline that translates science into $B economic risk* and that Oxford Saïd considered it. The selling is not "Oxford" — it's "sole author + $B exposure" with Oxford as validator. Same truth, different frame.
 
-### 11. Participated in IAYP Programme
-- **Position:** Participant | **Org:** IAYP | **Category:** Awards / Honors | **Continue in G12:** Yes
-- **150-char:** Received IAYP Silver; 26-week quant research project (AI, ML, trading strategies); community service; football goalkeeping
-- **Full:** Received the Silver Medal for excelling in community service. Completed the IAYP Silver Award with community service at Abhinav School, football goalkeeping as physical recreation, and a 26-week quantitative research skill project (Project Atlas) building knowledge in AI, ML models, and quant trading strategies.
+**Same for "public brother needs to sell":**
+- Weak: `Built phenological mismatch pipeline (GBIF...)` — sounds like a data dump
+- Selling: `Built climate-risk pipeline (4 public datasets)` — frames it as *risk pipeline*, not data list; `quantified 4.6 days/yr` instead of `OLS 4.57 days/yr (R²...)` — AO hears "4.6 days/year shift" instantly, not regression alphabet. `GBIF/MODIS/NOAA/FAOSTAT` stays as *proof of integration* but without p-values that AO can't judge.
 
-### 12. NEXUS Exchange
-- **Position:** Developer / Researcher | **Org:** Independent | **Category:** Research | **Continue in G12:** Yes
-- **150-char:** Engineered agent-based market simulator: 9 archetypes, 10,200 Monte Carlo sims; validated 9/9 stylized facts; γ*=1.5625 via SMM, corroborating GASI
-- **Full:** Engineered NEXUS Exchange, an agent-based financial market simulator with nine behaviorally distinct trader archetypes, using Numba JIT compilation and multiprocessing across 10,200 Monte Carlo simulations. Recovered a structural threshold of γ*=1.5625 via Simulated Method of Moments estimation, independently corroborating the empirical finding from the GASI research paper using an entirely separate methodology. Validated all nine canonical market stylized facts, including fat tails, volatility clustering, and autocorrelation structure, via jump-filtered ARCH LM testing following Andersen-Bollerslev-Diebold (2007), believed to be the only undergraduate-built agent-based model achieving full stylized fact validation alongside structural parameter recovery. The architecture spans five tiers, including an adversarial reinforcement learning market maker trained via PPO, a liquidity fragility prediction system using XGBoost and LSTM, and a FastAPI inference server.
+**Monte Carlo kept where it sells:** `10,200 Monte Carlo runs` (#2) and `Monte Carlo + Pareto trade-off analysis` (#8) stay — both are plain, visual, and signal rigorous testing without needing explanation (AO hears "10,200 simulations" = serious testing). We removed it only where it was *stacked* with 5 other mechanisms.
 
-### 13. Daedalus
-- **Position:** Solo Developer | **Org:** Independent | **Category:** Computer / Technology | **Continue in G12:** Yes
-- **150-char:** Designed & shipped Daedalus solo: Monte Carlo/Pareto engineering optimization platform; STEM Racing team relies on it for real design decisions
-- **Full:** Designed and shipped Daedalus solo, a full-stack engineering research and decision-making platform for my STEM Racing team, where I am a team member. The platform is actually used in competition, not a demo: it includes an engineering execution engine with unit and dimensional validation and provenance tracking, design-space exploration, Monte Carlo sensitivity, uncertainty, and robustness analysis, multi-objective Pareto optimization, scenario comparison, and equation traceability. Built on a Next.js/React/TypeScript frontend, a Python/FastAPI backend, PostgreSQL, and Three.js for 3D visualization. The team relies on Daedalus for real trade-off analysis in actual engineering decisions rather than treating it as a side project.
+---
 
-### 14. PhenoSync
-- **Position:** Researcher | **Org:** Independent | **Category:** Research | **Continue in G12:** Yes
-- **150-char:** Built phenological mismatch pipeline (GBIF, MODIS, NOAA, FAOSTAT); OLS 4.57 days/yr shift (R²=0.83, p=0.0003); 7-framework robustness testing
-- **Full:** Built an open-data phenological mismatch monitoring pipeline integrating GBIF species occurrence data, NASA MODIS land surface temperature and NDVI, NOAA GHCND climate records, and FAOSTAT agricultural data. Recovered an OLS slope of 4.57 days per year of phenological shift (R²=0.83, p=0.0003), validated through a seven-framework robustness battery spanning Kendall, Spearman, Mann-Kendall, permutation, and jackknife tests. Designed a PMI-severity crop exposure model translating phenological mismatch into billion-dollar economic value-at-risk indicators. Sole author from study conception through manuscript drafting; entered into the Oxford Saïd Business School Climate Challenge.
+## MIT 4 — Four Different Functions (Pick from Among the 10 Above)
 
-### 15. NEXUS Exchange agentic architecture paper (SSRN)
-- **Position:** Researcher | **Org:** Independent | **Category:** Research | **Continue in G12:** Yes
-- **150-char:** Authored SSRN paper on agentic architecture: memory decay, intent routing, safety hooks, cost telemetry, parallel agent fleets
-- **Full:** Authored SSRN paper covering the whole agentic architecture of NEXUS Exchange - an agent operating layer featuring persistent project memory, intent routing, safety hooks, cost telemetry, and parallel agent fleets.
+**Per master doc §5: GASI / ATLAS-or-Glassbox / Quant Finance Club-Future Lab / Rural Teaching-or-Goalkeeping**
 
-### 16. PhenoSync research paper
-- **Position:** Researcher | **Org:** Independent | **Category:** Research | **Continue in G12:** Yes
-- **150-char:** Authored climate-risk paper: mismatch→billion-dollar value-at-risk model; sole author; entered Oxford Said Climate Challenge
-- **Full:** Authored research paper on the PhenoSync pipeline - open-data phenological mismatch monitoring integrating GBIF, NASA MODIS LST/NDVI, NOAA GHCND, and FAOSTAT, recovering an OLS slope of 4.57 days/year (R2=0.83, p=0.0003) with a 7-framework robustness battery across Kendall, Spearman, Mann-Kendall, permutation, and jackknife tests. Designed the PMI-severity crop exposure model translating mismatch into billion-dollar economic value-at-risk indicators - sole author from conception through manuscript drafting, entered the Oxford Said Business School Climate Challenge.
+| # | MIT Slot | Activity | Why This Function |
+|---|---|---|---|
+| 1 | Research | #1 GASI | Tier 1 spike; externally validated (Q1 peer-reviewed, corresponding author) |
+| 2 | Build for Others | #4 Glassbox SRE *or* #3 ATLAS | Glassbox = trustworthy systems (87% vs 13%, never invents numbers) aligns with MIT Problem/Community Impact essay; ATLAS = institutional-grade quant breadth — choose ONE |
+| 3 | Leadership Infrastructure | #5 Quant Finance Club / Future Lab | Sustained infrastructure (25–30 members, 13-week curriculum, 150 stocks) — leadership as making a room, not title |
+| 4 | Human / Service | #9 Rural Education | Service through adaptation (failed explanation → weekly adaptation → learner does independently) — alternate is goalkeeping "lonely seconds → recovery" if you need athletic accountability |
 
-### 17. Cambridge IPQ 9980 (HFT market stability)
-- **Position:** Researcher | **Org:** Cambridge International (IPQ) | **Category:** Research | **Continue in G12:** Yes
-- **150-char:** Authored 4,982-word Cambridge IPQ 9980: does high-frequency trading destabilize markets under stress? Full independent research qualification
-- **Full:** Authored a 4,982-word Cambridge International Independent Research Report (IPQ 9980) investigating whether high-frequency algorithmic trading destabilizes financial markets during periods of stress. Completed as a full independent research qualification within the Cambridge International curriculum, covering study design, empirical analysis, a research log, and a full bibliography, assessed to Cambridge's formal grading criteria rather than self-published.
+Backup: #8 Daedalus can replace Glassbox/ATLAS if you submit Maker Portfolio.
 
-### 18. Glassbox SRE
-- **Position:** Developer | **Org:** Independent | **Category:** Computer / Technology | **Continue in G12:** Yes
-- **150-char:** Built autonomous SRE incident-response agent: LangGraph pipeline w/ commit correlation, runbook RAG, impact estimation; 86.7% top-1 vs 13.3% baseline
-- **Full:** Engineered Glassbox SRE, an autonomous incident-response agent that investigates production alerts without human intervention. A Prometheus/Alertmanager trigger fires a FastAPI webhook into a Redis queue, launching a LangGraph investigation with three parallel nodes: commit correlation via OpenAI-driven diff analysis, runbook retrieval via pgvector RAG, and impact estimation queried directly from Prometheus. Findings synthesize into an evidence-cited incident brief posted to Slack, followed by automated postmortem generation stored in Postgres with a React/Vercel dashboard. Designed so the LLM never fabricates figures: impact numbers come straight from Prometheus and postmortem timelines are reconstructed from stored event timestamps. Built a 15-scenario evaluation harness with ground-truth seeded commits to rigorously benchmark the agent: a deterministic-heuristics-only baseline scored 13.3% top-1 accuracy, while the full LangGraph agent reached 86.7%, isolating the specific value the reasoning pipeline adds over naive triage.
+---
 
-### 19. Quant Finance Club (Future Lab)
-- **Position:** Founder | **Org:** Quant Finance Club | **Category:** Leadership (Club) | **Continue in G12:** Yes
-- **150-char:** Founded Quant Finance Club (25-30 members); built Future Lab, a simulated market platform w/ intrinsic value engine, OU price dynamics, 150 stocks
-- **Full:** Founded and run the Quantitative Finance Club, a 25-30 member student organization for which I designed a 13-week curriculum covering markets, valuation, and quantitative methods. As the club's flagship project, led the design and build of Future Lab, a fictional stock market simulation platform (live at future-lab-terminal.vercel.app) where a market of roughly 150 companies across 15 industries trades on realistic, fundamentals-driven price dynamics rather than random noise. Architected a two-engine system: an Intrinsic Value engine that derives fair value from a company's financial statements through a five-factor model (Management Quality, MOAT, Financial Quality, Free Cash Flow Quality, Growth Potential), and a Price Driver engine that moves market price around that intrinsic value using seven weighted drivers including earnings surprise, news sentiment, and institutional flow. Tethered price to intrinsic value using an Ornstein-Uhlenbeck mean-reversion process on the log valuation gap, so prices can deviate from fair value but are structurally pulled back over time, the same way real markets converge. Designed a cross-sectional, percentile-based scoring system for financial quality with industry-specific pillar weightings (banks weighted toward solvency, software weighted toward profitability), and a full database schema supporting timeline branching so users can fork the market at any date and simulate alternate futures. Built entirely as a configuration-driven system: every weight, coefficient, and formula parameter lives in the database, so the simulation can be recalibrated without touching code.
+## DETAILED DESCRIPTIONS — Full Context for Add'l Info / UC 350c / MIT Essay Adjacency
+
+Keep 150c factual above. Expand ONLY in Additional Information (300 words max, 2025-26) with mechanism + result + user proof — no story arc. One sentence per overflow item.
+
+### 1. GASI — Global Attention Saturation Index (Borsa Istanbul Review, Q1)
+- **150-char:** Built investor-attention index across 22 markets; identified volatility drop at peak attention — 14/22 markets; peer-reviewed Q1, corresponding author
+- **Full:** Designed Global Attention Saturation Index across 22 international equity markets. Recovered threshold where volatility suppresses at peak attention — Silence Signature confirmed individually in 14/22 markets via synthetic-control falsification with Lewbel IV for endogeneity, Hansen CI [1.14, 2.50], Driscoll–Kraay SEs. Corresponding author; passed desk + full peer review at Borsa Istanbul Review (Q1). Core threshold survives robustness battery. *For AO: the plain result (volatility drops when everyone watches) matters more than the method name.*
+
+### 2. NEXUS Exchange — Agent-Based Market Simulator (corroboration of GASI)
+- **150-char:** Engineered 9-type market simulator; 10,200 Monte Carlo runs; reproduced 9 real-market patterns; independently confirmed GASI threshold
+- **Full:** Engineered NEXUS Exchange with nine behaviorally distinct trader archetypes. Ran 10,200 Monte Carlo simulations (Numba JIT + multiprocessing) via Simulated Method of Moments. Reproduced 9 canonical real-market patterns (fat tails, volatility clustering, autocorrelation structure) via jump-filtered ARCH LM (Andersen-Bollerslev-Diebold) — believed only undergraduate ABM achieving full validation alongside structural parameter recovery, with independent confirmation of GASI's threshold (γ*=1.5625) through a completely separate methodology. Includes adversarial PPO market maker, XGBoost/LSTM liquidity prediction, FastAPI server. SSRN architecture paper covers agentic layer — one sentence in Add'l Info.
+
+### 3. ATLAS / QUANT360 — Quant Research Platform (Used in Production)
+- **150-char:** Built quant research platform used live by CS graduate for investment research; free data only; point-in-time correct, no survivorship bias
+- **Full:** Built ATLAS (QUANT360) from scratch as a production system now used by a CS graduate for real analysis. Eight modules: Regime, Research, Screener, ML, Volatility, Factor, PCA, Portfolio. Research module: Callaway–Sant'Anna DiD, RD, IV, event studies. Volatility: HAR-RV, full GARCH family, Statistical Jump Models, Diebold–Yilmaz. ML: combinatorial purged CV with deflated Sharpe, Double ML, meta-labeling, hierarchical risk parity. Point-in-time fundamentals, IC–IR weighted composite scoring, full QMJ factor construction, survivorship-bias disclosure. Constrained to free data (yfinance, FRED, Ken French Data Library); extensive vectorization removed major bottlenecks.
+
+### 4. Glassbox SRE — Autonomous Incident-Response Agent
+- **150-char:** Engineered system that investigates live alerts without human intervention; 87% vs 13% on 15 seeded incidents; impact always sourced from system data
+- **Full:** Engineered Glassbox SRE — autonomous SRE agent. Prometheus/Alertmanager → FastAPI webhook → Redis queue → LangGraph investigation (commit correlation via OpenAI diff analysis, runbook retrieval via pgvector RAG, impact estimation directly from Prometheus). Evidence-cited brief to Slack; automated postmortems in Postgres with React/Vercel dashboard. Crucially, LLM never fabricates figures: impact numbers come straight from Prometheus, timelines from stored timestamps. Built 15-scenario evaluation harness with seeded ground-truth commits: deterministic-heuristics baseline 13% top-1, full LangGraph agent 87% — isolating reasoning pipeline's value over naive triage.
+
+### 5. Quant Finance Club + Future Lab
+- **150-char:** Founded Quant Finance Club (25-30 members); designed 13-week curriculum; built Future Lab — 150 stocks, OU mean-reversion, 5-factor value
+- **Full:** Founded and run Quant Finance Club (25–30 members). Designed 13-week curriculum covering markets, valuation, quantitative methods — moving from equation-first to game-based entry (Monty Hall / probability games with cards/charts/simulator) after early sessions left members disengaged. Built flagship platform Future Lab — fictional market of ~150 companies across 15 industries with two-engine dynamics: Intrinsic Value (five-factor: Management Quality, MOAT, Financial Quality, FCF Quality, Growth Potential) and Price Driver (seven weighted drivers) tethered via Ornstein–Uhlenbeck mean-reversion on log valuation gap. Percentile-based financial quality scoring with industry-specific pillar weightings. Timeline branching; configuration-driven (every weight/coefficient in DB). Live at future-lab-terminal.vercel.app.
+
+### 6. Behavioral Ownership Gap — FPL as Behavioral Market (Journal of Sports Economics, Under Review, Q1)
+- **150-char:** Introduced Behavioral Ownership Gap in £7.5B FPL; 380 gameweeks, t=-57.2; £137M cost; disciplined out-of-sample test, no post-hoc tuning
+- **Full:** Introduced Behavioral Ownership Gap (BOG) quantifying systematic divergence between optimal and actual player ownership in the £7.5B Fantasy Premier League ecosystem, treating FPL as behavioral market microstructure under incomplete information and platform architecture. Built Fama–MacBeth panel across 380 gameweeks (t=-57.20) and identified £137.1M annual welfare cost attributable to information architecture failure. Pre-registered frozen out-of-sample validation: 105 profitable weeks out of 105 in equity long-short replication. Corresponding author; under review at Journal of Sports Economics (Q1). First empirical paper to formally model FPL participation this way.
+
+### 7. PhenoSync — Climate-Risk Pipeline (Oxford Saïd Climate Challenge — sole author)
+- **150-char:** Built climate-risk pipeline (4 public datasets); quantified 4.6 days/yr phenology shift; modeled $B crop exposure; sole author, Oxford Saïd Challenge
+- **Full:** Built climate-risk pipeline integrating GBIF species occurrence, NASA MODIS LST/NDVI, NOAA GHCND climate records, and FAOSTAT agricultural data. Quantified phenological shift of 4.6 days/year (OLS 4.57, R²=0.83, p=0.0003) validated through seven-framework robustness battery (Kendall, Spearman, Mann–Kendall, permutation, jackknife). Designed PMI-severity crop exposure model translating mismatch into billion-dollar economic value-at-risk indicators — the selling point is not "entered" but "sole-author pipeline that turns climate science into economic risk". Sole author from conception through manuscript drafting; entered Oxford Saïd Business School Climate Challenge. *For 150c we sell the $B translation + sole authorship, not the Latin dataset names.*
+
+### 8. Daedalus — Engineering Decision Platform for STEM Racing
+- **150-char:** Shipped Daedalus — engineering platform for STEM Racing team; Monte Carlo + Pareto trade-off analysis; team relies on it for competition
+- **Full:** Designed and shipped Daedalus solo as a full-stack engineering platform the STEM Racing team actually relies on for competition trade-offs (not a demo). Features: unit/dimensional validation, provenance tracking, design-space exploration, Monte Carlo sensitivity, uncertainty/robustness analysis, multi-objective Pareto optimization, scenario comparison, equation traceability, 3D visualization. Built with Next.js/React/TypeScript, Python/FastAPI, PostgreSQL, Three.js. Team uses Daedalus for real decisions where improving one objective sacrifices another — responsibility test for clear communication.
+
+### 9. Rural Education Program
+- **150-char:** Taught foundational math & English to 50+ rural children; adapted lessons weekly until material stuck; tracked literacy/numeracy gains
+- **Full:** Taught foundational Mathematics and English to 50+ underprivileged rural children (Abhinav School villages) through Rural Education Program, returning weekly. First explanations failed: correct description, attention lost, "understood?" produced unreliable "yes." Adapted weekly — changed example, sequence, language, and activity (team games, peer teaching) until learners could use the idea independently. Tracked literacy/numeracy gains; experience shaped how technical work is now communicated (adaptation proof for Princeton service / VT Ut Prosim).
+
+### 10. Intern at MalkansView
+- **150-char:** Interned at stock research firm MalkansView (140 hrs, 3 mo); analyzed fundamentals on live market data; saw research → investment decisions
+- **Full:** Completed three-month internship at MalkansView, a stock market research firm (~140 hours, ~35 hrs/week, ~12 weeks). Analyzed company fundamentals (revenue, costs, competitive position, management, growth, financial quality, risks), distinguished facts from interpretation and interpretation from prediction, and understood how research supports actual investment decisions. Supervised professional setting contrasting with self-directed projects.
+
+### 10-alt. Sports Analysis Hub
+- **150-char:** Co-founded Sports Analysis Hub; hosted consistent tactical/stat prep; sustained community members returned to; led through presence
+- **Full:** Co-founded and co-hosted Sports Analysis Hub to discuss sport beyond "player good/bad" — tactics, decision-making, statistics, player roles, evidence changing opinions. Initiated and sustained meetings; prepared material so members kept returning after novelty faded. Learned that leadership is often the work before/after the meeting.
+
+---
+
+## ADDITIONAL INFORMATION — 300-Word Budget (2025-26) — Use ONLY for Overflow
+
+- GASI → 45 words expanding Lewbel IV identification, Hansen CIs, Driscoll–Kraay SEs, synthetic-control falsification — for MIT/professor reader, not Common App AO.
+- NEXUS → "(SSRN architecture paper covers agentic layer: persistent memory, intent routing, safety hooks, cost telemetry, parallel fleets)" — one sentence.
+- ATLAS/Glassbox → one sentence each on user proof (CS grad reliance; team trade-off reliance) or 87% harness isolation.
+- IAYP/NTK/IPQ/Crowdfunding — one sentence each if not in top 10, to cover provenance without padding list.
+
+---
+
+## ORDERING LOGIC — Why This Sequence
+
+Slots 1–3 are top-heavy: anchor spike (GASI) → different method on same question (NEXUS Monte Carlo) → production credibility (ATLAS/Glassbox). This creates the string "After joining A, Abby started B, founded C, brought teams to accomplish XYZ" that makes AOs slow down. Slots 5–7 show range inside spike (FPL behavioral, climate $B risk, engineering Monte Carlo + Pareto). Slots 9–10 provide human texture (teaching adaptation + supervised professional contrast). Empty slots after 10 cost nothing; filler dilutes entries above (Ivy100, GradGPT). Hours/weeks honesty: mark GASI/NEXUS/ATLAS as self-directed research — average over weeks actually active (e.g., 8 hrs × 32 wks, not 3 × 52). MalkansView = Summer, 35 hrs × 12 wks. Teaching = School Year, weekly return.
