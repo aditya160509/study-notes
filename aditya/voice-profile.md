@@ -1,18 +1,92 @@
-# Voice profile: Aditya Balaji
 
-Extracted from Aditya's spoken explanations and repeated essay corrections through September 2026.
 
-- Sentence mix: prefers connected medium and long sentences over strings of polished short lines; a short sentence should land only after the thought has earned it.
-- Punctuation: no em dashes; semicolons are acceptable but should be rare; avoid conspicuous colon-driven aphorisms.
-- Transitions: thoughts often move through “but,” “so,” and a qualifying clause rather than a formal pivot.
-- Formality: direct and conversational, with contractions where natural; application prose should remain grammatical without becoming ceremonial.
-- Emotional register: serious without staged solemnity. Preserve discomfort, competitiveness, wanting, uncertainty, and imperfect motives instead of resolving each story into growth.
-- Detail preference: one observed action carries more weight than an inventory of duties or achievements.
-- Avoid: slogan endings, balanced antitheses, repeated rhetorical questions, miniature moral conclusions, and lines that seem written mainly to be quoted.
-- Preserve: technical curiosity, self-implication, dry humor, and moments where Aditya admits that his own instinct remains part of the problem.
+*Working list of universities to apply to. Locked in August 2026 - 20 schools. Mark each school as Reach / Match / Safety in the last column as you research.*
+*Working list of universities to apply to. Updated 17 September 2026 for 2027 entry. The application tracker below is the current source of truth for requirements, essays, and deadlines.*
 
-## Rhythm references
+- [ ] Track deadlines here as they are confirmed
 
-> I want more, just that feeling. Maybe this is a 9.5, but I want the part where you read it and think, oh, what has he written?
+## 2027 application requirements, essays, and deadlines
 
-> I spend all this time finding mistakes everywhere, and in the end the mistake comes back to me.
+**Research date:** 17 September 2026. **Target entry:** 2027. Dates below are the latest official dates found for the 2026-27 application cycle (Fall 2027 in the US, 2027 entry in the UK, and the nearest published intake elsewhere). “TBC” means the university has not yet published a 2027 date; it does not mean the application is late.
+
+### United States - Common App
+
+For every US university below, submit the Common Application, the Common App personal statement, school transcript/report, counselor or school recommendation, and the university's required teacher recommendations. Testing and English-proof rules vary by institution and must be checked in the live portal. Research or maker material should be submitted only where the university explicitly accepts it or where it is requested.
+
+| University | 2027 plan / deadline | School-specific writing | Other required or important items | Status for Aditya |
+|---|---|---|---|---|
+| MIT | EA 1 Nov 2026; RA 4 Jan 2027 | Several short essays (about 100-200 words) plus short answers (40-50 words) | SAT/ACT required; 2 teacher recommendations; optional creative/research portfolio | Draft set exists; finish fact checks and trim any résumé-like phrasing. [Official requirements](https://mitadmissions.org/apply/firstyear/deadlines-requirements/) |
+| Princeton | SCEA 1 Nov 2026; RD 1 Jan 2027 | B.S.E./academic response, community/service response, voice response, and short answers | Transcript, school report, counselor and teacher recommendations; testing policy must be checked in the live cycle | Draft set exists; check the B.S.E. word limit and factual details. [Official application page](https://admission.princeton.edu/apply) |
+| Yale | SCEA 1 Nov 2026; RD 2 Jan 2027 | Short answers, short takes, and one longer Yale essay; exact set depends on application platform | SAT/ACT required; transcript, school report, counselor and teacher recommendations | No current draft in the file set. [Official deadlines and requirements](https://admissions.yale.edu/apply) |
+| Columbia | ED 1 Nov 2026; RD 1 Jan 2027 | Columbia-specific short-answer and essay questions in the Common App | Transcript, school report, recommendations, testing/English documents as applicable; optional research abstract/resume | No current draft. Supplementary research material is optional, not a substitute for the required essays. [Official first-year page](https://undergrad.admissions.columbia.edu/apply/firstyear) |
+| Amherst | ED 9 Nov 2026; RD 5 Jan 2027 | Amherst writing supplement; optional research questions if significant independent research is being submitted | Transcript, school and teacher recommendations; SAT/ACT optional; optional research/arts material | No current draft. Your research can be summarized in Amherst's optional research section if the live form retains it. [Official first-year page](https://www.amherst.edu/admission/apply/firstyear) |
+| Caltech | REA 1 Nov 2026; RD 5 Jan 2027 | Caltech-specific short-answer/essay set, released for Fall 2027 | Common App/QuestBridge, transcript, recommendations, testing, and Caltech's required ethical-use-of-AI acknowledgement | No current draft. Write the whole set as a coordinated STEM and human snapshot, not a publication list. [Official essay page](https://www.admissions.caltech.edu/apply/first-year-applicants/supplemental-application-essays) |
+| Stanford | REA 1 Nov 2026; RD 5 Jan 2027 | Three short essays plus five short answers, including learning, contribution, roommate, and personal-interest prompts | Common App, transcript, recommendations, testing/English documents as applicable | Draft set exists; strongest piece is the FPL learning essay. [Official application page](https://admission.stanford.edu/apply/first-year/apply.html) |
+| Carnegie Mellon | ED 3 Nov 2026; RD 5 Jan 2027 | Three CMU essays, with a major/college-specific response depending on the chosen school | Common App, transcript, school report, recommendations, testing/English documents as applicable | No current draft. Do not add a portfolio unless the selected CMU college requires it. [Official deadlines](https://www.cmu.edu/admission/admission/application-plans-deadlines) |
+| University of Pennsylvania | ED 1 Nov 2026; RD 5 Jan 2027 | Two Penn-wide essays plus one undergraduate-school-specific essay; special programs can add essays | Common App, transcript, counselor and teacher recommendations, testing/English documents as applicable | No current draft. Select the undergraduate school before drafting the school-specific response. [Official first-year page](https://admissions.upenn.edu/admissions-and-financial-aid/admissions-process/application-materials) |
+| Cornell | ED 1 Nov 2026; RD 2 Jan 2027 | Cornell-wide essay plus the essay for the chosen undergraduate college/school | Common App, transcript, recommendations; portfolio only if required by the chosen program | No current draft. Computer Science college selection determines the second essay. [Official first-year page](https://admissions.cornell.edu/how-to-apply/first-year-applicants) |
+| Johns Hopkins | ED I 1 Nov 2026; ED II/RD 2 Jan 2027 | One Hopkins supplement, currently a 350-word community/bridge-building response | Common App, transcript, activities, Hopkins supplement, recommendations, SAT/ACT, and English evidence if required | No current draft. Use the teaching or club-collaboration material rather than repeating the personal statement. [Official requirements](https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/) |
+| Dartmouth | ED 1 Nov 2026; RD 1 Jan 2027 | Dartmouth-specific short essays and short answers; exact prompts change annually | Common App, transcript, recommendations, testing/English documents as applicable | No current draft. Keep this separate from MIT/Stanford community material. [Official first-year page](https://admissions.dartmouth.edu/apply/first-year-applicants) |
+| Duke | ED 2 Nov 2026; RD 4 Jan 2027 | Duke short-answer/essay supplement; some optional responses may appear in the live form | Common App, transcript, school report, counselor and two teacher recommendations; SAT/ACT optional; optional interview/arts supplement | No current draft. Use one specific Duke academic/community reason, not generic prestige language. [Official application page](https://admissions.duke.edu/apply/) |
+| Brown | ED 1 Nov 2026; RD 5 Jan 2027 | Brown short essays and short-answer questions | Common App, transcript, school report, recommendations, testing/English documents as applicable | No current draft. The essays should show range beyond research. [Official first-year page](https://admission.brown.edu/first-year/application-checklist) |
+| Rice | ED I 1 Nov 2026; ED II/RD 4 Jan 2027 | Academic-interest response (150), why Rice response (150), and one community/background response (500) | Common App, transcript, counselor and two teacher recommendations; optional interview/video; portfolio only for relevant programs | No current draft. Rice is one of the clearest places to use Future Lab plus community contribution. [Official requirements and prompts](https://admission.rice.edu/apply/first-year-domestic-applicants) |
+| Washington University in St. Louis | ED 1 Nov 2026; RD 5 Jan 2027 | WashU school-specific response; confirm the exact live prompt and limit before drafting | Common App, transcript, school report, recommendations, testing/English documents as applicable | No current draft. Use a concise academic/community fit response rather than another research abstract. [Official first-year page](https://admissions.wustl.edu/how-to-apply/) |
+
+**US writing status:** the final personal statement is ready as a 643-word draft. MIT, Stanford, and Princeton have working supplement drafts. Purdue and Virginia Tech files exist in the supplement archive but are not in the current university table; they should not be treated as active choices unless re-added deliberately. The Barrett Honors essay remains an outline only because its instructions require applicant-written work.
+
+### United Kingdom and Scotland - UCAS
+
+| University | 2027 deadline | Writing and application format | Cambridge A-level / English planning | Status |
+|---|---|---|---|---|
+| University of Aberdeen | 15 Oct 2026 only for Oxford/Cambridge choices, Medicine, Dentistry, and Veterinary Science; 13 Jan 2027 for most other courses | One UCAS application with the new three-question personal statement: why the course, academic preparation, and preparation outside school; 4,000 characters total and at least 350 characters per answer | Computing Science standard A-level requirement: BBC including Mathematics or two sciences; check the exact course page and English equivalence | UCAS draft exists. Late applications may be considered if places remain, but normal-deadline applicants receive priority. [2027 prospectus](https://www.abdn.ac.uk/media/site/study/documents/Undergraduate-Prospectus-2027.pdf) |
+| University of Strathclyde | 13 Jan 2027, 18:00 UK time | Same UCAS three-question statement; no separate general university essay | Computer Science BSc Year 1 standard entry: BBB including Mathematics; Computer Science recommended. English proof depends on qualification profile | UCAS draft exists. Course is a realistic UK option if predicted grades meet the published bar. [Official course page](https://www.strath.ac.uk/courses/undergraduate/computersciencebsc/) |
+| University of Glasgow | 13 Jan 2027, 18:00 UK time | UCAS three-question statement; no separate general essay | Computing Science typical A-level range is around AAB-AAA depending on the route; Mathematics is important. Confirm the exact Computer Science course and qualification table before submission | UCAS draft exists. Treat the more selective Glasgow route as a target/reach depending on predicted grades. [2027 UCAS course listing](https://www.ucas.com/explore/courses/caad5a6b-6ec9-e807-b3a0-abfce7473fc0/computing-science?studyYear=2027) |
+
+The UCAS 2027 equal-consideration deadline is **13 January 2027 at 18:00 UK time** for most courses. The 15 October 2026 deadline is not a general deadline for these CS applications unless an Oxford/Cambridge, Medicine, Dentistry, or Veterinary Science choice is included. [UCAS dates](https://www.ucas.com/undergraduate/applying-university/ucas-undergraduate-when-apply)
+
+### Ireland
+
+| University | Route and deadline | Essays / statement | Main documents and checks | Status |
+|---|---|---|---|---|
+| Trinity College Dublin | Non-EU applicants apply directly through Trinity; most 2027 dates are expected to follow the international cycle, but the final 2027 closing date is TBC. The CAO route is for EU/EEA/UK/Swiss fee-status applicants and has separate dates | 500-word personal statement: why Trinity and the course, contribution to the community, and intended use of the degree; one counselor and one teacher reference | Cambridge A-level requirements vary by course, generally including Mathematics for computing; English can be met through accepted school qualifications or IELTS 6.5 / Duolingo 120 / TOEFL 90, subject to the live guide | Statement material is available in the Ireland status file; direct non-EU route must be confirmed for your fee status. [International admissions guide](https://www.tcd.ie/study/assets/PDF/Trinity_International_Admissions_Brochure_2026.pdf) |
+| University College Dublin | Non-EU applicants generally apply directly through UCD; exact 2027 closing date depends on course and applicant category | No universal undergraduate essay currently confirmed; submit a statement only if the live UCD application or the chosen programme requests one | Qualification equivalence, Mathematics prerequisite for computing, transcript, passport/ID, English evidence, and any programme-specific documents | Do not upload the Common App essay automatically. Check the selected Computer Science course portal. [UCD international application guidance](https://www.ucd.ie/registry/prospectivestudents/admissions/) |
+
+### Australia
+
+| University | 2027 deadline / intake | Writing requirement | Main requirements | Status |
+|---|---|---|---|---|
+| University of Queensland | Semester 1 2027: direct international applications should be submitted by 30 Nov 2026 in the general calendar; QTAC major offer round is 14 Jan 2027. Some programmes have earlier dates | No universal undergraduate personal essay; admission is primarily qualification, prerequisite, English, and document based | Certified transcripts, passport/ID, Cambridge A-level equivalence, Mathematics prerequisite for computing, and English evidence; portfolio/interview only if the programme specifically requires it | Use the academic UCAS material only if the portal asks for a statement. [Official application dates and documents](https://study.uq.edu.au/admissions/undergraduate/submit-your-application) |
+
+### Foreign-university campuses in India
+
+| University | Latest published deadline / intake | Writing and selection requirements | Main academic / English checks | Status |
+|---|---|---|---|---|
+| University of Aberdeen Mumbai | 2026 closed 14 Sep; 2027 TBC | Direct campus application; statement/achievements may be considered; interview if requested | Published Mumbai bar is around A-level BBC for relevant programmes; confirm English and final course page | Next cycle, not late. [Mumbai admissions](https://www.abdn.ac.uk/mumbai/admissions/) |
+| University of Liverpool Bengaluru | 2026 deadline 31 Aug; 2027 TBC | Direct application; Statement of Purpose/personal statement required; interview only for selected applicants where required | A-level ABB, GCSE Mathematics and English equivalents; A-level English grade B may meet English evidence | Next cycle, not late. [Bengaluru admissions](https://www.bengaluru.liverpool.ac.uk/admissions/) |
+| University of York Mumbai | 2026 deadline 15 Sep, subject to availability; 2027 TBC | Direct application; personal statement and structured interview for shortlisted applicants; interview may be waived for exceptional academics | Published undergraduate bar around 75% Standard XII or equivalent; computing requires Mathematics; IELTS 6.5/6.0 bands where English proof is needed | Next cycle, not late. [Mumbai admissions](https://www.mumbai.york.ac.uk/admissions/) |
+| UNSW Bengaluru | First 2026 intake closed; 2027 intake TBC | Direct application; no universal essay listed for the first intake; selection is based on ranked academic merit and capacity | A-level aggregate listed as 12 for Computer Science, 11 for Data Science, 10 for Business; predicted A-levels accepted under the stated conditions; English evidence as required | No late applications after a term cutoff. [How to apply](https://www.unsw.edu.au/bengaluru/study-with-us/how-to-apply) |
+| Illinois Tech Mumbai | 2026 application deadline 15 Sep; rolling review may continue only if seats remain | Direct online application; personal statement/essay, transcript, and interview; recommendation letters and SAT/ACT optional | Holistic review; English options include accepted school qualifications or Duolingo/IELTS/TOEFL under the published rules | 2027 is a new cycle. Apply early because seats and scholarships may be limited. [Undergraduate requirements](https://www.iit.edu/mumbai/admissions/undergraduate-admissions-and-degree-requirements) |
+| University of Bristol Mumbai Enterprise Campus | 2026 final round ran to start of term, subject to seats; 2027 TBC | Direct application; programme-specific written responses and possible interview/selection steps must be checked in the live portal | Data Science published bar includes strong Mathematics/Further Mathematics requirements; verify 2027 equivalence | 2026 was a late seat-dependent round; 2027 will be a fresh cycle. [Admissions](https://www.mumbai.bristol.ac.uk/admissions/) |
+| University of Western Australia India | Chennai majority of programmes planned for March 2027; exact deadline TBC | Direct campus application; no universal essay confirmed; course-specific screening may apply | A-level equivalence and English proof; final programme availability and required Indian approvals must be checked | Upcoming intake, not late, but keep approval/course confirmation as a condition. [UWA India campus](https://india.uwa.edu.au/campus) |
+
+**Important:** a published minimum is an eligibility threshold, not an admission guarantee. The live application portal and official course page override this planning sheet if a date, prompt, or document list changes.
+
+## United Kingdom and Scotland
+
+| University | Location | Program / Major | Early or Regular | 2027 deadline | Writing / application route | Status / Notes |
+|---|---|---|---|---|---|---|
+| University of Aberdeen | Aberdeen, Scotland | Computing Science | UCAS regular | 13 January 2027, 18:00 UK time; 15 October only for Oxford/Cambridge, Medicine, Dentistry, or Veterinary Science choices | UCAS three-question personal statement; no separate general essay | A-level BBC including Mathematics or two sciences for the standard Computing Science route. Late applications may be considered if vacancies remain, with priority to on-time applications. |
+| University of Strathclyde | Glasgow, Scotland | Computer Science BSc | UCAS regular | 13 January 2027, 18:00 UK time | UCAS three-question personal statement; no separate general essay | Standard Year 1 entry BBB including Mathematics; Computer Science recommended. |
+| University of Glasgow | Glasgow, Scotland | Computing Science | UCAS regular | 13 January 2027, 18:00 UK time | UCAS three-question personal statement; no separate general essay | Typical A-level range around AAB-AAA depending on route; confirm exact course and Mathematics requirement. |
+
+## Australia
+
+| University | Location | Program / Major | Early or Regular | 2027 deadline | Writing / application route | Status / Notes |
+|---|---|---|---|---|---|---|
+| University of Queensland | Brisbane, Australia | Computer Science / Computer Science major | Regular international | 30 November 2026 general Semester 1 closing date; some programs may close earlier | Direct international application; no universal personal essay | Transcript, passport/ID, qualification equivalence, Mathematics prerequisite, and English evidence. [Official dates and documents](https://study.uq.edu.au/admissions/undergraduate/submit-your-application) |
+
+## Foreign-university campuses in India
+
+- [ ] Finalize reach / match / safety balance across the 20
+- [ ] Finalize reach / match / safety balance across the 29 tracked universities
+- [ ] Register for / confirm standardized tests

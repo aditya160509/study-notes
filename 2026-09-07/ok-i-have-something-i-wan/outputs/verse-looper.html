@@ -13,13 +13,20 @@
   .translit { font-style: italic; color: #d8cfff; }
   .words { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 18px; }
   h2 { color: #8ff0ae; font-size: 20px; margin-bottom: 8px; }
+  #speed { width: 75%; accent-color: #1ed760; vertical-align: middle; }
+  #speedValue { display: inline-block; min-width: 48px; color: #8ff0ae; font-weight: 700; }
   @media (max-width: 560px) { .words { grid-template-columns: 1fr; } }
 </style>
 <h1>Verse Looper</h1>
-<p>13:34–13:45 · loops until you stop it</p>
+<p>13:35–13:45 · loops until you stop it</p>
 <button id="play">Play loop</button>
 <button id="stop">Stop</button>
-<audio id="audio" src="verse-13m34s-13m45s-exact.mp3" loop></audio>
+  <audio id="audio" src="verse-13m35s-13m45s-exact-v2.mp3" loop></audio>
+<p>
+  <label for="speed">Speed: </label>
+  <input id="speed" type="range" min="0.5" max="1.5" step="0.05" value="0.75">
+  <span id="speedValue">0.75×</span>
+</p>
 <section class="lyrics">
   <h2>Verse 46</h2>
   <div class="sanskrit"><strong>विस्तारः स्थावरस्थाणुः प्रमाणं बीजमव्ययम्।<br>अर्थोऽनर्थो महाकोशो महाभोगो महाधनः॥४६॥</strong></div>
@@ -43,5 +50,12 @@
   const audio = document.getElementById('audio');
   document.getElementById('play').onclick = () => audio.play();
   document.getElementById('stop').onclick = () => { audio.pause(); audio.currentTime = 0; };
+  const speed = document.getElementById('speed');
+  const speedValue = document.getElementById('speedValue');
+  speed.oninput = (event) => {
+    audio.playbackRate = Number(event.target.value);
+    speedValue.textContent = `${Number(event.target.value).toFixed(2).replace(/0$/, '')}×`;
+  };
+  audio.playbackRate = 0.75;
 </script>
 </html>
