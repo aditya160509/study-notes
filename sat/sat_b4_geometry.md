@@ -1085,7 +1085,7 @@ Area: $25\pi$.
 
 **Definition:** The equation $(x - h)^2 + (y - k)^2 = r^2$ describes every point exactly $r$ units from the center $(h, k)$. It is just the distance formula squared: the distance from $(x,y)$ to $(h,k)$ equals $r$.
 
-$$(x - h)^2 + (y - k)^2 = r^2$$ `(MUST MEMORIZE)`
+$(x - h)^2 + (y - k)^2 = r^2$ `[MUST MEMORIZE]`
 
 Center $(h, k)$, radius $r$.
 
