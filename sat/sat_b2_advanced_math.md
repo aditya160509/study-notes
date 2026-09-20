@@ -919,7 +919,7 @@ Touch at $-2$ gives even multiplicity $(x+2)^2$; cross at $1$ gives $(x-1)$; end
 
 ❌ **Percent trap:** $1.08$ is an $8\%$ increase (NOT $108\%$). $0.92$ is an $8\%$ decrease (NOT $92\%$).
 
-[Medium] A car worth $\$25,000$ depreciates by $12\%$ each year. Which function models its value after $t$ years?
+[Medium] A car worth \$25,000 depreciates by $12\%$ each year. Which function models its value after $t$ years?
 
 A) $V(t) = 25000(0.12)^t$
 B) $V(t) = 25000(0.88)^t$
