@@ -2,6 +2,22 @@
 
 A private, local-first application built around Aditya Balaji's 2027 university list. It tracks official application pages, deadlines, fee-waiver research, editable outreach drafts, follow-up dates, and responses for 29 institutions.
 
+## Live
+
+https://waive-aditya-balajis-projects.vercel.app — public. Deployment
+protection is off, so anyone with the link can open it. `robots.txt` and an
+`X-Robots-Tag: noindex` header keep it out of search engines, but the link
+itself is the only thing standing between this page and a stranger.
+
+Note that the seeded Common App personal statement is compiled into the
+JavaScript bundle, so it travels with the link. Everything you type afterwards
+stays in your own browser's local storage and is never uploaded. To take the
+site private again:
+
+```bash
+cd app && npx vercel project protection enable waive --sso
+```
+
 ## Run it
 
 ```bash
