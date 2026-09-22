@@ -14,6 +14,39 @@ Open the local address shown by Vite. For a production build, run `npm run build
 
 ## Included
 
+### Verified research layer
+Fee-waiver routes, international aid policy, deadlines and requirement lists are
+researched from each institution's own site and stored in `app/src/research.ts`
+with a source URL and a verification date shown beside every value. Anything
+older than 30 days is flagged for re-checking. See `docs/research-queries.md`.
+
+### One page per university
+Overview, Requirements, Essays, Documents, Recommendations, Fee waiver,
+Financial aid, Emails, Timeline, Submission audit and Decision — everything for
+one institution on one screen. Official requirements convert to tracked tasks in
+a click.
+
+### Tasks, recommendations, documents
+A seven-state task system (Not started through Confirmed received) with due
+dates, priority, owner, links and notes; due-today / this-week / 30-day /
+waiting-on-someone / overdue views and a month calendar. Recommenders are
+tracked by request, assignment and confirmation — never by letter content.
+Documents record status and location only; no sensitive file is copied into
+browser storage.
+
+### Email centre and submission audit
+Per-university drafts with duplicate-send warnings, reply tracking, follow-up
+dates and an Open-in-Gmail action. Nothing is ever sent automatically. The
+submission audit checks essays, contacts, deadlines, fee route, aid policy and
+recommenders automatically, then gates the rest behind a manual confirmation
+list.
+
+### Comparison, portfolio, command palette
+An editable-weight comparison table (no hidden ranking), a research and maker
+portfolio with per-university reuse tracking, and a ⌘K palette across every
+university, essay, task, story and contact.
+
+
 - The current 29-school list from `aditya/voice-profile.md`, grouped by region
 - Common App, MIT, UCAS, and direct-application routes
 - Fall 2027 deadlines already present in the source material
