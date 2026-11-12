@@ -13,9 +13,11 @@ trap 'rm -f "$temporary"' EXIT HUP INT TERM
   for source in \
     "$script_dir/us/mit/essays.md" \
     "$script_dir/us/stanford/essays.md" \
-    "$script_dir/us/princeton/essays.md" \
-    "$script_dir/us/purdue/essays.md" \
+    "$script_dir/us/ea/purdue/essays.md" \
     "$script_dir/us/virginia-tech/essays.md" \
+    "$script_dir/us/ea/uiuc/essays.md" \
+    "$script_dir/us/umd/essays.md" \
+    "$script_dir/us/ea/umass/essays.md" \
     "$script_dir/uk/ucas.md"
   do
     printf '\n---\n\n'
@@ -26,3 +28,4 @@ trap 'rm -f "$temporary"' EXIT HUP INT TERM
 
 mv "$temporary" "$output"
 trap - EXIT HUP INT TERM
+

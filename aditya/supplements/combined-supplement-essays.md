@@ -14,53 +14,55 @@
 
 This set should show intellectual direction, self-made learning, responsible technical work, a leadership failure, play, family admiration, conversational curiosity, and cross-disciplinary range. Do not add another publication story.
 
-## Field of study: 122 words
+## Field of study: 136 words
 
-Computer Science appeals to me because it lets me test explanations rather than leave them as stories.
+On Friday nights before the Fantasy Premier League deadline, my group chat settles on a captain within minutes. Millions of other managers seem to settle on the same one.
 
-I first saw that difference while studying Fantasy Premier League. Millions of managers could see almost the same information, yet ownership still clustered around choices the data did not support. Economics gave me ways to think about incentives, imitation, and risk. Code let me measure those choices across gameweeks and build a simulated market where different kinds of traders could interact.
+That is how I ended up in Computer Science. I noticed that a player who had just scored picked up owners the next week, even when his underlying chances were no better than before. Economics gave me words for it: imitation, risk, luck mistaken for skill. Code let me check it across hundreds of gameweeks, and then build a small market of simulated traders to see which kinds of copying produce that pattern.
 
-That movement between an observed pattern and a system I can disturb is what keeps me in Computer Science. When I change an agent's behavior and rerun the market, an explanation does not just have to sound convincing; I can see whether it survives.
+I still like the building most. I change how one kind of trader decides, press run, and wait to see whether my explanation survives. Usually it shows me something I had assumed without noticing.
 
-## Different educational journey: 130 words
+## Different educational journey: 137 words
 
-“Neural Tangent Kernel” sounded like a warning that I had arrived several years too early. I was an A-Level student; the papers I found assumed mathematics I had never formally studied.
+“Neural Tangent Kernel” sounded like a warning that I had arrived several years too early. I was an A-Level student. The papers I found assumed mathematics I had never formally studied.
 
-Then I listed what the derivation actually used: matrices, eigenvalues, Taylor series, and differential equations. I had met each piece in Further Mathematics, just never in the same room, so I rebuilt the argument around what I knew and filled the gaps as they appeared. I finished with a two-neuron network calculated line by line; if I could not explain what a symbol was doing, it did not stay on the page.
+Then I listed what the derivation actually used: matrices, eigenvalues, Taylor series, and differential equations. I had met each piece in Further Mathematics, just never in the same room, so I rebuilt the argument around what I knew and filled the gaps as they appeared. To check myself, I worked through a two-neuron example by hand, line by line. If I could not explain what a symbol was doing, it did not stay on the page.
 
-The resulting exposition became a curriculum I had made for myself. After that, the syllabus stopped feeling like a list of what I was allowed to know.
+The notes I ended up with were a course I had written for myself. After that, the syllabus stopped feeling like a list of what I was allowed to know.
 
-## Problems and community impact: 163 words
+## Problems and community impact: 158 words
 
-An incident-response model can sound certain while inventing the number that matters most. While building Glassbox, I made impact figures come directly from monitoring data and reconstructed timelines from stored events. The model could interpret evidence; it could not manufacture it.
+A model that investigates server outages can sound completely certain while inventing the one number that matters. So when I built Glassbox, I did not let it write numbers at all. Impact figures come from monitoring data; timelines are rebuilt from stored events. The model can explain the evidence. It cannot add to it.
 
-While teaching basic mathematics and English, I watched my friend explain ideas the children understood while my own words produced polite nods and almost no work. We split them into teams, and a child who had avoided answering raised his hand for an algebra problem because getting it right meant beating his friend. Whether he got it right mattered less to me than the fact that he wanted to try.
+Teaching maths in villages near my school, I hit the opposite problem. My explanations were correct, and the children nodded politely and did nothing with them. My fellow volunteer's examples landed. The children did not need more evidence. They needed a way in, and games gave them one.
 
-Both experiences made me wonder what someone needs to see before an answer becomes useful rather than merely convincing. At MIT, I want to pursue that question through the Interaction & Alignment group, testing what I build with people who did not write the code and watching where the explanation loses them.
+That is the pair of problems I want to work on: answers people can check, and explanations people can actually use. MIT's Interaction & Alignment group studies how people work with AI systems. I would want to test what I build on people who did not write the code, and watch where they stop believing it.
 
-## Unexpected challenge: 200 words
+## Unexpected challenge: 198 words
 
-For Future Lab, I divided the build into backend, frontend, calculations, and database work. We had five phases, each with a list of features that had to work before we expanded. On paper, everyone owned something. In practice, I remained the only person holding the system in my head.
+Future Lab was supposed to be a team project. I split it four ways: backend, frontend, calculations, database. On paper, everyone owned something. In practice, I was the only one carrying the whole system in my head.
 
-The backend calculation layer failed first. It accepted raw model estimates as calculations, passed through hallucinated values, and had barely tested edge cases. I immediately thought I should never have handed it over, so I took it back. Another teammate needed help getting started, and the work still ended unevenly. Our checkpoints told us whether the required features ran; they did not tell me whether everyone understood how their part affected the rest.
+It showed when we put it together. Each person had built toward their own idea of the product, so we had four pieces that happened to share a name. The calculation layer was passing raw model estimates through as results, hallucinated numbers included, and nobody downstream knew to check. I took it back and fixed it myself, which felt efficient and was exactly the problem.
 
-I had confused assigning work with sharing ownership. Sharing ownership meant giving others enough context to make choices I had not prescribed, then not grabbing the work back when fixing it myself felt faster. By the end, the project worked, but the ownership was still mostly mine. On the next build, each person owned one layer, another teammate reviewed it before the following layer began, and every handoff had a checklist detailed enough to make “done” mean something.
+Our checkpoints told us whether features ran. They never asked whether we were building the same thing. I had confused handing out work with sharing ownership.
 
-## Fun: 40 words
+On the next build, we argued about what the product had to do, and how each part would talk to the others, before anyone wrote a line. Each person owned one layer, and someone else reviewed it before it joined the rest. When something broke, the person who owned it found the problem without me. For the first time, I was not the only one who knew how it worked.
 
-I play football or pickleball with three or four close friends. No datasets, no paper hiding inside it for once. We argue about rules, keep playing after someone says “last game,” and remember the score differently on the way home.
+## Fun: 50 words
+
+Football or pickleball with the same three or four friends. In football I am usually in goal, so every goal we concede is mine and every win is someone else's. We argue about rules, stay longer than we said we would, and remember the score differently on the way home.
 
 ## Someone admired: 48 words
 
 After my grandfather’s heart attack and death, my father handled hospitals, relatives, rituals, and work without making us feel he was the one who needed help. Even now, he goes to my grandmother’s after work and eats with her. I still don’t know where he put his grief.
 
-## Topic for hours: 43 words
+## Topic for hours: 49 words
 
-Why do millions of Fantasy Premier League managers, looking at nearly identical information, converge on the same wrong players? I can talk for hours about copied confidence, price changes, risk, interfaces, and the strange moment when a game begins behaving like a market.
+The stock market, with one particular friend. Name any company and we will sit for hours arguing about its debt, its competitors, what is already priced in, and whether the popular pick is just the crowded one. Nobody ever wins. I usually change my mind twice before we leave.
 
-## Generalist or specialist: 36 words
+## Generalist or specialist: 47 words
 
-Generalist. I rarely know at the start whether a question will need a proof, a script, economics, or football data. I follow it until something breaks, then borrow whatever field helps me understand why it broke.
+Generalist. My projects have gone from blueberries and the bees that pollinate them to fantasy football. I rarely know at the start whether a question needs a proof, a script, some economics, or football data. I follow it until something breaks, then borrow whatever field explains why.
 
 ## Research judgment
 
@@ -69,7 +71,6 @@ MIT explicitly says these essays are not a writing test and should show honest s
 ## Fact checks needed
 
 - The five phases and required-feature checkpoints are verified.
-- Is “last game” a phrase the friend group actually uses?
 - Confirm MIT’s field-of-study dropdown choice; select Computer Science unless 6-14 is a real preference.
 
 
@@ -84,57 +85,57 @@ MIT explicitly says these essays are not a writing test and should show honest s
 
 Stanford says the questions introduce a future friend, roommate, and classmate. Research belongs in the learning essay; the roommate note and five-things answer must remain domestic and ordinary.
 
-## Society’s most significant challenge: 49 words
+## Society’s most significant challenge: 45 words
 
-I hate how quickly knowing less can push someone out of a conversation. I have stayed quiet around people who seemed fluent because I was afraid one wrong sentence would expose me. When expertise becomes a test of who may speak, everyone loses the questions that never get asked.
+Opinions now spread like reels: one person posts, everyone reposts, and disagreeing starts to feel expensive. I am not immune. I have backed a group-chat football prediction before checking whether I believed it. When nobody checks, a bad idea can look exactly like a consensus.
 
-## Last two summers: 48 words
+## Last two summers: 50 words
 
-When my brother came home in summer 2025, we played downstairs almost daily and ate out each weekend before AS Level began. By summer 2026, school preparation, research revisions, and new projects filled most days. I did not notice the holiday disappearing until there was hardly any left.
+Summer 2025 was my brother's last long stretch at home. We played downstairs almost every day, tested every gadget we could get our hands on, and ate out every weekend. Summer 2026: exams in May and June, then an internship watching live market data move faster than I could think.
 
-## Historical moment: 44 words
+## Historical moment: 43 words
 
-Michael Jackson's 1996 concert at Andheri Sports Complex, his only performance in India. I have watched it online and heard his music through headphones. I want to hear how Mumbai sounded when the first notes began, and what everyone argued about in traffic afterward.
+Michael Jackson at Andheri Sports Complex, 1996, his only concert in India. I have only ever watched it online, through headphones. I want to hear what Mumbai sounded like when the first notes hit, and what everyone argued about in the traffic afterward.
 
 ## Extracurricular activity: 48 words
 
-In one football tournament, I faced twelve penalties and helped us reach the final. Then a national-level side overwhelmed us. I still received best goalkeeper, but I barely wanted the trophy. It recorded the whole tournament; I was replaying only the match in which I could do nothing.
+In a handball tournament, I faced twelve penalties and helped get us to the final. Then a national-level side buried us. I still won best goalkeeper and barely wanted the trophy. It counted the whole tournament. I was only replaying the one match where I could do nothing.
 
-## Five important things: 43 words
+## Five important things: 34 words
 
-My parents; the MacBook holding years of unfinished and finished work; quiet time at a temple; one idli-sambar at Dakshinayan after an hour in traffic and another hour waiting; football or pickleball with the friends who always turn “last game” into three more.
+My parents. Quiet time at the temple. Idli-sambar at Dakshinayan, worth the hour of traffic and the hour of waiting. Football with friends. The Harry Potter lines I still quote at the wrong moments.
 
-## Excited about learning: 201 words
+## Excited about learning: 214 words
 
-On Friday nights, before the Fantasy Premier League deadline, every choice starts sounding contagious. One manager captains a player; a group chat follows; ownership rises before the match begins. I wanted to know whether we were exchanging information or merely exchanging confidence.
+Friday night, an hour before the Fantasy Premier League deadline, every choice starts to sound contagious. One manager captains a player, a group chat follows, and ownership rises before the match begins. I wanted to know whether we were exchanging information or just exchanging confidence.
 
-I began measuring the gap between the players the data favored and the players managers actually owned. The game became a record of imitation, risk, and interface design. A player’s recent score could outweigh weeks of evidence; an ownership percentage could make a decision feel safe because millions of strangers had made it too.
+I began measuring the gap between the players the data favored and the players managers actually owned. Some of it looked like people copying people, though I could never fully separate copying from everyone reading the same news. A player’s recent score could outweigh weeks of evidence. An ownership percentage could make a decision feel safe because millions of strangers had made it too.
 
-What excited me was that the question refused to stay inside one subject. Economics helped explain incentives. Statistics let me test whether the gap persisted. Code made hundreds of gameweeks manageable. Football kept interrupting the model because a red card, injury, or manager’s decision could undo the cleanest prediction.
+The question refused to stay in one subject, which was the fun part. Economics helped explain incentives. Statistics let me test whether the gap persisted. Code made hundreds of gameweeks manageable. Football kept interrupting the model because a red card, injury, or manager’s decision could undo the cleanest prediction.
 
 I eventually built a larger study around that gap, but I still return to the game before each deadline. Knowing how herd behavior works has not made me immune to it. Sometimes I can watch myself wanting the popular choice precisely because it is popular. That is the part I enjoy most: the dataset includes me.
 
-## Future roommate: 214 words
+## Future roommate: 211 words
 
 Hi roommate,
 
-I sleep around 10:30 and usually wake up between six and seven without much help from an alarm. This sounds disciplined until you learn that I may forget where I left the room key five minutes earlier. I like the room clean and my browser limited to whatever I am working on; twenty unrelated tabs make me nervous.
+Fair warning first: I sleep around 10:30 and usually wake up between six and seven without much help from an alarm. This sounds disciplined until you learn that I may forget where I put something five minutes earlier. I like the room clean and my browser limited to whatever I am working on. Twenty unrelated tabs make me nervous.
 
-I work at my desk, often with quiet music. My family calls frequently, sometimes in the middle of the afternoon just to ask, “Khana khaya ki nahi?” You will know what it means within a week. If an important football match is on, the early bedtime becomes negotiable.
+I work at my desk, often with quiet music. My family calls often, sometimes in the middle of the afternoon just to ask, “Khana khaya ki nahi?” (Have you eaten?) If an important football match is on, the early bedtime becomes negotiable.
 
-Food is easy: take mine. I am happiest with South Indian food, though I will travel an unreasonable distance and wait an unreasonable amount of time for one idli-sambar at Dakshinayan. I will join almost any football or pickleball game, especially the ones that are supposed to end after “one last round.”
+Food is easy: take mine. I am happiest with South Indian food, though I will travel an unreasonable distance and wait an unreasonable amount of time for one idli-sambar at Dakshinayan. I will join almost any football or pickleball game, especially the ones that run an hour past when we said we would stop.
 
-One warning: I can turn a casual question technical without noticing. If you ask why something happened, you may receive variables. You are allowed to stop me. In return, I will keep the room quiet when you need it, share whatever I have, and probably be awake before you when we lose the key.
+One warning: I can turn a casual question technical without noticing. If you ask why something happened, you may receive variables. You are allowed to stop me. In return, I will keep the room quiet when you need it, share whatever I have, and probably be awake before you, looking for whatever I misplaced.
 
-## Distinctive contribution: 170 words
+## Distinctive contribution: 157 words
 
-The first mathematics lessons I taught were correct and mostly useless. I explained the rule, asked whether everyone understood, and received a roomful of answers I could not trust.
+The first maths lessons I taught were correct and mostly useless. I explained the rule, asked if everyone understood, and got a roomful of yeses I could not trust.
 
-I began dividing the children into teams. One child who had barely responded worked through an algebra problem because getting it right meant beating his friend. When he succeeded, he celebrated the victory. I did not mind that algebra came second.
+So we split the children into teams. One boy who had barely said a word worked through an algebra problem because getting it right meant beating his friend. He celebrated like he had scored. I did not mind that algebra came second.
 
-That room changed what I pay attention to in any group. I notice when a conversation assumes too much background, when “yes” means “please move on,” and when a correct explanation has made the room smaller. I try another entrance: a game, a rough diagram, or a question people can disagree over before they know the formal language.
+Since then, I notice different things in a group: when a conversation assumes too much background, when "yes" means "please move on," when a correct explanation has made the room smaller. Then I try another way in: a game, a rough diagram, a question people can argue about before they know the formal words.
 
-At Stanford, I would bring that habit to seminars, project teams, and late-night explanations between roommates. I will also need classmates to use it on me. When I get excited, I still move too quickly and mistake saying more for explaining better.
+At Stanford, I want problem-set groups where saying "I'm lost" early is normal, including for me. When I get excited, I still talk too fast and mistake saying more for explaining better.
 
 ## Research judgment
 
@@ -150,156 +151,208 @@ The learning essay is the strongest piece in this set because FPL is both seriou
 
 ---
 
-# Princeton: 2026–27 Supplemental Essays
+# Purdue: 2026-27 Supplemental Essays
 
-**Status:** Draft V1.2  
-**Degree assumption:** B.S.E. Computer Science  
-**Official source:** [Princeton-specific questions](https://admission.princeton.edu/apply/princeton-specific-questions)
+**Status:** Draft 4 (voice pass). Limit: 250 words each.
+**Prompts:** (1) How will opportunities at Purdue support your interests, both in and out of the classroom? (2) Briefly discuss your reasons for pursuing the major you have selected. (Most 2026-27 sources print it as "...your reasons for choosing your major and your interest in studying at this campus location (Indianapolis or West Lafayette)". Essay 2 answers the campus clause so it works either way. Verify the live Common App wording.)
 
-## B.S.E. Computer Science: 207 words
+## Opportunities at Purdue: 243 words
 
-I became interested in engineering when my programs stopped being private experiments. A model I understand alone is not enough if a teammate cannot inspect its trade-offs or an incident responder cannot verify its numbers.
+Most of my solo research prototypes had a forgiving customer: me. If I misread an output or moved the goal halfway through, I fixed it quietly and nobody knew.
 
-For my STEM Racing team, I built Daedalus to compare car designs under uncertainty. The first temptation was to make the optimizer more powerful. The harder task was making every recommendation traceable: which equation produced it, which assumption moved it, and where the design stopped being reliable. In Glassbox, an incident-response system, I faced a related problem. A language model could interpret evidence, but impact figures had to come directly from monitoring data. Sounding certain was not evidence.
+EPICS would take that away. Its teams build for nonprofit partners who act as customers, and a partnership can last several semesters. A partner will not let me explain away a confusing screen. I want to see my work the way a person who did not write it sees it.
 
-These projects made me want to study Computer Science as the engineering of accountable systems. Princeton’s B.S.E. foundations would deepen the algorithms and systems behind my work, while required independent work would let me stay with one question long enough to have my assumptions challenged: can a recommender explain its failure modes to someone who did not build it? I am drawn to the Center for Information Technology Policy because the question does not end when the code works. Once people rely on a system’s answer, its design becomes a question of responsibility too.
+I would pair that with research on how people use AI. Professor Ming Yin studies when people rely too much or too little on AI advice, including what changes when they get a second opinion. That is a question I never tested in Glassbox, my incident-response agent. It cites evidence for every number in its report, but I do not know whether that evidence helps an engineer catch a wrong diagnosis or only makes it sound more convincing. I would also apply to DUIRI, Discovery Park's undergraduate research internship, hoping to work on questions like that.
 
-## Your Voice: 448 words
+Outside class, I would join Boiler Quant. I already run a quant club of 25 to 30 members, so at Purdue I would rather be a member than a founder. I would ask for a team with a project already going and try to break its backtest the way I try to break mine. If they want a strategy tried against a simulated market, I would bring mine.
 
-I have a habit my friends notice before I do: a casual question becomes technical around me.
+## Why Computer Science (and West Lafayette): 222 words
 
-Someone asks why a football player’s price changed, and I begin talking about ownership and information. A conversation about an app becomes a discussion of what the interface is making people choose. I enjoy finding the machinery underneath things. The problem is that I can keep explaining after the conversation has stopped needing an explanation.
+"Investors herd" is an easy sentence to write. My research paper leaned on it to explain a number: the level of trading at which a market turns volatile. Statistics could show the jump was real. It could not show what behaviour produced it.
 
-At home and with friends, I move between Hindi and English without deciding where one ends. A thought can begin in one language, borrow the sharper phrase from the other, and finish as a mixture everyone around me understands. That ease disappears when the subject becomes technical; then I can mistake formal language for clear language.
+So I built NEXUS, a market where my guesses had to run. Each of its nine kinds of traders needed rules I had to write down. What can it see? Whom does it copy? How long does it remember? As code, "investors herd" needed a number of investors, a target, and a time limit, and each was a decision my sentence had skipped.
 
-That habit became obvious in my Quant Finance Club. During our first sessions, the other founders and I taught the Black–Scholes equation by walking through the stock price, strike price, time to expiry, volatility, and risk-free rate. We thought we were giving members the serious version. The club met at the end of a full school day; instead of curiosity, we got tired faces and a room that made finance feel like another class.
+That is why I chose Computer Science: code shows me which parts of an explanation I never actually made. I have used models I could not explain. I want to be able to explain them.
 
-We had answered a question nobody in the room was asking.
+I chose West Lafayette for the Computational Science and Engineering track, because modelling and simulating complex systems is what NEXUS already asked of me. I calibrated NEXUS by fitting simulated output to real data, an optimisation problem I learned piecemeal from papers. CS 31400, Numerical Methods, would teach me what that process rests on. CS 37300, Data Mining and Machine Learning, would let me look inside the XGBoost and LSTM models I put into NEXUS and see what they actually learned.
 
-Afterward, we changed the sessions. In one, I hosted a ten-door version of Monty Hall. A member chose one door; I opened eight empty ones, then asked whether to stay or switch. Several members said that with two doors left, it had to be fifty-fifty. The first door, however, still carried its original one-in-ten chance. People who had gone quiet started arguing. That argument gave us a way into how new information should change a decision, and how easily attention can settle on the wrong thing. The mathematics did not disappear. It arrived after there was something they wanted it to explain.
+## Notes
+- 23 Oct: opening changed from the old "volatility fell at peak attention" finding to the final paper's 1.39 threshold.
+- Verified: EPICS (nonprofit partners act as customers; teams can continue with a partner over multiple semesters; engineering.purdue.edu/EPICS/about; the draft does not say every project spans semesters). Ming Yin (human-AI interaction; "Does More Advice Help? The Effects of Second Opinions in AI-Assisted Decision Making", CSCW 2024). DUIRI (purdue.edu/discoverypark/duri/). Boiler Quant (boilerquant.com; Fall 2026 applications closed, so the essay says "join").
+- Verified on cs.purdue.edu (track-csen-fall2026.html, 20 Oct 2026): the Computational Science and Engineering track is offered at West Lafayette, "focuses on using computation to model, simulate, analyze, and optimize complex systems", and lists Numerical Methods (CS 31400) as a required course and CS 37300 as an applications option. Catalog form of course numbers used.
+- Essay 1 Yin sentence: please check the paper's abstract to confirm "judgment or only confidence" matches what it studies, since the paper is about second opinions.
 
-I still believe in going deep, sometimes deeper than the occasion requires. What has changed is that I pay more attention to whether other people have entered the question with me. I ask what they already see, where I lost them, and whether another explanation would leave more room for their own reasoning. I am not always good at this. When I get excited, I still move too fast and say more than I need to.
-
-At Princeton, I would probably carry a dining-hall argument into data, code, or a badly drawn diagram. I hope my classmates would learn that saying “I don’t get it” can improve a conversation rather than interrupt it. They would also be free to tell me, “Aditya, it was just a football question.” I will need that sometimes.
-
-## Service and civic engagement: 250 words
-
-I knew the mathematics I had been asked to teach. I did not know how to make a room of children want to listen to me teach it.
-
-My first attempts were explanations: stand in front, describe the rule, ask whether everyone understood. Communication was difficult, attention disappeared, and “yes” did not mean the idea had landed. I had treated knowing the topic as proof that I could teach it.
-
-My friend and I divided the children into teams and turned practice into games. During our second session, one child who had avoided answering raised his hand for an algebra problem because getting it right meant beating his friend. I do not remember whether his answer was right, but I remember the hand going up; competition had given him a reason to try that my explanation never did.
-
-Two sessions, one week apart, taught me to judge the lesson less by what I had covered and more by what the children attempted without me. Crowdfunding challenged me differently. To raise more than ₹25,000 for study kits, clothing, and footwear, I had to cold-call people I did not know and explain why they should care without begging or reciting a script.
-
-I used to think preparation was the respectful part: know the mathematics, plan the lesson, explain it correctly. Both experiences made me less certain. Sometimes the respectful thing is noticing that what I prepared is not working and changing it before the other person has to pretend that it is.
-
-## New skill: 45 words
-
-I want to learn Tamil properly. At my grandmother’s house, my father and paati speak it while I catch fragments and wait for someone to translate. It is my mother tongue, but not yet fully mine in practice. I want to enter that conversation myself.
-
-## Joy: 33 words
-
-Football or pickleball with three or four close friends, after somebody has already announced the last game. The score becomes disputed, the rules become negotiable, and nobody leaves when they said they would.
-
-## Soundtrack: 39 words
-
-Michael Jackson’s “Man in the Mirror.” I love his music, and this song fits the year almost annoyingly well. I spend a lot of time finding faults in models, papers, and other people’s explanations. Eventually, the mistake is mine.
-
-## Research judgment
-
-Princeton’s official structure makes each response perform a separate job. The B.S.E. essay establishes accountable systems and uses two verified Princeton mechanisms: required CS independent work and CITP. “Your Voice” uses Black–Scholes as the source of a communication failure, not as evidence that Aditya knows quantitative finance. The service essay must remain with the children rather than convert them into proof of leadership.
-
-## Fact checks needed
-
-- Confirm B.S.E. rather than A.B.
-- Confirm all five Black–Scholes inputs were explicitly taught in those first sessions.
-- Confirm whether members first chose one door and Aditya then revealed eight empty doors before offering the switch. This is the mathematically consistent version now drafted.
-- “Tamil is my mother tongue” must match family usage and Aditya’s own identification.
-- Confirm “Man in the Mirror” remains the chosen song at submission.
+## Questions for Aditya
+All answered 20 Oct 2026 (see supplements/questions-for-aditya.md).
 
 
 ---
 
-# Purdue: 2026–27 Supplemental Essays
+# Virginia Tech: 2026-27 Ut Prosim Profile
 
-**Status:** Draft V1.1; verify Common App limits before submission.
+**Status:** Draft 4 (voice pass)
+**Limit:** 120 words each (final once submitted)
+**Official source:** [Ut Prosim questions](https://www.vt.edu/admissions/undergraduate/apply/ut-prosim-short-answer-questions.html) (checked 15 Oct 2026)
 
-## Opportunities at Purdue: 239 words
+Prompts, abridged: (1) Share how you contribute to a community important to you; how long involved; what learned; how to share it at VT. (2) A time you or someone you know was not included; did you reach out for help; did you affect change; did it change your perspective. (3) A time you were most proud as a role model or leader; skills; how others relied on you; what you learned. (4) A goal, steps, why, timeline, who you seek encouragement or guidance from and how they support you.
 
-Most of my projects have had a forgiving client: me. If I misunderstood an output or changed the goal halfway through, I could quietly fix it. A community partner who has to live with the result would not give me that freedom.
+## Community: 109 words
 
-That is why Purdue’s EPICS program appeals to me. Its teams work on long-term problems defined with community and education organizations, where technical elegance is not the final judge. A partner may care more about cost, access, or whether the explanation makes sense, and I need to learn what happens when I cannot revise the definition of success by myself.
+I had never cold-called anyone before. Over three weeks, I phoned strangers and raised more than ₹25,000 for study kits, clothing, and footwear for children in villages near my school. The hard part was explaining what their money would become without sounding like a script.
 
-I would pair that work with undergraduate research through DURI. Professor Ming Yin studies how people decide when to trust AI-assisted advice, the human side of a problem I met while building Glassbox. I learned to separate model interpretation from monitoring data, but I still do not know whether showing more evidence helps someone judge a weak answer or simply makes it look more credible. Her work would give me a way to test that rather than assume the interface has solved it.
+Then came the slower work: counting what was bought, finding what was missing, making the second call. After that, I spent about six weeks teaching the same children. The first call was the easy part.
 
-Outside class, Boiler Quant is a natural place to contribute my experience building market simulators and a 13-week student curriculum. I would not want to recreate my school club under a new name. I would rather enter an existing group, learn how its project teams work, and help build experiments members can question together.
+At Virginia Tech, I would join The Big Event, take whatever task the project leader hands me, and stay for the slow part afterward: the recount, the follow-up call.
 
-## Why Computer Science: 222 words
+## Inclusion: 108 words
 
-A market result pulled me further into Computer Science: volatility sometimes fell when investor attention became most intense. Statistics could establish the pattern, but I wanted to test what kind of behavior might produce it.
+In my Quant Finance Club, I was the one leaving people out. In our first sessions, the same four or five people answered everything. I would ask if everyone understood, get a few nods, and keep going.
 
-I built an agent-based exchange with nine kinds of traders, then changed their rules and watched the effect appear or disappear. A paper could offer several plausible explanations for the same result, but in code each explanation had to become a set of rules precise enough to run. I had to decide what a trader could know, whom it would copy, and how long it would remember; every choice exposed an assumption I had previously left inside a sentence.
+I took it to the other founders, and we saw the problem: we were teaching as if everyone already knew finance. We rebuilt the sessions so they start with trading games, cards, and charts, and the equations come after. More people started talking, including members who had barely spoken in the first weeks.
 
-That is what draws me to Computer Science. It lets me turn a story about behavior into a mechanism, disturb it, and find the point where the story fails. I want stronger foundations in algorithms, probability, machine learning, and computer systems because I have already learned how quickly an experiment can outrun the theory beneath it. West Lafayette is where I want to pursue that work, inside Purdue’s main Computer Science research community and close to the DURI projects that would let one question continue beyond a class. I want to understand both what a computational model can reveal and what its design has quietly decided in advance.
+Now I do not trust nods. I ask what someone already knows before I decide where to begin.
 
-## Research judgment
+## Leadership: 99 words
 
-EPICS is the strongest Purdue-specific connection because it supplies an affected user and long-term team constraints, which Aditya cannot reproduce alone. DURI and Boiler Quant support rather than dominate the essay. Verify all programs and the exact CS admission structure in the live cycle.
+Our STEM Racing team had to choose between two car designs, and one looked faster in the first simulations. I had built Daedalus, our digital wind tunnel. It predicts airflow and race time, and every prediction shows where it came from.
+
+My teammates relied on those comparisons to make the call. When we changed the wind conditions, the faster design's advantage disappeared. The other stayed consistent and inside the rules, so we chose it.
+
+I was proudest when teammates began changing the assumptions themselves and challenging the results. They could make the decision without taking my word for it.
+
+## Goal: 110 words
+
+By May 2027, when my A Levels begin, I want my Fantasy Premier League paper through review at the Journal of Sports Economics, where I have submitted it. I wrote it to find out whether millions of players reward luck over skill, and I want that answer to hold up when experts check it.
+
+Each week, I write down one question a reviewer might ask, check whether my methods answer it, and revise where they do not. My research teacher, Mr. Pillai, takes the hardest ones with me, especially where my conclusions run further than my evidence.
+
+The journal will decide when it decides. Until then, I keep the list.
+
+## Notes
+- The Big Event verified on engage.vt.edu (nearly 900 projects, one-day service day); essay proposes an ordinary volunteer role.
+- Inclusion, Leadership, Goal rebuilt 20 Oct from Aditya's own answers (founders conversation, wind-condition design decision, May 2027 exams, weekly reviewer-question list).
+
+## Questions for Aditya
+All answered 20 Oct 2026 (see supplements/questions-for-aditya.md).
 
 
 ---
 
-# Virginia Tech: 2026–27 Ut Prosim Profile
+# UIUC: 2026-27 Supplement
 
-**Status:** Draft V1.1  
-**Limit:** 120 words each  
-**Official source:** [Ut Prosim questions](https://www.vt.edu/admissions/undergraduate/apply/ut-prosim-short-answer-questions.html)
+**Status:** Draft 4 (voice pass). **Deadline:** EA 1 Nov 2026 / RD 5 Jan 2027. Application opens 1 Sep.
+**Prompts (about 150 words each):** (1) Explain, in detail, an experience in the past 3-4 years related to your first-choice major. (2) Describe your personal and/or career goals after graduating from Illinois and how your first-choice major will help. (3) Explain your interest in your second-choice major or your overall academic or career goals.
+**Majors:** first choice Computer Science (Grainger). CS admits ~7% (unverified), so the second choice matters. Second choice written for **Statistics (B.S., LAS)**, which exists in the 2026-27 catalog (catalog.illinois.edu/undergraduate/las/statistics-bslas/). Do not call Stats & CS or Math & CS "CS + X": Illinois says they are not.
 
-## Community: 117 words
+## 1. Experience related to your major (131 words)
 
-Over three weeks with Fund Your Dream, I raised more than ₹25,000 for study kits, clothing, and footwear for children in villages. Calling people I did not know was harder than I expected because I had never cold-called anyone, much less asked for money. I had to explain what their donation would become without begging or reciting a script.
+I built a stock market that does not exist. NEXUS has an order book of buy and sell offers, and nine kinds of traders: some copy the crowd, some chase momentum, and some quote prices for a living.
 
-That work changed how I measure service: a fundraising total can be posted before the last kit is complete, while the follow-through that finishes it usually goes unphotographed.
+I needed it because my research says volatility changes once investor attention crosses a threshold, and you cannot rerun 2020. A simulated market can run ten thousand times.
 
-At Virginia Tech, I want to be useful after the visible part is over, when someone still has to check what is missing, call again, and finish what was promised.
+Then the question I least wanted to ask: does a fake market behave like a real one? After calibrating it, I checked it against nine patterns real markets show, including fat tails (rare, huge moves) and volatility clustering. The calibrated run matched all nine; ten seeds averaged 8.2 of nine. That shows it looks like a market, not that its traders cause what I see.
 
-## Inclusion: 119 words
+## 2. Goals after graduating (149 words)
 
-In Quant Finance Club, our discussions assumed everyone understood equities, derivatives, and market language. Newer members went quiet while the founders kept talking. Nobody meant to exclude them; we had built a conversation with an entrance exam.
+At my internship last summer, live market data moved faster than my reasoning. After Illinois, I want to work where models move money. A confident wrong answer is expensive there, and the person who trusted it cannot see why. I want to build the checks that catch it first.
 
-The other founders and I compared notes, then replaced equations with games. I hosted ten-door Monty Hall: one car, one choice, then eight empty doors. Quiet members argued whether to switch. One student returned once the ideas had something to attach to.
+I have been building safeguards by instinct. ATLAS, my research platform, uses only data that existed then, so a backtest cannot peek at the future. Glassbox, my incident-response agent, is never allowed to make up a number. But I invented them, and I do not know which would hold.
 
-That experience changed what I watch for. Silence does not always mean agreement, and asking “Does everyone understand?” places the burden on the person already outside. I now try to design the entry point before asking people to join the discussion.
+CS 442, Trustworthy Machine Learning, comes at the problem from the attacker's side: how models get fooled, and how to defend them. As a first-year, I would apply to PURE, which pairs first- and second-year students with graduate mentors, and start learning how a lab tries to break its own results.
 
-## Leadership: 112 words
+## 3. Second-choice major (109 words)
 
-My STEM Racing teammates needed to compare car designs, but an optimizer's recommendation meant little if nobody could see what produced it. I built Daedalus so each result exposed its equation, assumptions, uncertainty, and trade-offs.
+Statistics is my second choice because much of my research time goes to arguing with my own results. My attention research produced a clean threshold, and then I had to show it was not an accident. The methods I first tried assumed each market moves on its own, and markets move together, so I switched to bootstrap methods that respect that. I tested 23 hypotheses and corrected for how many times I had looked. I froze a holdout before touching new data.
 
-The team relied on me for more than software. I had to translate a design question into something the system could test, then explain the answer without asking anyone to trust the dashboard. Their questions often exposed assumptions I had treated as obvious.
+I picked these tools up from papers, one problem at a time. I want the ground under them: why the corrections work, and when they quietly stop.
 
-The moment I was proudest was not when the system produced an answer. It was when a teammate questioned one of its assumptions and did not need me to tell him where to look.
+## Notes
+- NEXUS threshold 1.5625 vs the paper's 1.39 (95% interval 1.16-1.48): the essay says they differ and claims no confirmation. "8.2 across ten seeds" and "all nine on the calibrated run" come from the activity list; keep the word "calibrated". "Ten thousand times" = the 10,200-run sweep.
+- Verified 27 Oct 2026: CS 442 Trustworthy Machine Learning (attacks and defenses on learning systems, siebelschool.illinois.edu); PURE pairs first- and second-year students with graduate mentors. URSA dropped to keep one resource. Essay 2 internship line matches the UCAS/Stanford internship facts (MalkansView, summer 2026).
+- Illinois's FAQ lists "Computer Science (including all Computer Science blended majors)" as unavailable as a second choice. Essay 3 is written for plain Statistics; confirm it is selectable.
+- Optional 300-word "challenges" and "grade drop" boxes: skip unless relevant.
 
-## Goal: 120 words
+## Questions for Aditya
+All answered 20 Oct 2026 (see supplements/questions-for-aditya.md).
 
-My goal is to complete a journal resubmission by October while preparing for board examinations and university applications. Reviewers identified weaknesses I can repair, but the publication cycle does not care that other deadlines compete with it.
 
-I am separating the revision into analyses, presentation changes, and a final explanation check, assigning each a fixed block rather than reopening the entire paper whenever I sit down. My research teacher challenges whether each addition is necessary; my family keeps the rest of my schedule from disappearing into it.
+---
 
-I cannot schedule the journal’s decision. By October, I can return a paper I recognize without letting it swallow the rest of my life in an attempt to make it impossible to reject.
+# University of Maryland: 2026-27 Supplement
 
-## Research judgment
+**Status:** Draft 4 (voice pass). **Deadline:** EA 1 Nov 2026 / RD 20 Jan 2027.
+**Format:** six sentence-completions, **650 characters each (including spaces)**. Plus the Common App essay. Verify exact wording in the portal (one source says "last Monday," another "last Tuesday"; the diversity prompt is long, paste it).
 
-The set covers service, inclusion, steady leadership, and goal management without repeating the same club function. The inclusion response should name Black–Scholes only if space remains and the equation-first failure needs sharper grounding; at 120 words, “equation-first” may read more cleanly.
+## 1. If I could travel anywhere, I would go to… (439 chars)
+Platform 9¾ at King's Cross, then the Warner Bros. studio where Harry Potter was filmed. I know the platform is a wall with half a trolley stuck in it. I will still take the ridiculous trolley photo. But the real reason is the Great Hall. I have seen it in the films so many times that I already have a picture of it in my head, and I want to walk into the actual set and find out whether it feels as enormous as it did when I was younger.
+
+## 2. The most interesting fact I ever learned from research was… (410 chars)
+that Turkey's stock market barely listens to the rest of the world. Of the 21 markets I studied, Borsa Istanbul had the second-lowest share of attention surges that started abroad: about 10%, against 28% for its peers. What moves with a Turkish surge is the lira. I had bet on foreign investors, and the data did not back me. It does not prove the cause is local. It does say the world rarely gets there first.
+
+## 3. In addition to my major, my academic interests include… (431 chars)
+behavioral economics, because markets are made of people who do not behave like the models, and probability puzzles. My favorite is ten-door Monty Hall. You pick a door, the host opens eight empty ones, and almost everyone says it is now fifty-fifty. It is not: switching wins 9 times in 10. Even after I explain why, people want to keep their first pick. I love watching a room argue about something the maths has already settled.
+
+## 4. My favorite thing about last Tuesday was… (417 chars)
+the call. Four of us, no plan. Someone starts a GeoGuessr round and we argue over which country a blurry road belongs to, then we switch to Minecraft and build something nobody asked for. If a match is on, we watch together, and our commentary is worse than the football. Nobody mentions exams or papers. I hung up well past bedtime having learned nothing useful, which is exactly why it was the best part of the day.
+
+## 5. Something you might not know about me is… (372 chars)
+that I will travel an unreasonable distance and wait an unreasonable time for idli-sambar at Dakshinayan in Mumbai: an hour in traffic, then another hour for a table. I usually go with my family. The idlis are soft, the sambar is hot, and I always eat more than I planned. I have done the math on that trip and it makes no sense. I am still the one suggesting we go again.
+
+## 6. Diversity: "…describe how you have learned, grown, been inspired or developed skills through one or more components of diversity." (453 chars)
+I taught children in villages near my school with a fellow volunteer. At first I explained maths the way I had learned it, and the children were not responding. So we changed: examples they recognized, teams, and problems they worked through together. Sometimes one child explained an idea to another better than I could. That changed how I teach. Knowing the material did not mean I knew how to explain it to someone whose school was nothing like mine.
+
+## Notes
+- Counts above are characters including spaces, computed by script. Re-run after any edit.
+- #1: the wall and trolley are at King's Cross; the Great Hall set, Diagon Alley, the Hogwarts Express and butterbeer are all part of the Warner Bros. studio tour. Food removed (it lives in #5).
+- #2: Turkey figures (second-lowest, about 10% vs 28%, the lira) confirmed by Aditya. Conclusion worded to match the evidence: a low share of foreign-preceded surges does not by itself show purely domestic causes.
+- #3: FPL removed. Monty Hall arithmetic: 10 doors, host opens 8 goat doors, stay wins 1/10, switch wins 9/10.
+- #4: group call confirmed by Aditya. "Last Tuesday" must match the portal's day.
+- #5: Dakshinayan, the hour in traffic and the hour in line confirmed by Aditya.
+- #6: Paste the full UMD diversity prompt into the portal and check it still fits.
+
+## Questions for Aditya
+All answered 20 Oct 2026 (see supplements/questions-for-aditya.md).
+
+
+---
+
+# UMass Amherst: 2026-27 Supplement
+
+**Status:** Draft 3 (20 Oct 2026). No Honors. **Deadline:** EA 5 Nov 2026 (verify) / RD 15 Jan 2027.
+**Prompts:** three required, 100 words max each (Common App). Source: umass.edu first-year application instructions; limits via Kolly 2026-27.
+**Honors:** not applying to Commonwealth Honors College (decided 15 Oct).
+
+## 1. Why UMass Amherst? (100 max; 84 words)
+
+At school, I had to build the community I wanted: a quant club, a 13-week course, and a 150-company simulated market so members had somewhere to trade. At UMass, I want communities that can teach me what mine could not: a weekend at HackUMass building with people I met that Friday, and MassAI meetings with students who know more than I do. The Early Research Scholars Program would add something new: a faculty mentor and a PhD mentor going through my research with me.
+
+## 2. Why Computer Science, and why at UMass? (100 max; 95 words)
+
+I came to Computer Science sideways, through economics. I wanted to know why investors copy each other, and the only way to test my explanations was to build a market: nine kinds of simulated traders on one order book, rules I could change and rerun thousands of times. Code forced every vague idea into a rule that could fail.
+
+At UMass, the AI concentration requires COMPSCI 389, Introduction to Machine Learning, and COMPSCI 311, Introduction to Algorithms. Those would give me the theory under the models I use. I want to know why they work.
+
+## 3. Community you belong to (100 max; 99 words)
+
+Every year, I join a group of volunteers who spend about six weeks teaching maths and English to children in villages near my school. My first explanations were correct and useless. I would ask "understood?" and get a "yes" that never showed up in their work. So a fellow volunteer and I split them into teams and made problems into games, and children who had avoided questions started racing to answer.
+
+I now judge understanding by what people do. In UMass study groups, I would ask someone to try the next problem instead of asking whether they got it.
+
+## Notes / verify
+
+- Quant club 13-week course and 150-company market: activity-list.md. Rural teaching weekly, teams/games, algebra boy: activity-list.md + Stanford/MIT drafts.
+- HackUMass and MassAI: names from the CICS student-organizations page (lab file umass-amherst.md, 5.5).
+- ERSP and the AI concentration (launched Fall 2026) verified on cics.umass.edu / umass.edu, 15 Oct 2026.
+- Confirm UMass EA date (5 Nov) in the Common App.
 
 
 ---
 
 # UCAS Personal Statement: Computer Science, 2027 Entry
 
-**Universities:** Aberdeen, Strathclyde, Glasgow  
+**Universities:** Edinburgh, St Andrews, Glasgow (Computing Science), Strathclyde, Heriot-Watt  
 **Format:** three answers read together, 4,000 characters including spaces, minimum 350 characters per answer  
-**Status:** Draft V1.1
+**Status:** Draft 2 (20 Oct 2026, restyled)
 
 ## Set strategy
 
@@ -307,27 +360,25 @@ Question 1 defines the academic problem. Question 2 proves formal preparation. Q
 
 ## Question 1: Why Computer Science?
 
-I want to study Computer Science because it allows me to turn claims about complex behaviour into systems I can test. While researching investor attention, I found that volatility sometimes fell when attention became most intense. Establishing the pattern raised a harder question: what interactions could generate it? I built an agent-based exchange with nine trader archetypes, changed their decision rules and tested when the effect appeared or disappeared. Moving between an observed result and an implemented mechanism showed me why computation is more than a tool for processing data: it provides a language for expressing behaviour precisely enough to challenge it.
+In my investor-attention research, volatility sometimes fell exactly when attention peaked. Statistics could show the pattern was there. It could not tell me what behaviour produced it, so I built a market to find out: an agent-based exchange with nine kinds of traders, each running rules I had to write down. Who does a trader copy? How long does it remember? Every rule was an assumption I had been hiding inside a sentence. I could change one, rerun the market, and watch the effect appear or vanish. The simulator does not prove what real investors do, and its threshold does not match my paper's, but it gave me a way to argue with my own explanation. For me, Computer Science is the subject that makes an idea precise enough to fail.
 
-Across later projects, I kept returning to a related problem. How can a computational system make a useful decision while keeping its evidence and assumptions open to inspection? In an incident-response agent, I separated language-model interpretation from numerical claims, which came directly from monitoring data. That design choice made me interested in reliability, verification and the boundaries between a model and the systems around it. I want stronger foundations in algorithms, probability, machine learning and computer systems so I can reason about those boundaries rather than discover them only through building.
+The same question came back in a different shape when I built an incident-response agent. Language models write confident numbers they cannot support, so I drew a hard line: the model could interpret the evidence, but every figure in its report had to come from monitoring data, with its source attached. Deciding where a model's job ends and the rest of the system begins was the most interesting design problem I have faced. I want proper foundations in algorithms, probability, machine learning and systems, so I make those decisions on purpose rather than by trial and error.
 
 ## Question 2: Academic preparation
 
-Further Mathematics has trained me to connect algebraic structure with dynamic behaviour. I used matrices, eigenvalues, Taylor series and differential equations to write a first-principles exposition of neural-network generalisation. Deriving a two-neuron example line by line forced me to distinguish recognising advanced notation from understanding the mechanism underneath it. It also showed me how ideas taught separately can become a coherent argument when applied to a question beyond the syllabus.
+Further Mathematics taught me that ideas from separate chapters can belong to the same argument. When I tried to understand why neural networks generalise, the papers assumed mathematics I had not formally studied, but the pieces were familiar: matrices, eigenvalues, Taylor series, differential equations. I wrote my own exposition using them and checked it with a two-neuron example worked by hand, line by line. The example proves nothing about large networks. It did show me the difference between recognising notation and understanding what it does.
 
-Computer Science gave me the tools to implement and evaluate systems, while Economics helped me model incentives and market behaviour. Physics strengthened my attention to measurement, assumptions and the difference between a model and the system it represents. Through the Cambridge IPQ, I completed a 4,982-word investigation into whether high-frequency trading destabilises markets during periods of stress. Maintaining a research log, comparing conflicting accounts and narrowing my claim taught me that independent work requires a record of why a method was chosen, not only a final result. These subjects have prepared me to move between formal reasoning, implementation and empirical testing; university study would let me connect them with greater mathematical and computational depth.
+Computer Science gave me the tools to build and test systems. Economics gave me ways to model incentives. Physics made me careful about the gap between a model and the thing it describes. For my Cambridge IPQ, I investigated whether high-frequency trading destabilises markets under stress. My sources disagreed, so I kept a research log of why I trusted one method over another and narrowed my claim until the evidence could carry it. University would let me join these subjects with far more mathematical depth.
 
 ## Question 3: Preparation outside school
 
-During a three-month internship at MalkansView, I learned to look behind a price chart. I compared company fundamentals, including debt and liquidity, then considered how those factors should affect a trading decision or stop-loss rather than treating a rising profit figure as the whole company. The work showed me how quickly one attractive number can hide the condition producing it.
+During a three-month internship at MalkansView, I learned to look behind the price chart: at debt, at liquidity, and at what those should mean for a trade or a stop-loss. A rising profit figure can hide the condition producing it.
 
-Building Daedalus for my STEM Racing team gave that lesson a software form. Our initial design could compare performance but not show where the car became unstable. I added stress tests that varied wind, drag and other constraints together, identifying the thresholds at which a recommendation stopped being safe. Teammates could inspect the preferred design and the conditions under which it failed.
-
-Both experiences taught me to distrust an isolated output, whether it is a price, an optimisation score or a maximum speed. The useful question is what had to remain true for that number to deserve a decision.
+For my STEM Racing team, I built Daedalus, a digital wind tunnel that predicts airflow and race time from CFD. The first version could rank designs but not show where a design stopped working, so I added stress tests that varied wind, drag and other constraints together. When we had to choose between two designs, the one that looked faster lost its advantage once the wind changed. Teammates changed the assumptions themselves and chose the more consistent design. Building a tool people could question, not just obey, is the part I am proudest of.
 
 ## Current research judgment
 
-Official UCAS guidance treats the answers as a single statement. The present set has a clear progression: question → formal preparation → use with other people. Q1 deserves the largest character share. Q2 should keep the IPQ because it is a formal qualification; other independent papers belong in Q3 only if they replace, rather than join, an existing example.
+Answers read as one statement. Q1 is the academic core (NEXUS as a way to test an explanation, explicitly not a confirmation of the paper's threshold; Glassbox as a design boundary). Q2 links subjects and the IPQ without word counts. Q3 uses the real Daedalus design decision (wind conditions) instead of an abstract "safety" claim. Character counts: Q1 1321, Q2 1069, Q3 782, total 3172 / 4,000.
 
 ## Next checks
 

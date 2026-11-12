@@ -17,8 +17,8 @@ sh aditya/supplements/sync-combined.sh
 - `us/stanford/historical-moments.md`
 - `us/princeton/essays.md`
 - `us/princeton/research.md`
-- `us/purdue/essays.md`
-- `us/purdue/research.md`
+- `us/ea/purdue/essays.md`
+- `us/ea/purdue/research.md`
 - `us/virginia-tech/essays.md`
 - `us/asu-barrett/outline-only.md`
 - `uk/ucas.md`

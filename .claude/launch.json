@@ -1,0 +1,1 @@
+{"version":"0.0.1","configurations":[{"name":"portfolio","runtimeExecutable":"npm","runtimeArgs":["--prefix","/Users/adityabalaji/Documents/krishna-portfolio-work/portfolio","run","start","--","-p","3107"],"port":3107}]}

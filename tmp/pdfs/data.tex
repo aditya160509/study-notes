@@ -1,0 +1,4053 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\usepackage{cancel}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{\textbf{#1}}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+Absolutely. This file is \textbf{Digital SAT Domain B3: Data Analysis},
+which your notes estimate at roughly \textbf{5--7 of the 44 Math
+questions}. It covers ratios/rates/units, percentages, one-variable
+statistics, two-variable data and models, probability, statistical
+inference, and study design.
+
+I'll teach it from the ground up. The goal is that after this, you can
+look at a B3 question and know:
+
+\textbf{what type it is → what formula or method applies → what SAT trap
+to avoid → whether Desmos helps.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 0: WHAT DATA ANALYSIS IS REALLY
+TESTING}\label{part-0-what-data-analysis-is-really-testing}
+
+B3 looks like many unrelated subjects, but the SAT keeps repeating the
+same seven jobs:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Question type & What you need to recognize \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Ratios/rates/units & ``What quantities are being compared?'' \\
+Percentages & ``What is the original/base amount?'' \\
+Statistics & ``Center or spread?'' \\
+Scatterplots/models & ``What does the relationship/model mean?'' \\
+Probability & ``What is my denominator?'' \\
+Inference & ``What can this sample tell me?'' \\
+Study design & ``Can I generalize? Can I claim causation?'' \\
+\end{longtable}
+}
+
+Your notes identify percent change, unit conversions,
+mean/median/spread, conditional probability, margin of error,
+line-of-best-fit interpretation, and random sampling versus random
+assignment as the most recurring question families.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 1: RATIOS, RATES, PROPORTIONS, AND
+UNITS}\label{part-1-ratios-rates-proportions-and-units}
+
+\subsection{1.1 Ratio}\label{ratio}
+
+A ratio compares two quantities.
+
+If there are:
+
+\[
+12\text{ boys},\quad 8\text{ girls},
+\]
+
+then:
+
+\[
+\text{boys:girls}=12:8=3:2.
+\]
+
+This is a \textbf{part-to-part ratio}.
+
+But if the question asks:
+
+\begin{quote}
+What fraction of the students are boys?
+\end{quote}
+
+Total students:
+
+\[
+12+8=20.
+\]
+
+Therefore:
+
+\[
+\frac{12}{20}=\frac35.
+\]
+
+So:
+
+\[
+\boxed{\text{boys:girls}=3:2}
+\]
+
+but:
+
+\[
+\boxed{\text{boys as fraction of whole}=\frac35}.
+\]
+
+This distinction is extremely important.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.2 Ratio ``parts'' method}\label{ratio-parts-method}
+
+Suppose:
+
+\[
+\text{red:blue}=3:5
+\]
+
+and there are 64 objects total.
+
+Total ratio parts:
+
+\[
+3+5=8.
+\]
+
+Each part represents:
+
+\[
+64\div8=8.
+\]
+
+Red:
+
+\[
+3(8)=24.
+\]
+
+Blue:
+
+\[
+5(8)=40.
+\]
+
+Therefore:
+
+\[
+\boxed{24\text{ red},40\text{ blue}}.
+\]
+
+\subsubsection{SAT shortcut}\label{sat-shortcut}
+
+When given a ratio:
+
+\[
+a:b
+\]
+
+and a total \(T\):
+
+\[
+\boxed{\text{one part}=\frac{T}{a+b}}
+\]
+
+then multiply by whichever part you need.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.3 Proportions}\label{proportions}
+
+If:
+
+\[
+\frac ab=\frac cd,
+\]
+
+then:
+
+\[
+\boxed{ad=bc}.
+\]
+
+Example:
+
+3 pounds cost \$5.40.
+
+7 pounds cost \(x\).
+
+Set corresponding units together:
+
+\[
+\frac{3\text{ lb}}{5.40\text{ dollars}}
+=
+\frac{7\text{ lb}}{x\text{ dollars}}.
+\]
+
+Cross multiply:
+
+\[
+3x=37.8.
+\]
+
+\[
+\boxed{x=12.60}.
+\]
+
+\subsubsection{Important}\label{important}
+
+Keep the same type of quantity in the same location.
+
+Do not write:
+
+\[
+\frac{3}{5.4}=\frac{x}{7}.
+\]
+
+That mixes pounds with dollars.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.4 Unit rate}\label{unit-rate}
+
+A unit rate means ``per 1.''
+
+240 miles on 8 gallons:
+
+\[
+\frac{240}{8}=30.
+\]
+
+Therefore:
+
+\[
+\boxed{30\text{ miles per gallon}}.
+\]
+
+Whenever you see:
+
+\begin{itemize}
+\tightlist
+\item
+  per hour
+\item
+  per gallon
+\item
+  per person
+\item
+  per square mile
+\item
+  per dollar
+\end{itemize}
+
+you are looking at a rate.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.5 Direct variation}\label{direct-variation}
+
+Direct variation:
+
+\[
+\boxed{y=kx}.
+\]
+
+That means the ratio:
+
+\[
+\frac yx
+\]
+
+is constant.
+
+Example:
+
+When:
+
+\[
+x=3,\qquad y=12.
+\]
+
+Then:
+
+\[
+k=\frac{12}{3}=4.
+\]
+
+So:
+
+\[
+y=4x.
+\]
+
+At:
+
+\[
+x=7,
+\]
+
+\[
+y=28.
+\]
+
+Answer:
+
+\[
+\boxed{28}.
+\]
+
+\subsubsection{Recognition}\label{recognition}
+
+If \(x\) doubles, \(y\) doubles.
+
+If \(x\) triples, \(y\) triples.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.6 Inverse variation}\label{inverse-variation}
+
+Inverse variation:
+
+\[
+\boxed{y=\frac{k}{x}}
+\]
+
+or equivalently:
+
+\[
+\boxed{xy=k}.
+\]
+
+If \(x\) increases, \(y\) decreases.
+
+Example:
+
+\[
+x=4,\quad y=6.
+\]
+
+Then:
+
+\[
+k=4(6)=24.
+\]
+
+If:
+
+\[
+x=3,
+\]
+
+then:
+
+\[
+y=\frac{24}{3}=8.
+\]
+
+Answer:
+
+\[
+\boxed8.
+\]
+
+\subsubsection{Recognition}\label{recognition-1}
+
+Direct:
+
+\[
+\boxed{\frac yx=\text{constant}}
+\]
+
+Inverse:
+
+\[
+\boxed{xy=\text{constant}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.7 Density}\label{density}
+
+The basic relationship:
+
+\[
+\boxed{\text{density}=\frac{\text{mass}}{\text{volume}}}.
+\]
+
+Rearrange:
+
+\[
+\boxed{\text{mass}=\text{density}\times\text{volume}}
+\]
+
+and:
+
+\[
+\boxed{\text{volume}=\frac{\text{mass}}{\text{density}}}.
+\]
+
+The same idea applies to population density:
+
+\[
+\boxed{\text{population density}
+=
+\frac{\text{population}}{\text{area}}}.
+\]
+
+Therefore:
+
+\[
+\boxed{\text{population}
+=
+\text{density}\times\text{area}}.
+\]
+
+Your source explicitly groups density, average speed, weighted averages,
+and direct/inverse variation under the rate-and-unit toolkit.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.8 Unit conversion}\label{unit-conversion}
+
+This is a major SAT skill.
+
+The safest method is \textbf{dimensional analysis}.
+
+Suppose:
+
+\[
+60\frac{\text{mi}}{\text{hr}}
+\]
+
+must become feet per second.
+
+Know:
+
+\[
+1\text{ mi}=5280\text{ ft}
+\]
+
+and:
+
+\[
+1\text{ hr}=3600\text{ sec}.
+\]
+
+Write:
+
+\[
+60\frac{\text{mi}}{\text{hr}}
+\times
+\frac{5280\text{ ft}}{1\text{ mi}}
+\times
+\frac{1\text{ hr}}{3600\text{ sec}}.
+\]
+
+Units cancel:
+
+\[
+\frac{\cancel{\text{mi}}}{\cancel{\text{hr}}}
+\times
+\frac{\text{ft}}{\cancel{\text{mi}}}
+\times
+\frac{\cancel{\text{hr}}}{\text{sec}}.
+\]
+
+Leaving:
+
+\[
+\frac{\text{ft}}{\text{sec}}.
+\]
+
+Calculate:
+
+\[
+60\cdot\frac{5280}{3600}=88.
+\]
+
+Therefore:
+
+\[
+\boxed{88\text{ ft/s}}.
+\]
+
+This cancellation-factor method is the universal approach recommended in
+the source.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.9 Square units}\label{square-units}
+
+This is one of the biggest traps.
+
+Because:
+
+\[
+1\text{ ft}=12\text{ in},
+\]
+
+then:
+
+\[
+1\text{ ft}^2
+=
+(12\text{ in})^2
+=
+144\text{ in}^2.
+\]
+
+Not:
+
+\[
+12\text{ in}^2.
+\]
+
+Example:
+
+\[
+24\text{ ft}^2.
+\]
+
+Convert:
+
+\[
+24(144)=3456.
+\]
+
+Therefore:
+
+\[
+\boxed{3456\text{ in}^2}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.10 Cubic units}\label{cubic-units}
+
+Same principle.
+
+\[
+1\text{ yd}=3\text{ ft}.
+\]
+
+Therefore:
+
+\[
+1\text{ yd}^3=(3\text{ ft})^3=27\text{ ft}^3.
+\]
+
+So:
+
+\[
+4\text{ yd}^3=4(27)=108\text{ ft}^3.
+\]
+
+Answer:
+
+\[
+\boxed{108\text{ ft}^3}.
+\]
+
+Remember:
+
+\[
+\boxed{\text{length conversion: }k}
+\]
+
+\[
+\boxed{\text{area conversion: }k^2}
+\]
+
+\[
+\boxed{\text{volume conversion: }k^3}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.11 Average speed}\label{average-speed}
+
+This formula must be memorized:
+
+\[
+\boxed{
+\text{average speed}
+=
+\frac{\text{total distance}}
+{\text{total time}}
+}
+\]
+
+You usually \textbf{cannot average the speeds}.
+
+Example:
+
+100 miles at 50 mph.
+
+Time:
+
+\[
+\frac{100}{50}=2\text{ hr}.
+\]
+
+Then 100 miles at 25 mph.
+
+Time:
+
+\[
+\frac{100}{25}=4\text{ hr}.
+\]
+
+Total distance:
+
+\[
+200.
+\]
+
+Total time:
+
+\[
+6.
+\]
+
+Average:
+
+\[
+\frac{200}{6}
+=
+33.33\text{ mph}.
+\]
+
+Not:
+
+\[
+\frac{50+25}{2}=37.5.
+\]
+
+The arithmetic average of speeds is generally wrong because different
+speeds can be maintained for different lengths of time.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1.12 Weighted average}\label{weighted-average}
+
+Formula:
+
+\[
+\boxed{
+\bar x=
+\frac{\sum w_ix_i}{\sum w_i}
+}
+\]
+
+Example:
+
+12 students score 80.
+
+8 students score 90.
+
+You cannot calculate:
+
+\[
+\frac{80+90}{2}=85
+\]
+
+because the group sizes differ.
+
+Instead:
+
+\[
+\frac{12(80)+8(90)}{12+8}.
+\]
+
+\[
+=
+\frac{960+720}{20}
+\]
+
+\[
+=
+\frac{1680}{20}
+\]
+
+\[
+\boxed{84}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 2: PERCENTAGES}\label{part-2-percentages}
+
+This is probably the single highest-yield B3 section.
+
+\subsection{2.1 Percent means ``per 100''}\label{percent-means-per-100}
+
+\[
+25\%=0.25=\frac14.
+\]
+
+To calculate \(p\%\) of \(x\):
+
+\[
+\boxed{\frac p{100}x}.
+\]
+
+Example:
+
+18\% of 250:
+
+\[
+0.18(250)=45.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.2 Percent change}\label{percent-change}
+
+Formula:
+
+\[
+\boxed{
+\text{percent change}
+=
+\frac{\text{new}-\text{old}}{\text{old}}\times100\%
+}
+\]
+
+The denominator is always the \textbf{old/original value}.
+
+Example:
+
+80 to 92.
+
+Change:
+
+\[
+92-80=12.
+\]
+
+Divide by original:
+
+\[
+\frac{12}{80}=0.15.
+\]
+
+Therefore:
+
+\[
+\boxed{15\%\text{ increase}}.
+\]
+
+\subsubsection{Wrong denominator}\label{wrong-denominator}
+
+\[
+\frac{12}{92}
+\]
+
+is not the percent increase.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.3 Multiplier method}\label{multiplier-method}
+
+This is the method I want you using on the SAT.
+
+Increase by \(p\%\):
+
+\[
+\boxed{1+\frac p{100}}
+\]
+
+Decrease by \(p\%\):
+
+\[
+\boxed{1-\frac p{100}}.
+\]
+
+Examples:
+
+10\% increase:
+
+\[
+\times1.10.
+\]
+
+23\% increase:
+
+\[
+\times1.23.
+\]
+
+15\% decrease:
+
+\[
+\times0.85.
+\]
+
+40\% decrease:
+
+\[
+\times0.60.
+\]
+
+Your source explicitly recommends turning percent changes into
+multipliers and chaining the multipliers rather than adding percentages.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.4 ``Increase by'' vs final
+percentage}\label{increase-by-vs-final-percentage}
+
+Suppose \$100 increases by 30\%.
+
+Increase:
+
+\[
+30.
+\]
+
+New value:
+
+\[
+130.
+\]
+
+Multiplier:
+
+\[
+1.30.
+\]
+
+Thus:
+
+\[
+\boxed{\text{increase by 30\%}=\text{final is 130\% of original}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.5 Percent increases above
+100\%}\label{percent-increases-above-100}
+
+This causes many mistakes.
+
+Suppose something increases by \textbf{150\%}.
+
+Original = 100\%.
+
+Increase = 150\%.
+
+Final:
+
+\[
+100\%+150\%=250\%.
+\]
+
+Multiplier:
+
+\[
+\boxed{2.5}.
+\]
+
+Therefore \$20,000 becomes:
+
+\[
+20000(2.5)=50000.
+\]
+
+A 150\% increase does \textbf{not} mean multiply by 1.5.
+
+Multiply by:
+
+\[
+\boxed{2.5}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.6 Successive percentage
+changes}\label{successive-percentage-changes}
+
+Suppose \$100 increases 20\%, then decreases 20\%.
+
+First:
+
+\[
+100(1.20)=120.
+\]
+
+Then:
+
+\[
+120(0.80)=96.
+\]
+
+So final:
+
+\[
+\$96.
+\]
+
+That is a:
+
+\[
+\boxed{4\%\text{ decrease}}.
+\]
+
+Why don't they cancel?
+
+Because the second 20\% is calculated from \textbf{120}, not 100.
+
+Mathematically:
+
+\[
+1.2(0.8)=0.96.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.7 Multiple
+discounts/markups}\label{multiple-discountsmarkups}
+
+Suppose:
+
+40\% markup followed by 25\% discount.
+
+Multipliers:
+
+\[
+1.40
+\]
+
+and:
+
+\[
+0.75.
+\]
+
+Combined:
+
+\[
+1.40(0.75)=1.05.
+\]
+
+So final price is:
+
+\[
+105\%
+\]
+
+of original.
+
+Net:
+
+\[
+\boxed{5\%\text{ increase}}.
+\]
+
+Not:
+
+\[
+40\%-25\%=15\%.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.8 Reverse percentage}\label{reverse-percentage}
+
+Suppose a shirt costs \$45 \textbf{after a 25\% discount}.
+
+After 25\% off, you retain:
+
+\[
+75\%=0.75.
+\]
+
+So:
+
+\[
+0.75(\text{original})=45.
+\]
+
+Therefore:
+
+\[
+\text{original}=\frac{45}{0.75}=60.
+\]
+
+\[
+\boxed{\$60}.
+\]
+
+General rule:
+
+\[
+\boxed{
+\text{original}
+=
+\frac{\text{final}}
+{\text{multiplier}}
+}
+\]
+
+Never ``add 25\% back.'' The 25\% discount was based on a different
+number.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.9 Percentage points vs percent
+change}\label{percentage-points-vs-percent-change}
+
+Suppose an interest rate goes:
+
+\[
+4\%\rightarrow6\%.
+\]
+
+Percentage-point increase:
+
+\[
+6-4=2.
+\]
+
+So:
+
+\[
+\boxed{2\text{ percentage points}}.
+\]
+
+Relative percent increase:
+
+\[
+\frac{6-4}{4}=\frac24=0.5.
+\]
+
+So:
+
+\[
+\boxed{50\%\text{ increase}}.
+\]
+
+These are not the same.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.10 Percent of a percent}\label{percent-of-a-percent}
+
+30\% of 40\%:
+
+\[
+0.30(0.40)=0.12.
+\]
+
+Therefore:
+
+\[
+\boxed{12\%}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.11 Percent error}\label{percent-error}
+
+Formula:
+
+\[
+\boxed{
+\text{percent error}
+=
+\frac{|\text{estimate}-\text{actual}|}
+{\text{actual}}\times100\%
+}
+\]
+
+Always divide by the \textbf{actual value}.
+
+Example:
+
+Estimate \(45\), actual \(50\).
+
+Error:
+
+\[
+|45-50|=5.
+\]
+
+Then:
+
+\[
+\frac5{50}=0.10.
+\]
+
+Therefore:
+
+\[
+\boxed{10\%}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.12 Compound growth}\label{compound-growth}
+
+Formula:
+
+\[
+\boxed{A=P(1+r)^n}.
+\]
+
+Suppose:
+
+\[
+P=10000,\qquad r=.03,\qquad n=4.
+\]
+
+Then:
+
+\[
+A=10000(1.03)^4.
+\]
+
+Approximately:
+
+\[
+\boxed{11255}.
+\]
+
+Do not use:
+
+\[
+10000(1+4(.03)).
+\]
+
+That is simple growth, not compound growth.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.13 Finding a growth rate}\label{finding-a-growth-rate}
+
+Suppose:
+
+\[
+5000\rightarrow7000
+\]
+
+over 3 years with constant annual percentage growth.
+
+Use:
+
+\[
+7000=5000(1+r)^3.
+\]
+
+Divide:
+
+\[
+1.4=(1+r)^3.
+\]
+
+Cube root:
+
+\[
+1+r=\sqrt[3]{1.4}.
+\]
+
+Approximately:
+
+\[
+1+r\approx1.119.
+\]
+
+Therefore:
+
+\[
+\boxed{r\approx11.9\%}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2.14 Simple interest}\label{simple-interest}
+
+Formula:
+
+\[
+\boxed{I=Prt}.
+\]
+
+Total:
+
+\[
+\boxed{A=P(1+rt)}.
+\]
+
+Example:
+
+\$1,000 at 5\% simple interest for 2 years:
+
+\[
+I=1000(.05)(2)=100.
+\]
+
+Total:
+
+\[
+\boxed{1100}.
+\]
+
+Compound annually:
+
+\[
+1000(1.05)^2
+=
+1102.50.
+\]
+
+Different formulas.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 3: ONE-VARIABLE
+STATISTICS}\label{part-3-one-variable-statistics}
+
+\subsection{3.1 Mean}\label{mean}
+
+Formula:
+
+\[
+\boxed{\bar x=\frac{\sum x_i}{n}}.
+\]
+
+Example:
+
+\[
+72,85,90,65,88.
+\]
+
+Sum:
+
+\[
+400.
+\]
+
+Divide by 5:
+
+\[
+\boxed{80}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.2 Reverse mean trick}\label{reverse-mean-trick}
+
+If mean and number of observations are known:
+
+\[
+\boxed{\text{sum}=(\text{mean})(n)}.
+\]
+
+Example:
+
+5 numbers have mean 12.
+
+Total:
+
+\[
+5(12)=60.
+\]
+
+Four numbers are:
+
+\[
+8,10,14,16.
+\]
+
+Their sum:
+
+\[
+48.
+\]
+
+Missing number:
+
+\[
+60-48=12.
+\]
+
+\[
+\boxed{12}.
+\]
+
+This comes up constantly.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.3 Median}\label{median}
+
+First:
+
+\[
+\boxed{\text{SORT THE DATA}}.
+\]
+
+Odd number of values:
+
+middle value.
+
+Example:
+
+\[
+12,7,9,14,3.
+\]
+
+Sort:
+
+\[
+3,7,9,12,14.
+\]
+
+Median:
+
+\[
+\boxed9.
+\]
+
+Even number:
+
+average the two middle values.
+
+\[
+3,7,9,12.
+\]
+
+Middle:
+
+\[
+7,9.
+\]
+
+Median:
+
+\[
+\frac{7+9}{2}=8.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.4 Mode}\label{mode}
+
+Mode = most frequent value.
+
+Example:
+
+\[
+2,4,4,6,7.
+\]
+
+Mode:
+
+\[
+\boxed4.
+\]
+
+You can have:
+
+one mode,
+
+multiple modes,
+
+or no mode.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.5 Range}\label{range}
+
+\[
+\boxed{\text{range}=\max-\min}.
+\]
+
+For:
+
+\[
+2,5,8,13,20
+\]
+
+range:
+
+\[
+20-2=18.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.6 Quartiles and IQR}\label{quartiles-and-iqr}
+
+\[
+\boxed{\text{IQR}=Q_3-Q_1}.
+\]
+
+IQR measures the spread of the \textbf{middle 50\%}.
+
+Example:
+
+\[
+1,2,3,4,5,6,7,8,9.
+\]
+
+Median:
+
+\[
+5.
+\]
+
+Lower half:
+
+\[
+1,2,3,4.
+\]
+
+So:
+
+\[
+Q_1=\frac{2+3}{2}=2.5.
+\]
+
+Upper half:
+
+\[
+6,7,8,9.
+\]
+
+\[
+Q_3=\frac{7+8}{2}=7.5.
+\]
+
+Thus:
+
+\[
+\text{IQR}=7.5-2.5=5.
+\]
+
+\[
+\boxed5.
+\]
+
+The file's procedure is: sort, find median, split the list, find
+\(Q_1,Q_3\), subtract.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.7 Outlier rule}\label{outlier-rule}
+
+Potential lower outlier:
+
+\[
+\boxed{Q_1-1.5(\text{IQR})}
+\]
+
+Potential upper outlier:
+
+\[
+\boxed{Q_3+1.5(\text{IQR})}.
+\]
+
+Anything outside those fences is an outlier under the standard rule.
+
+Example:
+
+\[
+Q_1=20,\qquad Q_3=40.
+\]
+
+IQR:
+
+\[
+20.
+\]
+
+Upper fence:
+
+\[
+40+1.5(20)
+=
+70.
+\]
+
+A value of 100 is above 70.
+
+Therefore it is an outlier.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.8 Mean vs median and
+outliers}\label{mean-vs-median-and-outliers}
+
+This is crucial.
+
+The \textbf{mean is sensitive} to extreme values.
+
+The \textbf{median is resistant}.
+
+Example:
+
+\[
+2,3,4,5,6.
+\]
+
+Mean:
+
+\[
+4.
+\]
+
+Median:
+
+\[
+4.
+\]
+
+Replace 6 with 100:
+
+\[
+2,3,4,5,100.
+\]
+
+Median stays:
+
+\[
+4.
+\]
+
+Mean becomes:
+
+\[
+\frac{114}{5}=22.8.
+\]
+
+Huge difference.
+
+So:
+
+\[
+\boxed{\text{outliers pull the mean}}
+\]
+
+but:
+
+\[
+\boxed{\text{median changes little or not at all}}.
+\]
+
+Your source emphasizes this exact distinction.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.9 Distribution shape}\label{distribution-shape}
+
+\subsection{Symmetric}\label{symmetric}
+
+Approximately mirrored.
+
+Usually:
+
+\[
+\boxed{\text{mean}\approx\text{median}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Right-skewed}\label{right-skewed}
+
+Long tail to the right.
+
+Large values pull the mean right.
+
+Therefore:
+
+\[
+\boxed{\text{mean}>\text{median}}.
+\]
+
+Think income.
+
+A few extremely rich people pull the average upward.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Left-skewed}\label{left-skewed}
+
+Long tail to the left.
+
+Small values pull mean left.
+
+Therefore:
+
+\[
+\boxed{\text{mean}<\text{median}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Bimodal}\label{bimodal}
+
+Two peaks.
+
+The mean can lie in a region where very few observations exist.
+
+So the mean may not represent a ``typical'' observation well.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.10 Standard deviation}\label{standard-deviation}
+
+You generally do \textbf{not} calculate SD manually on SAT Math.
+
+Understand the concept:
+
+\[
+\boxed{\text{SD measures spread around the mean}}.
+\]
+
+Small SD:
+
+values clustered tightly.
+
+Large SD:
+
+values farther away.
+
+Example:
+
+A:
+
+\[
+95,100,105.
+\]
+
+B:
+
+\[
+50,100,150.
+\]
+
+Both means:
+
+\[
+100.
+\]
+
+But B has much larger SD because its values are much farther from 100.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.11 Same range does NOT imply same
+SD}\label{same-range-does-not-imply-same-sd}
+
+Dataset A may have all values packed near center except extremes.
+
+Dataset B may have many observations spread throughout the range.
+
+Same min/max:
+
+same range.
+
+But:
+
+different SD.
+
+Range uses only \textbf{two observations}.
+
+SD uses every observation.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.12 Transforming a data set}\label{transforming-a-data-set}
+
+This is very testable.
+
+Suppose you add \(c\) to \textbf{every value}.
+
+Mean:
+
+\[
++c.
+\]
+
+Median:
+
+\[
++c.
+\]
+
+But differences between values do not change.
+
+So:
+
+\[
+\boxed{\text{SD unchanged}}
+\]
+
+\[
+\boxed{\text{range unchanged}}
+\]
+
+\[
+\boxed{\text{IQR unchanged}}.
+\]
+
+Example:
+
+Data:
+
+\[
+10,15,20.
+\]
+
+Add 100:
+
+\[
+110,115,120.
+\]
+
+The center moves by 100.
+
+Spread remains identical.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{\texorpdfstring{3.13 Multiply every value by
+\(c\)}{3.13 Multiply every value by c}}\label{multiply-every-value-by-c}
+
+Then all distances also multiply.
+
+So:
+
+mean multiplied by \(c\),
+
+median multiplied by \(c\),
+
+range multiplied by \(|c|\),
+
+IQR multiplied by \(|c|\),
+
+SD multiplied by \(|c|\).
+
+Your notes summarize these transformation rules directly.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.14 Weighted mean from frequency
+table}\label{weighted-mean-from-frequency-table}
+
+Suppose:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lr@{}}
+\toprule\noalign{}
+Score & Frequency \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+70 & 3 \\
+80 & 5 \\
+90 & 2 \\
+\end{longtable}
+}
+
+Total people:
+
+\[
+3+5+2=10.
+\]
+
+Weighted total:
+
+\[
+3(70)+5(80)+2(90)
+\]
+
+\[
+=210+400+180
+\]
+
+\[
+=790.
+\]
+
+Mean:
+
+\[
+\frac{790}{10}
+=
+\boxed{79}.
+\]
+
+Do not calculate:
+
+\[
+\frac{70+80+90}{3}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.15 Histograms}\label{histograms}
+
+A histogram represents \textbf{numerical data grouped into intervals}.
+
+Important:
+
+bars usually touch.
+
+Bar chart:
+
+categorical groups.
+
+Bars can be separated.
+
+\subsubsection{Finding median interval}\label{finding-median-interval}
+
+Suppose frequencies:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lr@{}}
+\toprule\noalign{}
+Interval & Frequency \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+0--10 & 4 \\
+10--20 & 8 \\
+20--30 & 12 \\
+30--40 & 6 \\
+\end{longtable}
+}
+
+Total:
+
+\[
+30.
+\]
+
+Middle observations are 15th and 16th.
+
+Cumulative:
+
+after first bin = 4.
+
+after second = 12.
+
+after third = 24.
+
+Therefore observations 15 and 16 fall in:
+
+\[
+\boxed{20-30}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3.16 Box plots}\label{box-plots}
+
+A box plot gives you:
+
+\[
+\boxed{\min,Q_1,\text{median},Q_3,\max}
+\]
+
+or whiskers to the non-outlier extrema, depending on convention.
+
+The box represents:
+
+\[
+Q_1\rightarrow Q_3.
+\]
+
+That is the middle:
+
+\[
+\boxed{50\%}
+\]
+
+of the data.
+
+Use:
+
+median to compare center.
+
+IQR to compare spread.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 4: TWO-VARIABLE DATA}\label{part-4-two-variable-data}
+
+\subsection{4.1 Scatterplots}\label{scatterplots}
+
+Each point represents:
+
+\[
+(x,y).
+\]
+
+When inspecting a scatterplot, think:
+
+\textbf{direction, form, strength.}
+
+Direction:
+
+positive,
+
+negative,
+
+none.
+
+Form:
+
+linear,
+
+curved/nonlinear.
+
+Strength:
+
+tight or scattered.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.2 Positive correlation}\label{positive-correlation}
+
+As \(x\) increases:
+
+\[
+y\text{ tends to increase}.
+\]
+
+Example:
+
+study time and test score.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.3 Negative correlation}\label{negative-correlation}
+
+As \(x\) increases:
+
+\[
+y\text{ tends to decrease}.
+\]
+
+Example:
+
+speed for a fixed-distance trip and travel time.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{\texorpdfstring{4.4 Correlation coefficient
+\(r\)}{4.4 Correlation coefficient r}}\label{correlation-coefficient-r}
+
+\[
+\boxed{-1\le r\le1}.
+\]
+
+Closer to:
+
+\[
+1
+\]
+
+means stronger positive \textbf{linear} association.
+
+Closer to:
+
+\[
+-1
+\]
+
+means stronger negative linear association.
+
+Closer to:
+
+\[
+0
+\]
+
+means weak/no linear association.
+
+Important:
+
+\[
+r=0
+\]
+
+doesn't necessarily mean no relationship whatsoever.
+
+There could be a strong nonlinear pattern.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.5 Line of best fit}\label{line-of-best-fit}
+
+General form:
+
+\[
+\boxed{y=mx+b}.
+\]
+
+Slope:
+
+\[
+\boxed{m=\text{predicted change in }y\text{ for each +1 in }x}.
+\]
+
+Intercept:
+
+\[
+\boxed{b=\text{predicted }y\text{ when }x=0}.
+\]
+
+Your notes define slope and intercept this way and emphasize reading
+predicted values from the fitted line, not individual points.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.6 Interpreting slope in
+context}\label{interpreting-slope-in-context}
+
+Suppose:
+
+\[
+y=2.5x+10
+\]
+
+where:
+
+\(x\) = hours studied
+
+\(y\) = predicted exam score.
+
+Then \(2.5\) means:
+
+\[
+\boxed{\text{for every additional hour studied, predicted score rises by 2.5 points}}.
+\]
+
+Not:
+
+\begin{quote}
+2.5 extra hours for every point.
+\end{quote}
+
+Always track which variable is which.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.7 Intercept in context}\label{intercept-in-context}
+
+Suppose:
+
+\[
+H=3t+50,
+\]
+
+where \(H\) is plant height and \(t\) is days since planting.
+
+At:
+
+\[
+t=0,
+\]
+
+\[
+H=50.
+\]
+
+Interpretation:
+
+\[
+\boxed{\text{predicted plant height at planting was 50 cm}}.
+\]
+
+SAT questions want contextual interpretation, not merely:
+
+\begin{quote}
+\(y=50\) when \(x=0\).
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.8 Prediction using line of best
+fit}\label{prediction-using-line-of-best-fit}
+
+Suppose:
+
+\[
+y=.8x+3.
+\]
+
+At:
+
+\[
+x=10,
+\]
+
+\[
+y=.8(10)+3=11.
+\]
+
+If an actual data point at \(x=10\) happens to be \(12\), the
+\textbf{model prediction} is still:
+
+\[
+\boxed{11}.
+\]
+
+If question says:
+
+\begin{quote}
+based on the line of best fit
+\end{quote}
+
+use the line.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.9 Residual}\label{residual}
+
+Memorize:
+
+\[
+\boxed{\text{residual}=\text{actual}-\text{predicted}}.
+\]
+
+Think:
+
+\[
+\boxed{A-P}.
+\]
+
+Example:
+
+actual:
+
+\[
+15.
+\]
+
+Predicted:
+
+\[
+13.
+\]
+
+Residual:
+
+\[
+15-13=2.
+\]
+
+Positive residual.
+
+The actual point is above the line.
+
+Therefore the model \textbf{underestimated}.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.10 Residual sign
+interpretation}\label{residual-sign-interpretation}
+
+\[
+\boxed{\text{positive residual}
+\Rightarrow
+\text{actual}>\text{predicted}}
+\]
+
+so model underestimates.
+
+\[
+\boxed{\text{negative residual}
+\Rightarrow
+\text{actual}<\text{predicted}}
+\]
+
+so model overestimates.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.11 Residual plots}\label{residual-plots}
+
+A good linear model produces residuals randomly scattered around:
+
+\[
+y=0.
+\]
+
+No obvious pattern.
+
+If the residual plot is U-shaped:
+
+the linear model missed systematic curvature.
+
+Likely use quadratic/nonlinear model.
+
+Your file specifically flags curvature in the residual plot as evidence
+that a linear model is inappropriate.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.12 Linear vs exponential}\label{linear-vs-exponential}
+
+This is a classic.
+
+\subsubsection{Linear}\label{linear}
+
+Same amount added each time.
+
+Constant \textbf{difference}.
+
+Example:
+
+\[
+100,115,130,145.
+\]
+
+Differences:
+
+\[
+15,15,15.
+\]
+
+Linear.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsubsection{Exponential}\label{exponential}
+
+Same factor multiplied each time.
+
+Constant \textbf{ratio}.
+
+Example:
+
+\[
+3,6,12,24.
+\]
+
+Ratios:
+
+\[
+2,2,2.
+\]
+
+Exponential.
+
+So remember:
+
+\[
+\boxed{\text{constant differences}\Rightarrow\text{linear}}
+\]
+
+\[
+\boxed{\text{constant ratios}\Rightarrow\text{exponential}}.
+\]
+
+The source explicitly uses this as the comparison test.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.13 Choosing a model}\label{choosing-a-model}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Pattern & Likely model \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Constant rate/change & Linear \\
+One max/min & Quadratic \\
+Constant percent/factor & Exponential \\
+Rapid rise then leveling & Logarithmic-type \\
+\end{longtable}
+}
+
+SAT clue words:
+
+``increases by 5 each year'' to linear.
+
+``increases by 5\% each year'' to exponential.
+
+``doubles'' to exponential.
+
+``reaches a maximum'' to quadratic.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.14 Interpolation}\label{interpolation}
+
+Interpolation means prediction \textbf{inside} observed data range.
+
+If data ranges:
+
+\[
+10\le x\le50,
+\]
+
+a prediction at:
+
+\[
+x=35
+\]
+
+is interpolation.
+
+Usually more reliable.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4.15 Extrapolation}\label{extrapolation}
+
+Prediction \textbf{outside} observed range.
+
+If data ends at \(x=50\) and you predict \(x=100\):
+
+extrapolation.
+
+The equation may produce a number, but the real-world relationship may
+stop behaving that way.
+
+The source explicitly distinguishes interpolation from extrapolation and
+notes that extrapolation is less reliable.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 5: PROBABILITY}\label{part-5-probability}
+
+\subsection{5.1 Basic probability}\label{basic-probability}
+
+\[
+\boxed{
+P(E)=
+\frac{\text{favorable outcomes}}
+{\text{total outcomes}}
+}
+\]
+
+Example:
+
+3 red, 5 blue, 2 green.
+
+Total:
+
+\[
+10.
+\]
+
+Probability blue:
+
+\[
+\frac5{10}
+=
+\boxed{\frac12}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.2 Complement}\label{complement}
+
+\[
+\boxed{P(\text{not }A)=1-P(A)}.
+\]
+
+This becomes extremely useful for ``at least one.''
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.3 ``At least one''}\label{at-least-one}
+
+Usually:
+
+\[
+\boxed{
+P(\text{at least one})
+=
+1-P(\text{none})
+}
+\]
+
+Example:
+
+Roll a die twice.
+
+Probability at least one 6.
+
+Rather than enumerate:
+
+find probability of \textbf{no sixes}.
+
+Each roll:
+
+\[
+\frac56.
+\]
+
+Both:
+
+\[
+\left(\frac56\right)^2
+=
+\frac{25}{36}.
+\]
+
+Therefore:
+
+\[
+1-\frac{25}{36}
+=
+\boxed{\frac{11}{36}}.
+\]
+
+This is much safer than adding probabilities.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.4 Addition rule}\label{addition-rule}
+
+For events \(A,B\):
+
+\[
+\boxed{
+P(A\cup B)
+=
+P(A)+P(B)-P(A\cap B)
+}
+\]
+
+Why subtract?
+
+Because overlap was counted twice.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.5 Mutually exclusive}\label{mutually-exclusive}
+
+Mutually exclusive events cannot both happen.
+
+Therefore:
+
+\[
+P(A\cap B)=0.
+\]
+
+So:
+
+\[
+\boxed{
+P(A\cup B)
+=
+P(A)+P(B)
+}
+\]
+
+Example:
+
+one die roll.
+
+A = roll a 1.
+
+B = roll a 6.
+
+Cannot both happen on the same roll.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.6 Independent events}\label{independent-events}
+
+Independent means event B does not change the probability of A.
+
+Formula:
+
+\[
+\boxed{
+P(A\cap B)
+=
+P(A)P(B)
+}
+\]
+
+Equivalent condition:
+
+\[
+\boxed{P(A|B)=P(A)}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.7 With replacement}\label{with-replacement}
+
+Bag has:
+
+3 red,
+
+2 blue.
+
+Draw red, replace it, draw again.
+
+First red:
+
+\[
+\frac35.
+\]
+
+Since replaced, second red:
+
+\[
+\frac35.
+\]
+
+Both:
+
+\[
+\frac35\cdot\frac35
+=
+\boxed{\frac9{25}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.8 Without replacement}\label{without-replacement}
+
+Same bag.
+
+Draw two without replacement.
+
+First red:
+
+\[
+\frac35.
+\]
+
+Now only 2 red remain out of 4 balls.
+
+Second red:
+
+\[
+\frac24.
+\]
+
+Therefore:
+
+\[
+\frac35\cdot\frac24
+=
+\frac6{20}
+=
+\boxed{\frac3{10}}.
+\]
+
+Without replacement creates dependence because probabilities change.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.9 Conditional probability}\label{conditional-probability}
+
+This is one of the most important SAT probability topics.
+
+Formula:
+
+\[
+\boxed{
+P(A|B)
+=
+\frac{P(A\cap B)}
+{P(B)}
+}
+\]
+
+But for SAT tables, there is an easier rule:
+
+\begin{quote}
+\textbf{The denominator is the group after ``given that.''}
+\end{quote}
+
+Your source explicitly teaches this denominator rule.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.10 Two-way table example}\label{two-way-table-example}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lrrr@{}}
+\toprule\noalign{}
+& Passed & Failed & Total \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Studied & 100 & 20 & 120 \\
+Didn't study & 30 & 50 & 80 \\
+Total & 130 & 70 & 200 \\
+\end{longtable}
+}
+
+Question:
+
+\begin{quote}
+Given that a student studied, what is the probability they passed?
+\end{quote}
+
+The condition is:
+
+\[
+\boxed{\text{studied}}.
+\]
+
+Therefore denominator:
+
+\[
+120.
+\]
+
+Studied AND passed:
+
+\[
+100.
+\]
+
+So:
+
+\[
+P(\text{passed}|\text{studied})
+=
+\frac{100}{120}
+=
+\boxed{\frac56}.
+\]
+
+Do NOT use:
+
+\[
+\frac{100}{200}.
+\]
+
+That ignores the condition.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.11 Reverse condition trap}\label{reverse-condition-trap}
+
+From the same table:
+
+\[
+P(\text{studied}|\text{passed})
+=
+\frac{100}{130}.
+\]
+
+This is different from:
+
+\[
+P(\text{passed}|\text{studied})
+=
+\frac{100}{120}.
+\]
+
+Conditional probability is not generally reversible.
+
+\[
+\boxed{P(A|B)\neq P(B|A)}
+\]
+
+in general.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.12 Independence from a
+table}\label{independence-from-a-table}
+
+Using that table:
+
+\[
+P(\text{passed})
+=
+\frac{130}{200}=0.65.
+\]
+
+But:
+
+\[
+P(\text{passed}|\text{studied})
+=
+\frac{100}{120}
+\approx0.833.
+\]
+
+Since:
+
+\[
+0.833\neq0.65,
+\]
+
+studying and passing are \textbf{not independent}.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.13 Reverse conditional
+probability}\label{reverse-conditional-probability}
+
+Suppose:
+
+80\% of the 120 students who studied passed.
+
+Number who passed and studied:
+
+\[
+0.80(120)=96.
+\]
+
+\[
+\boxed{96}.
+\]
+
+This appears in your notes as the ``reverse probability'' form.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5.14 Geometric probability}\label{geometric-probability}
+
+When a point is uniformly random over an area:
+
+\[
+\boxed{
+P(E)
+=
+\frac{\text{favorable area}}
+{\text{total area}}
+}
+\]
+
+Example:
+
+square side:
+
+\[
+20.
+\]
+
+Circle radius:
+
+\[
+5.
+\]
+
+Square area:
+
+\[
+400.
+\]
+
+Circle:
+
+\[
+25\pi.
+\]
+
+Probability:
+
+\[
+\frac{25\pi}{400}
+=
+\boxed{\frac{\pi}{16}}.
+\]
+
+Do not compare lengths.
+
+Use \textbf{areas}.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 6: STATISTICAL
+INFERENCE}\label{part-6-statistical-inference}
+
+This section is less computational and more about exact wording.
+
+\subsection{6.1 Population vs sample}\label{population-vs-sample}
+
+Population:
+
+\[
+\boxed{\text{entire group we care about}}.
+\]
+
+Sample:
+
+\[
+\boxed{\text{subset actually studied}}.
+\]
+
+Example:
+
+A school has 1,500 students.
+
+Researchers survey 200.
+
+Population:
+
+\[
+1500.
+\]
+
+Sample:
+
+\[
+200.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.2 Parameter vs statistic}\label{parameter-vs-statistic}
+
+A \textbf{parameter} describes a population.
+
+A \textbf{statistic} describes a sample.
+
+Example:
+
+42\% of surveyed voters support something.
+
+That:
+
+\[
+42\%
+\]
+
+is a sample statistic.
+
+We use it to estimate the true population parameter.
+
+The source frames this exactly as ``sample statistic to estimate of
+population parameter.''
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.3 Estimating a population
+total}\label{estimating-a-population-total}
+
+Suppose:
+
+60 of 200 sampled students own cars.
+
+Sample proportion:
+
+\[
+\frac{60}{200}=0.30.
+\]
+
+School has 1,500 students.
+
+Estimate:
+
+\[
+0.30(1500)=450.
+\]
+
+So approximately:
+
+\[
+\boxed{450}.
+\]
+
+Notice the word:
+
+\textbf{approximately}.
+
+Sampling produces estimates.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.4 Margin of error}\label{margin-of-error}
+
+Suppose a poll says:
+
+\[
+42\%
+\]
+
+with margin of error:
+
+\[
+\pm4\%.
+\]
+
+Then plausible population range:
+
+\[
+42-4=38
+\]
+
+to:
+
+\[
+42+4=46.
+\]
+
+Therefore:
+
+\[
+\boxed{38\%-46\%}.
+\]
+
+General:
+
+\[
+\boxed{
+\text{estimate}\pm\text{MoE}
+}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.5 What margin of error DOES NOT
+mean}\label{what-margin-of-error-does-not-mean}
+
+If the sample found exactly 42\%, you should not say:
+
+\begin{quote}
+Between 38\% and 46\% of the surveyed people supported it.
+\end{quote}
+
+The surveyed proportion is already known.
+
+The uncertainty concerns the \textbf{population parameter}.
+
+Correct idea:
+
+\begin{quote}
+The population proportion is plausibly between 38\% and 46\%.
+\end{quote}
+
+The notes explicitly warn that the interval concerns the parameter, not
+individual observations or the already-observed sample.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.6 Sample size and margin of
+error}\label{sample-size-and-margin-of-error}
+
+Holding other things comparable:
+
+larger sample:
+
+\[
+\boxed{\text{smaller margin of error}}
+\]
+
+which means:
+
+\[
+\boxed{\text{more precision}}.
+\]
+
+Smaller sample:
+
+larger margin of error.
+
+But:
+
+\subsection{HUGE distinction}\label{huge-distinction}
+
+A very large \textbf{biased sample is still biased}.
+
+Sampling 1 million people from the wrong group does not magically make
+the result representative.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.7 Confidence intervals}\label{confidence-intervals}
+
+Suppose:
+
+\[
+95\%\text{ CI}=(122,138)
+\]
+
+for a population mean.
+
+SAT interpretation:
+
+\[
+\boxed{\text{the true population mean is plausibly between 122 and 138}}.
+\]
+
+Do NOT say:
+
+\begin{quote}
+95\% of people have values between 122 and 138.
+\end{quote}
+
+The interval concerns the \textbf{mean/parameter}, not individual
+observations.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.8 What ``95\% confidence''
+means}\label{what-95-confidence-means}
+
+Conceptually:
+
+If the same sampling procedure were repeated many times, about 95\% of
+intervals constructed this way would capture the true population
+parameter.
+
+For SAT purposes, the most important thing is:
+
+\[
+\boxed{\text{confidence interval is about population parameter}}
+\]
+
+not:
+
+individual values.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.9 Random sample}\label{random-sample}
+
+Random selection allows you to \textbf{generalize}.
+
+Suppose you randomly sample registered voters in Ohio.
+
+You can generalize to:
+
+\[
+\boxed{\text{registered voters in Ohio}}.
+\]
+
+Not automatically:
+
+all Americans.
+
+Not automatically:
+
+all Ohio residents.
+
+The population is the group from which the sample was selected.
+
+Your file explicitly distinguishes random selection as enabling
+generalization.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.10 Convenience sample}\label{convenience-sample}
+
+Example:
+
+Want to learn how often Americans exercise.
+
+Survey people entering a gym.
+
+That is biased.
+
+Why?
+
+People at a gym are likely more exercise-oriented than average
+Americans.
+
+Even if you survey 10,000 gym members, it is still not representative.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.11 Voluntary-response bias}\label{voluntary-response-bias}
+
+You post:
+
+\begin{quote}
+Vote online if you want to tell us what you think!
+\end{quote}
+
+People with stronger opinions may be more likely to respond.
+
+Therefore voluntary response is often biased.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.12 Nonresponse bias}\label{nonresponse-bias}
+
+You randomly choose people, but most do not answer.
+
+If responders differ systematically from nonresponders, your results can
+be biased.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.13 Undercoverage}\label{undercoverage}
+
+Part of the target population has little/no chance of appearing in the
+sample.
+
+Example:
+
+A survey conducted only by landline may underrepresent people without
+landlines.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.14 Leading/question wording
+bias}\label{leadingquestion-wording-bias}
+
+Question:
+
+\begin{quote}
+Do you support this sensible and effective new policy?
+\end{quote}
+
+Words like ``sensible and effective'' push the respondent.
+
+That can bias responses.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{6.15 Social desirability
+bias}\label{social-desirability-bias}
+
+People may give answers they think are socially acceptable rather than
+fully truthful.
+
+Example:
+
+``How often do you recycle?''
+
+Respondents may overreport.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 7: STUDY DESIGN AND
+CAUSATION}\label{part-7-study-design-and-causation}
+
+This is probably the easiest conceptual area once you learn one
+distinction.
+
+\subsection{7.1 The two words you must never
+confuse}\label{the-two-words-you-must-never-confuse}
+
+\subsection{Random selection}\label{random-selection}
+
+Answers:
+
+\begin{quote}
+Who gets into the study?
+\end{quote}
+
+Enables:
+
+\[
+\boxed{\text{generalization}}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Random assignment}\label{random-assignment}
+
+Answers:
+
+\begin{quote}
+Once people are in the study, who gets which treatment?
+\end{quote}
+
+Enables:
+
+\[
+\boxed{\text{causal inference}}
+\]
+
+This is the most important study-design distinction in the domain. Your
+source's formula sheet summarizes it as random selection to generalize,
+random assignment to causation.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{7.2 Four possible
+situations}\label{four-possible-situations}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Random selection? & Random assignment? & What can you do? \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Yes & Yes & Generalize + causal claim \\
+Yes & No & Generalize, association only \\
+No & Yes & Causal claim for studied subjects, limited generalization \\
+No & No & Association only, limited generalization \\
+\end{longtable}
+}
+
+Memorize this table.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{7.3 Observational study}\label{observational-study}
+
+Researchers merely observe what people already do.
+
+Example:
+
+Researchers compare people who drink coffee versus those who don't.
+
+Nobody is assigned coffee.
+
+Therefore:
+
+\[
+\boxed{\text{association only}}
+\]
+
+You cannot automatically conclude:
+
+coffee causes the observed outcome.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{7.4 Experiment}\label{experiment}
+
+Researchers impose a treatment.
+
+For example:
+
+randomly assign patients to:
+
+drug,
+
+placebo.
+
+If outcomes differ significantly, random assignment supports a causal
+interpretation.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{7.5 Correlation does not establish
+causation}\label{correlation-does-not-establish-causation}
+
+Suppose people who exercise more have lower blood pressure.
+
+Maybe exercise lowers blood pressure.
+
+But observationally there could be other explanations:
+
+diet,
+
+age,
+
+income,
+
+health awareness,
+
+medication,
+
+etc.
+
+So observational result:
+
+\[
+\boxed{\text{exercise is associated with blood pressure}}
+\]
+
+not necessarily:
+
+\[
+\boxed{\text{exercise caused the difference}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{7.6 Confounding variable}\label{confounding-variable}
+
+A confounder is a third variable related to both:
+
+the explanatory/treatment variable,
+
+and the outcome.
+
+Classic example:
+
+Ice cream sales increase when drowning rates increase.
+
+Did ice cream cause drowning?
+
+No.
+
+Temperature is a confounder:
+
+hot weather to more ice cream.
+
+hot weather to more swimming.
+
+more swimming to potentially more drownings.
+
+So temperature helps explain both.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{7.7 Another confounding
+example}\label{another-confounding-example}
+
+Students taking SAT-prep courses have higher scores.
+
+Possible confounder:
+
+\[
+\boxed{\text{motivation}}.
+\]
+
+More motivated students may be:
+
+more likely to enroll in prep,
+
+and more likely to study independently and score higher.
+
+So an observational association does not prove the course caused the
+entire difference.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{7.8 Control group}\label{control-group}
+
+A control group gives a baseline.
+
+Example:
+
+Treatment group gets new medicine.
+
+Control group gets existing treatment or placebo.
+
+Then compare outcomes.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{7.9 Placebo}\label{placebo}
+
+A fake/inactive treatment designed to resemble the real one.
+
+Why?
+
+People may improve simply because they believe they are being treated.
+
+That is the placebo effect.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{7.10 Blinding}\label{blinding}
+
+Single-blind:
+
+participants do not know their assigned group.
+
+Double-blind:
+
+participants and relevant researchers/evaluators do not know.
+
+Purpose:
+
+reduce expectation and measurement bias.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{7.11 Blocking}\label{blocking}
+
+Researchers first group subjects by an important characteristic:
+
+age,
+
+sex,
+
+baseline severity,
+
+etc.
+
+Then randomize within groups.
+
+Purpose:
+
+balance known sources of variation.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 8: HIGH-YIELD SAT
+WORDING}\label{part-8-high-yield-sat-wording}
+
+These words should trigger methods automatically.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+SAT wording & Think \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+``per'' & rate \\
+``varies directly'' & \(y=kx\) \\
+``varies inversely'' & \(y=k/x\) \\
+``increase by \(p\%\)'' & \(\times(1+p/100)\) \\
+``decrease by \(p\%\)'' & \(\times(1-p/100)\) \\
+``after a discount'' & reverse percent may require division \\
+``percent change'' & divide change by old \\
+``percentage points'' & subtract percentages \\
+``mean'' & sum / count \\
+``middle'' & median after sorting \\
+``spread'' & range/IQR/SD \\
+``resistant to outliers'' & median/IQR \\
+``line of best fit'' & use model, not data point \\
+``predicted'' & model value \\
+``residual'' & actual − predicted \\
+``given that'' & conditional probability \\
+``among those who'' & conditional denominator \\
+``at least one'' & \(1-P(\text{none})\) \\
+``randomly selected'' & generalization \\
+``randomly assigned'' & causation \\
+``observational'' & association only \\
+``margin of error'' & estimate ± MoE \\
+``plausibly'' & good inference language \\
+``exactly'' & suspicious for sample inference \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 9: DESMOS FOR B3}\label{part-9-desmos-for-b3}
+
+You should absolutely use Desmos for some Data Analysis problems.
+
+\subsection{9.1 Mean/median/list
+calculations}\label{meanmedianlist-calculations}
+
+Enter:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{L=[12,7,9,14,3]}
+\end{Highlighting}
+\end{Shaded}
+
+Then:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{mean(L)}
+\end{Highlighting}
+\end{Shaded}
+
+or:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{median(L)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{9.2 Unit conversions}\label{unit-conversions}
+
+For:
+
+60 mph to ft/s:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{60*5280/3600}
+\end{Highlighting}
+\end{Shaded}
+
+Answer:
+
+\[
+88.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{9.3 Percentage chains}\label{percentage-chains}
+
+30\% markup then 15\% discount:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{150*1.30*0.85}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{9.4 Reverse percentage}\label{reverse-percentage-1}
+
+\$45 after 25\% discount:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{45/0.75}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{9.5 Linear regression}\label{linear-regression}
+
+Create table \(x_1,y_1\).
+
+Then:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{y\_1 \textasciitilde{} m x\_1 + b}
+\end{Highlighting}
+\end{Shaded}
+
+Desmos gives \(m,b\).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{9.6 Quadratic regression}\label{quadratic-regression}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{y\_1 \textasciitilde{} a x\_1\^{}2 + b x\_1 + c}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{9.7 Exponential regression}\label{exponential-regression}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{y\_1 \textasciitilde{} a*b\^{}(x\_1)}
+\end{Highlighting}
+\end{Shaded}
+
+Your source recommends regression and comparing fits as one of the main
+calculator workflows for B3.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 10: THE BIGGEST B3
+TRAPS}\label{part-10-the-biggest-b3-traps}
+
+Here are the ones I want you actively checking for on test day.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Trap & Correct rule \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Percent change divided by new value & Divide by \textbf{old} \\
+Successive percents added & Multiply multipliers \\
+20\% rise then 20\% fall = same & No, multiplier \(1.2(.8)=.96\) \\
+Area conversion uses linear factor & Square conversion factor \\
+Volume conversion uses linear factor & Cube conversion factor \\
+Average speeds & Total distance / total time \\
+Weighted groups & Weight by group size \\
+Median before sorting & Sort first \\
+Same range = same SD & False \\
+Outlier affects mean and median equally & False; mean more sensitive \\
+Right skew means median \textgreater{} mean & Usually mean
+\textgreater{} median \\
+Using data point when asked model prediction & Use fitted line/model \\
+Residual = predicted − actual & Actual − predicted \\
+Positive residual = overestimate & Positive means underestimate \\
+Correlation proves causation & False \\
+``Given B'' uses grand total & Use total of B \\
+At least one to add probabilities & Usually use complement \\
+Without replacement probabilities stay same & They change \\
+Large sample fixes selection bias & False \\
+Random sample proves causation & False \\
+Random assignment allows generalization & Not by itself \\
+CI describes individual observations & It describes parameter \\
+Sample statistic is exact population truth & It is an estimate \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 11: COMPLETE FORMULA
+SHEET}\label{part-11-complete-formula-sheet}
+
+\subsection{Ratios/proportions}\label{ratiosproportions}
+
+\[
+\boxed{\frac ab=\frac cd\Rightarrow ad=bc}
+\]
+
+\subsection{Direct variation}\label{direct-variation-1}
+
+\[
+\boxed{y=kx}
+\]
+
+\subsection{Inverse variation}\label{inverse-variation-1}
+
+\[
+\boxed{y=\frac{k}{x}}
+\]
+
+or:
+
+\[
+\boxed{xy=k}
+\]
+
+\subsection{Density}\label{density-1}
+
+\[
+\boxed{D=\frac MV}
+\]
+
+\subsection{Speed}\label{speed}
+
+\[
+\boxed{v=\frac dt}
+\]
+
+\subsection{Average speed}\label{average-speed-1}
+
+\[
+\boxed{
+v_{\text{avg}}
+=
+\frac{\text{total distance}}
+{\text{total time}}
+}
+\]
+
+\subsection{Weighted average}\label{weighted-average-1}
+
+\[
+\boxed{
+\bar x=
+\frac{\sum w_ix_i}{\sum w_i}
+}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Percent of}\label{percent-of}
+
+\[
+\boxed{p\%\text{ of }x=\frac p{100}x}
+\]
+
+\subsection{Percent change}\label{percent-change-1}
+
+\[
+\boxed{
+\frac{\text{new}-\text{old}}
+{\text{old}}\times100\%
+}
+\]
+
+\subsection{Increase multiplier}\label{increase-multiplier}
+
+\[
+\boxed{1+\frac p{100}}
+\]
+
+\subsection{Decrease multiplier}\label{decrease-multiplier}
+
+\[
+\boxed{1-\frac p{100}}
+\]
+
+\subsection{Reverse percent}\label{reverse-percent}
+
+\[
+\boxed{
+\text{original}
+=
+\frac{\text{final}}
+{\text{multiplier}}
+}
+\]
+
+\subsection{Compound growth}\label{compound-growth-1}
+
+\[
+\boxed{A=P(1+r)^n}
+\]
+
+\subsection{Simple interest}\label{simple-interest-1}
+
+\[
+\boxed{I=Prt}
+\]
+
+\subsection{Percent error}\label{percent-error-1}
+
+\[
+\boxed{
+\frac{|\text{estimate}-\text{actual}|}
+{\text{actual}}\times100\%
+}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Mean}\label{mean-1}
+
+\[
+\boxed{\bar x=\frac{\sum x}{n}}
+\]
+
+\subsection{Sum from mean}\label{sum-from-mean}
+
+\[
+\boxed{\sum x=n\bar x}
+\]
+
+\subsection{Range}\label{range-1}
+
+\[
+\boxed{\max-\min}
+\]
+
+\subsection{IQR}\label{iqr}
+
+\[
+\boxed{Q_3-Q_1}
+\]
+
+\subsection{Outlier fences}\label{outlier-fences}
+
+\[
+\boxed{Q_1-1.5(IQR)}
+\]
+
+and:
+
+\[
+\boxed{Q_3+1.5(IQR)}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Linear model}\label{linear-model}
+
+\[
+\boxed{y=mx+b}
+\]
+
+\subsection{Residual}\label{residual-1}
+
+\[
+\boxed{\text{actual}-\text{predicted}}
+\]
+
+\subsection{Exponential model}\label{exponential-model}
+
+\[
+\boxed{y=ab^x}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Basic probability}\label{basic-probability-1}
+
+\[
+\boxed{
+P(E)=
+\frac{\text{favorable}}
+{\text{total}}
+}
+\]
+
+\subsection{Complement}\label{complement-1}
+
+\[
+\boxed{P(A^c)=1-P(A)}
+\]
+
+\subsection{Addition}\label{addition}
+
+\[
+\boxed{
+P(A\cup B)
+=
+P(A)+P(B)-P(A\cap B)
+}
+\]
+
+\subsection{Conditional}\label{conditional}
+
+\[
+\boxed{
+P(A|B)
+=
+\frac{P(A\cap B)}
+{P(B)}
+}
+\]
+
+\subsection{Independent}\label{independent}
+
+\[
+\boxed{
+P(A\cap B)=P(A)P(B)
+}
+\]
+
+\subsection{At least one}\label{at-least-one-1}
+
+\[
+\boxed{
+P(\ge1)=1-P(0)
+}
+\]
+
+\subsection{Geometric probability}\label{geometric-probability-1}
+
+\[
+\boxed{
+P(E)=
+\frac{\text{favorable area}}
+{\text{total area}}
+}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Margin of error}\label{margin-of-error-1}
+
+\[
+\boxed{
+\text{interval}
+=
+\text{statistic}\pm\text{MoE}
+}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Part 12: FINAL SAT B3 DECISION
+TREE}\label{part-12-final-sat-b3-decision-tree}
+
+This is the final checklist I would study right before the test:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Ratio?} Decide part-to-part or part-to-whole.
+\item
+  \textbf{Proportion?} Keep matching units in corresponding positions.
+\item
+  \textbf{Direct variation?} Use \(y=kx\).
+\item
+  \textbf{Inverse variation?} Use \(xy=k\).
+\item
+  \textbf{Unit conversion?} Make units cancel.
+\item
+  \textbf{Area/volume conversion?} Square/cube the factor.
+\item
+  \textbf{Average speed?} Total distance / total time.
+\item
+  \textbf{Weighted groups?} Use weighted average.
+\item
+  \textbf{Percent of?} Multiply by decimal.
+\item
+  \textbf{Percent change?} \((new-old)/old\).
+\item
+  \textbf{Increase/decrease?} Use multiplier.
+\item
+  \textbf{Several percent changes?} Multiply multipliers.
+\item
+  \textbf{Original before discount?} Divide by multiplier.
+\item
+  \textbf{Percentage points?} Subtract percentage values.
+\item
+  \textbf{Mean?} Sum/count.
+\item
+  \textbf{Missing value with mean?} Mean × count = total.
+\item
+  \textbf{Median?} Sort first.
+\item
+  \textbf{IQR?} \(Q_3-Q_1\).
+\item
+  \textbf{Outlier?} 1.5×IQR rule.
+\item
+  \textbf{Outlier present?} Mean and SD are sensitive; median/IQR
+  resistant.
+\item
+  \textbf{Right skew?} Mean usually above median.
+\item
+  \textbf{Left skew?} Mean usually below median.
+\item
+  \textbf{Compare SD?} Look at distances from center, not just range.
+\item
+  \textbf{Add constant to all data?} Center moves; spread stays.
+\item
+  \textbf{Multiply all data?} Center and spread scale.
+\item
+  \textbf{Line of best fit?} Use the line, not a nearby point.
+\item
+  \textbf{Slope?} Predicted \(y\)-change per +1 \(x\).
+\item
+  \textbf{Residual?} Actual − predicted.
+\item
+  \textbf{Residual positive?} Model underestimated.
+\item
+  \textbf{Curved residual plot?} Linear model inappropriate.
+\item
+  \textbf{Constant differences?} Linear.
+\item
+  \textbf{Constant ratios?} Exponential.
+\item
+  \textbf{Prediction outside data range?} Extrapolation.
+\item
+  \textbf{Probability?} Identify favorable and total outcomes.
+\item
+  \textbf{``Given that''/``among''?} Conditional probability; change
+  denominator.
+\item
+  \textbf{Without replacement?} Update probabilities.
+\item
+  \textbf{At least one?} Complement method.
+\item
+  \textbf{Mutually exclusive?} Intersection = 0.
+\item
+  \textbf{Independent?} \(P(A|B)=P(A)\).
+\item
+  \textbf{Area probability?} Favorable area / total area.
+\item
+  \textbf{Sample result?} It estimates a population parameter.
+\item
+  \textbf{Margin of error?} Statistic ± MoE.
+\item
+  \textbf{Larger random sample?} Usually smaller MoE.
+\item
+  \textbf{Huge but biased sample?} Still biased.
+\item
+  \textbf{Randomly selected?} Can generalize to sampled population.
+\item
+  \textbf{Randomly assigned?} Can support causation.
+\item
+  \textbf{Observational study?} Association only.
+\item
+  \textbf{Confounder?} Related to both explanatory variable and outcome.
+\item
+  \textbf{Volunteers/convenience sample?} Limited generalizability.
+\item
+  \textbf{Answer says ``exactly'' about population from sample?} Usually
+  reject it.
+\end{enumerate}
+
+If those 50 reactions become automatic, \textbf{B3 stops being a
+collection of random word problems}. You start recognizing a relatively
+small number of repeatable structures, which is exactly what this domain
+is designed around.
+
+\end{document}

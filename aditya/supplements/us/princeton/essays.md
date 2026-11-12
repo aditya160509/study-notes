@@ -10,7 +10,7 @@ I became interested in engineering when my programs stopped being private experi
 
 For my STEM Racing team, I built Daedalus to compare car designs under uncertainty. The first temptation was to make the optimizer more powerful. The harder task was making every recommendation traceable: which equation produced it, which assumption moved it, and where the design stopped being reliable. In Glassbox, an incident-response system, I faced a related problem. A language model could interpret evidence, but impact figures had to come directly from monitoring data. Sounding certain was not evidence.
 
-These projects made me want to study Computer Science as the engineering of accountable systems. Princeton’s B.S.E. foundations would deepen the algorithms and systems behind my work, while required independent work would let me stay with one question long enough to have my assumptions challenged: can a recommender explain its failure modes to someone who did not build it? I am drawn to the Center for Information Technology Policy because the question does not end when the code works. Once people rely on a system’s answer, its design becomes a question of responsibility too.
+These projects made me want to study Computer Science as the engineering of accountable systems. Required independent work in B.S.E. Computer Science would let me stay with one question long enough to have my assumptions challenged: can a recommender explain its failure modes to someone who did not build it? I am drawn to the Center for Information Technology Policy and its Computing, Society and Policy minor because the question does not end when the code works. Once people rely on a system’s answer, its design becomes a question of responsibility too.
 
 ## Your Voice: 448 words
 
@@ -48,7 +48,7 @@ I want to learn Tamil properly. At my grandmother’s house, my father and paati
 
 ## Joy: 33 words
 
-Football or pickleball with three or four close friends, after somebody has already announced the last game. The score becomes disputed, the rules become negotiable, and nobody leaves when they said they would.
+Football or pickleball with three or four close friends, an hour after we said we would stop. The score becomes disputed, the rules become negotiable, and nobody leaves when they said they would.
 
 ## Soundtrack: 39 words
 

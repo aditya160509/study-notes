@@ -106,7 +106,7 @@ You have seen my research develop from the first proposal to the final report, a
 **Points you may find useful:**
 - I try to explain difficult ideas in plain language.
 - I founded the Quant Finance Club (25–30 members), wrote its 13-week course and built a simulated stock market for it.
-- I raised ₹25,000 for a rural school and taught mathematics and English to about 50 students there.
+- I raised ₹22,500 for a rural school and taught mathematics and English to about 50 students there.
 - I built an engineering platform that my STEM Racing team uses.
 
 > *Example:* "Aditya cares as much about explaining an idea as discovering it."

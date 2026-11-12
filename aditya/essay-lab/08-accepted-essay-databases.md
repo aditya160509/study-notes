@@ -762,3 +762,104 @@ It seems fitting that my goals are still transforming: in Scarry's book, there i
 **Totals:** 30 full verbatim essays (14 Shemmassian + 12 AdmitReport + 2 PrepScholar Harvard + 2 PrepScholar analyzed) + 2 near-complete short answers (Stanford 5-word and 3-word) + 12 ETW essay cards with excerpts. 13 verbatim AO commentary blocks (12 AdmitReport grades + "My Shape" AO note), 4 Shemmassian banner commentaries, 4+8 PrepScholar author/expert commentary quotes. 3 sources blocked or empty (CollegeEssay.org 410, CollegeBase login wall, ETW MIT empty); ETW Dartmouth/Stanford partial (paywalled); 10 of 14 Shemmassian banners image-only.
 
 *All essay texts above are reproduced verbatim from the raw extracts (or, for the Harvard scans, from vision transcription of the downloaded PNGs). No text was fabricated; typographical quirks of the originals (e.g., "leader ship", "thatcyclophosphamide", "440 Mhz") are preserved as published.*
+---
+
+## Additional essays (added 28 Oct 2026)
+
+All texts were read in full on the publishing page on 28 Oct 2026 (TinyFish fetch). Only summaries, technique notes and one short quote per essay are kept here; follow the URL for the full text. None of these duplicate the essays above (Shemmassian, AdmitReport, PrepScholar's JHU "Breaking Into Cars" / Tufts "goldbug", ETW cards) or the three in 09.
+
+### A1. "In the Belly of the Ship" — Ruoyu X., Johns Hopkins '30
+Source: https://apply.jhu.edu/hopkins-insider/in-the-belly-of-the-ship/ (JHU Essays That Worked, with Admissions Committee comments + author reflection)
+Summary: A shy student interns on a cargo ship her father once crewed, finds none of the camaraderie he described, and spends the week lying in her cot. She returns the next summer, chooses to work alongside the crew, and collects their stories. The committee singles out that the first attempt "didn't live up to expectations" and she still went back.
+Quote: "most never come back. They don't appreciate the routine." (the ship's engineer)
+- Opening: in-scene physical discomfort (sweat, mosquito net), then turns to the real subject, shame, in the third sentence.
+- Vulnerability shown through behaviour (lying flat, waiting for morning), not adjectives about feelings.
+- A one-word paragraph opener ("Routine.") picks up a line of dialogue and turns it into the essay's hinge; this is the only place a short sentence carries the structure.
+- Weakness to avoid: the closing paragraph lists lessons ("the value of small steps, the power of camaraderie…"). The author says the ending was "the hardest part to write" and was rewritten for months.
+
+### A2. "Clean Closet" — Ruoni T., Johns Hopkins '30
+Source: https://apply.jhu.edu/hopkins-insider/clean-closet/
+Summary: A to-do item she never finishes ("clean closet") becomes a tour of eighteen years of objects. One Saturday she actually sorts, donates and keeps memory boxes. The committee praises that it "shows change through action."
+Quote: "The next time I'm tasked to 'clean closet,' it won't take eighteen years."
+- Bookend: the to-do item opens and closes the essay; the ending is a callback joke, not a moral.
+- Rhythm: long inventory sentences, then very short beats ("It felt weird.") at the turning point.
+- Vulnerability is low-stakes but concrete: the inability to let go is shown by years of putting things back.
+- Middle section drifts into explaining ("I've come to see it as a reminder…"); the strongest lines are the physical ones.
+
+### A3. "Building a Universe" — Shotaro O., Johns Hopkins '29
+Source: https://apply.jhu.edu/hopkins-insider/building-a-universe/
+Summary: Six months drawing a fantasy map by hand, with no undo button, and the research it forces (plate tectonics, nomadic empires, ape language). Standing over the finished map he sees the flaws first, then the pride.
+Quote: "Just outlining the coastlines took a month."
+- Opening: a short, concrete, number-bearing sentence; stakes come from the process (no "undo").
+- Intellectual self-correction: he names specific flaws (continents too small, weak legend) without drama, and the next map's fixes are concrete.
+- Mostly medium-length sentences; short ones are used for flat admissions ("Overall, things could definitely be better.").
+- Ending looks forward through specific next steps rather than a stated lesson, though the last line ("I find that very exciting.") is a little flat.
+
+### A4. "The Secret Ingredient is Connection" — David M., Johns Hopkins '30
+Source: https://apply.jhu.edu/hopkins-insider/the-secret-ingredient-is-connection/
+Summary: "The Baker" of his school frames baking as chemistry, failed experiments and a way to welcome people. The essay opens and closes on lemon squares for his old track coach.
+Quote: "improperly leavened sourdough that required a saw to slice."
+- Opening in dialogue and motion (coach shouting his name across a cafeteria).
+- Failure handled with humour and specifics (sand-textured icing), which reads as confident rather than confessional.
+- Frame: the scene is left in the first paragraphs and picked up again at the end. This is the same bookend move as the stairs/car in Aditya's essay.
+- Counter-example: the last line states the moral outright ("The secret ingredient… is connection"). Readers have already seen it, so the line adds nothing.
+
+### A5. "#IWILL" — anonymous, Maplewood, N.J., Hamilton College Class of 2030
+Source: https://www.hamilton.edu/admission/apply/college-essays-that-worked
+Summary: Years of Girl Scout advocacy to change "I will try" to "I will" in the Promise ends in a national vote, which they lose. The essay then shows where that energy went next.
+Quote: "We lost."
+- Opening sentence states the conflict ("the most controversial") and the essay then backs up to how it began.
+- The failure lands as a two-word sentence after a long, slow description of the vote. Very short sentences are saved for one moment.
+- Vulnerability: she shows the opposition plainly, including an official's discouraging remark, instead of softening it.
+- Ending is a list of new activities closed with the hashtag; it is earned, but it drifts toward a résumé.
+
+### A6. Memory files essay — "Tima" (name appears only as a terminal username), Kyiv, Hamilton College Class of 2030
+Source: https://www.hamilton.edu/admission/apply/college-essays-that-worked
+Summary: Framed as a 68-year-old opening a corrupted archive of files from his phone and laptop, each file a moment: a backpack left at school the day before Kyiv was bombed, a math club in Poland, running a math club in the US, climbing. A family tradition of baking ginger cookies every winter "has never been skipped, even during the war."
+Quote: "some memories might be blurry, unfinished, or mislabeled"
+- Structure as device (file names as section heads); it lets a large event (war) sit inside small objects.
+- The war is stated in one plain sentence and never dramatised; understatement does the work.
+- Family ritual appears once, late, as a file of its own, which gives it weight because it survived everything else in the list.
+- Ending moves to a lecture and a reflective line; it is gentler than a moral but still explains the device.
+
+### A7. "My Council" — Benjamin Frenkel, Brooklyn, N.Y., Hamilton College Class of 2030
+Source: https://www.hamilton.edu/admission/apply/college-essays-that-worked
+Summary: An imaginary "Council" of advisers he built in isolation runs his life with plans and rules; it works for school and tutoring but fails him when a friend cries next to him and he tosses her a pack of tissues. He takes back control.
+Quote: "toss a pack of tissues at a friend crying next to me"
+- Self-correction through one embarrassing, specific act, which is more convincing than any summary of the flaw.
+- Extended metaphor, sustained the whole way, so no signposting is needed.
+- Ending returns to the metaphor as a scene (he walks into the conference room) rather than a lesson, though the last sentence explains the scene.
+- Weak spot: one paragraph of abstract reflection ("Life is more than a to-do list") right before the ending; the scene alone would have been enough.
+
+### A8. "The plants were all dead" — Jackson Spallone, Connecticut College '28
+Source: https://www.conncoll.edu/admission/apply/essays-that-worked/jackson-spallone-28/
+Summary: A shoulder injury takes him off the lacrosse field; a garden that grows into backyard hydroponics teaches him patience and accountability. The opening disaster (36 dead pods after a holiday) frames the essay. Admissions comment: "That first sentence is a knockout."
+Quote: "The plants were all dead."
+- Opening: five words, a failure, no context; the next sentence gives the context.
+- The reaction is deliberately small ("roll my eyes and plant new seeds"), which shows character without stating it.
+- Self-deprecating detail ("make sure the hydroponics don't tip over") stops the reflective paragraph from becoming a sermon.
+- The committee notes injury essays are common; what lifted this one was the extended metaphor.
+
+### A9. "Made brave by love" — Phoebe Hughes, Connecticut College '28
+Source: https://www.conncoll.edu/admission/apply/essays-that-worked/phoebe-hughes-28/
+Summary: Her sister and a series of exchange students and friends each teach her a way of being a girl. The essay is built as a chain of short portraits. The committee notes she is "not the main character" in the encounters, yet the essay is about her.
+Quote: "I was made brave by love."
+- Recurring line: the same phrase closes the first and fourth portraits. This is the closest model here for how "mūḍhamate" recurs in Aditya's essay.
+- Each portrait is introduced by a plain time marker ("One Christmas," "This summer") instead of a signpost sentence.
+- Sentence lengths vary naturally; short declaratives ("But most importantly, we were girls.") appear at most once per paragraph.
+- Ending is a four-part parallel list ("Because of Amelie… because of Anna Maria…"); it works once, but it is the kind of over-parallel closing to use sparingly.
+
+### A10. "Kevin" — Harvard College admit (Crimson "Successful Harvard Essays" 2019 series)
+Source: https://www.thecrimson.com/sponsored/article/successful-harvard-essays-2019-9/ (sponsored series produced by The Crimson Brand Studio with a review after each essay)
+Summary: Unable to choose among five kinds of oranges in a supermarket, he reflects on parents who had no choices growing up and still gave him freedom. The reviewer praises the "full-circle imagery" that returns to the oranges.
+Quote: "I didn't know what I wanted."
+- Opening: a small, slightly comic, concrete moment (frozen in the produce aisle) carrying a family theme.
+- Family is shown through one quoted line from his father, and the essay stays with that.
+- Weak spot by today's standards: the final paragraph turns into a "why Harvard" pitch; the essay is strongest in its first half.
+- Useful as a contrast: a successful 2010s essay that tells more than the newer JHU/Hamilton examples.
+
+### Patterns across these essays
+- **Sentence length and rhythm.** Most sentences run 15–30 words. Very short sentences (1–5 words) are rare and placed at turns: "We lost." / "Routine." / "The plants were all dead." / "It felt weird." Most essays use 2–4 in the whole piece. Strings of short sentences only show up in openings.
+- **Signposting vs letting the story play out.** None of the strongest pieces announce their structure ("The first lesson…", "The second time…"). Sections move on plain time or place markers ("One Christmas," "The next summer," file names). Parallels are carried by a repeated phrase ("made brave by love") or a repeated object, not by numbered labels. Where an essay tells the reader what it means (Kevin's last paragraph, David's last line, Ruoyu's lesson list), that is the part commentators and the authors themselves single out as weakest.
+- **Family ritual or motif.** The ritual appears early, recurs once or twice with small changes, and its last appearance is an action (Ruoni's "clean closet" item, Tima's cookies "never skipped," David's lemon squares delivered). It is never explained a second time.
+- **Endings that avoid a moral.** The best endings are a callback scene or a small action that implies the change (the closet that "won't take eighteen years," Benjamin walking into his Council room). Endings that state the lesson outright read as weaker even in published "worked" essays.

@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SAT Practice</title>
+<style>
+:root{--bg:#fff;--fg:#1b1b1b;--mut:#6b6b6b;--line:#dcdcdc;--acc:#324dc7;--ok:#1e8a4c;--bad:#c62f2f;--flag:#d98a00;--card:#f5f6f8}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--fg)}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:#fff;border-radius:8px;padding:7px 14px}
+button.p{background:var(--acc);color:#fff;border-color:var(--acc)}button:disabled{opacity:.4;cursor:default}
+header{display:flex;align-items:center;gap:12px;padding:10px 18px;border-bottom:1px solid var(--line);background:#fafbfc}
+header .t{font-weight:600}header .sp{flex:1}#timer{font-variant-numeric:tabular-nums;font-weight:600;min-width:64px;text-align:center}
+.wrap{max-width:1000px;margin:0 auto;padding:22px 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.card{border:1px solid var(--line);border-radius:10px;padding:14px;background:#fff}.card h3{margin:0 0 8px}
+.card .mods{display:flex;flex-wrap:wrap;gap:6px}.card .mods button{padding:5px 9px;font-size:13px}
+.done{color:var(--ok);font-size:12px}
+.opts{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin:12px 0 20px;padding:12px;background:var(--card);border-radius:10px}
+.opts label{display:flex;gap:6px;align-items:center}
+#q{display:grid;grid-template-columns:1fr 330px;height:calc(100vh - 118px)}
+#q.full{grid-template-columns:1fr}
+#img{overflow:auto;padding:18px;border-right:1px solid var(--line);text-align:center}#img img{max-width:100%;width:620px}
+#side{overflow:auto;padding:18px}
+.ch{display:flex;gap:8px;margin-bottom:8px;align-items:stretch}
+.ch button.a{flex:1;text-align:left;padding:10px 14px;border-radius:10px;border-width:2px}
+.ch button.a.sel{border-color:var(--acc);background:#eef1fd}.ch button.a.ok{border-color:var(--ok);background:#e9f6ee}.ch button.a.no{border-color:var(--bad);background:#fbecec}
+.ch.x button.a{text-decoration:line-through;opacity:.45}.ch button.s{padding:4px 8px;font-size:12px;color:var(--mut)}
+input.gi{width:100%;font-size:20px;padding:10px;border:2px solid var(--line);border-radius:10px}
+footer{display:flex;align-items:center;gap:10px;padding:10px 18px;border-top:1px solid var(--line);background:#fafbfc}
+footer .sp{flex:1}
+#nav{position:fixed;bottom:62px;left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;box-shadow:0 8px 30px #0002;display:none;max-width:560px;z-index:5}
+#nav .g{display:grid;grid-template-columns:repeat(11,38px);gap:6px}
+.nb{width:38px;height:36px;padding:0;border-style:dashed;position:relative}.nb.an{background:var(--acc);color:#fff;border-style:solid}
+.nb.cur{outline:2px solid var(--fg)}.nb.fl::after{content:"";position:absolute;top:-4px;right:-4px;width:9px;height:9px;border-radius:50%;background:var(--flag)}
+.nb.ok{background:var(--ok);color:#fff;border-style:solid}.nb.no{background:var(--bad);color:#fff;border-style:solid}
+.flag.on{background:#fff4de;border-color:var(--flag)}
+.fb{margin-top:12px;padding:10px;border-radius:8px;font-weight:600}.fb.ok{background:#e9f6ee;color:var(--ok)}.fb.no{background:#fbecec;color:var(--bad)}
+.ex{white-space:pre-wrap;font-size:13px;color:#333;background:var(--card);padding:10px;border-radius:8px;margin-top:10px;max-height:340px;overflow:auto}
+table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;font-size:14px}
+.big{font-size:40px;font-weight:700}.ok{color:var(--ok)}.no{color:var(--bad)}
+#calc{position:fixed;right:18px;top:60px;width:440px;height:520px;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 30px #0003;background:#fff;display:none;z-index:6;overflow:hidden}
+#calc iframe{width:100%;height:calc(100% - 34px);border:0}#calc .h{height:34px;display:flex;align-items:center;justify-content:space-between;padding:0 10px;background:#fafbfc;border-bottom:1px solid var(--line);cursor:move}
+.kbd{font-size:12px;color:var(--mut)}
+@media(max-width:760px){#q{grid-template-columns:1fr;height:auto}#img{border-right:0}}
+</style></head><body>
+<header><span class="t" id="title">SAT Practice</span><span class="sp"></span>
+<span id="hdr"></span></header>
+<div id="app"></div>
+<div id="nav"></div>
+<div id="calc"><div class="h" id="calch"><b>Desmos</b><button onclick="calc(0)">✕</button></div><iframe id="calcf" src="about:blank"></iframe></div>
+<script src="data.js"></script>
+<script>
+const SEC={rw1:'R&W Module 1',rw2:'R&W Module 2',m1:'Math Module 1',m2:'Math Module 2'};
+const MIN={rw:32,m:35};
+const $=s=>document.querySelector(s),app=$('#app');
+const LS={get(k,d){try{return JSON.parse(localStorage.getItem(k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+let opt=LS.get('opt',{timer:'down',instant:false,shuffle:false});
+let S=null,tick=null;
+const qid=(t,s,n)=>`${t}|${s}|${n}`;
+const getQ=id=>{const [t,s,n]=id.split('|');return {...DATA[t][s][n-1],t,s,id}};
+const isMC=q=>/^[A-D]$/.test(q.ans);
+function num(x){x=String(x).trim().replace(/\s/g,'');if(!x)return NaN;if(/^-?\d*\.?\d+\/-?\d*\.?\d+$/.test(x)){const[a,b]=x.split('/');return +a/+b}return /^-?\d*\.?\d+$/.test(x)?+x:NaN}
+function correct(q,a){if(a==null||a==='')return false;if(isMC(q))return a===q.ans;
+ const alts=q.ans.split(/;|\bor\b/).map(s=>s.trim()).filter(Boolean),v=num(a);
+ return alts.some(al=>al.replace(/\s/g,'')===String(a).replace(/\s/g,'')||(!isNaN(v)&&!isNaN(num(al))&&Math.abs(num(al)-v)<1e-4))}
+function stats(){return LS.get('stats',{})} // id -> {c:count correct,w:count wrong,last}
+function record(id,ok){const st=stats();const r=st[id]||{c:0,w:0};ok?r.c++:r.w++;r.last=ok;st[id]=r;LS.set('stats',st)}
+function flags(){return LS.get('flags',{})}
+
+/* ---------- home ---------- */
+function home(){
+ clearInterval(tick);S=null;$('#hdr').innerHTML='';$('#title').textContent='SAT Practice';navHide();calc(0);
+ const st=stats(),hist=LS.get('hist',[]);
+ const wrong=Object.keys(st).filter(k=>st[k].last===false),fl=Object.keys(flags()).filter(k=>flags()[k]);
+ app.innerHTML=`<div class="wrap">
+ <div class="opts">
+  <label>Timer <select id="o_t"><option value="down">Countdown</option><option value="up">Count up</option><option value="off">Off</option></select></label>
+  <label><input type="checkbox" id="o_i"> Instant feedback (practice mode)</label>
+  <label><input type="checkbox" id="o_s"> Shuffle questions</label>
+ </div>
+ <h2>Full tests</h2><div class="grid">${Object.keys(DATA).sort((a,b)=>a-b).map(t=>`<div class="card"><h3>Test ${t}</h3>
+   <div class="mods"><button class="p" onclick="startTest(${t})">Full test</button>
+   ${Object.keys(SEC).map(s=>{const d=hist.find(h=>h.key==t+s);return `<button onclick="start('${t} ${SEC[s]}',[${DATA[t][s].map(q=>`'${qid(t,s,q.n)}'`)}],'${s}')">${s.toUpperCase()}${d?' ✓':''}</button>`}).join('')}</div></div>`).join('')}</div>
+ <h2>Custom drill</h2><div class="card">
+  <div class="opts" style="margin:0 0 10px">
+   <label>Section <select id="d_sec"><option value="rw">Reading &amp; Writing</option><option value="m">Math</option><option value="all">Both</option></select></label>
+   <label>Tests <input id="d_t" value="4-11" size="6"></label>
+   <label>Questions # <input id="d_r" value="1-33" size="6"></label>
+   <label>Count <input id="d_n" type="number" value="20" style="width:60px"></label>
+   <label>Only <select id="d_only"><option value="">any</option><option value="new">never tried</option><option value="grid">math grid-ins</option></select></label>
+  </div>
+  <button class="p" onclick="drill()">Start drill</button>
+  <span class="kbd">Tip: later questions in each module are harder — try 20-33 (R&amp;W) or 16-27 (Math).</span>
+ </div>
+ <h2>Review</h2><div class="mods" style="display:flex;gap:8px;flex-wrap:wrap">
+  <button ${wrong.length?'':'disabled'} onclick="start('Retry mistakes',${JSON.stringify(wrong)})">Retry mistakes (${wrong.length})</button>
+  <button ${fl.length?'':'disabled'} onclick="start('Flagged questions',${JSON.stringify(fl)})">Flagged (${fl.length})</button>
+  <button onclick="if(confirm('Clear all progress?')){localStorage.clear();home()}">Reset progress</button>
+ </div>
+ ${hist.length?`<h2>History</h2><table><tr><th>When</th><th>Set</th><th>Score</th><th>Time</th></tr>${hist.slice(-25).reverse().map(h=>`<tr><td>${new Date(h.at).toLocaleString()}</td><td>${h.name}</td><td>${h.c}/${h.n}</td><td>${fmt(h.sec)}</td></tr>`).join('')}</table>`:''}
+ <p class="kbd">Keys: A–D choose · ←/→ back/next · M mark · N navigator · C Desmos (math)</p></div>`;
+ $('#o_t').value=opt.timer;$('#o_i').checked=opt.instant;$('#o_s').checked=opt.shuffle;
+ $('#o_t').onchange=e=>{opt.timer=e.target.value;LS.set('opt',opt)};$('#o_i').onchange=e=>{opt.instant=e.target.checked;LS.set('opt',opt)};$('#o_s').onchange=e=>{opt.shuffle=e.target.checked;LS.set('opt',opt)};
+}
+function rng(s,max){const out=new Set();for(const p of s.split(',')){const[a,b]=p.split('-').map(Number);for(let i=a;i<=(b||a)&&i<=max;i++)out.add(i)}return out}
+function drill(){
+ const sec=$('#d_sec').value,ts=rng($('#d_t').value,11),qs=rng($('#d_r').value,33),n=+$('#d_n').value||20,only=$('#d_only').value,st=stats();
+ let pool=[];for(const t of Object.keys(DATA))if(ts.has(+t))for(const s of Object.keys(SEC))if(sec==='all'||s.startsWith(sec))for(const q of DATA[t][s])if(qs.has(q.n)){
+  const id=qid(t,s,q.n);if(only==='new'&&st[id])continue;if(only==='grid'&&isMC(q))continue;pool.push(id)}
+ pool.sort(()=>Math.random()-.5);if(!pool.length)return alert('No questions match.');
+ start('Drill',pool.slice(0,n),null,true)
+}
+function startTest(t){S=null;const mods=Object.keys(SEC);let i=0;const next=()=>{if(i>=mods.length)return;const s=mods[i++];start(`Test ${t} · ${SEC[s]}`,DATA[t][s].map(q=>qid(t,s,q.n)),s,false,i<mods.length?next:null)};next()}
+
+/* ---------- session ---------- */
+function start(name,ids,sec,drill,after){
+ ids=[...ids];if(opt.shuffle&&!sec)ids.sort(()=>Math.random()-.5);else if(opt.shuffle&&drill)ids.sort(()=>Math.random()-.5);
+ const mins=sec?MIN[sec.startsWith('rw')?'rw':'m']:Math.ceil(ids.length*1.3);
+ S={name,ids,sec,i:0,ans:{},x:{},checked:{},t0:Date.now(),limit:mins*60,after,key:sec&&name.match(/^Test (\d+)/)?name.match(/\d+/)[0]+sec:null};
+ $('#title').textContent=name;clearInterval(tick);tick=setInterval(timer,500);timer();render()
+}
+function fmt(s){s=Math.max(0,Math.round(s));return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')}
+function timer(){if(!S)return;const el=(Date.now()-S.t0)/1000;
+ $('#hdr').innerHTML=`${opt.timer==='off'?'':`<span id="timer">${opt.timer==='down'?fmt(S.limit-el):fmt(el)}</span>`} <button onclick="home()">Exit</button>`;
+ if(opt.timer==='down'&&el>=S.limit&&!S.over){S.over=true;alert("Time's up for this module.");finish()}}
+function render(){
+ const id=S.ids[S.i],q=getQ(id),a=S.ans[id],math=q.s.startsWith('m'),showFb=opt.instant&&S.checked[id],fl=flags()[id];
+ const mc=isMC(q);
+ app.innerHTML=`<div id="q"><div id="img"><img src="${q.img}" alt="Question"></div><div id="side">
+  <div class="kbd">Test ${q.t} · ${SEC[q.s]} · Q${q.n}</div>
+  <div style="display:flex;gap:8px;margin:8px 0 14px"><button class="flag ${fl?'on':''}" onclick="flag()">${fl?'★ Marked':'☆ Mark for review'}</button>${math?'<button onclick="calc()">Desmos</button>':''}</div>
+  ${mc?['A','B','C','D'].map(L=>{let c='a';if(a===L)c+=' sel';if(showFb){if(L===q.ans)c+=' ok';else if(a===L)c+=' no'}
+   return `<div class="ch ${(S.x[id]||{})[L]?'x':''}"><button class="${c}" onclick="pick('${L}')"><b>${L}</b></button><button class="s" title="Cross out" onclick="cross('${L}')">${(S.x[id]||{})[L]?'undo':'ABC'}</button></div>`}).join('')
+   :`<p class="kbd">Student-produced response — type your answer (fractions like 3/4 or decimals).</p><input class="gi" id="gi" value="${a??''}" oninput="S.ans['${id}']=this.value.trim()" placeholder="Answer">`}
+  ${opt.instant?`<div style="margin-top:12px"><button onclick="check()">Check</button> <button onclick="S.showEx=!S.showEx;render()">${S.showEx?'Hide':'Show'} explanation</button></div>`:''}
+  ${showFb?`<div class="fb ${correct(q,a)?'ok':'no'}">${correct(q,a)?'Correct':'Incorrect'} — answer: ${q.ans}</div>`:''}
+  ${opt.instant&&S.showEx?`<div class="ex">${esc(q.ex)}</div>`:''}
+ </div></div>
+ <footer><button onclick="nav()">Question ${S.i+1} of ${S.ids.length} ▾</button><span class="sp"></span>
+ <button ${S.i?'':'disabled'} onclick="go(-1)">Back</button>
+ ${S.i<S.ids.length-1?`<button class="p" onclick="go(1)">Next</button>`:`<button class="p" onclick="finishAsk()">Finish</button>`}</footer>`;
+ if($('#nav').style.display==='block')nav(true);
+ $('#img').scrollTop=0;
+}
+const esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+function pick(L){const id=S.ids[S.i];S.ans[id]=S.ans[id]===L?undefined:L;if(S.x[id])S.x[id][L]=0;render()}
+function cross(L){const id=S.ids[S.i];S.x[id]=S.x[id]||{};S.x[id][L]=!S.x[id][L];if(S.x[id][L]&&S.ans[id]===L)S.ans[id]=undefined;render()}
+function check(){const id=S.ids[S.i];S.checked[id]=1;render()}
+function flag(){const f=flags(),id=S.ids[S.i];f[id]=!f[id];LS.set('flags',f);render()}
+function go(d){S.i=Math.max(0,Math.min(S.ids.length-1,S.i+d));S.showEx=false;render()}
+function nav(keep){const el=$('#nav');if(!keep&&el.style.display==='block'){navHide();return}
+ const f=flags();el.innerHTML=`<div style="display:flex;justify-content:space-between;margin-bottom:10px"><b>${S.name}</b><span class="kbd">■ answered · dashed = unanswered · ● marked</span></div><div class="g">${S.ids.map((id,k)=>{let c='nb';if(S.ans[id]!=null&&S.ans[id]!=='')c+=' an';if(k===S.i)c+=' cur';if(f[id])c+=' fl';return `<button class="${c}" onclick="S.i=${k};navHide();render()">${k+1}</button>`}).join('')}</div><div style="text-align:center;margin-top:12px"><button onclick="navHide();finishAsk()">Go to review / finish</button></div>`;el.style.display='block'}
+function navHide(){$('#nav').style.display='none'}
+function finishAsk(){const un=S.ids.filter(id=>S.ans[id]==null||S.ans[id]==='').length;if(!un||confirm(`${un} unanswered. Finish anyway?`))finish()}
+function finish(){
+ clearInterval(tick);navHide();calc(0);const secs=(Date.now()-S.t0)/1000;
+ const rows=S.ids.map(id=>{const q=getQ(id),a=S.ans[id],ok=correct(q,a);record(id,ok);return{q,a,ok}});
+ const c=rows.filter(r=>r.ok).length,hist=LS.get('hist',[]);hist.push({at:Date.now(),name:S.name,c,n:rows.length,sec:secs,key:S.key});LS.set('hist',hist);
+ const after=S.after,wrongIds=rows.filter(r=>!r.ok).map(r=>r.q.id);
+ app.innerHTML=`<div class="wrap"><div class="big">${c} / ${rows.length}</div><p>${S.name} · ${Math.round(100*c/rows.length)}% · ${fmt(secs)}</p>
+  <div style="display:flex;gap:8px;flex-wrap:wrap">${after?'<button class="p" id="nx">Next module →</button>':''}
+  <button ${wrongIds.length?'':'disabled'} id="rw">Retry the ${wrongIds.length} wrong</button><button onclick="home()">Home</button></div>
+  <h3>Review</h3><table><tr><th>#</th><th>Q</th><th>You</th><th>Correct</th><th></th></tr>
+  ${rows.map((r,k)=>`<tr><td>${k+1}</td><td>T${r.q.t} ${r.q.s.toUpperCase()} Q${r.q.n}</td><td class="${r.ok?'ok':'no'}">${r.a??'—'}</td><td>${r.q.ans}</td><td><button onclick="rev(${k})">View</button></td></tr>`).join('')}</table>
+  <div id="rv"></div></div>`;
+ window._rows=rows;$('#hdr').innerHTML='<button onclick="home()">Home</button>';
+ if(after)$('#nx').onclick=after;$('#rw').onclick=()=>start('Retry wrong',wrongIds,null,true);
+}
+function rev(k){const r=_rows[k];$('#rv').innerHTML=`<h3>T${r.q.t} ${SEC[r.q.s]} Q${r.q.n} — you: ${r.a??'—'}, correct: ${r.q.ans}</h3><img src="${r.q.img}" style="max-width:620px;width:100%;border:1px solid var(--line)"><div class="ex">${esc(r.q.ex)}</div>`;$('#rv').scrollIntoView({behavior:'smooth'})}
+function calc(v){const c=$('#calc');const show=v===undefined?c.style.display!=='block':!!v;if(show&&$('#calcf').src==='about:blank')$('#calcf').src='https://www.desmos.com/calculator';c.style.display=show?'block':'none'}
+(()=>{const h=$('#calch'),c=$('#calc');let d=null;h.onmousedown=e=>{d=[e.clientX-c.offsetLeft,e.clientY-c.offsetTop]};onmousemove=e=>{if(d){c.style.left=e.clientX-d[0]+'px';c.style.top=e.clientY-d[1]+'px';c.style.right='auto'}};onmouseup=()=>d=null})();
+document.addEventListener('keydown',e=>{if(!S||!$('#q')||e.target.tagName==='INPUT')return;const k=e.key.toUpperCase();
+ if(/^[A-D]$/.test(k)&&isMC(getQ(S.ids[S.i])))pick(k);else if(e.key==='ArrowRight')go(1);else if(e.key==='ArrowLeft')go(-1);else if(k==='M')flag();else if(k==='N')nav();else if(k==='C')calc()});
+home();
+</script></body></html>

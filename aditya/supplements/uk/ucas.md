@@ -1,8 +1,8 @@
 # UCAS Personal Statement: Computer Science, 2027 Entry
 
-**Universities:** Aberdeen, Strathclyde, Glasgow  
+**Universities:** Edinburgh, St Andrews, Glasgow (Computing Science), Strathclyde, Heriot-Watt  
 **Format:** three answers read together, 4,000 characters including spaces, minimum 350 characters per answer  
-**Status:** Draft V1.1
+**Status:** Draft 2 (20 Oct 2026, restyled)
 
 ## Set strategy
 
@@ -10,27 +10,25 @@ Question 1 defines the academic problem. Question 2 proves formal preparation. Q
 
 ## Question 1: Why Computer Science?
 
-I want to study Computer Science because it allows me to turn claims about complex behaviour into systems I can test. While researching investor attention, I found that volatility sometimes fell when attention became most intense. Establishing the pattern raised a harder question: what interactions could generate it? I built an agent-based exchange with nine trader archetypes, changed their decision rules and tested when the effect appeared or disappeared. Moving between an observed result and an implemented mechanism showed me why computation is more than a tool for processing data: it provides a language for expressing behaviour precisely enough to challenge it.
+In my investor-attention research, volatility sometimes fell exactly when attention peaked. Statistics could show the pattern was there. It could not tell me what behaviour produced it, so I built a market to find out: an agent-based exchange with nine kinds of traders, each running rules I had to write down. Who does a trader copy? How long does it remember? Every rule was an assumption I had been hiding inside a sentence. I could change one, rerun the market, and watch the effect appear or vanish. The simulator does not prove what real investors do, and its threshold does not match my paper's, but it gave me a way to argue with my own explanation. For me, Computer Science is the subject that makes an idea precise enough to fail.
 
-Across later projects, I kept returning to a related problem. How can a computational system make a useful decision while keeping its evidence and assumptions open to inspection? In an incident-response agent, I separated language-model interpretation from numerical claims, which came directly from monitoring data. That design choice made me interested in reliability, verification and the boundaries between a model and the systems around it. I want stronger foundations in algorithms, probability, machine learning and computer systems so I can reason about those boundaries rather than discover them only through building.
+The same question came back in a different shape when I built an incident-response agent. Language models write confident numbers they cannot support, so I drew a hard line: the model could interpret the evidence, but every figure in its report had to come from monitoring data, with its source attached. Deciding where a model's job ends and the rest of the system begins was the most interesting design problem I have faced. I want proper foundations in algorithms, probability, machine learning and systems, so I make those decisions on purpose rather than by trial and error.
 
 ## Question 2: Academic preparation
 
-Further Mathematics has trained me to connect algebraic structure with dynamic behaviour. I used matrices, eigenvalues, Taylor series and differential equations to write a first-principles exposition of neural-network generalisation. Deriving a two-neuron example line by line forced me to distinguish recognising advanced notation from understanding the mechanism underneath it. It also showed me how ideas taught separately can become a coherent argument when applied to a question beyond the syllabus.
+Further Mathematics taught me that ideas from separate chapters can belong to the same argument. When I tried to understand why neural networks generalise, the papers assumed mathematics I had not formally studied, but the pieces were familiar: matrices, eigenvalues, Taylor series, differential equations. I wrote my own exposition using them and checked it with a two-neuron example worked by hand, line by line. The example proves nothing about large networks. It did show me the difference between recognising notation and understanding what it does.
 
-Computer Science gave me the tools to implement and evaluate systems, while Economics helped me model incentives and market behaviour. Physics strengthened my attention to measurement, assumptions and the difference between a model and the system it represents. Through the Cambridge IPQ, I completed a 4,982-word investigation into whether high-frequency trading destabilises markets during periods of stress. Maintaining a research log, comparing conflicting accounts and narrowing my claim taught me that independent work requires a record of why a method was chosen, not only a final result. These subjects have prepared me to move between formal reasoning, implementation and empirical testing; university study would let me connect them with greater mathematical and computational depth.
+Computer Science gave me the tools to build and test systems. Economics gave me ways to model incentives. Physics made me careful about the gap between a model and the thing it describes. For my Cambridge IPQ, I investigated whether high-frequency trading destabilises markets under stress. My sources disagreed, so I kept a research log of why I trusted one method over another and narrowed my claim until the evidence could carry it. University would let me join these subjects with far more mathematical depth.
 
 ## Question 3: Preparation outside school
 
-During a three-month internship at MalkansView, I learned to look behind a price chart. I compared company fundamentals, including debt and liquidity, then considered how those factors should affect a trading decision or stop-loss rather than treating a rising profit figure as the whole company. The work showed me how quickly one attractive number can hide the condition producing it.
+During a three-month internship at MalkansView, I learned to look behind the price chart: at debt, at liquidity, and at what those should mean for a trade or a stop-loss. A rising profit figure can hide the condition producing it.
 
-Building Daedalus for my STEM Racing team gave that lesson a software form. Our initial design could compare performance but not show where the car became unstable. I added stress tests that varied wind, drag and other constraints together, identifying the thresholds at which a recommendation stopped being safe. Teammates could inspect the preferred design and the conditions under which it failed.
-
-Both experiences taught me to distrust an isolated output, whether it is a price, an optimisation score or a maximum speed. The useful question is what had to remain true for that number to deserve a decision.
+For my STEM Racing team, I built Daedalus, a digital wind tunnel that predicts airflow and race time from CFD. The first version could rank designs but not show where a design stopped working, so I added stress tests that varied wind, drag and other constraints together. When we had to choose between two designs, the one that looked faster lost its advantage once the wind changed. Teammates changed the assumptions themselves and chose the more consistent design. Building a tool people could question, not just obey, is the part I am proudest of.
 
 ## Current research judgment
 
-Official UCAS guidance treats the answers as a single statement. The present set has a clear progression: question → formal preparation → use with other people. Q1 deserves the largest character share. Q2 should keep the IPQ because it is a formal qualification; other independent papers belong in Q3 only if they replace, rather than join, an existing example.
+Answers read as one statement. Q1 is the academic core (NEXUS as a way to test an explanation, explicitly not a confirmation of the paper's threshold; Glassbox as a design boundary). Q2 links subjects and the IPQ without word counts. Q3 uses the real Daedalus design decision (wind conditions) instead of an abstract "safety" claim. Character counts: Q1 1321, Q2 1069, Q3 782, total 3172 / 4,000.
 
 ## Next checks
 

@@ -1,0 +1,3787 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+{
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+Yes. I read the full B2 Advanced Math material. I'm going to teach this
+as a \textbf{complete Digital SAT Advanced Math lesson}, not as notes to
+memorize. The domain is built around four official skills: equivalent
+expressions, nonlinear equations in one variable, nonlinear systems, and
+nonlinear functions.
+
+The six question families your file identifies as especially common are
+equivalent-expression problems, quadratic vertex/min-max problems,
+exponential growth/decay, extraneous-solution questions, nonlinear
+systems, and rearranging nonlinear formulas.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{0. The mental model for the whole SAT Advanced Math
+domain}\label{the-mental-model-for-the-whole-sat-advanced-math-domain}
+
+Almost every problem in this domain is asking you to do one of these:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+SAT task
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+What you are actually doing
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+``Which expression is equivalent?'' & Rewrite without changing value \\
+``Solve for \(x\)'' & Find inputs that make an equation true \\
+``How many solutions?'' & Count intersections/roots without necessarily
+solving everything \\
+``What is the minimum/maximum?'' & Find a vertex \\
+``What does this constant represent?'' & Interpret parameters in a
+model \\
+``Which graph could represent\ldots?'' & Connect algebraic form to graph
+features \\
+``For what value of \(k\)\ldots?'' & Use discriminants, tangency, or
+other constraints \\
+``Solve for \(r\), \(t\), etc.'' & Rearrange a formula \\
+``Which function models\ldots?'' & Translate words into
+quadratic/exponential/etc. form \\
+\end{longtable}
+}
+
+Before doing algebra, \textbf{name the type of problem}.
+
+That alone prevents a lot of wasted work.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART I. FOUNDATIONAL FORMULAS YOU MUST
+KNOW}\label{part-i.-foundational-formulas-you-must-know}
+
+\section{1. Exponent rules}\label{exponent-rules}
+
+These need to become automatic.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Situation
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Rule
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Example
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Same base, multiply & \(a^m a^n=a^{m+n}\) & \(x^3x^5=x^8\) \\
+Same base, divide & \(\frac{a^m}{a^n}=a^{m-n}\) &
+\(\frac{x^7}{x^2}=x^5\) \\
+Power of power & \((a^m)^n=a^{mn}\) & \((x^3)^4=x^{12}\) \\
+Power of product & \((ab)^n=a^nb^n\) & \((2x)^3=8x^3\) \\
+Zero exponent & \(a^0=1\) & \(7^0=1\) \\
+Negative exponent & \(a^{-n}=\frac1{a^n}\) & \(x^{-3}=\frac1{x^3}\) \\
+Fraction exponent & \(a^{m/n}=\sqrt[n]{a^m}\) &
+\(x^{2/3}=\sqrt[3]{x^2}\) \\
+\end{longtable}
+}
+
+\subsection{Important distinction}\label{important-distinction}
+
+Multiplication lets you \textbf{add exponents} only when the bases
+match:
+
+\[
+x^{1/2}x^{1/3}
+=
+x^{1/2+1/3}
+=
+x^{5/6}.
+\]
+
+Not \(x^{1/6}\).
+
+For a power raised to another power, multiply:
+
+\[
+(x^{2/3})^6=x^4.
+\]
+
+\subsection{SAT example}\label{sat-example}
+
+Simplify
+
+\[
+\frac{x^{7/3}}{x^{1/2}}.
+\]
+
+Subtract:
+
+\[
+x^{7/3-1/2}
+=
+x^{14/6-3/6}
+=
+x^{11/6}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{2. Radical rules}\label{radical-rules}
+
+A radical and a fractional exponent are two ways of writing the same
+thing:
+
+\[
+\sqrt{x}=x^{1/2}
+\]
+
+\[
+\sqrt[3]{x}=x^{1/3}
+\]
+
+\[
+\sqrt[4]{x^3}=x^{3/4}.
+\]
+
+This is extremely useful because complicated radical expressions become
+ordinary exponent problems.
+
+\subsection{Critical exception}\label{critical-exception}
+
+\[
+\boxed{\sqrt{x^2}=|x|}
+\]
+
+not automatically \(x\).
+
+Why?
+
+If \(x=-5\),
+
+\[
+\sqrt{x^2}=\sqrt{25}=5,
+\]
+
+not \(-5\).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{3. Rationalizing
+denominators}\label{rationalizing-denominators}
+
+For something simple:
+
+\[
+\frac1{\sqrt 5}
+\]
+
+multiply numerator and denominator by \(\sqrt5\):
+
+\[
+\frac{\sqrt5}{5}.
+\]
+
+For a binomial denominator:
+
+\[
+\frac1{3+\sqrt2},
+\]
+
+use the \textbf{conjugate}:
+
+\[
+3-\sqrt2.
+\]
+
+Then
+
+\[
+\frac{1}{3+\sqrt2}
+\cdot
+\frac{3-\sqrt2}{3-\sqrt2}
+=
+\frac{3-\sqrt2}{9-2}
+=
+\frac{3-\sqrt2}{7}.
+\]
+
+This works because
+
+\[
+(a+b)(a-b)=a^2-b^2.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART II. EQUIVALENT
+EXPRESSIONS}\label{part-ii.-equivalent-expressions}
+
+Your file makes this the first major Advanced Math section. Two
+expressions are equivalent when they produce the same value for every
+allowable input.
+
+The core operations are:
+
+expanding, factoring, simplifying rational expressions, manipulating
+exponents/radicals, completing the square, and switching quadratic
+forms.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{4. Polynomial addition and
+subtraction}\label{polynomial-addition-and-subtraction}
+
+You may combine only \textbf{like terms}.
+
+\[
+3x^2+5x^2=8x^2
+\]
+
+but
+
+\[
+3x^2+5x
+\]
+
+cannot combine.
+
+\subsection{Subtraction trap}\label{subtraction-trap}
+
+Suppose:
+
+\[
+(4x^2+3x-2)-(x^2-5x+7).
+\]
+
+Distribute the negative to \textbf{every term}:
+
+\[
+4x^2+3x-2-x^2+5x-7.
+\]
+
+Then:
+
+\[
+3x^2+8x-9.
+\]
+
+The SAT loves the sign error
+
+\[
+-(x^2-5x+7)
+\]
+
+being incorrectly written as
+
+\[
+-x^2-5x-7.
+\]
+
+Correct:
+
+\[
+-x^2+5x-7.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{5. Multiplying polynomials}\label{multiplying-polynomials}
+
+Every term must multiply every relevant term.
+
+Example:
+
+\[
+(2x-3)(x^2+4x-5).
+\]
+
+Multiply \(2x\):
+
+\[
+2x^3+8x^2-10x.
+\]
+
+Multiply \(-3\):
+
+\[
+-3x^2-12x+15.
+\]
+
+Combine:
+
+\[
+\boxed{2x^3+5x^2-22x+15}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{6. Three identities you should recognize
+instantly}\label{three-identities-you-should-recognize-instantly}
+
+\subsection{Square of a sum}\label{square-of-a-sum}
+
+\[
+\boxed{(a+b)^2=a^2+2ab+b^2}
+\]
+
+Example:
+
+\[
+(x+7)^2=x^2+14x+49.
+\]
+
+\subsection{Square of a difference}\label{square-of-a-difference}
+
+\[
+\boxed{(a-b)^2=a^2-2ab+b^2}
+\]
+
+Example:
+
+\[
+(3x-2)^2
+=
+9x^2-12x+4.
+\]
+
+\subsection{Difference of squares}\label{difference-of-squares}
+
+\[
+\boxed{a^2-b^2=(a-b)(a+b)}
+\]
+
+Example:
+
+\[
+x^2-81=(x-9)(x+9).
+\]
+
+\subsubsection{Huge trap}\label{huge-trap}
+
+\[
+(a+b)^2 \neq a^2+b^2.
+\]
+
+The middle term \(2ab\) must exist.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{7. Factoring: the master
+method}\label{factoring-the-master-method}
+
+Factoring means reversing multiplication.
+
+Your decision process should be:
+
+\textbf{GCF first → count terms → identify pattern → factor again if
+possible.}
+
+\subsection{7.1 Greatest common factor}\label{greatest-common-factor}
+
+\[
+12x^3-8x^2+4x.
+\]
+
+Everything contains \(4x\):
+
+\[
+\boxed{4x(3x^2-2x+1)}.
+\]
+
+Always check GCF first.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{7.2 Difference of squares}\label{difference-of-squares-1}
+
+\[
+x^2-25
+\]
+
+is
+
+\[
+x^2-5^2
+\]
+
+so
+
+\[
+\boxed{(x-5)(x+5)}.
+\]
+
+More difficult:
+
+\[
+x^4-16.
+\]
+
+First:
+
+\[
+(x^2-4)(x^2+4).
+\]
+
+But \(x^2-4\) factors again:
+
+\[
+\boxed{(x-2)(x+2)(x^2+4)}.
+\]
+
+Do not stop too early.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{7.3 Sum of squares does NOT factor over the
+reals}\label{sum-of-squares-does-not-factor-over-the-reals}
+
+\[
+x^2+25
+\]
+
+does not factor into real linear factors.
+
+This distinction matters:
+
+\[
+x^2-25 \quad \checkmark
+\]
+
+\[
+x^2+25 \quad \text{no real factorization}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{7.4 Perfect-square trinomials}\label{perfect-square-trinomials}
+
+Recognize:
+
+\[
+a^2+2ab+b^2=(a+b)^2
+\]
+
+and
+
+\[
+a^2-2ab+b^2=(a-b)^2.
+\]
+
+Example:
+
+\[
+x^2+10x+25.
+\]
+
+First and last:
+
+\[
+x^2,\quad 25=5^2.
+\]
+
+Middle:
+
+\[
+2(x)(5)=10x.
+\]
+
+Therefore:
+
+\[
+\boxed{(x+5)^2}.
+\]
+
+Example:
+
+\[
+4x^2-12x+9.
+\]
+
+\[
+(2x)^2,\quad 3^2,
+\]
+
+middle:
+
+\[
+-2(2x)(3)=-12x.
+\]
+
+So
+
+\[
+\boxed{(2x-3)^2}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{7.5 Simple trinomials}\label{simple-trinomials}
+
+For
+
+\[
+x^2+bx+c,
+\]
+
+find two numbers \(p,q\) such that
+
+\[
+p+q=b
+\]
+
+and
+
+\[
+pq=c.
+\]
+
+Example:
+
+\[
+x^2-7x+12.
+\]
+
+Need:
+
+\[
+p+q=-7,\qquad pq=12.
+\]
+
+Numbers:
+
+\[
+-3,-4.
+\]
+
+Therefore:
+
+\[
+\boxed{(x-3)(x-4)}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{\texorpdfstring{7.6 Hard trinomials:
+\(ax^2+bx+c\)}{7.6 Hard trinomials: ax\^{}2+bx+c}}\label{hard-trinomials-ax2bxc}
+
+Example:
+
+\[
+6x^2+13x-5.
+\]
+
+Multiply:
+
+\[
+ac=6(-5)=-30.
+\]
+
+Find two numbers multiplying to \(-30\) and adding to \(13\):
+
+\[
+15,-2.
+\]
+
+Split the middle:
+
+\[
+6x^2+15x-2x-5.
+\]
+
+Group:
+
+\[
+3x(2x+5)-1(2x+5).
+\]
+
+Factor common binomial:
+
+\[
+\boxed{(3x-1)(2x+5)}.
+\]
+
+This method is very reliable.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{7.7 Grouping}\label{grouping}
+
+Usually four terms.
+
+Example:
+
+\[
+x^3+3x^2-4x-12.
+\]
+
+Group:
+
+\[
+(x^3+3x^2)+(-4x-12).
+\]
+
+Factor:
+
+\[
+x^2(x+3)-4(x+3).
+\]
+
+Common factor:
+
+\[
+(x+3)(x^2-4).
+\]
+
+Difference of squares:
+
+\[
+\boxed{(x+3)(x-2)(x+2)}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{7.8 Cubes}\label{cubes}
+
+Know:
+
+\[
+\boxed{a^3-b^3=(a-b)(a^2+ab+b^2)}
+\]
+
+\[
+\boxed{a^3+b^3=(a+b)(a^2-ab+b^2)}.
+\]
+
+Mnemonic:
+
+\textbf{same, opposite, always positive.}
+
+For \(a^3-b^3\):
+
+first factor uses same sign:
+
+\[
+a-b.
+\]
+
+Middle quadratic uses opposite sign:
+
+\[
++a b.
+\]
+
+Final term positive.
+
+Example:
+
+\[
+27x^3-64
+=
+(3x)^3-4^3
+\]
+
+so
+
+\[
+\boxed{(3x-4)(9x^2+12x+16)}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{8. Rational expressions}\label{rational-expressions}
+
+Example:
+
+\[
+\frac{x^2-9}{x^2+5x+6}.
+\]
+
+Factor:
+
+\[
+x^2-9=(x-3)(x+3)
+\]
+
+\[
+x^2+5x+6=(x+2)(x+3).
+\]
+
+Thus:
+
+\[
+\frac{(x-3)(x+3)}
+{(x+2)(x+3)}
+=
+\boxed{\frac{x-3}{x+2}}.
+\]
+
+But the original denominator told us:
+
+\[
+x\neq -3,-2.
+\]
+
+Even though \(x+3\) disappeared algebraically, \(x=-3\) remains
+excluded.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{9. You cancel factors, not
+terms}\label{you-cancel-factors-not-terms}
+
+Legal:
+
+\[
+\frac{(x+2)(x-5)}{(x+2)(x+3)}
+\]
+
+because \(x+2\) is a complete factor.
+
+Illegal:
+
+\[
+\frac{x+3}{x}
+\]
+
+and trying to cancel the \(x\).
+
+Why?
+
+The numerator is a \textbf{sum}.
+
+There is no common multiplicative factor of \(x\).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{10. Adding rational
+expressions}\label{adding-rational-expressions}
+
+You need a common denominator.
+
+Example:
+
+\[
+\frac{2}{x}+\frac{3}{x+1}.
+\]
+
+LCD:
+
+\[
+x(x+1).
+\]
+
+Rewrite:
+
+\[
+\frac{2(x+1)}{x(x+1)}
++
+\frac{3x}{x(x+1)}.
+\]
+
+Combine:
+
+\[
+\boxed{\frac{5x+2}{x(x+1)}}.
+\]
+
+Restrictions:
+
+\[
+x\neq0,-1.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{11. Dividing rational
+expressions}\label{dividing-rational-expressions}
+
+Division means multiply by reciprocal.
+
+\[
+\frac{x^2-4}{x+1}
+\div
+\frac{x-2}{x+3}.
+\]
+
+Rewrite:
+
+\[
+\frac{(x-2)(x+2)}{x+1}
+\cdot
+\frac{x+3}{x-2}.
+\]
+
+Cancel:
+
+\[
+\boxed{\frac{(x+2)(x+3)}{x+1}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{12. Radical and exponent
+rewriting}\label{radical-and-exponent-rewriting}
+
+Example:
+
+\[
+\frac{\sqrt[3]{x^2}}{\sqrt{x}}.
+\]
+
+Convert:
+
+\[
+\frac{x^{2/3}}{x^{1/2}}
+=
+x^{2/3-1/2}.
+\]
+
+Common denominator \(6\):
+
+\[
+\frac46-\frac36=\frac16.
+\]
+
+Therefore:
+
+\[
+\boxed{x^{1/6}}
+=
+\boxed{\sqrt[6]x}.
+\]
+
+This fractional-exponent strategy is usually the cleanest SAT method.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART III. COMPLETING THE
+SQUARE}\label{part-iii.-completing-the-square}
+
+\section{13. Why completing the square
+exists}\label{why-completing-the-square-exists}
+
+You are converting
+
+\[
+ax^2+bx+c
+\]
+
+into
+
+\[
+a(x-h)^2+k.
+\]
+
+The second form exposes the \textbf{vertex} immediately.
+
+For
+
+\[
+x^2+bx,
+\]
+
+the magic number is
+
+\[
+\left(\frac b2\right)^2.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{\texorpdfstring{14. Example with
+\(a=1\)}{14. Example with a=1}}\label{example-with-a1}
+
+Rewrite:
+
+\[
+x^2+8x+3.
+\]
+
+Half of \(8\):
+
+\[
+4.
+\]
+
+Square it:
+
+\[
+16.
+\]
+
+Add and subtract:
+
+\[
+x^2+8x+16-16+3.
+\]
+
+Perfect square:
+
+\[
+(x+4)^2-13.
+\]
+
+So:
+
+\[
+\boxed{x^2+8x+3=(x+4)^2-13}.
+\]
+
+Vertex:
+
+\[
+\boxed{(-4,-13)}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{\texorpdfstring{15. Example where
+\(a\neq1\)}{15. Example where a\textbackslash neq1}}\label{example-where-aneq1}
+
+Rewrite:
+
+\[
+2x^2-12x+5.
+\]
+
+Factor \(2\) from only the \(x\)-terms:
+
+\[
+2(x^2-6x)+5.
+\]
+
+Half of \(-6\):
+
+\[
+-3.
+\]
+
+Square:
+
+\[
+9.
+\]
+
+\[
+2(x^2-6x+9-9)+5.
+\]
+
+\[
+2[(x-3)^2-9]+5.
+\]
+
+Distribute the \(2\):
+
+\[
+2(x-3)^2-18+5.
+\]
+
+\[
+\boxed{2(x-3)^2-13}.
+\]
+
+Vertex:
+
+\[
+(3,-13).
+\]
+
+\subsubsection{Main trap}\label{main-trap}
+
+You cannot forget that the \(-9\) inside gets multiplied by \(2\).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART IV. THE THREE FORMS OF A
+QUADRATIC}\label{part-iv.-the-three-forms-of-a-quadratic}
+
+This is one of the highest-yield SAT concepts.
+
+\section{16. Standard form}\label{standard-form}
+
+\[
+\boxed{f(x)=ax^2+bx+c}
+\]
+
+Immediately gives:
+
+\[
+y\text{-intercept}=c.
+\]
+
+Because:
+
+\[
+f(0)=c.
+\]
+
+Example:
+
+\[
+f(x)=3x^2-7x+12.
+\]
+
+\(y\)-intercept:
+
+\[
+\boxed{12}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{17. Factored form}\label{factored-form}
+
+\[
+\boxed{f(x)=a(x-r_1)(x-r_2)}
+\]
+
+Immediately gives roots:
+
+\[
+x=r_1,\qquad x=r_2.
+\]
+
+Example:
+
+\[
+f(x)=2(x-3)(x+5).
+\]
+
+Roots:
+
+\[
+\boxed{3,-5}.
+\]
+
+Axis of symmetry:
+
+\[
+x=\frac{r_1+r_2}{2}
+\]
+
+so:
+
+\[
+x=\frac{3+(-5)}2=-1.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{18. Vertex form}\label{vertex-form}
+
+\[
+\boxed{f(x)=a(x-h)^2+k}
+\]
+
+Immediately gives:
+
+vertex:
+
+\[
+\boxed{(h,k)}
+\]
+
+axis:
+
+\[
+\boxed{x=h}
+\]
+
+and min/max value:
+
+\[
+\boxed{k}.
+\]
+
+If \(a>0\), opens up → minimum.
+
+If \(a<0\), opens down → maximum.
+
+Example:
+
+\[
+f(x)=-4(x-2)^2+9.
+\]
+
+Vertex:
+
+\[
+(2,9).
+\]
+
+Since \(a=-4<0\):
+
+\[
+\boxed{\text{maximum}=9}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{19. Know which form to use}\label{know-which-form-to-use}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Question asks for & Best form \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(y\)-intercept & Standard \\
+roots/zeros/\(x\)-intercepts & Factored \\
+vertex & Vertex \\
+maximum/minimum & Vertex \\
+axis of symmetry & Vertex or factored \\
+equivalent expression & Usually expand/factor \\
+graph behavior & Depends on feature \\
+\end{longtable}
+}
+
+A major SAT skill is not doing unnecessary algebra.
+
+If you see:
+
+\[
+g(x)=3(x+7)^2-11
+\]
+
+and the question asks for the minimum, you should immediately answer:
+
+\[
+\boxed{-11}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART V. SOLVING QUADRATIC
+EQUATIONS}\label{part-v.-solving-quadratic-equations}
+
+\section{20. First rule: put it equal to
+zero}\label{first-rule-put-it-equal-to-zero}
+
+Quadratic equation:
+
+\[
+ax^2+bx+c=0.
+\]
+
+Then choose a method.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{21. Quadratic method decision
+tree}\label{quadratic-method-decision-tree}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Situation & Best method \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(x^2=k\) or \((x-h)^2=k\) & Square root \\
+Factors obvious & Factoring \\
+Need vertex & Complete square \\
+Messy / uncertain & Quadratic formula \\
+Need only number of solutions & Discriminant \\
+Need decimal/intersection & Desmos can help \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{22. Factoring to solve}\label{factoring-to-solve}
+
+\[
+x^2-5x+6=0.
+\]
+
+Factor:
+
+\[
+(x-2)(x-3)=0.
+\]
+
+Zero-product property:
+
+\[
+x-2=0
+\]
+
+or
+
+\[
+x-3=0.
+\]
+
+Therefore:
+
+\[
+\boxed{x=2,3}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{23. Square-root method}\label{square-root-method}
+
+\[
+3(x-4)^2=27.
+\]
+
+Divide by \(3\):
+
+\[
+(x-4)^2=9.
+\]
+
+Take square root:
+
+\[
+x-4=\pm3.
+\]
+
+So:
+
+\[
+\boxed{x=7,1}.
+\]
+
+\subsubsection{Essential trap}\label{essential-trap}
+
+\[
+x^2=25
+\]
+
+means
+
+\[
+\boxed{x=\pm5},
+\]
+
+not just \(5\).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{24. Quadratic formula}\label{quadratic-formula}
+
+Memorize:
+
+\[
+\boxed{x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}}.
+\]
+
+Example:
+
+\[
+2x^2-7x=3.
+\]
+
+Move everything:
+
+\[
+2x^2-7x-3=0.
+\]
+
+So:
+
+\[
+a=2,\quad b=-7,\quad c=-3.
+\]
+
+Substitute:
+
+\[
+x=
+\frac{-(-7)\pm\sqrt{(-7)^2-4(2)(-3)}}{4}.
+\]
+
+\[
+=
+\frac{7\pm\sqrt{49+24}}4.
+\]
+
+\[
+\boxed{x=\frac{7\pm\sqrt{73}}4}.
+\]
+
+Write down \(a,b,c\) first. It dramatically reduces sign errors.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{25. The discriminant}\label{the-discriminant}
+
+Inside the radical:
+
+\[
+\boxed{D=b^2-4ac}.
+\]
+
+It tells you the number of \textbf{real} roots.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lr@{}}
+\toprule\noalign{}
+Discriminant & Real roots \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(D>0\) & 2 \\
+\(D=0\) & 1 \\
+\(D<0\) & 0 \\
+\end{longtable}
+}
+
+Geometrically:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+\(D\) & Parabola \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(>0\) & crosses \(x\)-axis twice \\
+\(=0\) & touches \(x\)-axis \\
+\(<0\) & never reaches \(x\)-axis \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{26. Parameter questions using
+discriminant}\label{parameter-questions-using-discriminant}
+
+Example:
+
+For what \(k\) does
+
+\[
+x^2+kx+9=0
+\]
+
+have exactly one real solution?
+
+Exactly one means:
+
+\[
+D=0.
+\]
+
+\[
+k^2-4(1)(9)=0.
+\]
+
+\[
+k^2-36=0.
+\]
+
+\[
+k^2=36.
+\]
+
+\[
+\boxed{k=\pm6}.
+\]
+
+Do not forget both signs.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{27. Two distinct solutions}\label{two-distinct-solutions}
+
+Suppose:
+
+\[
+2x^2-4x+k=0
+\]
+
+has two distinct real roots.
+
+Need:
+
+\[
+D>0.
+\]
+
+\[
+(-4)^2-4(2)(k)>0.
+\]
+
+\[
+16-8k>0.
+\]
+
+\[
+16>8k.
+\]
+
+\[
+\boxed{k<2}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART VI. QUADRATIC-IN-FORM
+PROBLEMS}\label{part-vi.-quadratic-in-form-problems}
+
+\section{\texorpdfstring{28.
+\(u\)-substitution}{28. u-substitution}}\label{u-substitution}
+
+Sometimes an equation is not technically quadratic in \(x\), but
+contains a repeated expression.
+
+Example:
+
+\[
+x^4-5x^2+6=0.
+\]
+
+Notice:
+
+\[
+x^4=(x^2)^2.
+\]
+
+Let:
+
+\[
+u=x^2.
+\]
+
+Then:
+
+\[
+u^2-5u+6=0.
+\]
+
+Factor:
+
+\[
+(u-2)(u-3)=0.
+\]
+
+So:
+
+\[
+u=2,3.
+\]
+
+Back-substitute:
+
+\[
+x^2=2
+\]
+
+or
+
+\[
+x^2=3.
+\]
+
+Thus:
+
+\[
+\boxed{x=\pm\sqrt2,\pm\sqrt3}.
+\]
+
+Four real solutions.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{29. Negative substituted
+values}\label{negative-substituted-values}
+
+Example:
+
+\[
+x^4-2x^2-3=0.
+\]
+
+Set \(u=x^2\):
+
+\[
+u^2-2u-3=0.
+\]
+
+Factor:
+
+\[
+(u-3)(u+1)=0.
+\]
+
+So:
+
+\[
+u=3,-1.
+\]
+
+Back-substitute:
+
+\[
+x^2=3 \Rightarrow x=\pm\sqrt3.
+\]
+
+But:
+
+\[
+x^2=-1
+\]
+
+has no real solution.
+
+Therefore:
+
+\[
+\boxed{2\text{ real solutions}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART VII. RADICAL EQUATIONS}\label{part-vii.-radical-equations}
+
+\section{30. Why extraneous solutions
+appear}\label{why-extraneous-solutions-appear}
+
+Squaring is not a one-to-one operation.
+
+For example:
+
+\[
+3^2=(-3)^2.
+\]
+
+Therefore when you square both sides of an equation, information about
+sign can disappear.
+
+So you must check answers in the \textbf{original equation}.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{31. Radical equation method}\label{radical-equation-method}
+
+Suppose:
+
+\[
+\sqrt{2x+3}+5=x.
+\]
+
+Isolate the radical:
+
+\[
+\sqrt{2x+3}=x-5.
+\]
+
+Square:
+
+\[
+2x+3=(x-5)^2.
+\]
+
+\[
+2x+3=x^2-10x+25.
+\]
+
+Move everything:
+
+\[
+x^2-12x+22=0.
+\]
+
+Quadratic formula gives:
+
+\[
+x=6\pm\sqrt{14}.
+\]
+
+Now check.
+
+Since the original isolated form was
+
+\[
+\sqrt{2x+3}=x-5,
+\]
+
+the right side must be nonnegative.
+
+For
+
+\[
+x=6-\sqrt{14}\approx2.26,
+\]
+
+\[
+x-5<0.
+\]
+
+Impossible because a square root is nonnegative.
+
+Reject it.
+
+Therefore:
+
+\[
+\boxed{x=6+\sqrt{14}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{32. Radical SAT checklist}\label{radical-sat-checklist}
+
+For any square-root equation:
+
+\[
+\boxed{\text{isolate → square → solve → check original}}
+\]
+
+Never skip the final step.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART VIII. RATIONAL
+EQUATIONS}\label{part-viii.-rational-equations}
+
+\section{33. Start with restrictions}\label{start-with-restrictions}
+
+Example:
+
+\[
+\frac{x^2}{x-1}=\frac1{x-1}.
+\]
+
+Original denominator means:
+
+\[
+\boxed{x\neq1}.
+\]
+
+Now multiply by \(x-1\):
+
+\[
+x^2=1.
+\]
+
+So:
+
+\[
+x=\pm1.
+\]
+
+But \(x=1\) is illegal.
+
+Thus:
+
+\[
+\boxed{x=-1}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{34. Full rational-equation
+process}\label{full-rational-equation-process}
+
+For:
+
+\[
+\frac{x}{x-3}
++
+\frac2{x+1}
+=
+\frac5{x^2-2x-3},
+\]
+
+factor:
+
+\[
+x^2-2x-3=(x-3)(x+1).
+\]
+
+Restrictions:
+
+\[
+x\neq3,-1.
+\]
+
+LCD:
+
+\[
+(x-3)(x+1).
+\]
+
+Multiply everything:
+
+\[
+x(x+1)+2(x-3)=5.
+\]
+
+Expand:
+
+\[
+x^2+x+2x-6=5.
+\]
+
+\[
+x^2+3x-11=0.
+\]
+
+Then solve the quadratic.
+
+Final candidates must still respect:
+
+\[
+x\neq3,-1.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART IX. ABSOLUTE VALUE
+EQUATIONS}\label{part-ix.-absolute-value-equations}
+
+\section{35. Meaning of absolute value}\label{meaning-of-absolute-value}
+
+\[
+|x|
+\]
+
+is the distance between \(x\) and \(0\).
+
+Distances cannot be negative.
+
+Therefore:
+
+\[
+|x|=-5
+\]
+
+has
+
+\[
+\boxed{\text{no solution}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{36. Standard absolute-value
+equation}\label{standard-absolute-value-equation}
+
+If:
+
+\[
+|A|=B
+\]
+
+and \(B>0\), then:
+
+\[
+A=B
+\]
+
+or
+
+\[
+A=-B.
+\]
+
+Example:
+
+\[
+|2x+5|-3=10.
+\]
+
+Isolate:
+
+\[
+|2x+5|=13.
+\]
+
+Case 1:
+
+\[
+2x+5=13
+\]
+
+\[
+2x=8
+\]
+
+\[
+x=4.
+\]
+
+Case 2:
+
+\[
+2x+5=-13
+\]
+
+\[
+2x=-18
+\]
+
+\[
+x=-9.
+\]
+
+Answer:
+
+\[
+\boxed{4,-9}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{37. Number of absolute-value
+solutions}\label{number-of-absolute-value-solutions}
+
+For:
+
+\[
+|x-h|=k,
+\]
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lr@{}}
+\toprule\noalign{}
+\(k\) & Number of solutions \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(k>0\) & 2 \\
+\(k=0\) & 1 \\
+\(k<0\) & 0 \\
+\end{longtable}
+}
+
+Visualize a horizontal line intersecting a V.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART X. EXPONENTIAL
+EQUATIONS}\label{part-x.-exponential-equations}
+
+\section{38. Same-base method}\label{same-base-method}
+
+If:
+
+\[
+a^{f(x)}=a^{g(x)}
+\]
+
+with a valid positive base \(a\neq1\), then:
+
+\[
+f(x)=g(x).
+\]
+
+Example:
+
+\[
+3^{x^2-4}=27^{x+2}.
+\]
+
+Rewrite:
+
+\[
+27=3^3.
+\]
+
+Thus:
+
+\[
+3^{x^2-4}
+=
+3^{3(x+2)}.
+\]
+
+Equate exponents:
+
+\[
+x^2-4=3x+6.
+\]
+
+\[
+x^2-3x-10=0.
+\]
+
+Factor:
+
+\[
+(x-5)(x+2)=0.
+\]
+
+\[
+\boxed{x=5,-2}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{\texorpdfstring{39. Exponential
+\(u\)-substitution}{39. Exponential u-substitution}}\label{exponential-u-substitution}
+
+Example:
+
+\[
+4^x-2^{x+1}=8.
+\]
+
+Rewrite:
+
+\[
+4^x=(2^x)^2.
+\]
+
+and:
+
+\[
+2^{x+1}=2(2^x).
+\]
+
+Let:
+
+\[
+u=2^x.
+\]
+
+Then:
+
+\[
+u^2-2u=8.
+\]
+
+\[
+u^2-2u-8=0.
+\]
+
+\[
+(u-4)(u+2)=0.
+\]
+
+So:
+
+\[
+u=4
+\]
+
+or
+
+\[
+u=-2.
+\]
+
+But:
+
+\[
+2^x>0
+\]
+
+for every real \(x\).
+
+Reject \(-2\).
+
+\[
+2^x=4=2^2
+\]
+
+so:
+
+\[
+\boxed{x=2}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XI. NONLINEAR SYSTEMS}\label{part-xi.-nonlinear-systems}
+
+The standard strategy in your material is to substitute the linear
+equation into the nonlinear equation, then solve and back-substitute.
+
+\section{40. Line + parabola}\label{line-parabola}
+
+Example:
+
+\[
+y=2x+1
+\]
+
+and
+
+\[
+y=x^2-2x+3.
+\]
+
+Since both equal \(y\):
+
+\[
+2x+1=x^2-2x+3.
+\]
+
+Move everything:
+
+\[
+x^2-4x+2=0.
+\]
+
+Solve:
+
+\[
+x=2\pm\sqrt2.
+\]
+
+Then plug each \(x\) into
+
+\[
+y=2x+1.
+\]
+
+That gives the two intersection points.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{41. Counting intersections using
+discriminant}\label{counting-intersections-using-discriminant}
+
+Suppose:
+
+\[
+y=mx+d
+\]
+
+and:
+
+\[
+y=ax^2+bx+c.
+\]
+
+Set equal:
+
+\[
+mx+d=ax^2+bx+c.
+\]
+
+Rearrange:
+
+\[
+ax^2+(b-m)x+(c-d)=0.
+\]
+
+Then use the discriminant.
+
+\[
+D>0\Rightarrow2\text{ intersections}
+\]
+
+\[
+D=0\Rightarrow1\text{ intersection, tangent}
+\]
+
+\[
+D<0\Rightarrow0\text{ intersections}.
+\]
+
+This is extremely SAT-friendly.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{42. Tangency parameter
+problem}\label{tangency-parameter-problem}
+
+Find \(k\) so that:
+
+\[
+y=2x+k
+\]
+
+and
+
+\[
+y=x^2-3x+1
+\]
+
+intersect exactly once.
+
+Set equal:
+
+\[
+2x+k=x^2-3x+1.
+\]
+
+\[
+x^2-5x+(1-k)=0.
+\]
+
+Exactly once means:
+
+\[
+D=0.
+\]
+
+\[
+(-5)^2-4(1)(1-k)=0.
+\]
+
+\[
+25-4+4k=0.
+\]
+
+\[
+21+4k=0.
+\]
+
+\[
+\boxed{k=-\frac{21}{4}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{43. Quadratic + quadratic}\label{quadratic-quadratic}
+
+Example:
+
+\[
+y=x^2-4
+\]
+
+\[
+y=-x^2+4.
+\]
+
+Set equal:
+
+\[
+x^2-4=-x^2+4.
+\]
+
+\[
+2x^2=8.
+\]
+
+\[
+x^2=4.
+\]
+
+\[
+x=\pm2.
+\]
+
+For either value:
+
+\[
+y=0.
+\]
+
+Solutions:
+
+\[
+\boxed{(2,0),(-2,0)}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{44. Absolute-value systems}\label{absolute-value-systems}
+
+Example:
+
+\[
+y=2x-1
+\]
+
+\[
+y=|x+2|.
+\]
+
+You can graph this instantly on Desmos.
+
+Algebraically, split based on:
+
+\[
+x+2\ge0
+\]
+
+or
+
+\[
+x+2<0.
+\]
+
+The key is that after solving a branch, the answer must satisfy that
+branch's condition.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XII. REARRANGING NONLINEAR
+FORMULAS}\label{part-xii.-rearranging-nonlinear-formulas}
+
+Your document treats this as another tested skill: identify the target
+variable and undo operations in reverse order.
+
+\section{45. Simple square formula}\label{simple-square-formula}
+
+\[
+A=\pi r^2.
+\]
+
+Solve for \(r\):
+
+\[
+r^2=\frac A\pi.
+\]
+
+\[
+r=\pm\sqrt{\frac A\pi}.
+\]
+
+But if \(r\) is a geometric radius:
+
+\[
+\boxed{r=\sqrt{\frac A\pi}}.
+\]
+
+Context removes the negative answer.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{46. Radical formula}\label{radical-formula}
+
+\[
+T=2\pi\sqrt{\frac Lg}.
+\]
+
+Divide:
+
+\[
+\frac{T}{2\pi}
+=
+\sqrt{\frac Lg}.
+\]
+
+Square:
+
+\[
+\frac{T^2}{4\pi^2}
+=
+\frac Lg.
+\]
+
+Multiply by \(g\):
+
+\[
+\boxed{L=\frac{gT^2}{4\pi^2}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{47. Formula with fractions}\label{formula-with-fractions}
+
+\[
+\frac1R=\frac1{R_1}+\frac1{R_2}.
+\]
+
+Solve for \(R_1\).
+
+Multiply everything by:
+
+\[
+RR_1R_2.
+\]
+
+Then:
+
+\[
+R_1R_2=RR_2+RR_1.
+\]
+
+Collect \(R_1\):
+
+\[
+R_1R_2-RR_1=RR_2.
+\]
+
+Factor:
+
+\[
+R_1(R_2-R)=RR_2.
+\]
+
+Thus:
+
+\[
+\boxed{R_1=\frac{RR_2}{R_2-R}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XIII. FUNCTIONS: DOMAIN AND
+RANGE}\label{part-xiii.-functions-domain-and-range}
+
+\section{48. Domain}\label{domain}
+
+Domain means:
+
+\[
+\boxed{\text{allowed }x\text{-values}}.
+\]
+
+The SAT restrictions you care about most are:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Expression & Restriction \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(\sqrt{A}\) & \(A\ge0\) \\
+\(\frac1B\) & \(B\neq0\) \\
+real-life time/count/etc. & obey context \\
+\end{longtable}
+}
+
+Example:
+
+\[
+f(x)=\frac{\sqrt{x-5}}{x-8}.
+\]
+
+Square root requires:
+
+\[
+x-5\ge0
+\]
+
+\[
+x\ge5.
+\]
+
+Denominator requires:
+
+\[
+x\neq8.
+\]
+
+Domain:
+
+\[
+\boxed{[5,8)\cup(8,\infty)}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{49. Range}\label{range}
+
+Range means:
+
+\[
+\boxed{\text{possible }y\text{-values}}.
+\]
+
+Example:
+
+\[
+f(x)=3+\sqrt{2x-4}.
+\]
+
+A square root is always nonnegative:
+
+\[
+\sqrt{2x-4}\ge0.
+\]
+
+Therefore:
+
+\[
+f(x)\ge3.
+\]
+
+Range:
+
+\[
+\boxed{[3,\infty)}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XIV. MAXIMUM AND
+MINIMUM}\label{part-xiv.-maximum-and-minimum}
+
+\section{50. Vertex formula}\label{vertex-formula}
+
+For:
+
+\[
+f(x)=ax^2+bx+c,
+\]
+
+the vertex \(x\)-coordinate is:
+
+\[
+\boxed{x_v=-\frac{b}{2a}}.
+\]
+
+Then:
+
+\[
+\boxed{y_v=f(x_v)}.
+\]
+
+If \(a>0\):
+
+minimum.
+
+If \(a<0\):
+
+maximum.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{51. Example}\label{example}
+
+\[
+f(x)=-2x^2+12x-7.
+\]
+
+\[
+a=-2,\quad b=12.
+\]
+
+\[
+x_v=-\frac{12}{2(-2)}
+=
+3.
+\]
+
+Now:
+
+\[
+f(3)
+=
+-2(9)+36-7
+=
+11.
+\]
+
+Because the parabola opens downward:
+
+\[
+\boxed{\text{maximum}=11}
+\]
+
+at:
+
+\[
+\boxed{x=3}.
+\]
+
+Be careful about the wording.
+
+``What is the maximum value?'' → \(11\)
+
+``At what value of \(x\) does the maximum occur?'' → \(3\)
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XV. INCREASING AND
+DECREASING}\label{part-xv.-increasing-and-decreasing}
+
+For an upward parabola with vertex \(x=h\):
+
+\[
+\boxed{\text{decreasing on }(-\infty,h)}
+\]
+
+\[
+\boxed{\text{increasing on }(h,\infty)}.
+\]
+
+For a downward parabola, reverse them.
+
+Example:
+
+\[
+f(x)=x^2-4x+1.
+\]
+
+Vertex:
+
+\[
+x=-\frac{-4}{2}=2.
+\]
+
+Opens upward.
+
+So:
+
+\[
+\boxed{\text{decreasing on }(-\infty,2)}
+\]
+
+and
+
+\[
+\boxed{\text{increasing on }(2,\infty)}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XVI. POLYNOMIAL END
+BEHAVIOR}\label{part-xvi.-polynomial-end-behavior}
+
+Only the \textbf{leading term} matters.
+
+Suppose:
+
+\[
+f(x)=ax^n+\cdots
+\]
+
+There are four possibilities.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+Degree & Leading coefficient & Left end & Right end \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Even & positive & up & up \\
+Even & negative & down & down \\
+Odd & positive & down & up \\
+Odd & negative & up & down \\
+\end{longtable}
+}
+
+Think:
+
+\subsubsection{Even degree}\label{even-degree}
+
+ends go the \textbf{same direction}.
+
+\subsubsection{Odd degree}\label{odd-degree}
+
+ends go \textbf{opposite directions}.
+
+Then the sign of \(a\) tells you the right-hand end.
+
+Example:
+
+\[
+f(x)=-3x^4+100x^3-5.
+\]
+
+Highest degree:
+
+\[
+-3x^4.
+\]
+
+Even + negative:
+
+\[
+\boxed{\text{both ends down}}.
+\]
+
+The \(100x^3\) does not control long-run behavior.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XVII. GRAPH FEATURES OF RATIONAL
+FUNCTIONS}\label{part-xvii.-graph-features-of-rational-functions}
+
+\section{52. Intercepts}\label{intercepts}
+
+\(x\)-intercept:
+
+\[
+f(x)=0.
+\]
+
+For a rational function, this usually means numerator \(=0\), provided
+denominator \(\neq0\).
+
+\(y\)-intercept:
+
+\[
+f(0).
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{53. Vertical asymptotes}\label{vertical-asymptotes}
+
+For:
+
+\[
+f(x)=\frac{N(x)}{D(x)},
+\]
+
+a vertical asymptote occurs when:
+
+\[
+D(x)=0
+\]
+
+after simplification, provided the corresponding factor did not cancel.
+
+Example:
+
+\[
+\frac{2x+1}{(x-3)(x+2)}.
+\]
+
+VA:
+
+\[
+\boxed{x=3,\;x=-2}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{54. Holes vs vertical
+asymptotes}\label{holes-vs-vertical-asymptotes}
+
+Example:
+
+\[
+f(x)=
+\frac{(x-2)(x+3)}
+{(x-2)(x+5)}.
+\]
+
+Cancel:
+
+\[
+f(x)=\frac{x+3}{x+5},
+\]
+
+but original restrictions are still:
+
+\[
+x\neq2,-5.
+\]
+
+At \(x=2\), the factor canceled.
+
+So:
+
+\[
+\boxed{x=2\text{ is a hole}}.
+\]
+
+At \(x=-5\), denominator remains zero.
+
+So:
+
+\[
+\boxed{x=-5\text{ is a vertical asymptote}}.
+\]
+
+Memorize:
+
+\[
+\boxed{\text{cancelled denominator factor} \rightarrow \text{hole}}
+\]
+
+\[
+\boxed{\text{uncancelled denominator zero} \rightarrow \text{VA}}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{55. Horizontal asymptotes}\label{horizontal-asymptotes}
+
+For:
+
+\[
+\frac{\text{polynomial}}{\text{polynomial}},
+\]
+
+compare degrees.
+
+\subsubsection{Numerator degree \textless{} denominator
+degree}\label{numerator-degree-denominator-degree}
+
+\[
+\boxed{y=0}.
+\]
+
+Example:
+
+\[
+\frac{x}{x^2+1}.
+\]
+
+\subsubsection{Degrees equal}\label{degrees-equal}
+
+Ratio of leading coefficients.
+
+\[
+\boxed{
+y=
+\frac{\text{leading numerator coefficient}}
+{\text{leading denominator coefficient}}
+}
+\]
+
+Example:
+
+\[
+\frac{5x^3-2x}{2x^3+7}.
+\]
+
+\[
+\boxed{y=\frac52}.
+\]
+
+\subsubsection{Numerator degree \textgreater{} denominator
+degree}\label{numerator-degree-denominator-degree-1}
+
+No ordinary horizontal asymptote.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XVIII. FUNCTION
+TRANSFORMATIONS}\label{part-xviii.-function-transformations}
+
+You need these cold.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Expression & Transformation \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(f(x)+k\) & up \(k\) \\
+\(f(x)-k\) & down \(k\) \\
+\(f(x-h)\) & right \(h\) \\
+\(f(x+h)\) & left \(h\) \\
+\(-f(x)\) & reflect over \(x\)-axis \\
+\(f(-x)\) & reflect over \(y\)-axis \\
+\(af(x), a>1\) & vertical stretch \\
+\(af(x),0<a<1\) & vertical compression \\
+\end{longtable}
+}
+
+The horizontal shift is the famous trap.
+
+\[
+f(x-5)
+\]
+
+moves \textbf{right 5}.
+
+\[
+f(x+5)
+\]
+
+moves \textbf{left 5}.
+
+Inside is opposite.
+
+Outside is intuitive.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{56. Transformation example}\label{transformation-example}
+
+Parent:
+
+\[
+f(x)=\sqrt x.
+\]
+
+Shift right \(2\):
+
+\[
+\sqrt{x-2}.
+\]
+
+Reflect over \(x\)-axis:
+
+\[
+-\sqrt{x-2}.
+\]
+
+Shift down \(5\):
+
+\[
+\boxed{-\sqrt{x-2}-5}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XIX. POLYNOMIAL ROOT
+MULTIPLICITY}\label{part-xix.-polynomial-root-multiplicity}
+
+\section{57. Multiplicity tells you graph
+behavior}\label{multiplicity-tells-you-graph-behavior}
+
+Suppose a polynomial contains:
+
+\[
+(x-r)^m.
+\]
+
+Then \(r\) is a root with multiplicity \(m\).
+
+If multiplicity is odd:
+
+\[
+\boxed{\text{graph crosses}}
+\]
+
+If multiplicity is even:
+
+\[
+\boxed{\text{graph touches/bounces}}.
+\]
+
+Examples:
+
+\[
+(x-2)
+\]
+
+multiplicity \(1\): crosses.
+
+\[
+(x-2)^2
+\]
+
+multiplicity \(2\): touches.
+
+\[
+(x-2)^3
+\]
+
+multiplicity \(3\): crosses, usually flatter/S-shaped.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{58. Full polynomial graph
+example}\label{full-polynomial-graph-example}
+
+\[
+f(x)=-(x+1)^2(x-3)(x-5)^3.
+\]
+
+Roots:
+
+\[
+x=-1,3,5.
+\]
+
+At \(-1\):
+
+multiplicity \(2\) → bounce.
+
+At \(3\):
+
+multiplicity \(1\) → cross.
+
+At \(5\):
+
+multiplicity \(3\) → cross.
+
+Degree:
+
+\[
+2+1+3=6.
+\]
+
+Notice here the leading sign is negative, so even degree + negative
+coefficient means both ends down.
+
+When doing these questions, calculate degree from \textbf{multiplicity},
+not just number of distinct roots.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{59. Least possible degree}\label{least-possible-degree}
+
+Graph:
+
+cross at \(x=-1\)
+
+touch at \(x=2\)
+
+cross at \(x=5\).
+
+Minimum multiplicities:
+
+\[
+1+2+1=4.
+\]
+
+So minimum degree:
+
+\[
+\boxed4.
+\]
+
+A touch cannot come from multiplicity \(1\).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XX. EXPONENTIAL
+FUNCTIONS}\label{part-xx.-exponential-functions}
+
+This is extremely important on the Digital SAT.
+
+\section{60. General form}\label{general-form}
+
+\[
+\boxed{f(t)=a(b)^t}.
+\]
+
+\(a\):
+
+\[
+\boxed{\text{initial value}}
+\]
+
+because:
+
+\[
+f(0)=ab^0=a.
+\]
+
+\(b\):
+
+\[
+\boxed{\text{multiplicative factor per time period}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{61. Growth}\label{growth}
+
+Increase by \(r\%\):
+
+\[
+\boxed{b=1+\frac r{100}}.
+\]
+
+8\% increase:
+
+\[
+b=1.08.
+\]
+
+15\% increase:
+
+\[
+b=1.15.
+\]
+
+So:
+
+\[
+500(1.08)^t
+\]
+
+means initial value \(500\), increasing \(8\%\) each period.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{62. Decay}\label{decay}
+
+Decrease by \(r\%\):
+
+\[
+\boxed{b=1-\frac r{100}}.
+\]
+
+12\% depreciation:
+
+\[
+1-0.12=0.88.
+\]
+
+If a \$25,000 car loses 12\% annually:
+
+\[
+\boxed{V(t)=25000(0.88)^t}.
+\]
+
+Do not use \(0.12\).
+
+The car retains \(88\%\), not \(12\%\).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{63. Multiplier ↔ percentage
+conversion}\label{multiplier-percentage-conversion}
+
+If multiplier:
+
+\[
+1.27,
+\]
+
+percentage growth:
+
+\[
+(1.27-1)(100)=27\%.
+\]
+
+If multiplier:
+
+\[
+0.84,
+\]
+
+percentage decrease:
+
+\[
+(1-0.84)(100)=16\%.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{64. Doubling time}\label{doubling-time}
+
+If a quantity doubles every \(d\) units:
+
+\[
+\boxed{f(t)=a2^{t/d}}.
+\]
+
+Example: initial population \(300\), doubles every 5 hours:
+
+\[
+\boxed{P(t)=300(2)^{t/5}}.
+\]
+
+At \(t=5\):
+
+\[
+300(2)^1=600.
+\]
+
+At \(t=10\):
+
+\[
+300(2)^2=1200.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{65. Half-life}\label{half-life}
+
+If something halves every \(h\) units:
+
+\[
+\boxed{f(t)=a\left(\frac12\right)^{t/h}}.
+\]
+
+50 grams, half-life 30 days:
+
+\[
+\boxed{M(t)=50\left(\frac12\right)^{t/30}}.
+\]
+
+At 30 days:
+
+\[
+25.
+\]
+
+At 60:
+
+\[
+12.5.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{66. Scaled time, one of the nastiest SAT
+traps}\label{scaled-time-one-of-the-nastiest-sat-traps}
+
+Suppose:
+
+\[
+A(t)=18000(1.1025)^{t/2}.
+\]
+
+Do \textbf{not} say it grows 10.25\% every year.
+
+The exponent is:
+
+\[
+\frac t2.
+\]
+
+So one full multiplication by \(1.1025\) occurs every \textbf{2 years}.
+
+Thus:
+
+\[
+\boxed{10.25\%\text{ growth every 2 years}}.
+\]
+
+What is the per-year multiplier?
+
+\[
+(1.1025)^{1/2}.
+\]
+
+Since:
+
+\[
+1.05^2=1.1025,
+\]
+
+the annual factor is:
+
+\[
+1.05.
+\]
+
+So:
+
+\[
+\boxed{5\%\text{ growth per year}}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{67. Growth over several
+periods}\label{growth-over-several-periods}
+
+Suppose something grows \(8\%\) every 2 years.
+
+What percent does it grow over 6 years?
+
+Number of periods:
+
+\[
+\frac62=3.
+\]
+
+Overall multiplier:
+
+\[
+1.08^3.
+\]
+
+\[
+1.08^3=1.259712.
+\]
+
+Growth percentage:
+
+\[
+(1.259712-1)(100)
+=
+25.9712\%.
+\]
+
+Approximately:
+
+\[
+\boxed{26.0\%}.
+\]
+
+You do not simply calculate:
+
+\[
+8\%\times3=24\%
+\]
+
+because exponential growth compounds.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{68. Exponential asymptotes}\label{exponential-asymptotes}
+
+For:
+
+\[
+f(x)=ab^x+k,
+\]
+
+horizontal asymptote:
+
+\[
+\boxed{y=k}.
+\]
+
+Example:
+
+\[
+f(x)=5(2)^x-7.
+\]
+
+HA:
+
+\[
+\boxed{y=-7}.
+\]
+
+For \(a>0\), range:
+
+\[
+\boxed{(-7,\infty)}.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XXI. RATIONAL FUNCTION
+TRANSFORMATIONS}\label{part-xxi.-rational-function-transformations}
+
+\section{69. Parent function}\label{parent-function}
+
+\[
+\boxed{f(x)=\frac1x}.
+\]
+
+Transformed form:
+
+\[
+\boxed{f(x)=\frac a{x-h}+k}.
+\]
+
+Immediately:
+
+\[
+\boxed{\text{VA}:x=h}
+\]
+
+\[
+\boxed{\text{HA}:y=k}.
+\]
+
+Example:
+
+\[
+f(x)=\frac3{x-2}+1.
+\]
+
+VA:
+
+\[
+x=2.
+\]
+
+HA:
+
+\[
+y=1.
+\]
+
+Domain:
+
+\[
+x\neq2.
+\]
+
+Range:
+
+\[
+y\neq1.
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XXII. DESMOS: WHAT YOU SHOULD ACTUALLY USE IT
+FOR}\label{part-xxii.-desmos-what-you-should-actually-use-it-for}
+
+Because the Digital SAT includes Desmos, you should know when it saves
+time.
+
+\subsection{Roots}\label{roots}
+
+Graph:
+
+\[
+y=f(x).
+\]
+
+The \(x\)-intercepts are the real roots.
+
+\subsection{Systems}\label{systems}
+
+Graph both equations.
+
+Each intersection is one solution.
+
+This is particularly useful for ``how many solutions?'' questions.
+
+\subsection{Vertex}\label{vertex}
+
+Graph the quadratic and select the turning point.
+
+Useful for min/max questions when exact symbolic manipulation is
+unnecessary.
+
+\subsection{Equivalent expressions}\label{equivalent-expressions}
+
+Graph:
+
+\[
+y=\text{original}
+\]
+
+and:
+
+\[
+y=\text{answer choice}.
+\]
+
+If they overlap for the relevant domain, they are equivalent.
+
+Be careful about \textbf{holes/domain restrictions}.
+
+\subsection{Regression from a table}\label{regression-from-a-table}
+
+Quadratic:
+
+\[
+y_1\sim ax_1^2+bx_1+c.
+\]
+
+Exponential:
+
+\[
+y_1\sim ab^{x_1}.
+\]
+
+These can recover models rapidly.
+
+\subsection{When you should NOT automatically use
+Desmos}\label{when-you-should-not-automatically-use-desmos}
+
+Simple factoring such as:
+
+\[
+x^2-9.
+\]
+
+Simple coefficient interpretation such as:
+
+\[
+300(1.07)^t.
+\]
+
+Exact radical answers such as:
+
+\[
+\frac{7+\sqrt{73}}4.
+\]
+
+Basic exponent rules.
+
+You need enough algebra fluency that opening Desmos does not make a
+10-second question take a minute.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XXIII. THE TRAPS YOU NEED TO BE PARANOID
+ABOUT}\label{part-xxiii.-the-traps-you-need-to-be-paranoid-about}
+
+Your source explicitly emphasizes these traps.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Trap & Correct idea \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\((a+b)^2=a^2+b^2\) & Wrong. Include \(2ab\) \\
+\(x^2+49\) factors like diff. squares & No real factorization \\
+Radical equation candidates & Check original \\
+Cancelled denominator & Original excluded value remains excluded \\
+\(|x|=-5\) & No solution \\
+\(f(x+3)\) & Shift left 3 \\
+\(D=0\), then \(k^2=36\) & \(k=\pm6\) \\
+Even multiplicity & Bounce \\
+Odd multiplicity & Cross \\
+\(1.08\) & 8\% growth \\
+\(0.92\) & 8\% decay \\
+Completing square with \(a\neq1\) & Factor \(a\) first \\
+Rational simplification & Cancel factors, not terms \\
+\(b^x\) for positive base & Always positive \\
+\(1.08^{t/2}\) & 8\% every 2 units \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XXIV. THE MASTER SAT METHOD
+CHECKLIST}\label{part-xxiv.-the-master-sat-method-checklist}
+
+This is the checklist I would actually memorize.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+If you see\ldots{}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Do this
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+``Equivalent expression'' & factor / expand / exponent rules / test
+values \\
+Polynomial with 2 terms & GCF → diff squares → cubes \\
+Polynomial with 3 terms & GCF → perfect square → trinomial \\
+Polynomial with 4 terms & GCF → grouping \\
+Rational expression & factor numerator + denominator first \\
+Square root + exponents & convert to fractional exponents \\
+Quadratic roots & factoring / square root / quadratic formula \\
+``How many real solutions?'' quadratic & discriminant \\
+Radical equation & isolate → square → solve → check \\
+Rational equation & restrictions → LCD → solve → reject forbidden
+values \\
+Absolute-value equation & isolate → positive and negative cases \\
+Exponential equation & same base or \(u=b^x\) \\
+Line + parabola system & substitute → quadratic \\
+``Exactly one intersection'' & discriminant \(=0\) \\
+Quadratic min/max & vertex \\
+Quadratic roots & factored form \\
+Quadratic \(y\)-intercept & standard form \\
+Domain & square roots \(\ge0\); denominators \(\neq0\) \\
+Range & reason from graph/output restrictions \\
+Polynomial end behavior & leading term only \\
+Rational VA & uncancelled denominator zero \\
+Rational hole & cancelled denominator factor \\
+Exponential model & initial ×
+multiplier\(^{\text{number of periods}}\) \\
+Doubling & \(a2^{t/d}\) \\
+Half-life & \(a(1/2)^{t/h}\) \\
+\(f(x-h)\) & right \\
+\(f(x+h)\) & left \\
+even multiplicity & touch \\
+odd multiplicity & cross \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{PART XXV. FORMULA SHEET TO
+MEMORIZE}\label{part-xxv.-formula-sheet-to-memorize}
+
+\subsection{Factoring}\label{factoring}
+
+\[
+\boxed{a^2-b^2=(a-b)(a+b)}
+\]
+
+\[
+\boxed{a^2+2ab+b^2=(a+b)^2}
+\]
+
+\[
+\boxed{a^2-2ab+b^2=(a-b)^2}
+\]
+
+\[
+\boxed{a^3+b^3=(a+b)(a^2-ab+b^2)}
+\]
+
+\[
+\boxed{a^3-b^3=(a-b)(a^2+ab+b^2)}
+\]
+
+\subsection{Quadratics}\label{quadratics}
+
+\[
+\boxed{x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}}
+\]
+
+\[
+\boxed{D=b^2-4ac}
+\]
+
+\[
+\boxed{x_v=-\frac b{2a}}
+\]
+
+\[
+\boxed{y_v=f(x_v)}
+\]
+
+\subsection{Vertex form}\label{vertex-form-1}
+
+\[
+\boxed{f(x)=a(x-h)^2+k}
+\]
+
+vertex:
+
+\[
+\boxed{(h,k)}.
+\]
+
+\subsection{Factored form}\label{factored-form-1}
+
+\[
+\boxed{f(x)=a(x-r_1)(x-r_2)}
+\]
+
+roots:
+
+\[
+\boxed{r_1,r_2}.
+\]
+
+axis:
+
+\[
+\boxed{x=\frac{r_1+r_2}{2}}.
+\]
+
+\subsection{Completing square}\label{completing-square}
+
+\[
+\boxed{x^2+bx=
+\left(x+\frac b2\right)^2-
+\left(\frac b2\right)^2}
+\]
+
+\subsection{Fractional exponents}\label{fractional-exponents}
+
+\[
+\boxed{a^{m/n}=\sqrt[n]{a^m}}
+\]
+
+\subsection{Exponential growth}\label{exponential-growth}
+
+\[
+\boxed{A=A_0(1+r)^t}
+\]
+
+\subsection{Exponential decay}\label{exponential-decay}
+
+\[
+\boxed{A=A_0(1-r)^t}
+\]
+
+\subsection{\texorpdfstring{Change every \(d\)
+units}{Change every d units}}\label{change-every-d-units}
+
+\[
+\boxed{A=A_0b^{t/d}}
+\]
+
+\subsection{Doubling}\label{doubling}
+
+\[
+\boxed{A=A_0\,2^{t/d}}
+\]
+
+\subsection{Half-life}\label{half-life-1}
+
+\[
+\boxed{A=A_0\left(\frac12\right)^{t/h}}
+\]
+
+\subsection{Compound interest}\label{compound-interest}
+
+\[
+\boxed{
+A=P\left(1+\frac rn\right)^{nt}
+}
+\]
+
+\subsection{Rational horizontal
+asymptote}\label{rational-horizontal-asymptote}
+
+\[
+\boxed{
+\deg N<\deg D\Rightarrow y=0
+}
+\]
+
+\[
+\boxed{
+\deg N=\deg D
+\Rightarrow
+y=\frac{\text{leading coeff. }N}
+{\text{leading coeff. }D}
+}
+\]
+
+\subsection{Rational transformation}\label{rational-transformation}
+
+\[
+\boxed{f(x)=\frac a{x-h}+k}
+\]
+
+\[
+\boxed{\text{VA }x=h,\quad\text{HA }y=k}
+\]
+
+\subsection{Absolute value}\label{absolute-value}
+
+\[
+\boxed{|A|=B\Rightarrow A=B\text{ or }A=-B}
+\]
+
+provided \(B\ge0\).
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Final ``am I SAT-ready?''
+checklist}\label{final-am-i-sat-ready-checklist}
+
+You should be able to do every one of these without needing notes:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Expand \((3x-5)^2\) without forgetting the middle term.
+\item
+  Factor simple and hard trinomials.
+\item
+  Recognize difference of squares and perfect squares immediately.
+\item
+  Simplify rational expressions while preserving domain restrictions.
+\item
+  Convert radicals into rational exponents.
+\item
+  Complete the square, including when \(a\neq1\).
+\item
+  Switch mentally among standard, factored, and vertex quadratic forms.
+\item
+  Choose the fastest quadratic-solving method.
+\item
+  Use \(D=b^2-4ac\) for 0/1/2 real roots and tangency.
+\item
+  Recognize \(x^4+bx^2+c\) as a quadratic in \(x^2\).
+\item
+  Solve radical equations and check for extraneous roots.
+\item
+  Solve rational equations and reject denominator-zero candidates.
+\item
+  Split absolute-value equations correctly.
+\item
+  Rewrite exponential equations to a common base.
+\item
+  Use \(u=b^x\) for quadratic-in-exponential equations.
+\item
+  Solve/count intersections in nonlinear systems.
+\item
+  Rearrange formulas containing squares, roots, and fractions.
+\item
+  Determine domain and range.
+\item
+  Find quadratic min/max and know whether the question wants \(x\) or
+  \(y\).
+\item
+  Determine increasing/decreasing intervals from the vertex.
+\item
+  Determine polynomial end behavior from degree parity and leading sign.
+\item
+  Identify holes versus vertical asymptotes.
+\item
+  Identify horizontal asymptotes.
+\item
+  Interpret transformations, especially horizontal shifts.
+\item
+  Read root multiplicity from factors and graph behavior.
+\item
+  Translate percent growth/decay into multipliers.
+\item
+  Handle half-life and doubling-time models.
+\item
+  Interpret scaled exponents such as \(t/3\).
+\item
+  Compute compound percentage change rather than adding percentages.
+\item
+  Know when Desmos is faster and when paper algebra is faster.
+\end{enumerate}
+
+If you can do those 30 things confidently, you have covered the
+substantive material in the B2 Advanced Math document rather than merely
+memorizing its formulas. The file itself frames the same domain around
+nonlinear relationships involving quadratics, exponentials, polynomials,
+radicals, rationals, and systems.
+
+\end{document}

@@ -126,7 +126,7 @@ You have seen how I work with code and systems more closely than anyone else at 
 - I founded the Quant Finance Club (25–30 members), wrote its 13-week course and built Future Lab for it.
 - When the first sessions were too technical, I changed them to games and simulations so members could work things out themselves.
 - I built Daedalus for my STEM Racing team.
-- I raised ₹25,000 for a rural school and taught mathematics and English to about 50 students there.
+- I raised ₹22,500 for a rural school and taught mathematics and English to about 50 students there.
 
 > *Example:* "Aditya shares what he knows. When the first sessions of the club he founded proved too technical, he redesigned them until the members could reason through the problems themselves."
 

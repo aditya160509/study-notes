@@ -1,0 +1,448 @@
+<title>DET Prep Playbook</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Atkinson+Hyperlegible:wght@400;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: single reading column with a sticky section nav; question types as a dense reference list */
+:root{
+  --bg:#f6f8f4; --surface:#ffffff; --fg:#1b2420; --muted:#5a6a62; --line:#d9e2dc;
+  --accent:#2f7a3f; --accent-soft:#e3f1e5; --warn:#a85a12; --warn-soft:#fbeedd;
+  --display:"Fraunces",Georgia,serif; --body:"Atkinson Hyperlegible",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121815; --surface:#1a221e; --fg:#e4ece7; --muted:#9aaba2; --line:#2c3832;
+  --accent:#6fc27f; --accent-soft:#1f3326; --warn:#e6a35c; --warn-soft:#352717; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121815; --surface:#1a221e; --fg:#e4ece7; --muted:#9aaba2; --line:#2c3832;
+  --accent:#6fc27f; --accent-soft:#1f3326; --warn:#e6a35c; --warn-soft:#352717; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font:17px/1.6 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:860px;margin:0 auto;padding-block:40px 80px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.15;margin:0}
+h1{font-size:clamp(2.2rem,6vw,3.4rem);font-weight:800}
+h2{font-size:1.8rem;margin-top:56px;margin-bottom:12px}
+h3{font-size:1.2rem;font-weight:600}
+p{margin:0 0 12px;max-width:68ch}
+a{color:var(--accent)}
+.lede{font-size:1.15rem;color:var(--muted);margin-top:14px}
+.eyebrow{font:500 .75rem var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);
+  margin-top:28px;padding-block:10px;display:flex;gap:6px 16px;flex-wrap:wrap;font-size:.9rem}
+nav a{text-decoration:none;color:var(--muted)} nav a:hover,nav a:focus-visible{color:var(--accent)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-top:28px}
+.facts div{background:var(--surface);padding:14px}
+.facts b{display:block;font:600 1.4rem var(--display)}
+.facts span{color:var(--muted);font-size:.85rem}
+.scroll{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:.93rem;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:500 .72rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.q{border-top:1px solid var(--line);padding-block:20px;display:grid;gap:8px}
+.q header{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.tag{font:500 .72rem var(--mono);background:var(--accent-soft);color:var(--accent);padding:2px 8px;border-radius:4px}
+.meta{color:var(--muted);font-size:.88rem}
+.q ul{margin:0;padding-left:20px} .q li{margin-bottom:4px}
+.tpl{font:500 .85rem/1.55 var(--mono);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;white-space:pre-wrap;margin:4px 0 0}
+.note{background:var(--warn-soft);border-left:3px solid var(--warn);padding:12px 16px;border-radius:0 8px 8px 0;margin:16px 0}
+.weeks{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.week{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px}
+.week ul{padding-left:18px;margin:8px 0 0}
+.check{list-style:none;padding:0;display:grid;gap:6px}
+.check label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
+.check input{margin-top:5px;accent-color:var(--accent);width:18px;height:18px;flex:none}
+.check input:checked+span{color:var(--muted);text-decoration:line-through}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+footer{margin-top:56px;color:var(--muted);font-size:.85rem}
+</style>
+
+<div class="wrap">
+<div class="eyebrow">Duolingo English Test · format as of Oct 2026</div>
+<h1>DET Prep Playbook</h1>
+<p class="lede">Everything on the test, how each question is scored, word-for-word answer templates, a full worked reading and listening set, a 4-week plan, and a test-day checklist. Built for a 130+ target.</p>
+
+<div class="facts">
+  <div><b>~60 min</b><span>Setup 5 · Adaptive 45 · Samples 9–10</span></div>
+  <div><b>10–160</b><span>Score, in 5-point steps</span></div>
+  <div><b>13</b><span>Question types (since Jul 2025)</span></div>
+  <div><b>≤48 h</b><span>Results delivery</span></div>
+  <div><b>$70</b><span>Per attempt · valid 2 years</span></div>
+</div>
+
+<nav aria-label="Sections">
+  <a href="#how">How it works</a><a href="#scores">Scores</a><a href="#types">Question types</a>
+  <a href="#rules">Score rules</a><a href="#examples">Worked examples</a><a href="#templates">Templates</a><a href="#plan">Study plans</a>
+  <a href="#day">Test day</a><a href="#resources">Resources</a>
+</nav>
+
+<h2 id="how">How the test works</h2>
+<p>The DET is one adaptive section, not four separate skill blocks. All question types are mixed together, and each answer changes the difficulty of the next one. Harder questions appearing is a good sign.</p>
+<div class="scroll"><table>
+<tr><th>Part</th><th>Time</th><th>What happens</th></tr>
+<tr><td>1. Setup</td><td>~5 min</td><td>ID check, webcam, phone as second camera (DET mobile app), room scan and ear scan to prove no earbuds.</td></tr>
+<tr><td>2. Adaptive test</td><td>~45 min</td><td>All graded question types in mixed order. This sets your overall score and subscores.</td></tr>
+<tr><td>3. Writing &amp; Speaking Samples</td><td>~10 min</td><td>One essay and one video answer. Sent to every university you share scores with, and admissions officers do read and watch them.</td></tr>
+</table></div>
+<div class="note"><b>July 2025 changes:</b> Read Aloud and Listen, Then Speak were removed. Interactive Speaking was added. Interactive Listening now opens with Listen and Complete. Minimum answer times were removed from five tasks. Prep material from before mid-2025 describes an older test.</div>
+<div class="note"><b>Late 2025 changes:</b> the DET mobile app is now required as a secondary camera, and the test includes a room scan and an ear scan. A purchased test credit is valid for <b>21 days</b>; you can buy up to three tests in a rolling 30-day period.</div>
+
+<h2 id="scores">Scores and targets</h2>
+<p>You get one overall score plus eight subscores: four integrated ones (Literacy, Comprehension, Conversation, Production) and four single-skill ones (Reading, Writing, Listening, Speaking).</p>
+<div class="scroll"><table>
+<tr><th>Subscore</th><th>Combines</th><th>Fed mostly by</th></tr>
+<tr><td>Literacy</td><td>Reading + Writing</td><td>Read and Select, Read and Complete, Fill in the Blanks, Listen and Type, Write About the Photo</td></tr>
+<tr><td>Comprehension</td><td>Reading + Listening</td><td>Read and Complete, Interactive Reading, Listen and Type, Interactive Listening</td></tr>
+<tr><td>Conversation</td><td>Listening + Speaking</td><td>Interactive Listening, Interactive Speaking, Speak About the Photo</td></tr>
+<tr><td>Production</td><td>Writing + Speaking</td><td>Write About the Photo, Interactive Writing, all speaking tasks</td></tr>
+</table></div>
+
+<h3 style="margin-top:20px">How writing and speaking are graded</h3>
+<div class="scroll"><table>
+<tr><th>Criterion</th><th>What earns credit</th><th>What loses credit</th></tr>
+<tr><td><b>Content</b></td><td>Answers the exact question; relevant development</td><td>Off-topic, memorised, or only partly answers</td></tr>
+<tr><td><b>Discourse coherence</b></td><td>Clear order, paragraphs, effective linkers</td><td>Jumping between ideas; no conclusion</td></tr>
+<tr><td><b>Grammar</b></td><td>Accurate simple sentences plus complex structures</td><td>Repeated tense, article, agreement errors</td></tr>
+<tr><td><b>Lexis</b></td><td>Precise, varied vocabulary and collocations</td><td>Basic words repeated; wrong word forms</td></tr>
+<tr><td><b>Fluency</b> <span class="meta">(speaking)</span></td><td>Steady pace; natural pauses; few restarts</td><td>Long silences; repeated "um"; abandoned sentences</td></tr>
+<tr><td><b>Pronunciation</b> <span class="meta">(speaking)</span></td><td>Clear and intelligible at first listen</td><td>Mumbling; unclear endings; flat intonation</td></tr>
+</table></div>
+<p class="meta">Pronunciation is judged on clarity, not on sounding American or British. A clear accent is not penalised.</p>
+
+<h3 style="margin-top:20px">Rough IELTS equivalents</h3>
+<div class="scroll"><table>
+<tr><th>DET</th><th>≈ IELTS</th><th>Typical meaning</th></tr>
+<tr><td>155–160</td><td>8.5–9</td><td>Top band</td></tr>
+<tr><td>145–150</td><td>8</td><td>Very strong; safe for almost every school</td></tr>
+<tr><td>135–140</td><td>7.5</td><td>Competitive for selective US universities</td></tr>
+<tr><td>125–130</td><td>7</td><td>Common minimum at top schools</td></tr>
+<tr><td>115–120</td><td>6.5</td><td>Common minimum at many universities</td></tr>
+<tr><td>105–110</td><td>6</td><td>Lower minimums / pathway programs</td></tr>
+</table></div>
+<p class="meta">Approximate, based on Duolingo's published concordance. Always check each university's own minimum, and whether it accepts the DET at all. Some highly selective schools don't.</p>
+
+<h2 id="types">The 13 question types</h2>
+<p>Times and counts vary slightly by test because the test adapts.</p>
+
+<div class="q"><header><h3>Read and Select</h3><span class="tag">Reading</span><span class="meta">5 s per word · ~15–18×</span></header>
+<p>One word appears. Click Yes if it's a real English word, No if it's made up.</p>
+<ul><li>Fake words look plausible but have odd letter patterns (<i>flurment</i>, <i>cradive</i>). Go with your first instinct.</li>
+<li>Wrong "Yes" answers cost you. If you've truly never seen it and it looks off, choose No.</li>
+<li>Train it: read academic word lists (AWL) and news articles; spelling patterns stick.</li></ul></div>
+
+<div class="q"><header><h3>Fill in the Blanks</h3><span class="tag">Reading</span><span class="meta">~20 s · ~6–9×</span></header>
+<p>A sentence with one unfinished word — the second half is missing. Type the ending so the whole word is correct.</p>
+<ul><li>Read the whole sentence first and work out the part of speech before guessing.</li>
+<li>Look for collocations: <i>make a decision</i>, <i>take responsibility</i>, <i>pay attention</i>.</li></ul></div>
+
+<div class="q"><header><h3>Read and Complete</h3><span class="tag">Reading</span><span class="meta">3 min each · ~3–6×</span></header>
+<p>A paragraph where many words are cut in half. Type the missing letters.</p>
+<ul><li>Fill the easy gaps first, then use context for the hard ones.</li>
+<li>Never leave a gap blank. Each word is scored separately, so a guess can earn partial credit.</li>
+<li>Check grammar: plurals (-s), tense (-ed), and agreement. Spelling must match the word exactly; US and UK spellings are both accepted.</li></ul></div>
+
+<div class="q"><header><h3>Interactive Reading</h3><span class="tag">Reading</span><span class="meta">2 sets · 7 min + 8 min</span></header>
+<p>One passage, six sub-questions in sequence: Complete the Sentences, Complete the Passage, Highlight the Answer, Identify the Idea, Title the Passage.</p>
+<ul><li>For Highlight the Answer, select the exact phrase that answers the question, nothing extra.</li>
+<li>For Title the Passage, pick the title that covers the whole text, not one paragraph.</li>
+<li>The clock covers the whole set, so don't burn time on one sub-question.</li></ul></div>
+
+<div class="q"><header><h3>Listen and Type</h3><span class="tag">Listening</span><span class="meta">1 min · up to 3 plays · ~6–9×</span></header>
+<p>Hear a sentence, type it exactly.</p>
+<ul><li>Play 1: get the meaning. Play 2: fill gaps. Play 3: check small words.</li>
+<li>Most lost points are missing articles, prepositions and plural -s.</li>
+<li>Train it: dictation from podcasts or TED talks, 10 sentences a day.</li></ul></div>
+
+<div class="q"><header><h3>Interactive Listening</h3><span class="tag">Listening</span><span class="meta">~6.5 min + 75 s summary · 2 sets</span></header>
+<p>You play a student talking with a classmate or professor. Each set has: <b>Listen and Complete</b> (fill 3–4 blanks about the scenario), <b>Listen and Respond</b> (pick the best next reply, 5–6 turns), then <b>Summarize the Conversation</b> in writing.</p>
+<ul><li>Pick the reply that fits the tone and moves the conversation forward. Too casual with a professor is wrong.</li>
+<li>Scenario audio can be replayed, but the timer keeps running.</li>
+<li>For the summary, write 3–4 full sentences: who, the problem, what was suggested, what was decided.</li></ul>
+<div class="tpl">The student spoke with [professor] about [topic/problem]. The professor suggested [advice 1] and [advice 2]. They also discussed [detail]. In the end, the student decided to [outcome].</div></div>
+
+<div class="q"><header><h3>Write About the Photo</h3><span class="tag">Writing</span><span class="meta">1 min · 3× in a row</span></header>
+<p>Describe a picture in writing.</p>
+<ul><li>Aim for 2–3 complex sentences (~40–50 words). Leave 10 seconds to proofread.</li>
+<li>Use precise nouns and verbs, prepositions of place, and one hedged inference.</li></ul>
+<div class="tpl">In the foreground, [subject] is [action] while [second detail]. Behind them, [background details] can be seen. It appears to be [time/place], and the atmosphere seems [mood].</div></div>
+
+<div class="q"><header><h3>Interactive Writing</h3><span class="tag">Writing</span><span class="meta">5 min + 3 min · 1×</span></header>
+<p>Answer a prompt, then answer a follow-up question about the same topic.</p>
+<ul><li>Part 1: ~120 words. Clear opinion, two reasons, one specific example each.</li>
+<li>Part 2: ~80 words of new ideas. Restating Part 1 earns nothing.</li>
+<li>Use a range of linkers (<i>however, as a result, for instance, on the other hand</i>) and a few less common words.</li></ul>
+<div class="tpl">I believe that [position] for two main reasons. First, [reason], because [explanation]. For example, [specific example]. Second, [reason]. This matters since [consequence]. Although some people argue that [counterpoint], I think [rebuttal]. Overall, [restate position].</div></div>
+
+<div class="q"><header><h3>Speak About the Photo</h3><span class="tag">Speaking</span><span class="meta">up to 90 s · 1×</span></header>
+<p>Describe a photo out loud.</p>
+<ul><li>Speak for about 60–90 seconds. Use the same order as the written version: foreground, background, inference.</li>
+<li>Steady pace beats fast. A short pause is better than "um".</li></ul></div>
+
+<div class="q"><header><h3>Read, Then Speak</h3><span class="tag">Speaking</span><span class="meta">20 s prep · up to 90 s · 1×</span></header>
+<p>Read a prompt with bullet points, then answer it out loud.</p>
+<ul><li>Cover every bullet in the prompt, in order.</li>
+<li>Use prep time to pick one real story. Specific details sound fluent.</li></ul>
+<div class="tpl">I'd like to talk about [topic]. [Bullet 1: what/when]. [Bullet 2: what happened, with one detail]. The reason this stands out to me is [feeling/why]. Looking back, it taught me [lesson].</div></div>
+
+<div class="q"><header><h3>Interactive Speaking</h3><span class="tag">Speaking</span><span class="meta">35 s per answer · 1 set of 6–8</span></header>
+<p>A video-chat style conversation with an animated character. Each question builds on the last. The question plays once, no prep time.</p>
+<ul><li>Listen fully before recording. You can't replay or go back.</li>
+<li>Answer directly in the first sentence, then add one reason and one example.</li>
+<li>Refer back to what you said earlier when it fits. It shows real conversation.</li></ul>
+<div class="tpl">[Direct answer]. The main reason is [reason]. For example, [quick example]. So overall, [wrap-up].</div></div>
+
+<div class="q"><header><h3>Writing Sample</h3><span class="tag">Sample</span><span class="meta">30 s prep + 5 min · seen by schools</span></header>
+<p>A short essay on a given topic.</p>
+<ul><li>Aim for 150+ words with a clear intro, two body points and a conclusion.</li>
+<li>Write it like a mini application essay. Admissions readers see it raw.</li></ul></div>
+
+<div class="q"><header><h3>Speaking Sample</h3><span class="tag">Sample</span><span class="meta">30 s prep · 1–3 min · seen by schools</span></header>
+<p>Answer a prompt on video.</p>
+<ul><li>Look at the camera, sit in good light, use a plain background.</li>
+<li>About 90 seconds of clear, structured speech beats 3 minutes of filler.</li></ul></div>
+
+<h2 id="rules">Rules that raise your score</h2>
+<div class="scroll"><table>
+<tr><th>Rule</th><th>Why</th></tr>
+<tr><td>Never leave a blank empty</td><td>A guess can score; an empty gap can't.</td></tr>
+<tr><td>Use the full time on writing and speaking</td><td>Longer, more varied answers give the scorer more evidence of range.</td></tr>
+<tr><td>Vary vocabulary and sentence types</td><td>Graders reward range: relative clauses, conditionals, passive voice, linkers.</td></tr>
+<tr><td>Proofread every written answer</td><td>Spelling and grammar errors feed Literacy and Writing directly.</td></tr>
+<tr><td>Fluency over perfection when speaking</td><td>Self-correcting constantly hurts more than a small error.</td></tr>
+<tr><td>Don't memorize whole answers</td><td>Off-topic or memorized speech is flagged. Memorize structures only.</td></tr>
+<tr><td>Ignore difficulty swings</td><td>Hard questions mean you're doing well. Stay calm and keep going.</td></tr>
+</table></div>
+
+<h2 id="examples">Worked examples</h2>
+<p>Use these to see the difference between a plausible answer and the answer the scorer wants. Cover the answer blocks until you have chosen.</p>
+
+<h3>Interactive Reading — “The Last Train”</h3>
+<div class="note"><b>Passage.</b> Maya had planned to leave the laboratory by six, but the experiment refused to cooperate. At half past seven she was still adjusting the microscope, and the last train to Harrow left at eight fifteen. She packed her notebook into her bag, pulled on her coat, and hurried through the rain to the station. The platform was almost empty. A cleaner was mopping the far end, and a single vending machine hummed against the wall. Maya checked the departures board twice. The train was delayed by twelve minutes, which gave her time to buy a coffee and drink half of it before the announcement. When the train finally arrived, she chose a seat by the window and opened her notebook. The pages were full of numbers she had copied that afternoon, but one result still puzzled her. She had expected the reaction to slow down as the temperature rose; instead, it had become faster. She wrote a question in the margin and circled it. By the time the train reached Harrow, the rain had stopped. Maya walked home under a clear sky, thinking not about the delay but about the experiment.</div>
+
+<div class="q"><header><h3>1. Complete the Sentences</h3><span class="tag">Reading</span></header>
+<p>Choose the best word for each gap: “the experiment refused to (1) ___”; “she (2) ___ through the rain”; “the platform was almost (3) ___”; “drink (4) ___ of it”; “one result still (5) ___ her.”</p>
+<p class="meta">Options: 1 cooperate / collaborate / coordinate / connect · 2 hurried / wandered / strolled / drifted · 3 empty / quiet / silent / vacant · 4 half / part / most / some · 5 puzzled / confused / disturbed / interrupted</p>
+<details><summary>Show answers</summary><p><b>1 cooperate · 2 hurried · 3 empty · 4 half · 5 puzzled.</b> “Refused to cooperate” is a collocation; “hurried” matches the rush; “almost empty” describes the platform; “half of it” is the natural quantity; “puzzled her” means confused her.</p></details></div>
+
+<div class="q"><header><h3>2. Complete the Passage</h3><span class="tag">Reading</span></header>
+<p>Which sentence best joins “She wrote a question in the margin and circled it” to “By the time the train reached Harrow, the rain had stopped”?</p>
+<p class="meta">A. The train was now moving quickly through the countryside. · B. She closed the notebook and put it away for the rest of the journey. · C. Outside, the rain was still falling heavily against the window. · D. She had forgotten her umbrella at the laboratory.</p>
+<details><summary>Show answer</summary><p><b>B.</b> It links the note-taking to the later walk home. A does not bridge the two parts; C contradicts “the rain had stopped”; D is irrelevant.</p></details></div>
+
+<div class="q"><header><h3>3–4. Highlight the Answer</h3><span class="tag">Reading</span></header>
+<p><b>Q3:</b> Why was Maya still in the laboratory at half past seven? <b>Q4:</b> What surprised Maya about the result?</p>
+<details><summary>Show answers</summary><p><b>Q3:</b> “the experiment refused to cooperate”. <b>Q4:</b> “She had expected the reaction to slow down as the temperature rose; instead, it had become faster.” Highlight the contrast, not just “it had become faster”.</p></details></div>
+
+<div class="q"><header><h3>5–6. Identify the Idea and Title</h3><span class="tag">Reading</span></header>
+<p><b>Main idea options:</b> A. Maya missed the last train. B. A journey home is interrupted by rain. C. A researcher spends a journey thinking about an unexpected result. D. Trains are often delayed in bad weather.<br>
+<b>Title options:</b> A. A Delayed Train B. The Last Train C. Rain Over Harrow D. Maya's Laboratory</p>
+<details><summary>Show answers</summary><p><b>Main idea: C.</b> The passage is about the journey and the unresolved result. A is factually wrong; B and D focus on details. <b>Title: B.</b> It captures the setting and the journey; A is too narrow, C focuses on weather, D on one location.</p></details></div>
+
+<h3>Interactive Listening — office hours</h3>
+<div class="note"><b>Transcript.</b> <b>Student:</b> Professor Lane, do you have a minute? I'm worried about the research proposal. <b>Professor:</b> Of course. Come in. What's the issue? <b>Student:</b> I've been ill for the past week, and I haven't been able to finish the literature review. I was hoping to ask for an extension. <b>Professor:</b> I see. The proposal is due on Friday. How much extra time do you need? <b>Student:</b> Would it be possible to have until the following Wednesday? <b>Professor:</b> That should be fine, but you'll need to email me a short outline by Friday so I can see your progress. <b>Student:</b> Of course. I'll send that by Friday morning. Thank you.</div>
+
+<div class="q"><header><h3>Listen and Complete</h3><span class="tag">Listening</span></header>
+<p>1. The student is worried about the ______. 2. The student has been ______ for the past week. 3. The professor asks for a short ______ by Friday.</p>
+<details><summary>Show answers</summary><p><b>1 research proposal · 2 ill · 3 outline.</b> Spelling is secondary here; the idea must be right.</p></details></div>
+
+<div class="q"><header><h3>Listen and Respond</h3><span class="tag">Listening</span></header>
+<p><b>Professor:</b> “The proposal is due on Friday. How much extra time do you need?”<br>
+A. “As much as possible, please.” B. “Would it be possible to have until the following Wednesday?” C. “I don't know. What do you think?” D. “Friday is fine.”</p>
+<details><summary>Show answer</summary><p><b>B.</b> Specific, polite, and negotiable. A is vague; C pushes the decision back; D contradicts the request.</p></details></div>
+
+<div class="q"><header><h3>Summarize the Conversation</h3><span class="tag">Writing + Listening</span></header>
+<p>75 seconds, 3–4 complete sentences: who + problem → advice/decision → outcome.</p>
+<details><summary>Show model</summary><p>The student met with Professor Lane because she had been ill and had fallen behind on the literature review for her research proposal. She asked for an extension beyond Friday, and the professor agreed to let her submit the proposal the following Wednesday. However, the professor asked her to email a short outline by Friday morning so that he could check her progress. The student agreed to send the outline and keep the professor updated.</p></details></div>
+
+<h2 id="templates">Answer templates</h2>
+<p>Use one structure, fill it with new content every time. The printable versions are in <a href="templates/README.md">templates/</a>; the transcript-derived strategy notes are in <a href="11-video-course-notes.md">11-video-course-notes.md</a>.</p>
+
+<h3>Write About the Photo · 60 s</h3>
+<pre class="tpl">1. This photo shows ______ (who) ______ing in/at ______.
+2. ______ is/are ______ing ______, while ______ is/are ______ing ______.
+3. In the foreground/background/on the left, there is/are ______.
+4. Optional: ______ looks ______ because ______.</pre>
+<p class="meta">2–3 full sentences · present tenses · adjectives/adverbs · location prepositions · no lists.</p>
+
+<h3>Speak About the Photo · 90 s</h3>
+<pre class="tpl">0–15   Summary: This photo shows…
+15–40  Actions: … is/are …ing …
+40–55  Location: In the foreground/background…
+55–75  Speculation: If I had to guess, … because…
+75–90  Detail: What stands out is…</pre>
+<p class="meta">If you freeze, go clockwise: top left → top right → bottom right → bottom left.</p>
+
+<h3>Interactive Writing · 5 min + 3 min</h3>
+<pre class="tpl">[Topic] I agree/disagree that ______ for two main reasons.
+[Reason 1] Firstly, ______. This is because ______.
+[Example] For instance, ______.
+[Reason 2] Another reason is that ______. As a result, ______.
+[Conclusion] In conclusion, ______.</pre>
+<p class="meta">Write part 1 until 4:00, then proofread. Part 2: direct answer → link to part 1 → new detail → close.</p>
+
+<h3>Read Then Speak · 20 s + 90 s</h3>
+<pre class="tpl">Present: One ______ I'd like to talk about is ______.
+Past:    I first ______ when ______. I remember ______.
+Future:  In the future, I plan to ______ because ______.
+Close:   That is why ______.</pre>
+<p class="meta">PPF = Present → Past → Future. Answer every sub-question; use transitions.</p>
+
+<h3>Interactive Speaking · 35 s × 6–8</h3>
+<pre class="tpl">O  Opinion: I think ______.
+R  Reason: One main reason is that ______.
+E  Example: For example, ______.
+O  Outcome: As a result, ______.</pre>
+<p class="meta">25–35 seconds. Click Record. New angle each question. No repetition.</p>
+
+<h3>Interactive Listening summary · 75 s</h3>
+<pre class="tpl">I spoke to ______ about ______.
+He/She explained that ______ and suggested that ______.
+In the end, we agreed that ______.</pre>
+<p class="meta">Capture: who · topic · key detail · outcome.</p>
+
+<h3>Printable pack</h3>
+<div class="scroll"><table>
+<tr><th>Template</th><th>Use</th></tr>
+<tr><td><a href="templates/01-photo-write-60s.md">01 · Photo writing</a></td><td>3 sentences in 60 seconds</td></tr>
+<tr><td><a href="templates/02-photo-speak-90s.md">02 · Photo speaking</a></td><td>5 steps for 90 seconds</td></tr>
+<tr><td><a href="templates/03-interactive-writing.md">03 · Interactive Writing</a></td><td>5 min + 3 min paragraph</td></tr>
+<tr><td><a href="templates/04-writing-sample.md">04 · Writing Sample</a></td><td>5-minute university-read essay</td></tr>
+<tr><td><a href="templates/05-read-then-speak.md">05 · Read Then Speak</a></td><td>PPF + all sub-questions</td></tr>
+<tr><td><a href="templates/06-interactive-speaking.md">06 · Interactive Speaking</a></td><td>OREO for every 35-second turn</td></tr>
+<tr><td><a href="templates/07-speaking-sample.md">07 · Speaking Sample</a></td><td>3-minute university-read answer</td></tr>
+<tr><td><a href="templates/08-interactive-listening-summary.md">08 · Listening summary</a></td><td>75-second three-sentence summary</td></tr>
+<tr><td><a href="templates/09-interactive-reading-map.md">09 · Reading map</a></td><td>7- or 8-minute passage plan</td></tr>
+<tr><td><a href="templates/10-listen-and-type.md">10 · Listen and Type</a></td><td>3-play dictation protocol</td></tr>
+<tr><td><a href="templates/11-study-plan-tracker.md">11 · Study tracker</a></td><td>Daily and weekly plan</td></tr>
+<tr><td><a href="templates/12-error-log.md">12 · Error log</a></td><td>Stop repeating mistakes</td></tr>
+<tr><td><a href="templates/13-mock-score-sheet.md">13 · Mock sheet</a></td><td>Diagnose a full mock</td></tr>
+<tr><td><a href="templates/14-one-page-cheat-sheet.md">14 · Cram sheet</a></td><td>One-page reminder</td></tr>
+</table></div>
+
+<h2 id="plan">Study plans</h2>
+<p>About 60–90 minutes a day. Take the free official practice test on day 1 and again at the end of each week.</p>
+<div class="weeks">
+<div class="week"><h3>Week 1 · Baseline</h3><ul>
+<li>Free practice test; note your weakest subscore</li>
+<li>Learn every question type on this page</li>
+<li>Daily: 50 Read and Select words, 10 dictation sentences</li></ul></div>
+<div class="week"><h3>Week 2 · Reading &amp; listening</h3><ul>
+<li>Daily Read and Complete drills (3 passages)</li>
+<li>Interactive Listening practice; write summaries in 75 s</li>
+<li>Learn 20 academic words a day with collocations</li></ul></div>
+<div class="week"><h3>Week 3 · Writing &amp; speaking</h3><ul>
+<li>3 photo descriptions a day, timed at 60 s</li>
+<li>1 Interactive Writing + 1 Writing Sample a day</li>
+<li>Record speaking answers; replay and cut filler words</li></ul></div>
+<div class="week"><h3>Week 4 · Full mocks</h3><ul>
+<li>3–4 full timed mocks in real conditions</li>
+<li>Fix your two weakest question types only</li>
+<li>Do a full tech run: second phone, room scan, lighting</li></ul></div>
+</div>
+
+<h3 style="margin-top:28px">8-week build (for a bigger jump)</h3>
+<div class="scroll"><table>
+<tr><th>Weeks</th><th>Focus</th><th>Weekly output</th></tr>
+<tr><td>1–2</td><td>Foundations: vocabulary, C-tests, dictation</td><td>1 Interactive Reading set, 1 Interactive Writing, 3 recordings</td></tr>
+<tr><td>3–4</td><td>Task mastery with strict timers</td><td>1 full mock, 2 weak-task drills</td></tr>
+<tr><td>5–6</td><td>Integration: two mocks per week</td><td>1 Writing Sample, 1 Speaking Sample, 20 min speaking/day</td></tr>
+<tr><td>7–8</td><td>Performance: real conditions</td><td>3 mocks/week, setup rehearsal, light review only</td></tr>
+</table></div>
+
+<h3 style="margin-top:28px">1-week emergency route</h3>
+<div class="scroll"><table>
+<tr><th>Day</th><th>Morning (90 min)</th><th>Evening (60 min)</th></tr>
+<tr><td>1</td><td>Full practice test; identify two weakest types</td><td>Read format + test-day files; set up phone camera</td></tr>
+<tr><td>2</td><td>30 Read and Select + 2 C-tests + 1 Interactive Reading</td><td>1 Interactive Writing + proofread</td></tr>
+<tr><td>3</td><td>10 Listen and Type + 1 Interactive Listening</td><td>3 photo descriptions + 1 Writing Sample</td></tr>
+<tr><td>4</td><td>2 Interactive Reading + 100 vocab review</td><td>6 Interactive Speaking answers recorded</td></tr>
+<tr><td>5</td><td>Full mock</td><td>Review error log; redo weakest type</td></tr>
+<tr><td>6</td><td>Timing drills only; tech rehearsal</td><td>Light review; sleep early</td></tr>
+<tr><td>7</td><td>Test day</td><td>—</td></tr>
+</table></div>
+
+<h3 style="margin-top:28px">Daily 60-minute routine</h3>
+<div class="scroll"><table>
+<tr><th>Min</th><th>Task</th></tr>
+<tr><td>0–10</td><td>50 Read and Select words + vocabulary review</td></tr>
+<tr><td>10–20</td><td>2 Read and Complete passages</td></tr>
+<tr><td>20–30</td><td>10 dictation sentences</td></tr>
+<tr><td>30–40</td><td>3 photo descriptions + proofread</td></tr>
+<tr><td>40–55</td><td>1 Interactive Writing or 1 Interactive Speaking set</td></tr>
+<tr><td>55–60</td><td>Error log: one cause, one fix</td></tr>
+</table></div>
+
+<h2 id="day">Test-day setup and checklist</h2>
+<p>The DET now uses a <b>computer + smartphone</b> setup. The phone is not optional: it connects through the <b>DET mobile app</b>, performs the room scan and ear scan, and stays in place as the secondary camera. Use the <b>DET desktop app</b> on the computer; do not assume a browser-only setup.</p>
+
+<h3>Secondary camera position</h3>
+<ul>
+<li>Phone to your <b>side</b>, slightly behind your shoulder, on a stable stand — not in your hand.</li>
+<li>Your <b>screen, keyboard, hands, and face</b> must all be visible.</li>
+<li>Lens at roughly desk height or slightly above; secure the cable so it cannot pull the phone.</li>
+<li>Do not move or touch the phone once the test begins.</li>
+</ul>
+
+<h3>Room scan and ear scan</h3>
+<ul>
+<li>Show the desk, under the desk, walls, floor, and door — slowly, without fast panning.</li>
+<li>Tie back hair; remove glasses, clip-on or magnetic earrings, and anything that could look like earbuds.</li>
+<li>Touch the phone briefly to each ear when prompted. Headphones, earbuds, and headsets are prohibited.</li>
+<li>Use one keyboard, one mouse, and one phone. Disable predictive text and proofreading; no VPN or virtual machine.</li>
+<li>An incomplete scan is a common reason results are delayed or uncertified.</li>
+</ul>
+
+<p class="meta">Ticks are saved in this browser only.</p>
+<ul class="check" id="checklist">
+<li><label><input type="checkbox" id="c1"><span>Valid passport or government ID</span></label></li>
+<li><label><input type="checkbox" id="c2"><span>Computer with webcam, mic and speakers (no headphones or earbuds allowed)</span></label></li>
+<li><label><input type="checkbox" id="c3"><span>DET desktop app installed and updated</span></label></li>
+<li><label><input type="checkbox" id="c4"><span>Phone with the DET mobile app, charged, connected to Wi-Fi, on a stand</span></label></li>
+<li><label><input type="checkbox" id="c5"><span>Phone positioned to the side with screen, keyboard, hands and face visible</span></label></li>
+<li><label><input type="checkbox" id="c6"><span>Quiet room, alone, door closed, desk cleared</span></label></li>
+<li><label><input type="checkbox" id="c7"><span>Face lit from the front; ears and face uncovered; hair tied back</span></label></li>
+<li><label><input type="checkbox" id="c8"><span>All other apps closed (Grammarly, notifications, second monitor off)</span></label></li>
+<li><label><input type="checkbox" id="c9"><span>Stable internet, laptop plugged in</span></label></li>
+<li><label><input type="checkbox" id="c10"><span>Keep your eyes on the screen; don't look away, talk to yourself, or read aloud</span></label></li>
+</ul>
+
+<h3>Why results get uncertified</h3>
+<div class="scroll"><table>
+<tr><th>Reason</th><th>Prevention</th></tr>
+<tr><td>Another person visible or audible</td><td>Test alone; warn household members</td></tr>
+<tr><td>Phone camera out of position</td><td>Stable stand; preview before starting</td></tr>
+<tr><td>Incomplete room scan</td><td>Slow, full scan; show under the desk and the door</td></tr>
+<tr><td>Ear scan failed</td><td>Tie back hair; remove earbuds and large earrings</td></tr>
+<tr><td>Looking away repeatedly</td><td>Keep eyes on the screen</td></tr>
+<tr><td>Reading aloud or mouthing</td><td>Read silently, even during reading tasks</td></tr>
+<tr><td>Second device or copy-paste</td><td>Remove extra devices; close clipboard tools</td></tr>
+<tr><td>Leaving fullscreen or clicking other windows</td><td>Close every other app before starting</td></tr>
+</table></div>
+<p class="meta">If a result is uncertified, read the stated reason and fix that specific cause before retaking. A retake without a fix usually repeats the outcome.</p>
+
+<h2 id="resources">Resources</h2>
+<div class="scroll"><table>
+<tr><th>Resource</th><th>Use it for</th></tr>
+<tr><td><a href="https://englishtest.duolingo.com/practice" target="_blank" rel="noopener">Official practice test</a></td><td>Free, unlimited, gives a score range. Your main benchmark.</td></tr>
+<tr><td><a href="https://englishtest-static.duolingo.com/media/resources/Question%20Guide%20(2025).pdf" target="_blank" rel="noopener">Official Question Guide (2025)</a></td><td>Task counts, timings, scoring, adaptive status, official tips. Read this first.</td></tr>
+<tr><td><a href="https://englishtest-static.duolingo.com/media/resources/GPN%20DET%20Sample%20Questions%20-%20Full.pdf" target="_blank" rel="noopener">Official sample questions</a></td><td>See every task type on screen.</td></tr>
+<tr><td><a href="https://blog.englishtest.duolingo.com/duolingo-english-test-setup-secondary-camera-room-scan/" target="_blank" rel="noopener">Official setup guide</a></td><td>Secondary camera, room scan, ear scan, desk rules.</td></tr>
+<tr><td><a href="https://englishtest.duolingo.com/institutions" target="_blank" rel="noopener">Institution search</a></td><td>Check which universities accept the DET and their minimums.</td></tr>
+<tr><td><a href="https://testcenter.zendesk.com/hc/en-us" target="_blank" rel="noopener">Help centre</a></td><td>Rules, payments, cancellations, results, tech issues.</td></tr>
+<tr><td><a href="11-video-course-notes.md">Teacher Luke video notes</a></td><td>Task-by-task strategies, PPF, OREO, photo frames, 30 photo phrases, transcript index.</td></tr>
+<tr><td><a href="templates/README.md">Printable template pack</a></td><td>14 fill-in templates for every productive task, plus tracker, error log and mock sheet.</td></tr>
+<tr><td>DETStudy, Prepingo, Goarno, Gurully</td><td>Third-party drills for single question types and graded writing/speaking. Check they cover the post-July-2025 format.</td></tr>
+<tr><td>Academic Word List + news (BBC, NYT, Economist)</td><td>Vocabulary for Read and Select and Read and Complete.</td></tr>
+</table></div>
+
+<footer>Verified October 2026 against Duolingo's official <a href="https://englishtest-static.duolingo.com/media/resources/Question%20Guide%20(2025).pdf">Question Guide</a>, <a href="https://englishtest-static.duolingo.com/media/resources/GPN%20DET%20Sample%20Questions%20-%20Full.pdf">Sample Questions</a>, and <a href="https://blog.englishtest.duolingo.com/duolingo-english-test-setup-secondary-camera-room-scan/">setup guide</a>. Task counts, prices, and policies can change; confirm on <a href="https://englishtest.duolingo.com">englishtest.duolingo.com</a> before booking.</footer>
+</div>
+
+<script>
+document.querySelectorAll('#checklist input').forEach(function(box){
+  try{ box.checked = localStorage.getItem('det-'+box.id)==='1'; }catch(e){}
+  box.addEventListener('change',function(){
+    try{ localStorage.setItem('det-'+box.id, box.checked?'1':'0'); }catch(e){}
+  });
+});
+</script>

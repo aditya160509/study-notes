@@ -25,7 +25,7 @@
 | No. of attempts | |
 | Mentor | John Fernandes |
 | University Career Counselor | Rita Balachandra |
-| Teacher Recommender | |
+| Teacher Recommender | Rohan Pillai Sir (Research Club / IPQ) and Pratiksha Matondkar Miss (Computer Science) |
 | Intended Course / Major (if known) | Computer Science |
 
 ---
@@ -36,13 +36,13 @@
 
 Pick a few positive words that describe you, explain why you chose each one, and give concrete examples.
 
-> My friends would say I'm determined, hardworking, and someone who builds things properly rather than half doing them.
+> My friends would say I'm curious, careful and someone who finishes what he starts.
 >
-> **Determined.** Once I decide something is worth doing, I refuse to settle for a version of it that's "good enough for my age." When I wrote my first research paper, I didn't just want to finish it - I wanted to aim for a top-tier academic journal, the same standard professional researchers hold themselves to, even though I was seventeen and had never attempted work at this level before. I taught myself advanced quantitative methods from scratch, passed desk review, and worked through a full peer review round, addressing every single reviewer concern instead of looking for an easier place to publish. I'm now preparing to resubmit, not because it's easy, but because I decided early on that "good for a high schooler" was never a standard I was willing to accept.
+> **Curious.** I want to know why something works, not only how to use it. When I noticed that strong earnings sent one Indian stock up but barely moved another, I kept asking why. That question became my investor-attention paper, which studies 21 markets and went through full peer review at *Borsa Istanbul Review*. I learned the statistics it needed on my own.
 >
-> **Hardworking.** I don't do things halfway. I took on the maximum number of subjects at A-Level and still ran serious research and engineering work on the side, not because I had to, but because I wanted to do both properly. I never really let one slide to protect the other. If something needed more hours, I just found them somehow.
+> **Careful.** I try to prove my own results wrong before I trust them. When the reviewers criticised my paper, I didn't look for an easier journal. I narrowed it to one question, fixed my tests before looking at new data, kept a result that failed, and resubmitted it.
 >
-> **Builder.** If I start something, I actually finish it, and not in a half-baked way. I decided to build my own version of a Bloomberg terminal - basically a full quant research platform called ATLAS - and just kept pushing to add every feature I could think of: factor models, volatility modeling, ML, portfolio stuff, causal research tools, all built from scratch using only free data since I obviously don't have a Bloomberg budget. I taught myself most of it as I went. It's not just something sitting in a folder either - someone else actually uses it for real work.
+> **Finisher.** I take projects to the point where someone else can use them. ATLAS, my research platform, is used for real analysis by other people. Daedalus is used by my STEM Racing team for design decisions, and Future Lab is used by my club.
 
 ---
 
@@ -91,25 +91,37 @@ You don't need to be in an elected position to shine as a leader. Explain how yo
 - How has this activity been changed / improved by your involvement?
 - Why is this experience so important for you?
 
-> I've never held an elected leadership position, but running Quant Club and Sports Club has taught me that influence usually comes from consistency, not a title. With Quant Club, I chose to get involved because I wanted finance and quantitative thinking to feel accessible to people who'd normally never touch it - so I started breaking down concepts from my own research and projects into sessions people without any background could actually follow. With Sports Club, the influence looked different: it was less about teaching and more about making sure people actually wanted to show up, keeping things consistent enough that it became a real space rather than something that fizzled out. Both changed under my involvement, not through one big moment, but through steadily making them slightly better than how I found them. This experience matters to me because it taught me that leadership isn't about being in charge - it's about whether something is better because you were consistently present in it.
+> I've never held an elected leadership position, but running Quant Club and Sports Club has taught me that influence usually comes from consistency, not a title. With Quant Club, I chose to get involved because I wanted finance and quantitative thinking to feel accessible to people who'd normally never touch it - so I started breaking down concepts from my own research and projects into sessions people without any background could actually follow. With Sports Club, the influence looked different: it was less about teaching and more about making sure people actually wanted to show up, keeping things consistent enough that it became a real space rather than something that fizzled out. I founded the Quant Finance Club, which now has about 25–30 members, and wrote a 13-week course covering markets, valuation and quantitative methods. My first sessions started with equations and I could see people switching off, so I rebuilt them around probability games, card simulations and a live market. I then built Future Lab, a simulated stock market of about 150 fictional companies across 15 industries, so members could value companies and watch prices react instead of only hearing about it. Both clubs changed under my involvement, not through one big moment, but through steadily making them better than how I found them. This experience matters to me because it taught me that leadership isn't about being in charge - it's about whether something is better because you were consistently present in it.
 
 ---
 
 ### 2. What have you done to make your school or your community a better place? How have these experiences impacted your view of your community and the world? How do you plan to continue your community engagement in the future?
 
-> The work that shaped my view of community most has been outside of clubs entirely. Teaching underprivileged children at Abhinav School was the thing that hit differently, because it wasn't about explaining something I already knew and moving on. It was about showing up every week to a room where the students didn't have the same advantages I did, and figuring out how to actually connect with them in a way that made the material stick, not just deliver it. I also helped with marketing and outreach for the Asha Foundation and worked on charity fundraising through ticket sales for the school play, which taught me that community impact is usually unglamorous, behind-the-scenes work rather than a big gesture. Going forward, I want to keep finding ways to teach and build things that reach people who wouldn't normally have access to them, because that kind of work has been far more grounding than anything I've done for recognition.
+> - **Teaching:** I taught mathematics and English to about 50 children at a rural school near Abhinav School, every week. My first explanations didn't work; students said "yes" when asked if they understood, but couldn't use the idea. I changed the examples, the order and the activities (team games, peer teaching) until they could solve problems on their own.
+> - **Fundraising:** I raised more than ₹25,000 through crowdfunding for study kits, clothing and footwear for children in rural villages. I also sold tickets for the school play *La La Land* to raise charity funds and helped with marketing and outreach for the Asha Foundation.
+> - **What it changed:** most community work is planning, follow-up and showing up every week, not one big moment. Teaching also changed how I explain my own technical work.
+> - **Next:** I want to keep teaching and to build tools that people without access to expensive resources can use.
 
 ---
 
 ### 3. What is your greatest talent or skill? How have you developed and demonstrated it over time?
 
-> My biggest skill isn't really one specific thing - it's how fast I can go from "I don't get this at all" to "I can actually build this properly," even across totally different fields. I taught myself the math and methods behind empirical finance research well enough to submit to top journals. I taught myself the engineering and finance behind building a full research platform from scratch. I didn't learn any of it because a class told me to - I learned it because I decided it was worth understanding properly and just kept at it until I did. That's probably the thread connecting everything I've done.
+> Learning a new field quickly enough to build something real with it.
+> - **Finance research:** I taught myself the statistics and econometrics for my investor-attention paper (21 markets), which went through full peer review at *Borsa Istanbul Review*, a Q1 journal.
+> - **Software:** I learned software architecture, databases and machine learning to build NEXUS Exchange (a stock exchange simulator with 672 automated tests), ATLAS (a research platform other people use) and Daedalus (an engineering tool my STEM Racing team uses).
+> - **Ecology:** I learned to work with NASA satellite and climate data for PhenoSync, a sole-author climate study.
+>
+> None of this was assigned. I learned each skill because a question I cared about needed it.
 
 ---
 
 ### 4. Beyond what has already been shared here, what do you believe makes you stand out as a strong candidate for admissions to the colleges / universities to which you are applying?
 
-> Most of what I've talked about here isn't really typical for a seventeen-year-old. A paper aimed at a Q1 journal isn't a school assignment. A full research platform with institutional-grade features that someone else actually uses for real work isn't a side hobby. I think what actually sets me apart is that I've never really treated my age as a limit on what I'm allowed to try. I didn't wait until university to attempt research at this level, and I didn't scale my projects down to something more "appropriate" for a high schooler. I'd rather let the work speak for itself, and I think that mindset - not treating age as a limiting factor - is exactly what I'll bring into university and everything after.
+> - **Research and building together:** I do both, and each feeds the other. I built a market simulator partly to test my own research finding from a different direction.
+> - **Work that has been tested by others:** my investor-attention paper went through full peer review at a Q1 journal. After the reviewers' comments, I narrowed it to one question, fixed my tests before seeing new data, kept a result that failed, and resubmitted.
+> - **Further research:** a paper on decision-making in Fantasy Premier League (submitted to the *Journal of Sports Economics*), PhenoSync (sole author, Oxford Saïd Business School Climate Challenge), and an architecture paper on SSRN.
+> - **Things other people use:** ATLAS is used for real analysis by others, my STEM Racing team uses Daedalus for design decisions, and my club learns on Future Lab.
+> - **How I use AI:** openly, as a tool. I decide what gets built and what tests it must pass, and I can explain every result.
 
 ---
 
@@ -125,7 +137,7 @@ You don't need to be in an elected position to shine as a leader. Explain how yo
 
 (This could include additional reading, conversations with your teacher, a focus for your extracurricular, attending a lecture, doing an internship, and so on.)
 
-> I've learned most of this on my own. I try out different tools, read up on methods until I get the fundamentals, and apply everything through projects. I also did an internship at a stock market firm, which gave me my first real look at how this stuff actually works outside of personal projects.
+> I've learned most of this on my own, by reading papers and textbooks until I understood the fundamentals and then applying them through projects. I read the research behind my work (for example the official investigations and academic studies of the 2010 Flash Crash for my IPQ) and taught myself causal inference, volatility modelling, machine learning and software architecture. Working through journal peer review taught me more about rigour than any course. I completed a three-month internship at MalkansView, a stock research firm, where I analysed company fundamentals on live market data. I also run the Quant Finance Club, and teaching others has forced me to understand ideas properly.
 
 ---
 
@@ -137,7 +149,7 @@ You don't need to be in an elected position to shine as a leader. Explain how yo
 
 ### 4. What brings you joy? Talk about a few things you do purely for fun.
 
-> Honestly, just being around my close friends. Talking, playing, doing nothing in particular - that's genuinely one of the things that brings me the most joy outside of work.
+> Spending time with my close friends: talking, playing or doing nothing in particular. I also play football, usually in goal, and play Fantasy Premier League every week. I play guitar and piano.
 
 ---
 
@@ -221,7 +233,7 @@ Examples:
 
 ### What are you most proud of in this class and why (max 150 words)?
 
-> What I'm most proud of in this class is that the thinking I built here didn't stay stuck in the syllabus. I used it directly in my own research, submitting a paper on investor attention thresholds across emerging markets to a Q1 academic journal - something I attempted at seventeen with zero prior experience at this level. Being able to take what I learned here and put it toward something real instead of just an exam is genuinely the thing I'm proudest of.
+> What I'm most proud of in this class is that the thinking I built here didn't stay stuck in the syllabus. I used it directly in my own research, in a paper on investor attention across 21 global markets that went through full peer review at a Q1 academic journal, which I then revised and resubmitted. Being able to take what I learned here and put it toward something real instead of just an exam is genuinely the thing I'm proudest of.
 
 ### Elaborate on ways in which you have explored this course beyond the classroom (max 150 words).
 
